@@ -1,0 +1,4 @@
+
+# Claude Code Telemetry (contains full prompts/responses)
+.telemetry/
+*.telemetry.log
