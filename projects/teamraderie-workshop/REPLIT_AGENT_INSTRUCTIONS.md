@@ -6,18 +6,19 @@
 
 ## Overview
 
-The workshop prompts need three critical additions to improve consistency across users:
+The workshop prompts need four critical additions to improve consistency across users:
 1. **Setup Protocol** - Instructions to reduce LLM output variance
-2. **Constraint Instructions** - Tighter prompt specifications
-3. **Verification & Troubleshooting** - Post-analysis validation
+2. **Multi-Run Protocol** - Method for running 3-5 iterations to measure variance and improve result confidence
+3. **Constraint Instructions** - Tighter prompt specifications
+4. **Verification & Troubleshooting** - Post-analysis validation
 
 ---
 
 ## File to Modify
 
-**File:** `prompts.html`  
-**Sections to update:** 2 prompts (Cycle Time + Collaboration Pattern)  
-**New sections to add:** Setup Protocol, Verification Checklist, Troubleshooting
+**File:** `prompts.html`
+**Sections to update:** 2 prompts (Cycle Time + Collaboration Pattern)
+**New sections to add:** Setup Protocol, Multi-Run Protocol, Verification Checklist, Troubleshooting
 
 ---
 
@@ -52,7 +53,81 @@ Rules:
 
 ---
 
-## PART 2: Update Prompt #1 (Cycle Time Extraction)
+## PART 2: Add Multi-Run Protocol Section
+
+**Location:** Insert AFTER the Setup Protocol section (after the yellow warning box from Part 1) and BEFORE the section-nav div
+
+**Why this matters:** Running prompts 3-5 times reveals natural variance in AI outputs and provides more defensible results for business decisions.
+
+**HTML to add:**
+
+```html
+        <section class="multi-run-protocol" style="background: #E8F4F8; border-left: 4px solid #0288D1; padding: 1.5rem; margin: 2rem 0; border-radius: 4px;">
+            <h3 style="color: #01579B; margin-top: 0;">🔄 Recommended: Run Analysis 3-5 Times</h3>
+            <p style="color: #01579B;"><strong>Why run multiple times?</strong></p>
+            <ul style="color: #01579B;">
+                <li><strong>See variance in real-time:</strong> AI outputs vary even with identical inputs - you'll observe this firsthand</li>
+                <li><strong>Get more defensible results:</strong> "Cycle time averaged 14.7±1.2 days across 5 runs" beats "Cycle time is 15 days"</li>
+                <li><strong>Catch outliers:</strong> If one run gives wildly different results, you'll spot data interpretation issues</li>
+                <li><strong>Build confidence:</strong> Consistent results across runs = trustworthy metrics</li>
+            </ul>
+
+            <h4 style="color: #01579B; margin-top: 1.5rem;">How to do it:</h4>
+            <ol style="color: #01579B;">
+                <li>Complete your first analysis following the Setup Protocol above</li>
+                <li>Record results in the comparison template below</li>
+                <li>Click "New Conversation" in your AI tool</li>
+                <li>Repeat steps 1-3 for a total of 3-5 runs</li>
+                <li>Compare results - look for consistency and outliers</li>
+            </ol>
+
+            <div style="background: white; padding: 1.5rem; border-radius: 6px; margin-top: 1rem;">
+                <h4 style="margin-top: 0;">Results Comparison Template</h4>
+                <p>Copy this table and fill in your results from each run:</p>
+                <pre style="background: #f5f5f5; padding: 1rem; border-radius: 4px; overflow-x: auto; font-size: 0.9em;">
+<strong>PROCESS METRICS (Cycle Time Analysis):</strong>
+
+| Metric                    | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Average | Notes |
+|---------------------------|-------|-------|-------|-------|-------|---------|-------|
+| Total cycle time (days)   |       |       |       |       |       |         |       |
+| Active work %             |       |       |       |       |       |         |       |
+| Wait time %               |       |       |       |       |       |         |       |
+| Handoff count             |       |       |       |       |       |         |       |
+| Time to first resp (hrs)  |       |       |       |       |       |         |       |
+
+<strong>SKILL METRICS (Collaboration Analysis):</strong>
+
+| Metric                    | Run 1 | Run 2 | Run 3 | Run 4 | Run 5 | Average | Notes |
+|---------------------------|-------|-------|-------|-------|-------|-------|-------|
+| Mentoring instances       |       |       |       |       |       |         |       |
+| Knowledge transfer moments|       |       |       |       |       |         |       |
+| Complex collaborative %   |       |       |       |       |       |         |       |
+| Complex solo %            |       |       |       |       |       |         |       |
+| Routine work %            |       |       |       |       |       |         |       |
+
+<strong>VARIANCE CHECK:</strong>
+- Highest cycle time: ___ days
+- Lowest cycle time: ___ days
+- Range: ___ days (if >20% of average, investigate why)
+
+<strong>WHAT THIS TELLS YOU:</strong>
+- Low variance (values cluster tightly) = Metric is clear in your data
+- High variance (values spread out) = Metric is ambiguous or AI is interpreting differently each time
+- Outliers = Possible data quality issue or AI misinterpretation to investigate
+                </pre>
+            </div>
+
+            <div style="background: #FFF9C4; padding: 1rem; border-radius: 4px; margin-top: 1rem; border: 1px solid #FBC02D;">
+                <p style="margin: 0; color: #F57F17;"><strong>💡 Workshop Tip:</strong> Have team members compare their results. If variance <em>within</em> one person's runs is low but variance <em>between</em> people is high, that points to different data interpretations (not AI variance).</p>
+            </div>
+        </section>
+```
+
+**Note for Replit Agent:** This section teaches participants basic statistical thinking about AI variance while giving them a practical method to improve result quality during the workshop.
+
+---
+
+## PART 3: Update Prompt #1 (Cycle Time Extraction)
 
 **Location:** Lines 115-143 (inside `id="prompt1"`)
 
@@ -97,7 +172,7 @@ Here is the workflow data to analyze:
 
 ---
 
-## PART 3: Update Prompt #3 (Collaboration Pattern Analysis)
+## PART 4: Update Prompt #3 (Collaboration Pattern Analysis)
 
 **Location:** Lines 380-415 (inside `id="prompt3"`)
 
@@ -148,7 +223,7 @@ Here is the workflow data:
 
 ---
 
-## PART 4: Add Verification & Troubleshooting Section
+## PART 5: Add Verification & Troubleshooting Section
 
 **Location:** Insert BEFORE the `<section class="cta-section">` (around line 752)
 
@@ -221,7 +296,7 @@ Here is the workflow data:
 
 ---
 
-## PART 5: Add CSS for New Elements
+## PART 6: Add CSS for New Elements
 
 **Location:** Add to the `<style>` section in the `<head>` (after line 75, before `</style>`)
 
@@ -248,10 +323,11 @@ Here is the workflow data:
 After making changes:
 
 1. **Test Setup Protocol visibility:** Ensure yellow warning box appears prominently after "How to Use" section
-2. **Test prompt updates:** Copy Prompt #1 and #3 - verify IMPORTANT CONSTRAINTS section is included
-3. **Test verification section:** Scroll to bottom - ensure checklists display in 2-column grid
-4. **Test troubleshooting:** Verify all 4 problem/solution boxes display correctly
-5. **Test on mobile:** Ensure 2-column layouts stack appropriately on narrow screens
+2. **Test Multi-Run Protocol:** Verify blue box appears with comparison template table properly formatted
+3. **Test prompt updates:** Copy Prompt #1 and #3 - verify IMPORTANT CONSTRAINTS section is included
+4. **Test verification section:** Scroll to bottom - ensure checklists display in 2-column grid
+5. **Test troubleshooting:** Verify all 4 problem/solution boxes display correctly
+6. **Test on mobile:** Ensure 2-column layouts and tables stack appropriately on narrow screens
 
 ---
 
@@ -259,11 +335,17 @@ After making changes:
 
 Users will see:
 1. Clear setup instructions BEFORE they start (reduces variance from context contamination)
-2. Tighter prompt constraints (forces exact numbers, explicit calculations)
-3. Post-analysis validation checklist (catches missing/ambiguous outputs)
-4. Troubleshooting guidance (helps debug divergent results)
+2. Multi-run protocol with comparison template (teaches variance awareness, improves result defensibility)
+3. Tighter prompt constraints (forces exact numbers, explicit calculations)
+4. Post-analysis validation checklist (catches missing/ambiguous outputs)
+5. Troubleshooting guidance (helps debug divergent results)
 
-This should dramatically improve consistency across workshop participants without requiring any backend infrastructure.
+This provides a **3-tier approach to reproducibility:**
+- **Tier 1 (Single run):** Setup protocol + constraints = reduced variance
+- **Tier 2 (3-5 runs):** Multi-run protocol = measured variance + averaged results
+- **Tier 3 (Production):** Automated N=50 platform (see workflow-analysis-platform project)
+
+Workshop participants get immediate value from Tier 1-2 without backend infrastructure, while understanding the path to production-grade analysis.
 
 ---
 
