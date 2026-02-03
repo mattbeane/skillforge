@@ -12,12 +12,12 @@
 ### Question 1
 You're coding interviews and find strong evidence for shadow learning in 12 of 15 cases. For the 3 cases without evidence, you should:
 
-- a) Exclude them as outliers
-- b) Investigate what's different about them—they may reveal boundary conditions or alternative mechanisms
+- a) Investigate what's different about them—they may reveal boundary conditions or alternative mechanisms
+- b) Exclude them as outliers
 - c) Recode them more carefully to find shadow learning
 - d) Report only the 12 supporting cases
 
-**Correct**: b
+**Correct**: a
 **Why**: Disconfirming cases are theoretically valuable. If 3 cases don't show the pattern, something distinguishes them. Understanding that distinction sharpens your theory and identifies scope conditions.
 
 ---
@@ -26,11 +26,11 @@ You're coding interviews and find strong evidence for shadow learning in 12 of 1
 A researcher reports finding "no disconfirming evidence" for their mechanism. What should you conclude?
 
 - a) Their mechanism is very robust
-- b) They probably didn't look hard enough—real data almost always contains complications
-- c) Their sample was homogeneous
+- b) Their sample was homogeneous
+- c) They probably didn't look hard enough—real data almost always contains complications
 - d) The mechanism is universal
 
-**Correct**: b
+**Correct**: c
 **Why**: Zero disconfirming evidence is a red flag. Real qualitative data is messy; even strong mechanisms have boundary conditions, exceptions, or complications. No disconfirmation usually means the researcher wasn't genuinely looking.
 
 ---
@@ -39,11 +39,11 @@ A researcher reports finding "no disconfirming evidence" for their mechanism. Wh
 You find a quote that seems to contradict your proposed mechanism. What's the most productive response?
 
 - a) Exclude it from analysis
-- b) Ask: "What would have to be true for this quote to coexist with my mechanism?"—it may reveal conditions under which the mechanism doesn't operate
-- c) Reinterpret it to fit your mechanism
-- d) Note it as an anomaly and move on
+- b) Reinterpret it to fit your mechanism
+- c) Note it as an anomaly and move on
+- d) Ask: "What would have to be true for this quote to coexist with my mechanism?"—it may reveal conditions under which the mechanism doesn't operate
 
-**Correct**: b
+**Correct**: d
 **Why**: Contradictions are opportunities. Asking what conditions would reconcile the contradiction often reveals boundary conditions, moderators, or alternative mechanisms you hadn't considered.
 
 ---
@@ -52,11 +52,11 @@ You find a quote that seems to contradict your proposed mechanism. What's the mo
 The "adversarial" in adversarial evidence means:
 
 - a) Evidence that attacks your paper
-- b) Evidence you actively search for that could disconfirm your interpretation
-- c) Evidence presented by reviewers
-- d) Evidence from competing papers
+- b) Evidence presented by reviewers
+- c) Evidence from competing papers
+- d) Evidence you actively search for that could disconfirm your interpretation
 
-**Correct**: b
+**Correct**: d
 **Why**: Adversarial evidence is what YOU search for, not what others find. The discipline is actively trying to disconfirm your own interpretation before others do. It's self-imposed intellectual honesty.
 
 ---
@@ -65,11 +65,11 @@ The "adversarial" in adversarial evidence means:
 Which practice demonstrates genuine adversarial evidence hunting?
 
 - a) Waiting for reviewers to identify problems
-- b) Re-reading all data specifically looking for quotes/cases that challenge your mechanism
-- c) Asking a colleague if the paper seems convincing
+- b) Asking a colleague if the paper seems convincing
+- c) Re-reading all data specifically looking for quotes/cases that challenge your mechanism
 - d) Checking that all quotes support your claims
 
-**Correct**: b
+**Correct**: c
 **Why**: Genuine adversarial hunting means actively searching YOUR OWN data for challenges. It's not passive (waiting for reviewers) or confirmatory (checking that quotes support claims). It's deliberate disconfirmation-seeking.
 
 ---
@@ -78,11 +78,11 @@ Which practice demonstrates genuine adversarial evidence hunting?
 A researcher finds their mechanism operates strongly in 8 interviews, weakly in 4, and not at all in 3. How should they report this?
 
 - a) Report only the 8 strong cases with vivid quotes
-- b) Report the full distribution and investigate what distinguishes the groups
-- c) Average across all 15 and report moderate support
-- d) Focus on the 8 strong cases but mention the others exist
+- b) Average across all 15 and report moderate support
+- c) Focus on the 8 strong cases but mention the others exist
+- d) Report the full distribution and investigate what distinguishes the groups
 
-**Correct**: b
+**Correct**: d
 **Why**: The distribution IS the finding. Understanding why the mechanism operates strongly vs. weakly vs. not at all reveals the conditions under which it works. Cherry-picking the strong cases misrepresents what you found.
 
 ---
@@ -91,11 +91,11 @@ A researcher finds their mechanism operates strongly in 8 interviews, weakly in 
 You're analyzing data and keep finding evidence that supports your mechanism. You haven't found any disconfirming cases. This suggests:
 
 - a) Your mechanism is correct
-- b) You should actively code for disconfirmation—create codes specifically designed to capture challenges to your mechanism
-- c) You've done enough analysis
-- d) The data strongly supports your claims
+- b) You've done enough analysis
+- c) The data strongly supports your claims
+- d) You should actively code for disconfirmation—create codes specifically designed to capture challenges to your mechanism
 
-**Correct**: b
+**Correct**: d
 **Why**: Finding only confirming evidence is a sign of confirmation bias, not strong evidence. You need to create adversarial codes and specifically search for patterns that would challenge your interpretation.
 
 ---
@@ -104,11 +104,11 @@ You're analyzing data and keep finding evidence that supports your mechanism. Yo
 A colleague says "But won't showing disconfirming evidence weaken my paper?" The correct response is:
 
 - a) Yes, so hide it
-- b) No—showing you genuinely engaged with complications builds credibility and sharpens theory
-- c) Yes, but reviewers require it
-- d) Only include minor disconfirmations
+- b) Yes, but reviewers require it
+- c) Only include minor disconfirmations
+- d) No—showing you genuinely engaged with complications builds credibility and sharpens theory
 
-**Correct**: b
+**Correct**: d
 **Why**: Papers that show only confirming evidence look naive or cherry-picked. Engaging with disconfirmation demonstrates intellectual honesty and often strengthens theory by clarifying boundary conditions.
 
 ---
@@ -117,11 +117,11 @@ A colleague says "But won't showing disconfirming evidence weaken my paper?" The
 What distinguishes "disconfirming evidence" from "limitations"?
 
 - a) They're the same thing
-- b) Disconfirming evidence challenges your interpretation of the data; limitations are methodological constraints
-- c) Limitations are more serious
+- b) Limitations are more serious
+- c) Disconfirming evidence challenges your interpretation of the data; limitations are methodological constraints
 - d) Disconfirming evidence is optional to report
 
-**Correct**: b
+**Correct**: c
 **Why**: Disconfirming evidence = cases/quotes that challenge your mechanism (theoretical challenge). Limitations = constraints on your method, sample, or context (methodological acknowledgment). Both belong in your paper, but they're different.
 
 ---
@@ -174,15 +174,15 @@ Write a brief reviewer comment (3-4 sentences) explaining why this is problemati
 
 | Question | Answer |
 |----------|--------|
-| 1 | b |
-| 2 | b |
-| 3 | b |
-| 4 | b |
-| 5 | b |
-| 6 | b |
-| 7 | b |
-| 8 | b |
-| 9 | b |
+| 1 | a |
+| 2 | c |
+| 3 | d |
+| 4 | d |
+| 5 | c |
+| 6 | d |
+| 7 | d |
+| 8 | d |
+| 9 | c |
 | 10 | b |
 | 11 | See model answer |
 | 12 | See model answer |

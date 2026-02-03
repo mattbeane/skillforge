@@ -405,35 +405,109 @@ def run_level1_assessment(assessment: dict, domain: str) -> tuple[int, int, list
     # Show MC results immediately
     print(f"\nMultiple Choice: {mc_correct}/{mc_total}")
 
-    # Short answers need review
-    print(f"\nShort Answer: Pending review ({len(short_questions)} questions, {short_total} points)")
-
-    # For now, assume short answers get full credit (self-assessment)
-    print("\nFor Level 1, short answers are self-assessed.")
-    print("Compare your answers to the model answers:\n")
+    # Score short answers with LLM
+    print(f"\nShort Answer: Scoring {len(short_questions)} questions...")
 
     short_score = 0
     for resp in responses:
         if resp["type"] == "short":
-            print(f"Question {resp['question']}:")
-            print(f"Your answer: {resp['answer'][:200]}..." if len(resp["answer"]) > 200 else f"Your answer: {resp['answer']}")
-            print(f"\nModel answer should include:")
-            for line in resp["model_answer"].split("\n"):
-                print(f"  • {line}")
+            print(f"\nScoring Question {resp['question']}...")
+            score, feedback = score_short_answer(
+                resp["question"],
+                resp["answer"],
+                resp["model_answer"],
+                domain
+            )
+            short_score += score
+            resp["llm_score"] = score
+            resp["llm_feedback"] = feedback
 
-            while True:
-                self_score = input("\nHow many points? (0/1/2): ").strip()
-                if self_score in ["0", "1", "2"]:
-                    short_score += int(self_score)
-                    resp["self_score"] = int(self_score)
-                    break
-            print()
+            print(f"  Score: {score}/2")
+            print(f"  Feedback: {feedback}")
 
     total_score = mc_correct + short_score
     total_possible = mc_total + short_total
     percentage = (total_score / total_possible) * 100
 
     return total_score, total_possible, responses, percentage
+
+
+def score_short_answer(question_num: int, student_answer: str, model_answer: str, domain: str) -> tuple[int, str]:
+    """Use LLM to score a short answer question. Returns (score 0-2, feedback)."""
+
+    if not student_answer.strip():
+        return 0, "No answer provided."
+
+    prompt = f"""You are scoring a short answer question for a PhD research methods assessment.
+
+Domain: {DOMAINS.get(domain, domain)}
+
+Question {question_num}
+
+Student's answer:
+{student_answer}
+
+Model answer should include:
+{model_answer}
+
+Score this answer 0, 1, or 2 points:
+- 0 points: Missing key concepts, fundamentally wrong, or no meaningful attempt
+- 1 point: Partial understanding, got some key points but missed important ones
+- 2 points: Demonstrates clear understanding, hits most key points from model answer
+
+Respond in exactly this format:
+SCORE: [0, 1, or 2]
+FEEDBACK: [One sentence explaining the score]
+"""
+
+    try:
+        # Try anthropic SDK first
+        try:
+            import anthropic
+            client = anthropic.Anthropic()
+            response = client.messages.create(
+                model="claude-sonnet-4-20250514",
+                max_tokens=200,
+                messages=[{"role": "user", "content": prompt}]
+            )
+            result_text = response.content[0].text
+        except ImportError:
+            # Fall back to subprocess
+            import subprocess
+            result = subprocess.run(
+                ["claude", "-p", prompt],
+                capture_output=True,
+                text=True,
+                timeout=30
+            )
+            result_text = result.stdout
+
+        # Parse response
+        score = 1  # Default to partial credit
+        feedback = "Unable to parse feedback."
+
+        for line in result_text.split("\n"):
+            if line.startswith("SCORE:"):
+                try:
+                    score = int(line.split(":")[1].strip())
+                    score = max(0, min(2, score))  # Clamp to 0-2
+                except:
+                    pass
+            if line.startswith("FEEDBACK:"):
+                feedback = line.split(":", 1)[1].strip()
+
+        return score, feedback
+
+    except Exception as e:
+        # If LLM fails, fall back to self-assessment
+        print(f"  (LLM scoring unavailable: {e})")
+        print(f"  Your answer: {student_answer[:150]}...")
+        print(f"  Model answer includes: {model_answer[:150]}...")
+        while True:
+            self_score = input("  Self-assess (0/1/2): ").strip()
+            if self_score in ["0", "1", "2"]:
+                return int(self_score), "Self-assessed"
+        return 1, "Scoring unavailable, default partial credit"
 
 
 def cmd_take(args):
@@ -543,10 +617,16 @@ def cmd_submit(args):
         print(f"Valid domains: {', '.join(DOMAINS.keys())}")
         return 1
 
-    # Check prerequisites
+    # Check prerequisites - must have passed previous level
     current_level = record.get("domains", {}).get(domain, {}).get("level", 0)
     if level > current_level + 1:
         print(f"🔒 You must pass Level {current_level + 1} before Level {level}")
+        return 1
+
+    # Level 2+ requires Level 1 first
+    if level >= 2 and current_level < 1:
+        print(f"🔒 You must pass Level 1 before Level {level}")
+        print(f"   Run: skillforge take {domain} --level 1")
         return 1
 
     # Import evaluator
