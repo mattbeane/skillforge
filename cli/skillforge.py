@@ -201,7 +201,11 @@ def load_assessment(domain: str, level: int) -> Optional[dict]:
     # Map level 1 files
     level_1_files = {
         "domain-1": "level-1-domain-1-pattern-recognition.md",
+        "domain-2": "level-1-domain-2-theoretical-positioning.md",
         "domain-3": "level-1-domain-3-qualitative-mechanism.md",
+        "domain-4": "level-1-domain-4-theoretical-framing.md",
+        "domain-5": "level-1-domain-5-epistemological-genre.md",
+        "domain-6": "level-1-domain-6-adversarial-evidence.md",
         "domain-7": "level-1-domain-7-claim-verification.md",
     }
 
@@ -467,7 +471,8 @@ def cmd_take(args):
     assessment = load_assessment(domain, level)
     if not assessment:
         print(f"❌ No assessment available for {domain} Level {level}")
-        print("   Available assessments: domain-1, domain-3, domain-7 (Level 1 only)")
+        print("   Available Level 1 assessments: all domains (domain-1 through domain-7)")
+        print("   Level 2-3: Use 'skillforge submit' with your work file")
         return 1
 
     # Run the assessment
@@ -532,42 +537,59 @@ def cmd_submit(args):
         print(f"File not found: {file_path}")
         return 1
 
+    # Validate domain
+    if domain not in DOMAINS:
+        print(f"Unknown domain: {domain}")
+        print(f"Valid domains: {', '.join(DOMAINS.keys())}")
+        return 1
+
     # Check prerequisites
     current_level = record.get("domains", {}).get(domain, {}).get("level", 0)
     if level > current_level + 1:
         print(f"🔒 You must pass Level {current_level + 1} before Level {level}")
         return 1
 
-    # For now, just log the submission
-    submission = {
-        "domain": domain,
-        "level": level,
-        "file": str(file_path),
-        "date": datetime.now().isoformat(),
-        "status": "pending_review",
-    }
+    # Import evaluator
+    try:
+        from . import evaluator
+    except ImportError:
+        # Running as script
+        import evaluator
 
-    # Save submission
-    submissions_dir = SKILLFORGE_HOME / "submissions"
-    submissions_dir.mkdir(parents=True, exist_ok=True)
+    # Check cooldown
+    cooldown_msg = evaluator.check_cooldown(domain, level, record)
+    if cooldown_msg:
+        print(f"⏳ {cooldown_msg}")
+        return 1
 
-    submission_id = f"{domain}-L{level}-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
-    submission_path = submissions_dir / f"{submission_id}.json"
-    submission_path.write_text(json.dumps(submission, indent=2))
+    # Run evaluation
+    print(f"\n🔍 Evaluating {DOMAINS[domain]} Level {level}...")
+    print(f"   File: {file_path}")
 
-    # Copy submitted file
-    import shutil
-    submitted_file = submissions_dir / f"{submission_id}-work{file_path.suffix}"
-    shutil.copy(file_path, submitted_file)
+    evaluation = evaluator.evaluate_submission(domain, level, file_path)
 
-    print(f"\n📤 Submission received!")
-    print(f"   Domain: {DOMAINS[domain]}")
-    print(f"   Level: {level}")
-    print(f"   Submission ID: {submission_id}")
-    print(f"\nYour work will be evaluated against the expert baseline.")
-    print("You'll receive feedback when evaluation is complete.")
+    if "error" in evaluation:
+        print(f"❌ Error: {evaluation['error']}")
+        return 1
 
-    return 0
+    # Generate and display feedback
+    feedback = evaluator.generate_feedback(evaluation, domain, level)
+    print(feedback)
+
+    # Save record
+    evaluator.save_evaluation_record(domain, level, file_path, evaluation, record)
+
+    print(f"\n📁 Evaluation saved to ~/.skillforge/evaluations/")
+
+    # Update status message
+    if evaluation.get("passed"):
+        record = get_student_record()  # Reload after save
+        if level == 2:
+            print(f"\nNext: skillforge submit {domain} --level 3 --file <your-work.md>")
+        else:
+            print(f"\n🎓 {DOMAINS[domain]} complete!")
+
+    return 0 if evaluation.get("passed") else 1
 
 
 def main():
