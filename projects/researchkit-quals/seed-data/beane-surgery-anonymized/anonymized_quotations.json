@@ -1,0 +1,2579 @@
+{
+  "codes": {
+    "t_1": {
+      "id": "t_1",
+      "name": "Awkward setup",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T13:21:27",
+      "group": "Shitty Robot"
+    },
+    "t_2": {
+      "id": "t_2",
+      "name": "Awkward to use",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-09-08T11:54:53",
+      "group": "Shitty Robot"
+    },
+    "t_3": {
+      "id": "t_3",
+      "name": "Bad supplies",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-22T16:43:58",
+      "group": "Shitty Robot"
+    },
+    "t_4": {
+      "id": "t_4",
+      "name": "Breakdown",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:44:31",
+      "group": "Shitty Robot"
+    },
+    "t_5": {
+      "id": "t_5",
+      "name": "Cheating to Learn",
+      "created": "2015-09-08T21:21:43",
+      "modified": "2015-09-09T18:27:46",
+      "group": null
+    },
+    "t_6": {
+      "id": "t_6",
+      "name": "Checking archives",
+      "created": "2015-03-03T08:47:47",
+      "modified": "2015-03-03T08:47:47",
+      "group": "Unsorted"
+    },
+    "t_7": {
+      "id": "t_7",
+      "name": "Coaxing",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-09-07T14:04:22",
+      "group": "Shitty Robot"
+    },
+    "t_8": {
+      "id": "t_8",
+      "name": "Complex setup",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:44:31",
+      "group": "Shitty Robot"
+    },
+    "t_9": {
+      "id": "t_9",
+      "name": "Costume change",
+      "created": "2015-03-02T16:04:05",
+      "modified": "2015-03-02T16:04:05",
+      "group": "Unsorted"
+    },
+    "t_10": {
+      "id": "t_10",
+      "name": "Creating errors",
+      "created": "2015-03-02T15:49:59",
+      "modified": "2015-03-02T15:49:59",
+      "group": "Unsorted"
+    },
+    "t_11": {
+      "id": "t_11",
+      "name": "Cross-role covering",
+      "created": "2015-07-05T13:01:24",
+      "modified": "2015-07-05T13:01:24",
+      "group": null
+    },
+    "t_12": {
+      "id": "t_12",
+      "name": "Diffusing",
+      "created": "2015-03-02T15:56:04",
+      "modified": "2015-03-02T15:56:04",
+      "group": "Unsorted"
+    },
+    "t_13": {
+      "id": "t_13",
+      "name": "Digital participation",
+      "created": "2015-03-03T08:54:49",
+      "modified": "2015-03-03T08:54:49",
+      "group": "Unsorted"
+    },
+    "t_14": {
+      "id": "t_14",
+      "name": "Direction",
+      "created": "2015-03-03T09:02:45",
+      "modified": "2015-03-03T09:58:40",
+      "group": "Unsorted"
+    },
+    "t_15": {
+      "id": "t_15",
+      "name": "Discrete control",
+      "created": "2015-03-03T08:53:27",
+      "modified": "2015-03-03T08:53:27",
+      "group": "Unsorted"
+    },
+    "t_16": {
+      "id": "t_16",
+      "name": "Disposing",
+      "created": "2015-03-02T16:09:25",
+      "modified": "2015-03-02T16:10:17",
+      "group": "Unsorted"
+    },
+    "t_17": {
+      "id": "t_17",
+      "name": "Double checking",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:44:31",
+      "group": "Shitty Robot"
+    },
+    "t_18": {
+      "id": "t_18",
+      "name": "Efficiency",
+      "created": "2015-03-03T09:08:26",
+      "modified": "2015-11-19T15:00:51",
+      "group": "Unsorted"
+    },
+    "t_19": {
+      "id": "t_19",
+      "name": "Extra setup",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-22T16:33:02",
+      "group": "Shitty Robot"
+    },
+    "t_20": {
+      "id": "t_20",
+      "name": "Fishing",
+      "created": "2015-07-22T16:34:25",
+      "modified": "2015-07-22T16:34:25",
+      "group": null
+    },
+    "t_21": {
+      "id": "t_21",
+      "name": "Frustration",
+      "created": "2015-07-05T12:47:19",
+      "modified": "2015-09-09T20:06:12",
+      "group": "Shitty Robot"
+    },
+    "t_22": {
+      "id": "t_22",
+      "name": "General hassle",
+      "created": "2015-07-05T13:00:06",
+      "modified": "2015-07-05T13:00:23",
+      "group": null
+    },
+    "t_23": {
+      "id": "t_23",
+      "name": "Giving ground",
+      "created": "2015-09-08T22:34:45",
+      "modified": "2015-09-08T23:20:03",
+      "group": null
+    },
+    "t_24": {
+      "id": "t_24",
+      "name": "Hassle work is a hassle",
+      "created": "2015-07-05T12:47:19",
+      "modified": "2015-07-05T12:47:19",
+      "group": "Shitty Robot"
+    },
+    "t_25": {
+      "id": "t_25",
+      "name": "Impossible failures",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:44:31",
+      "group": "Shitty Robot"
+    },
+    "t_26": {
+      "id": "t_26",
+      "name": "Inferior capability",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-09-08T23:20:03",
+      "group": "Shitty Robot"
+    },
+    "t_27": {
+      "id": "t_27",
+      "name": "Inviting critique of focal work",
+      "created": "2015-03-03T09:23:49",
+      "modified": "2015-03-03T09:23:49",
+      "group": "Unsorted"
+    },
+    "t_28": {
+      "id": "t_28",
+      "name": "Jerry-rigging",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-09-07T14:04:22",
+      "group": "Shitty Robot"
+    },
+    "t_29": {
+      "id": "t_29",
+      "name": "Missing supplies",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:44:31",
+      "group": "Shitty Robot"
+    },
+    "t_30": {
+      "id": "t_30",
+      "name": "Murphy-proofing",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:44:31",
+      "group": "Shitty Robot"
+    },
+    "t_31": {
+      "id": "t_31",
+      "name": "Newbie",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-22T16:43:25",
+      "group": "Shitty Robot"
+    },
+    "t_32": {
+      "id": "t_32",
+      "name": "Newbie minding",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-09-09T18:29:31",
+      "group": "Shitty Robot"
+    },
+    "t_33": {
+      "id": "t_33",
+      "name": "No change",
+      "created": "2015-07-05T12:47:19",
+      "modified": "2015-07-05T12:47:19",
+      "group": "Shitty Robot"
+    },
+    "t_34": {
+      "id": "t_34",
+      "name": "OR 17",
+      "created": "2015-07-05T12:50:23",
+      "modified": "2015-07-05T12:50:23",
+      "group": "Shitty Robot"
+    },
+    "t_35": {
+      "id": "t_35",
+      "name": "OR 21/22",
+      "created": "2015-07-05T12:50:23",
+      "modified": "2015-07-22T16:33:02",
+      "group": "Shitty Robot"
+    },
+    "t_36": {
+      "id": "t_36",
+      "name": "Patient outcomes",
+      "created": "2015-07-05T12:47:19",
+      "modified": "2015-07-05T12:47:19",
+      "group": "Shitty Robot"
+    },
+    "t_37": {
+      "id": "t_37",
+      "name": "Pause",
+      "created": "2015-03-03T08:47:47",
+      "modified": "2015-03-03T08:49:35",
+      "group": "Unsorted"
+    },
+    "t_38": {
+      "id": "t_38",
+      "name": "Planning",
+      "created": "2015-03-02T15:58:15",
+      "modified": "2015-03-02T15:58:15",
+      "group": "Unsorted"
+    },
+    "t_39": {
+      "id": "t_39",
+      "name": "Processing",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-09-09T18:29:31",
+      "group": "Shitty Robot"
+    },
+    "t_40": {
+      "id": "t_40",
+      "name": "Props",
+      "created": "2015-03-02T15:58:15",
+      "modified": "2015-03-02T15:58:15",
+      "group": "Unsorted"
+    },
+    "t_41": {
+      "id": "t_41",
+      "name": "Public",
+      "created": "2015-03-03T09:02:45",
+      "modified": "2015-03-03T09:58:40",
+      "group": "Unsorted"
+    },
+    "t_42": {
+      "id": "t_42",
+      "name": "QUOTE",
+      "created": "2015-07-05T13:10:19",
+      "modified": "2015-07-13T07:05:06",
+      "group": null
+    },
+    "t_43": {
+      "id": "t_43",
+      "name": "Recording",
+      "created": "2015-07-05T12:47:19",
+      "modified": "2015-07-05T12:59:21",
+      "group": "Shitty Robot"
+    },
+    "t_44": {
+      "id": "t_44",
+      "name": "Representing",
+      "created": "2015-03-03T08:50:43",
+      "modified": "2015-03-03T08:50:43",
+      "group": "Unsorted"
+    },
+    "t_45": {
+      "id": "t_45",
+      "name": "Resident",
+      "created": "2015-03-03T08:54:49",
+      "modified": "2015-03-03T08:54:49",
+      "group": "Unsorted"
+    },
+    "t_46": {
+      "id": "t_46",
+      "name": "Resupply",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T13:04:06",
+      "group": "Shitty Robot"
+    },
+    "t_47": {
+      "id": "t_47",
+      "name": "Room setup",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:44:31",
+      "group": "Shitty Robot"
+    },
+    "t_48": {
+      "id": "t_48",
+      "name": "Rushing",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-09-09T21:32:56",
+      "group": "Shitty Robot"
+    },
+    "t_49": {
+      "id": "t_49",
+      "name": "Safety",
+      "created": "2015-03-03T09:08:26",
+      "modified": "2015-11-19T15:00:51",
+      "group": "Unsorted"
+    },
+    "t_50": {
+      "id": "t_50",
+      "name": "Scene change",
+      "created": "2015-03-02T16:07:16",
+      "modified": "2015-03-02T16:11:39",
+      "group": "Unsorted"
+    },
+    "t_51": {
+      "id": "t_51",
+      "name": "Screen suck",
+      "created": "2015-03-03T09:15:43",
+      "modified": "2015-03-03T09:15:43",
+      "group": "Unsorted"
+    },
+    "t_52": {
+      "id": "t_52",
+      "name": "second-guessing",
+      "created": "2015-07-05T13:03:18",
+      "modified": "2015-07-05T13:03:18",
+      "group": null
+    },
+    "t_53": {
+      "id": "t_53",
+      "name": "Spotlighting",
+      "created": "2015-03-02T15:45:46",
+      "modified": "2015-03-03T09:21:58",
+      "group": "Unsorted"
+    },
+    "t_54": {
+      "id": "t_54",
+      "name": "Staffing patterns - skill to OR 21",
+      "created": "2015-07-05T12:47:19",
+      "modified": "2015-07-13T07:05:06",
+      "group": "Shitty Robot"
+    },
+    "t_55": {
+      "id": "t_55",
+      "name": "Staffing patterns - slack away from 21",
+      "created": "2015-07-05T12:47:19",
+      "modified": "2015-09-08T21:14:43",
+      "group": "Shitty Robot"
+    },
+    "t_56": {
+      "id": "t_56",
+      "name": "Stashing",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:44:31",
+      "group": "Shitty Robot"
+    },
+    "t_57": {
+      "id": "t_57",
+      "name": "Teaching",
+      "created": "2015-03-03T08:50:43",
+      "modified": "2015-03-03T09:58:40",
+      "group": "Unsorted"
+    },
+    "t_58": {
+      "id": "t_58",
+      "name": "Technical failures",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:44:31",
+      "group": "Shitty Robot"
+    },
+    "t_59": {
+      "id": "t_59",
+      "name": "Temporal shifting",
+      "created": "2015-07-05T12:47:19",
+      "modified": "2015-07-07T16:12:14",
+      "group": "Shitty Robot"
+    },
+    "t_60": {
+      "id": "t_60",
+      "name": "Tradeoff",
+      "created": "2015-03-03T09:08:26",
+      "modified": "2015-11-19T15:00:51",
+      "group": "Unsorted"
+    },
+    "t_61": {
+      "id": "t_61",
+      "name": "Understaffed",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:44:31",
+      "group": "Shitty Robot"
+    },
+    "t_62": {
+      "id": "t_62",
+      "name": "Verbal",
+      "created": "2015-03-03T09:02:45",
+      "modified": "2015-03-03T09:04:43",
+      "group": "Unsorted"
+    },
+    "t_63": {
+      "id": "t_63",
+      "name": "Wrong robot setup",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:56:08",
+      "group": "Shitty Robot"
+    },
+    "t_64": {
+      "id": "t_64",
+      "name": "Wrong supplies",
+      "created": "2015-07-05T12:44:31",
+      "modified": "2015-07-05T12:44:31",
+      "group": "Shitty Robot"
+    },
+    "t_65": {
+      "id": "t_65",
+      "name": "YouTube",
+      "created": "2015-03-03T09:11:21",
+      "modified": "2015-03-03T09:11:21",
+      "group": "Unsorted"
+    },
+    "t_66": {
+      "id": "t_66",
+      "name": "Zone of participation",
+      "created": "2015-03-03T08:39:15",
+      "modified": "2015-03-03T09:47:33",
+      "group": "Unsorted"
+    }
+  },
+  "code_groups": [
+    "Shitty Robot",
+    "Unsorted"
+  ],
+  "documents": {
+    "doc_1": {
+      "id": "doc_1",
+      "name": "2013.07.09 PROCEDURE 2.rtf",
+      "guid": "984D2EC4-184C-429A-AF44-BB682E670474",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.07.09 PROCEDURE 2.rtf",
+      "segment_count": 113
+    },
+    "doc_2": {
+      "id": "doc_2",
+      "name": "2013.07.09 Process Notes.rtf",
+      "guid": "76488AFA-AFEB-4AE8-A69F-DFBDA7476C45",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.07.09 Process Notes.rtf",
+      "segment_count": 22
+    },
+    "doc_3": {
+      "id": "doc_3",
+      "name": "2013.07.09 R Partial nephrectomy.rtf",
+      "guid": "4B3B9F53-EDF4-4B07-B53C-DD2AA03A2A5B",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.07.09 R Partial nephrectomy.rtf",
+      "segment_count": 427
+    },
+    "doc_4": {
+      "id": "doc_4",
+      "name": "2013.07.15 Procedure 1 RALRP.rtf",
+      "guid": "7640B4C5-D72A-40A2-9FA5-45279246B754",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.07.15 Procedure 1 RALRP.rtf",
+      "segment_count": 335
+    },
+    "doc_5": {
+      "id": "doc_5",
+      "name": "2013.07.15 Procedure 2 RARLP.rtf",
+      "guid": "37DDE79F-C07B-41FF-8335-5E635D1D0B67",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.07.15 Procedure 2 RARLP.rtf",
+      "segment_count": 672
+    },
+    "doc_6": {
+      "id": "doc_6",
+      "name": "2013.07.15 Process Notes.rtf",
+      "guid": "482BCF16-8477-42F6-9925-5D7CFBAEC6FB",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.07.15 Process Notes.rtf",
+      "segment_count": 10
+    },
+    "doc_7": {
+      "id": "doc_7",
+      "name": "2013.07.25 Open Prostatectomy.rtf",
+      "guid": "66DD0DFA-1A37-46BB-9C78-5DD0145B71BC",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.07.25 Open Prostatectomy.rtf",
+      "segment_count": 28
+    },
+    "doc_8": {
+      "id": "doc_8",
+      "name": "2013.07.25 Process Notes.rtf",
+      "guid": "3CCB47BC-FB12-48BA-9864-794584764EA8",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.07.25 Process Notes.rtf",
+      "segment_count": 5
+    },
+    "doc_9": {
+      "id": "doc_9",
+      "name": "2013.07.25 Uretal Implant.rtf",
+      "guid": "F51F175E-3278-4FC7-ACEA-413463C85E93",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.07.25 Uretal Implant.rtf",
+      "segment_count": 390
+    },
+    "doc_10": {
+      "id": "doc_10",
+      "name": "2013.07.26 Left partial nephrectomy.rtf",
+      "guid": "7B77614E-991C-4ABD-8DBA-E429F7FB1A2F",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.07.26 Left partial nephrectomy.rtf",
+      "segment_count": 1191
+    },
+    "doc_11": {
+      "id": "doc_11",
+      "name": "2013.07.26 Uretal Implant.rtf",
+      "guid": "BC539B83-1229-42FB-8F02-BB46CA470DBD",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.07.26 Uretal Implant.rtf",
+      "segment_count": 754
+    },
+    "doc_12": {
+      "id": "doc_12",
+      "name": "2013.12.17 Field Notes.rtf",
+      "guid": "1C819564-E695-4481-A5C6-0FA841217447",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2013.12.17 Field Notes.rtf",
+      "segment_count": 6
+    },
+    "doc_13": {
+      "id": "doc_13",
+      "name": "2014.01.30 Process Notes.rtf",
+      "guid": "F526CFDF-67AF-498B-899C-16CD3549FD56",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.01.30 Process Notes.rtf",
+      "segment_count": 4
+    },
+    "doc_14": {
+      "id": "doc_14",
+      "name": "2014.01.30 Prostatectomy.rtf",
+      "guid": "E9AA1AF5-531A-4289-A734-90BB57208067",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.01.30 Prostatectomy.rtf",
+      "segment_count": 930
+    },
+    "doc_15": {
+      "id": "doc_15",
+      "name": "2014.02.17 Cystectomy.rtf",
+      "guid": "939F79C4-3643-460D-9354-4B935E1CCF8A",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.02.17 Cystectomy.rtf",
+      "segment_count": 722
+    },
+    "doc_16": {
+      "id": "doc_16",
+      "name": "2014.02.19 Prostate 1.rtf",
+      "guid": "EE8E24F5-F2A8-4B4E-A578-2F519C8B76DD",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.02.19 Prostate 1.rtf",
+      "segment_count": 531
+    },
+    "doc_17": {
+      "id": "doc_17",
+      "name": "2014.02.19 Prostate 2.rtf",
+      "guid": "8C1EF65C-9470-49EC-9AB5-10A98B066A88",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.02.19 Prostate 2.rtf",
+      "segment_count": 199
+    },
+    "doc_18": {
+      "id": "doc_18",
+      "name": "2014.02.21 O Nephrectomy.rtf",
+      "guid": "4D4BBA4B-DF76-426A-B7A8-4552E8102FC1",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.02.21 O Nephrectomy.rtf",
+      "segment_count": 615
+    },
+    "doc_19": {
+      "id": "doc_19",
+      "name": "2014.03.07 Colorectal Process notes.rtf",
+      "guid": "C5DB25C1-4C82-449A-A33B-0D9C94C7C41D",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.03.07 Colorectal Process notes.rtf",
+      "segment_count": 4
+    },
+    "doc_20": {
+      "id": "doc_20",
+      "name": "2014.03.07 Sigmoid resection.rtf",
+      "guid": "445163D4-1770-46FE-A5AD-A9DAB3DF13F8",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.03.07 Sigmoid resection.rtf",
+      "segment_count": 1057
+    },
+    "doc_21": {
+      "id": "doc_21",
+      "name": "2014.03.14 L Nephrectomy.rtf",
+      "guid": "50552618-BB02-46F1-9694-732C5ED7E313",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.03.14 L Nephrectomy.rtf",
+      "segment_count": 504
+    },
+    "doc_22": {
+      "id": "doc_22",
+      "name": "2014.03.28 R partial.rtf",
+      "guid": "C8414211-1F36-4736-9529-5DF182D2EDF7",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.03.28 R partial.rtf",
+      "segment_count": 1069
+    },
+    "doc_23": {
+      "id": "doc_23",
+      "name": "2014.03.31 O Part Nephrectomy.rtf",
+      "guid": "D9F9FC0A-67C1-400C-88A5-E1A250EDC22B",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.03.31 O Part Nephrectomy.rtf",
+      "segment_count": 571
+    },
+    "doc_24": {
+      "id": "doc_24",
+      "name": "2014.05.06 O Partial.rtf",
+      "guid": "DA58DE18-ABD3-4EC7-9EF4-6D15CC697F32",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.05.06 O Partial.rtf",
+      "segment_count": 682
+    },
+    "doc_25": {
+      "id": "doc_25",
+      "name": "2014.05.13 R Partial Email.pdf",
+      "guid": "B885263E-F646-48C0-A934-59A11BDA63FF",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.05.13 R Partial Email.pdf",
+      "segment_count": 0
+    },
+    "doc_26": {
+      "id": "doc_26",
+      "name": "2014.05.13 R Partial v2.rtf",
+      "guid": "0CF3BF5F-CFEA-41BC-AB2D-22E4D985D08A",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.05.13 R Partial v2.rtf",
+      "segment_count": 841
+    },
+    "doc_27": {
+      "id": "doc_27",
+      "name": "2014.06.04 R Prostate.docx",
+      "guid": "6CE02CE4-E418-4A5E-A8EB-B63B7FE8FB79",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.06.04 R Prostate.docx",
+      "segment_count": 1016
+    },
+    "doc_28": {
+      "id": "doc_28",
+      "name": "2014.06.05 O Partial.rtf",
+      "guid": "4012122F-721C-4692-B099-D40A3C5E6D47",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.06.05 O Partial.rtf",
+      "segment_count": 1116
+    },
+    "doc_29": {
+      "id": "doc_29",
+      "name": "2014.06.06 O Nephrouretorectomy.rtf",
+      "guid": "1C5E5075-8A05-43C7-A56A-4D4BBC531C44",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.06.06 O Nephrouretorectomy.rtf",
+      "segment_count": 1455
+    },
+    "doc_30": {
+      "id": "doc_30",
+      "name": "2014.06.10 R and O Other.rtf",
+      "guid": "52776664-6BD5-4B53-BDDF-A78ED4A3093F",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.06.10 R and O Other.rtf",
+      "segment_count": 1885
+    },
+    "doc_31": {
+      "id": "doc_31",
+      "name": "2014.06.11 R Partial.rtf",
+      "guid": "70686307-C9B4-47D2-B6BD-692FDE4D2D6A",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.06.11 R Partial.rtf",
+      "segment_count": 953
+    },
+    "doc_32": {
+      "id": "doc_32",
+      "name": "2014.06.18 R Nephrouterotomy.rtf",
+      "guid": "201A6418-0D91-441B-9C36-F04BE3D9DED9",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.06.18 R Nephrouterotomy.rtf",
+      "segment_count": 1237
+    },
+    "doc_33": {
+      "id": "doc_33",
+      "name": "2014.06.18 R Partial.rtf",
+      "guid": "37E328FD-0A8E-4CB2-9A08-0FE4F999A799",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.06.18 R Partial.rtf",
+      "segment_count": 1099
+    },
+    "doc_34": {
+      "id": "doc_34",
+      "name": "2014.06.25 O Nephrectomy.rtf",
+      "guid": "05821614-FDA2-479C-B176-CB0A4820D579",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.06.25 O Nephrectomy.rtf",
+      "segment_count": 1915
+    },
+    "doc_35": {
+      "id": "doc_35",
+      "name": "2014.06.26 Robot Bootcamp.rtf",
+      "guid": "656B360F-2467-4113-B614-858CE1AB9629",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.06.26 Robot Bootcamp.rtf",
+      "segment_count": 42
+    },
+    "doc_36": {
+      "id": "doc_36",
+      "name": "2014.07.08 O Partial.rtf",
+      "guid": "D6379C94-C672-426D-9A8C-71D6A43C6CF2",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.07.08 O Partial.rtf",
+      "segment_count": 753
+    },
+    "doc_37": {
+      "id": "doc_37",
+      "name": "2014.07.08 R Prostate.rtf",
+      "guid": "9024ADB4-9C7D-471B-A52A-80809549DA48",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.07.08 R Prostate.rtf",
+      "segment_count": 1274
+    },
+    "doc_38": {
+      "id": "doc_38",
+      "name": "2014.07.14 R Prostate.rtf",
+      "guid": "3869FE40-B94F-48BA-AEEF-6EF23F39C6A7",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.07.14 R Prostate.rtf",
+      "segment_count": 1405
+    },
+    "doc_39": {
+      "id": "doc_39",
+      "name": "2014.07.29 O Illial Loop.rtf",
+      "guid": "1EFEBE9D-C32F-476A-8FB4-2386D83D6013",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.07.29 O Illial Loop.rtf",
+      "segment_count": 828
+    },
+    "doc_40": {
+      "id": "doc_40",
+      "name": "2014.07.30 R Prostate.rtf",
+      "guid": "521E6B4A-5CDB-43FE-9B7C-F2A53D0981DA",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.07.30 R Prostate.rtf",
+      "segment_count": 848
+    },
+    "doc_41": {
+      "id": "doc_41",
+      "name": "2014.08.12 O NX.rtf",
+      "guid": "29901199-BB20-44DE-AC67-7FA6B3DECF08",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.08.12 O NX.rtf",
+      "segment_count": 867
+    },
+    "doc_42": {
+      "id": "doc_42",
+      "name": "2014.08.14 O Penectomy.rtf",
+      "guid": "BA5887C4-BB6B-4328-A93C-21EE947574BB",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.08.14 O Penectomy.rtf",
+      "segment_count": 858
+    },
+    "doc_43": {
+      "id": "doc_43",
+      "name": "2014.08.14 Resident Break Room.rtf",
+      "guid": "A8A5AE02-6891-434A-9C8F-7E99930D5138",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.08.14 Resident Break Room.rtf",
+      "segment_count": 5
+    },
+    "doc_44": {
+      "id": "doc_44",
+      "name": "2014.08.18 R Prostate.rtf",
+      "guid": "D9BF76C6-0E0B-4CFE-9658-F0C860A70EFE",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.08.18 R Prostate.rtf",
+      "segment_count": 1117
+    },
+    "doc_45": {
+      "id": "doc_45",
+      "name": "2014.08.26 R Special.rtf",
+      "guid": "79D0969B-D50A-4BED-B301-15C5C0BC95FF",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.08.26 R Special.rtf",
+      "segment_count": 1107
+    },
+    "doc_46": {
+      "id": "doc_46",
+      "name": "2014.09.24 R Prostate.rtf",
+      "guid": "2CEAA816-D12D-4E49-8EDC-A1B285820E2A",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.09.24 R Prostate.rtf",
+      "segment_count": 1022
+    },
+    "doc_47": {
+      "id": "doc_47",
+      "name": "2014.10.15 R Nephro U.rtf",
+      "guid": "594D1844-B60D-483D-AF29-7967A548019C",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.10.15 R Nephro U.rtf",
+      "segment_count": 1274
+    },
+    "doc_48": {
+      "id": "doc_48",
+      "name": "2014.11.05 Cystectomy.rtf",
+      "guid": "88A19FD0-4C25-4FDB-ADA6-5D3A1F95D7B0",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.11.05 Cystectomy.rtf",
+      "segment_count": 1987
+    },
+    "doc_49": {
+      "id": "doc_49",
+      "name": "2014.11.13 O Radical.rtf",
+      "guid": "EFA8C823-70F4-49F7-B115-D7D37DACE915",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.11.13 O Radical.rtf",
+      "segment_count": 1288
+    },
+    "doc_50": {
+      "id": "doc_50",
+      "name": "2014.11.19 R Complex.rtf",
+      "guid": "E81F0286-A5C4-4C86-B151-5A4C1C1FF0B2",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.11.19 R Complex.rtf",
+      "segment_count": 859
+    },
+    "doc_51": {
+      "id": "doc_51",
+      "name": "2014.11.19 R Pyleoplasty.rtf",
+      "guid": "5601DF4E-1488-4492-AC5C-A37F7590F48F",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.11.19 R Pyleoplasty.rtf",
+      "segment_count": 1372
+    },
+    "doc_52": {
+      "id": "doc_52",
+      "name": "2014.12.10 R Nephro U.rtf",
+      "guid": "7CB2A40C-21BA-420E-A598-AF09D69BD863",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2014.12.10 R Nephro U.rtf",
+      "segment_count": 1713
+    },
+    "doc_53": {
+      "id": "doc_53",
+      "name": "2015.01.14 R Pyleoplasty.rtf",
+      "guid": "F6609061-189E-4547-A5BA-7211FF34CF3B",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.01.14 R Pyleoplasty.rtf",
+      "segment_count": 1037
+    },
+    "doc_54": {
+      "id": "doc_54",
+      "name": "2015.01.14 RALP.rtf",
+      "guid": "DD58603B-94AB-4AFF-AF8D-485DC437CF62",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.01.14 RALP.rtf",
+      "segment_count": 1172
+    },
+    "doc_55": {
+      "id": "doc_55",
+      "name": "2015.01.16 O Partial field notes.rtf",
+      "guid": "29DEA4BE-C268-4045-8377-26B275F99325",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.01.16 O Partial field notes.rtf",
+      "segment_count": 5
+    },
+    "doc_56": {
+      "id": "doc_56",
+      "name": "2015.01.16 O Partial.rtf",
+      "guid": "BFE79C1E-6063-47F8-B335-FB71F3C851C3",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.01.16 O Partial.rtf",
+      "segment_count": 1009
+    },
+    "doc_57": {
+      "id": "doc_57",
+      "name": "2015.01.20 L Radical.rtf",
+      "guid": "8E6FE23A-9BA3-489F-A17A-C5065181DAD5",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.01.20 L Radical.rtf",
+      "segment_count": 962
+    },
+    "doc_58": {
+      "id": "doc_58",
+      "name": "2015.01.22 RALP.rtf",
+      "guid": "22B254D9-EB87-4833-8711-21FD69121670",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.01.22 RALP.rtf",
+      "segment_count": 1329
+    },
+    "doc_59": {
+      "id": "doc_59",
+      "name": "2015.01.28 R Incomplete procedure.rtf",
+      "guid": "FB2C3887-42C2-4220-A9B9-11B39C32398F",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.01.28 R Incomplete procedure.rtf",
+      "segment_count": 81
+    },
+    "doc_60": {
+      "id": "doc_60",
+      "name": "2015.01.28 RALP.rtf",
+      "guid": "6E1BE607-C8FD-44D9-9145-A5BA867066B7",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.01.28 RALP.rtf",
+      "segment_count": 1402
+    },
+    "doc_61": {
+      "id": "doc_61",
+      "name": "2015.02.05 RALP.rtf",
+      "guid": "1F344FEF-4F24-43AA-984E-FE5F291FEEB5",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.02.05 RALP.rtf",
+      "segment_count": 1052
+    },
+    "doc_62": {
+      "id": "doc_62",
+      "name": "2015.02.06 RALP 2.rtf",
+      "guid": "C9C21C49-104E-4A7B-A161-F2FD9A915E8D",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.02.06 RALP 2.rtf",
+      "segment_count": 700
+    },
+    "doc_63": {
+      "id": "doc_63",
+      "name": "2015.02.06 RALP.rtf",
+      "guid": "DE2F51A5-1748-4A42-8C08-62B3B9BC2521",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.02.06 RALP.rtf",
+      "segment_count": 1300
+    },
+    "doc_64": {
+      "id": "doc_64",
+      "name": "2015.02.12 O NX.rtf",
+      "guid": "A0D4EA0B-B0DD-4A85-AB49-B198E079EF23",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.02.12 O NX.rtf",
+      "segment_count": 2032
+    },
+    "doc_65": {
+      "id": "doc_65",
+      "name": "2015.02.13 R Partial w hydroseal.rtf",
+      "guid": "5F94034D-31D0-4D85-A9F3-8A187FB3A2BB",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.02.13 R Partial w hydroseal.rtf",
+      "segment_count": 1078
+    },
+    "doc_66": {
+      "id": "doc_66",
+      "name": "2015.02.26 R Partial - incomplete procedure.rtf",
+      "guid": "F2DAE183-D7CA-450C-983C-4EFE4B7D6E17",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.02.26 R Partial - incomplete procedure.rtf",
+      "segment_count": 52
+    },
+    "doc_67": {
+      "id": "doc_67",
+      "name": "2015.02.26 R Partial 2.rtf",
+      "guid": "5C814C92-CC07-4969-A1CD-54AD644D6809",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.02.26 R Partial 2.rtf",
+      "segment_count": 1447
+    },
+    "doc_68": {
+      "id": "doc_68",
+      "name": "2015.02.27 O Partial.rtf",
+      "guid": "BD7E0ECB-22B4-48DD-8E0D-1DC174A78EC7",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.02.27 O Partial.rtf",
+      "segment_count": 1553
+    },
+    "doc_69": {
+      "id": "doc_69",
+      "name": "2013.05.01 Field Notes.rtf",
+      "guid": "F637B7FD-2055-49D5-A0B5-3D26CEC2523F",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2013.05.01 Field Notes.rtf",
+      "segment_count": 7
+    },
+    "doc_70": {
+      "id": "doc_70",
+      "name": "2014.01.24 Field Notes.rtf",
+      "guid": "461EB678-DD3C-45F3-82D2-1D82BED75DD5",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.01.24 Field Notes.rtf",
+      "segment_count": 3
+    },
+    "doc_71": {
+      "id": "doc_71",
+      "name": "2014.02.03 R Prostatectomy.rtf",
+      "guid": "A9865152-CDD5-4E32-8AA2-6E6103FB7CC2",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.02.03 R Prostatectomy.rtf",
+      "segment_count": 735
+    },
+    "doc_72": {
+      "id": "doc_72",
+      "name": "2014.02.13 O RPLND.rtf",
+      "guid": "22847688-61C6-4734-A715-9E25B57F5045",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.02.13 O RPLND.rtf",
+      "segment_count": 415
+    },
+    "doc_73": {
+      "id": "doc_73",
+      "name": "2014.02.13 Process Notes.docx",
+      "guid": "749127B8-E6AC-4DC1-B5C8-C267E2A717AA",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.02.13 Process Notes.docx",
+      "segment_count": 2
+    },
+    "doc_74": {
+      "id": "doc_74",
+      "name": "2014.02.13 RPLND Process Notes.rtf",
+      "guid": "2DBFCCAA-CACB-4043-802A-8353F699D364",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.02.13 RPLND Process Notes.rtf",
+      "segment_count": 3
+    },
+    "doc_75": {
+      "id": "doc_75",
+      "name": "2014.02.27 O Prostate.rtf",
+      "guid": "639A9C7F-DB11-4598-94F8-DBCA33573208",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.02.27 O Prostate.rtf",
+      "segment_count": 239
+    },
+    "doc_76": {
+      "id": "doc_76",
+      "name": "2014.03.11 Hernia Repair.rtf",
+      "guid": "2AA34605-ECDF-4427-9D0A-FFB44AEBF045",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.03.11 Hernia Repair.rtf",
+      "segment_count": 305
+    },
+    "doc_77": {
+      "id": "doc_77",
+      "name": "2014.03.27 R Prostate.rtf",
+      "guid": "13242D28-8F2C-4A5C-AE15-9DC5316E03E1",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.03.27 R Prostate.rtf",
+      "segment_count": 151
+    },
+    "doc_78": {
+      "id": "doc_78",
+      "name": "2014.04.19 O Rad Prostate.rtf",
+      "guid": "8369A28F-B012-4963-B652-70001CD5B96E",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.04.19 O Rad Prostate.rtf",
+      "segment_count": 179
+    },
+    "doc_79": {
+      "id": "doc_79",
+      "name": "2014.05.20 O. Partial.rtf",
+      "guid": "C7C28704-9C80-40EE-990F-35230F235DB0",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.05.20 O. Partial.rtf",
+      "segment_count": 596
+    },
+    "doc_80": {
+      "id": "doc_80",
+      "name": "2014.05.20 O. Prostate.rtf",
+      "guid": "162E53E1-1710-4BF3-9493-EDFA91553ABA",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.05.20 O. Prostate.rtf",
+      "segment_count": 690
+    },
+    "doc_81": {
+      "id": "doc_81",
+      "name": "2014.06.19 O Prostate.rtf",
+      "guid": "A0708FBC-4831-4617-9972-DBE32BE2C248",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.06.19 O Prostate.rtf",
+      "segment_count": 518
+    },
+    "doc_82": {
+      "id": "doc_82",
+      "name": "2014.07.17 R Partial.rtf",
+      "guid": "BB4C80AA-4600-4ECC-AE00-F6D8D04AA535",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.07.17 R Partial.rtf",
+      "segment_count": 707
+    },
+    "doc_83": {
+      "id": "doc_83",
+      "name": "2014.07.22 L NX.rtf",
+      "guid": "EF23FF71-AB18-4A58-AF9F-211B92D74EF6",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.07.22 L NX.rtf",
+      "segment_count": 887
+    },
+    "doc_84": {
+      "id": "doc_84",
+      "name": "2014.07.23 R. Cystectomy.rtf",
+      "guid": "F95124B5-BD09-43C0-9BA7-C3AE93A92AE3",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.07.23 R. Cystectomy.rtf",
+      "segment_count": 1590
+    },
+    "doc_85": {
+      "id": "doc_85",
+      "name": "2014.08.21 R Prostate.rtf",
+      "guid": "0AFC8FBE-E56F-4DD3-81CB-EF5048E248B3",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\B&W\\2014.08.21 R Prostate.rtf",
+      "segment_count": 1245
+    },
+    "doc_86": {
+      "id": "doc_86",
+      "name": "2013.07.29 Prostatectomy 2.rtf",
+      "guid": "81173E26-DAF1-4E3B-9180-53E51B38EF15",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Faulkner\\2013.07.29 Prostatectomy 2.rtf",
+      "segment_count": 760
+    },
+    "doc_87": {
+      "id": "doc_87",
+      "name": "2013.07.29 Prostatectomy.rtf",
+      "guid": "BA9449AA-2ACE-4506-B022-F15B8E85F6D9",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Faulkner\\2013.07.29 Prostatectomy.rtf",
+      "segment_count": 487
+    },
+    "doc_88": {
+      "id": "doc_88",
+      "name": "2014.02.25 R. Partial Neph.docx",
+      "guid": "F49FD276-2358-4FDD-ACC3-692D90B230C9",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Faulkner\\2014.02.25 R. Partial Neph.docx",
+      "segment_count": 198
+    },
+    "doc_89": {
+      "id": "doc_89",
+      "name": "2014.02.25 R. Partial Neph.rtf",
+      "guid": "637C98E7-A63C-44B6-B9AC-A38008181E25",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Faulkner\\2014.02.25 R. Partial Neph.rtf",
+      "segment_count": 662
+    },
+    "doc_90": {
+      "id": "doc_90",
+      "name": "2014.03.17 R Radical Neph.rtf",
+      "guid": "956E87BE-75C2-4B15-8A99-3AC9FE57978A",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Faulkner\\2014.03.17 R Radical Neph.rtf",
+      "segment_count": 580
+    },
+    "doc_91": {
+      "id": "doc_91",
+      "name": "2014.03.25 Process Notes.rtf",
+      "guid": "91EDB7F5-EDC3-4B43-BC8E-AFDFF0EC4CB2",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Faulkner\\2014.03.25 Process Notes.rtf",
+      "segment_count": 6
+    },
+    "doc_92": {
+      "id": "doc_92",
+      "name": "2014.03.25 R Nephrectomy.rtf",
+      "guid": "0FF4686B-C584-422C-9BE8-4CA750018412",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Faulkner\\2014.03.25 R Nephrectomy.rtf",
+      "segment_count": 469
+    },
+    "doc_93": {
+      "id": "doc_93",
+      "name": "2014.03.25 R Prostate.rtf",
+      "guid": "B38817D8-A878-481A-8C0C-68FF4276406A",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Faulkner\\2014.03.25 R Prostate.rtf",
+      "segment_count": 839
+    },
+    "doc_94": {
+      "id": "doc_94",
+      "name": "2014.05.12 R Prostate 2.rtf",
+      "guid": "4F696D11-24C1-4946-8360-97B513F7AC47",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Faulkner\\2014.05.12 R Prostate 2.rtf",
+      "segment_count": 783
+    },
+    "doc_95": {
+      "id": "doc_95",
+      "name": "2014.05.12 R Prostate.rtf",
+      "guid": "CBDF6892-40DD-49CB-9E90-68C7DC45E979",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Faulkner\\2014.05.12 R Prostate.rtf",
+      "segment_count": 754
+    },
+    "doc_96": {
+      "id": "doc_96",
+      "name": "2013.08.28 Doug Dahl MGH.docx",
+      "guid": "F1239362-A8AF-4B6E-B259-79AD8344E9DC",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2013.08.28 Doug Dahl MGH.docx",
+      "segment_count": 4
+    },
+    "doc_97": {
+      "id": "doc_97",
+      "name": "2013.12.16 MGH.docx",
+      "guid": "751F3E0E-F053-41AE-B5DB-26DD037BCC1B",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2013.12.16 MGH.docx",
+      "segment_count": 17
+    },
+    "doc_98": {
+      "id": "doc_98",
+      "name": "2014.02.11 Field Notes.rtf",
+      "guid": "832A616A-11D7-4120-B9F9-90EE15D9A323",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.02.11 Field Notes.rtf",
+      "segment_count": 7
+    },
+    "doc_99": {
+      "id": "doc_99",
+      "name": "2014.02.11 Rad Prost Lap 2.rtf",
+      "guid": "76A3A247-01B9-4936-A1D3-EEE727877C63",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.02.11 Rad Prost Lap 2.rtf",
+      "segment_count": 397
+    },
+    "doc_100": {
+      "id": "doc_100",
+      "name": "2014.02.11 Rad Prost Lap.rtf",
+      "guid": "0E5047CD-3504-40A8-AF63-543F8BE78080",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.02.11 Rad Prost Lap.rtf",
+      "segment_count": 18
+    },
+    "doc_101": {
+      "id": "doc_101",
+      "name": "2014.02.12 Tabatabaei first meeting.rtf",
+      "guid": "826D877C-17B7-4E3D-862E-E1FDF8443DFC",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.02.12 Tabatabaei first meeting.rtf",
+      "segment_count": 15
+    },
+    "doc_102": {
+      "id": "doc_102",
+      "name": "2014.02.13 Olumi first meeting.rtf",
+      "guid": "CBBFD89F-5021-472E-81E5-5EB257AFA582",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.02.13 Olumi first meeting.rtf",
+      "segment_count": 3
+    },
+    "doc_103": {
+      "id": "doc_103",
+      "name": "2014.02.13 Wszolek first meeting.rtf",
+      "guid": "1E721FDD-A6F4-4ABC-9725-E2E5F72E0BE2",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.02.13 Wszolek first meeting.rtf",
+      "segment_count": 8
+    },
+    "doc_104": {
+      "id": "doc_104",
+      "name": "2014.02.14 R Prostate Tabatabaei.docx",
+      "guid": "CA110759-521B-48F6-985F-4AE81B9240D7",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.02.14 R Prostate Tabatabaei.docx",
+      "segment_count": 5
+    },
+    "doc_105": {
+      "id": "doc_105",
+      "name": "2014.02.14 R Prostate.rtf",
+      "guid": "6826B43F-F142-48F7-ADB6-21B5F5AC34DC",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.02.14 R Prostate.rtf",
+      "segment_count": 1412
+    },
+    "doc_106": {
+      "id": "doc_106",
+      "name": "2014.02.20 Robot Working Group.rtf",
+      "guid": "FECF0AB1-5069-418E-AD8D-1C28448202B9",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.02.20 Robot Working Group.rtf",
+      "segment_count": 8
+    },
+    "doc_107": {
+      "id": "doc_107",
+      "name": "2014.03.05 Colorect Process Notes.rtf",
+      "guid": "A8F09546-FABA-4A2D-94FD-93EB542A4195",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.03.05 Colorect Process Notes.rtf",
+      "segment_count": 15
+    },
+    "doc_108": {
+      "id": "doc_108",
+      "name": "2014.03.05 Colorect.rtf",
+      "guid": "6D7FC1D5-FE8C-49CF-9D41-84DB1C519DB3",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.03.05 Colorect.rtf",
+      "segment_count": 769
+    },
+    "doc_109": {
+      "id": "doc_109",
+      "name": "2014.03.11 R Prostate Process Notes.rtf",
+      "guid": "76A0DFDD-2753-4C21-8B2D-21457E1658A8",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.03.11 R Prostate Process Notes.rtf",
+      "segment_count": 13
+    },
+    "doc_110": {
+      "id": "doc_110",
+      "name": "2014.03.11 R Prostate.rtf",
+      "guid": "731C5AB6-5CD6-4B0A-865B-BB5671257693",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.03.11 R Prostate.rtf",
+      "segment_count": 1688
+    },
+    "doc_111": {
+      "id": "doc_111",
+      "name": "2014.03.13 R multiple myomectomy.rtf",
+      "guid": "FAD854F8-55FB-4F99-ABC8-DBDBBB24CDFF",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.03.13 R multiple myomectomy.rtf",
+      "segment_count": 991
+    },
+    "doc_112": {
+      "id": "doc_112",
+      "name": "2014.03.20 L Hysterectomy.rtf",
+      "guid": "794A05B7-8ABD-4F77-91A6-E67EF5F819F0",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.03.20 L Hysterectomy.rtf",
+      "segment_count": 640
+    },
+    "doc_113": {
+      "id": "doc_113",
+      "name": "2014.03.20 Robot Working Group.rtf",
+      "guid": "C6428101-46BA-4E2C-9E88-D88FB910DF9A",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.03.20 Robot Working Group.rtf",
+      "segment_count": 31
+    },
+    "doc_114": {
+      "id": "doc_114",
+      "name": "2014.04.08 Field Notes.rtf",
+      "guid": "4E6DCCDC-A8E0-4B75-8DBE-D48F09B36F89",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\MGH\\2014.04.08 Field Notes.rtf",
+      "segment_count": 3
+    },
+    "doc_115": {
+      "id": "doc_115",
+      "name": "2014.01.27 Parkland canes Prostatectomy.rtf",
+      "guid": "4654E076-E134-4380-9E39-554DC45B1FC7",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Parkland\\2014.01.27 Parkland canes Prostatectomy.rtf",
+      "segment_count": 504
+    },
+    "doc_116": {
+      "id": "doc_116",
+      "name": "2014.01.27 Parkland Fieldnotes.rtf.docx",
+      "guid": "AD580A1E-3F72-428B-AF9C-F499DE9FF6F0",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Parkland\\2014.01.27 Parkland Fieldnotes.rtf.docx",
+      "segment_count": 7
+    },
+    "doc_117": {
+      "id": "doc_117",
+      "name": "2014.04.07 R Prostate.rtf",
+      "guid": "D56611EB-C10D-4075-98E8-415223EDB2CC",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Parkland\\2014.04.07 R Prostate.rtf",
+      "segment_count": 821
+    },
+    "doc_188": {
+      "id": "doc_188",
+      "name": "2015.03.04 RALP.rtf",
+      "guid": "F03BDC41-B886-49C4-9019-8D28E781FF74",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.03.04 RALP.rtf",
+      "segment_count": 973
+    },
+    "doc_189": {
+      "id": "doc_189",
+      "name": "2015.03.26 Partial procedure RBWA.docx",
+      "guid": "FC285544-A6C2-4EFB-884B-6DBC95626745",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.03.26 Partial procedure RBWA.docx",
+      "segment_count": 11
+    },
+    "doc_190": {
+      "id": "doc_190",
+      "name": "2015.06.03 RALP.rtf",
+      "guid": "165AAF72-74F5-4807-96C5-8536DBF23CBC",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.06.03 RALP.rtf",
+      "segment_count": 808
+    },
+    "doc_191": {
+      "id": "doc_191",
+      "name": "2015.06.05 Neph U.rtf",
+      "guid": "1C47038D-0B53-4BAF-B043-11D199FB46E7",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.06.05 Neph U.rtf",
+      "segment_count": 380
+    },
+    "doc_192": {
+      "id": "doc_192",
+      "name": "2015.06.05 RALP.rtf",
+      "guid": "824E51F7-7A84-44A9-BC87-31052D0AE86C",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.06.05 RALP.rtf",
+      "segment_count": 490
+    },
+    "doc_193": {
+      "id": "doc_193",
+      "name": "2015.06.10 Neph U.rtf",
+      "guid": "0E8EB88B-9D99-43EB-85C7-0DD78EED8F64",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.06.10 Neph U.rtf",
+      "segment_count": 561
+    },
+    "doc_194": {
+      "id": "doc_194",
+      "name": "2015.06.11 RALP 2.rtf",
+      "guid": "89D2E280-E04A-40F0-AA79-55F6AC83F5CB",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.06.11 RALP 2.rtf",
+      "segment_count": 21
+    },
+    "doc_195": {
+      "id": "doc_195",
+      "name": "2015.06.11 RALP.rtf",
+      "guid": "FF26FA4C-6684-40FE-8CD2-989DAD6A1069",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.06.11 RALP.rtf",
+      "segment_count": 164
+    },
+    "doc_196": {
+      "id": "doc_196",
+      "name": "2015.06.17 RALP.rtf",
+      "guid": "C7B41E15-20BE-4210-90A3-4C3CCE88E7E2",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.06.17 RALP.rtf",
+      "segment_count": 545
+    },
+    "doc_197": {
+      "id": "doc_197",
+      "name": "2015.07.01 R Pyleoplasty.rtf",
+      "guid": "852C321A-BD46-4EAE-BDA0-071106952AF8",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.07.01 R Pyleoplasty.rtf",
+      "segment_count": 380
+    },
+    "doc_198": {
+      "id": "doc_198",
+      "name": "2015.07.22 RALP.rtf",
+      "guid": "7DBB0443-CFD6-4775-8EB9-EF597E550045",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.07.22 RALP.rtf",
+      "segment_count": 604
+    },
+    "doc_199": {
+      "id": "doc_199",
+      "name": "2015.07.15 RALP.rtf",
+      "guid": "7BA094DD-DA60-4500-AA51-A428B5F9CA3D",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Field Notes\\Lahey\\2015.07.15 RALP.rtf",
+      "segment_count": 471
+    },
+    "doc_200": {
+      "id": "doc_200",
+      "name": "2013.07.11 D Nurse Excerpts.rtf",
+      "guid": "6124D3FC-4E7D-466C-9A27-086D87214804",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\2013.07.11 D Nurse Excerpts.rtf",
+      "segment_count": 23
+    },
+    "doc_201": {
+      "id": "doc_201",
+      "name": "2013.07.11 Danielle Circulating Nurse.docx",
+      "guid": "1F4C4151-1462-4869-9D37-68C122302CD6",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\2013.07.11 Danielle Circulating Nurse.docx",
+      "segment_count": 4
+    },
+    "doc_202": {
+      "id": "doc_202",
+      "name": "2013.08.22 Moinzadeh Interview.rtf",
+      "guid": "BE4CAE4A-9316-4498-832A-174AFE5D5A24",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\2013.08.22 Moinzadeh Interview.rtf",
+      "segment_count": 28
+    },
+    "doc_203": {
+      "id": "doc_203",
+      "name": "2014.02.26 J Hall Colorectal.docx",
+      "guid": "440755E3-CEEF-436F-93A4-65BF00630AD9",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\2014.02.26 J Hall Colorectal.docx",
+      "segment_count": 3
+    },
+    "doc_204": {
+      "id": "doc_204",
+      "name": "2014.02.26 J Hall Colorectal.rtf",
+      "guid": "098B86CD-87D9-4A19-9F46-74B4544E4932",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\2014.02.26 J Hall Colorectal.rtf",
+      "segment_count": 5
+    },
+    "doc_205": {
+      "id": "doc_205",
+      "name": "2015.03.11 Libertino.rtf",
+      "guid": "1AC2D401-2F38-4747-87AF-2BE1F80D7E88",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\2015.03.11 Libertino.rtf",
+      "segment_count": 14
+    },
+    "doc_206": {
+      "id": "doc_206",
+      "name": "2015.03.19 Canes Superstar Excerpts.rtf",
+      "guid": "F5CDB37E-361D-4826-B133-9BE918632B7A",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\2015.03.19 Canes Superstar Excerpts.rtf",
+      "segment_count": 19
+    },
+    "doc_207": {
+      "id": "doc_207",
+      "name": "2015.04.06 Demers.rtf",
+      "guid": "74E93CCB-6D3E-4974-BC76-209C0D283971",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\2015.04.06 Demers.rtf",
+      "segment_count": 8
+    },
+    "doc_208": {
+      "id": "doc_208",
+      "name": "2015.06.10 Renee excerpts.rtf",
+      "guid": "F1D5F108-6F82-4102-BC34-8435B152B6BD",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\2015.06.10 Renee excerpts.rtf",
+      "segment_count": 2
+    },
+    "doc_209": {
+      "id": "doc_209",
+      "name": "2015.06.11 Garrity excerpts.rtf",
+      "guid": "F505C0C1-C4D4-461E-9936-354395EB8819",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\2015.06.11 Garrity excerpts.rtf",
+      "segment_count": 10
+    },
+    "doc_210": {
+      "id": "doc_210",
+      "name": "Canes 2015.03.10.rtf",
+      "guid": "306C6968-E950-4EFF-8050-BC294E951E19",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Canes 2015.03.10.rtf",
+      "segment_count": 4
+    },
+    "doc_211": {
+      "id": "doc_211",
+      "name": "Canes Conversion Interview Excerpts.rtf",
+      "guid": "988019FF-C395-410F-8B36-D57E34055A32",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Canes Conversion Interview Excerpts.rtf",
+      "segment_count": 3
+    },
+    "doc_212": {
+      "id": "doc_212",
+      "name": "Danielle excerpts March 2015.rtf",
+      "guid": "1977CB95-DFEE-4816-AE99-40991E92A61D",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Danielle excerpts March 2015.rtf",
+      "segment_count": 7
+    },
+    "doc_213": {
+      "id": "doc_213",
+      "name": "Elizabeth Interview Transcript Excerpts.rtf",
+      "guid": "DABF103F-5230-4947-84DE-FE987B59F8C1",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Elizabeth Interview Transcript Excerpts.rtf",
+      "segment_count": 3
+    },
+    "doc_214": {
+      "id": "doc_214",
+      "name": "Jane Nurse Transcript Excerpts.rtf",
+      "guid": "8B0F5C4A-8552-44AB-AC07-D4C50D0CCF67",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Jane Nurse Transcript Excerpts.rtf",
+      "segment_count": 14
+    },
+    "doc_215": {
+      "id": "doc_215",
+      "name": "Jane Old-New Excerpts.rtf",
+      "guid": "D2F3602B-02FC-4BE9-8309-9BC788732F83",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Jane Old-New Excerpts.rtf",
+      "segment_count": 2
+    },
+    "doc_216": {
+      "id": "doc_216",
+      "name": "Jason Hall Transcript Excerpts.rtf",
+      "guid": "303C5AF2-9D25-4772-8E95-39FE9FC9577C",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Jason Hall Transcript Excerpts.rtf",
+      "segment_count": 7
+    },
+    "doc_217": {
+      "id": "doc_217",
+      "name": "Libertino excerpts.rtf",
+      "guid": "7C53921F-79FD-48A4-9524-C9F4FAEC7971",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Libertino excerpts.rtf",
+      "segment_count": 9
+    },
+    "doc_218": {
+      "id": "doc_218",
+      "name": "Moinzadeh Excerpt1.rtf",
+      "guid": "BCEA3502-28C0-421B-BE4D-5FFFEB44BA3F",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Moinzadeh Excerpt1.rtf",
+      "segment_count": 7
+    },
+    "doc_219": {
+      "id": "doc_219",
+      "name": "Moinzadeh Excerpts.rtf",
+      "guid": "0D8E195C-374C-4CA1-B84F-1ADD25582E06",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Moinzadeh Excerpts.rtf",
+      "segment_count": 6
+    },
+    "doc_220": {
+      "id": "doc_220",
+      "name": "Mourtzinos Transcript Excerpts.rtf",
+      "guid": "C47731EA-3BAB-4FDB-A528-980B1F514C75",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Mourtzinos Transcript Excerpts.rtf",
+      "segment_count": 10
+    },
+    "doc_221": {
+      "id": "doc_221",
+      "name": "Renee Interview Transcript Excerpts.rtf",
+      "guid": "835B9336-B541-47BE-9EAC-B4BAD5814515",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Renee Interview Transcript Excerpts.rtf",
+      "segment_count": 6
+    },
+    "doc_222": {
+      "id": "doc_222",
+      "name": "Sally Old-New Excerpts.rtf",
+      "guid": "AF6716B4-3F35-4AD8-BED3-C5A92C8BE303",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Sally Old-New Excerpts.rtf",
+      "segment_count": 1
+    },
+    "doc_223": {
+      "id": "doc_223",
+      "name": "Sorcini excerpts.rtf",
+      "guid": "C82254C1-35AD-44FA-8B15-864C4DEFCE59",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Sorcini excerpts.rtf",
+      "segment_count": 8
+    },
+    "doc_224": {
+      "id": "doc_224",
+      "name": "Violet Exerpts.rtf",
+      "guid": "46388C1D-1767-4C58-9BA2-34ACFC33D5B2",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Violet Exerpts.rtf",
+      "segment_count": 12
+    },
+    "doc_225": {
+      "id": "doc_225",
+      "name": "Wright Excerpts.rtf",
+      "guid": "B0F56CCC-1A8E-49E7-AF46-146957642F0A",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Wright Excerpts.rtf",
+      "segment_count": 14
+    },
+    "doc_226": {
+      "id": "doc_226",
+      "name": "Juan.rtf",
+      "guid": "C6B76542-9F17-40F5-9F1F-F59BDCB392B0",
+      "path": "C:\\Users\\mbeane\\Google Drive\\Dissertation\\Data\\Interviews\\Lahey\\Juan.rtf",
+      "segment_count": 2
+    }
+  },
+  "quotations": [
+    {
+      "id": "q_3_1",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 50,
+      "start_offset": 11,
+      "end_segment": 50,
+      "end_offset": 28,
+      "text": "Lights gone green",
+      "codes": [
+        "Spotlighting"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_2",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 50,
+      "start_offset": 283,
+      "end_segment": 50,
+      "end_offset": 544,
+      "text": "Looks like an incisiton is eing made, . How amazingly imprecise this whole thing is \u2013 lots of jerking around. Gtying to get a grey extension thing into a tiny hole. , has missed six or seven times. , got it in, it loks like. Can\u2019t be seen what\u2019 he\u2019s doing now.",
+      "codes": [
+        "Creating errors"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_3",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 58,
+      "start_offset": 256,
+      "end_segment": 58,
+      "end_offset": 268,
+      "text": "\u201clight off.\u201d",
+      "codes": [
+        "Diffusing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_4",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 60,
+      "start_offset": 232,
+      "end_segment": 60,
+      "end_offset": 333,
+      "text": "Person A comes back in, having left, goes to glass walled closet, talking about what to get with [informant]",
+      "codes": [
+        "Planning",
+        "Props"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_5",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 64,
+      "start_offset": 42,
+      "end_segment": 64,
+      "end_offset": 51,
+      "text": "gowns out",
+      "codes": [
+        "Costume change"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_6",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 30,
+      "start_offset": 417,
+      "end_segment": 34,
+      "end_offset": 244,
+      "text": "Put arm things on the table, for arms to be placed on. Cushions on each. 7:55:55 AM, arms splayed out like nestea plunge. Talk to him before he went out was very minimal. \n7:56:44 AM [informant] takes bags from resifdent, says \u201chere, I\u2019ll show you what I dow tih that\u201d says \u201cyou know we\u2019re\u201d anesthesiologist says \u201cyeah, but just in case x, we\u2019ll\u201d. \nTalk about family, vacations, etec. [informant] brings rack of computers over nearer to patient, his legs are being putin, senior residents are putting up the legs into these things. Leg portions of bed come off, he\u2019s in birthing position, really.",
+      "codes": [
+        "Scene change"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_7",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 70,
+      "start_offset": 11,
+      "end_segment": 70,
+      "end_offset": 216,
+      "text": "Legs back on patients bed, removing stuff, putting patient\u2019s arms back in place, anesthesiologist back in the action, was otherwise blackberrying. Canes right in there moving patient, getting things ready.",
+      "codes": [
+        "Scene change"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_8",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 70,
+      "start_offset": 217,
+      "end_segment": 72,
+      "end_offset": 208,
+      "text": "Table right next to me is covered with fluids and paraphernalia from frirst prceudure. \n8:25:32 AM Moved patient back up the bed, so feet are now a foot from end. Everyone around bed. . Scrub cleaning up stuff of this table I referred to, bundling it back up, putting it in box meant for recelan.",
+      "codes": [
+        "Disposing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_9",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 72,
+      "start_offset": 209,
+      "end_segment": 76,
+      "end_offset": 248,
+      "text": "Draped patient\u2019s chest. \nLots of options here \u2013 junior resident picks up brace, then puts it back, deciding don\u2019t need it. 8:27:50 AM Move the body (amazing I used that term). Turned him on his side, right side. , right leg on pillows. Flexing bottom part of bed down, top bed down, so patient is in a c shape. \n8:31:31 AM Still positioning the body, right arm up on a rest, elevated, using egg crate foam to brace and cushion, towels, shaving part of belly. Taping patient down, anesthesiologist right in there, helping prep body, lots of tape, cusions, etc.",
+      "codes": [
+        "Scene change"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_10",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 80,
+      "start_offset": 198,
+      "end_segment": 80,
+      "end_offset": 253,
+      "text": "Canes, snealkes over by robot, careful not to touch it.",
+      "codes": [
+        "Zone of participation"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_11",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 136,
+      "start_offset": 11,
+      "end_segment": 136,
+      "end_offset": 108,
+      "text": "Stops in surgical field, brings two students and chief over to screen to compare work to CT scans",
+      "codes": [
+        "Checking archives",
+        "Pause",
+        "Spotlighting"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_12",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 150,
+      "start_offset": 202,
+      "end_segment": 150,
+      "end_offset": 567,
+      "text": "stops action, calls group together, goes to whiteoard. Junior resident there too. He draws a figurative drawing of kidney, urethra, other tubes, , IVC, ureter, GV, RV, we\u2019re going to be entering right here, , we\u2019re going here, and we lift up and rip this right up, the strategy on the right is totally different than on the left. On the right you can see its\u2019 weak.",
+      "codes": [
+        "Pause",
+        "Planning",
+        "Representing",
+        "Spotlighting",
+        "Teaching"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_13",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 152,
+      "start_offset": 10,
+      "end_segment": 154,
+      "end_offset": 358,
+      "text": "keep nudghing this up with eh , and my nads become pointers, nudge this up with your right hand, just get it up, now left hand comes under, and up again, take your head up, lkike this (does this with hands, shows that), just keep , just keep your instruments close. Just pause for a second. Pull your left hand up, this (his , left hand, put it up like you\u2019re doing something, minimize, left to right, only up and down. , if you swip left and right, don\u2019t do that, up and up and up and up. , you\u2019re about to cause bleeding. You\u2019re right abouve you. Ureter is righat above you, is that rigthr ight title, it better be,. , stop for a second. , kicked bkcin, he takes over, up, up all the way back to the side wall. , now chief is back in, controles, just give a little snip to crack that vessel, just crack the vessel, don\u2019t relax your left hand, your right hand\u2019s doing nothing, wipe first, wipe first, firm voice. , anow inch forward. \nWhat I mean is, marx, grab tissue and upull it twards ? no, what I mean is away from stuff you don;lt want to unjhure, way out, almost like a hook, there are vessels, ., , you got it, there it is, let me take over for a bit, , r: we ddon\u2019t\u2019 need to og in that far\u2019 c: no no we don\u2019t. , screen at top indicates which surgeon\u2019s consol is in command of the arms",
+      "codes": [
+        "Discrete control"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_14",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 138,
+      "start_offset": 0,
+      "end_segment": 138,
+      "end_offset": 216,
+      "text": "Chief, from his console, controls a cursor that goes onto the shared suriglcal field, so eh can point to things virtuall,y, saying \u201ccan you di this here, can do you d that there? Discussion about what they\u2019re seeing.",
+      "codes": [
+        "Digital participation",
+        "Resident"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_15",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 222,
+      "start_offset": 0,
+      "end_segment": 222,
+      "end_offset": 62,
+      "text": "C: suck over here, mostdly on the down side. Good. Okay, stop.",
+      "codes": [
+        "Direction",
+        "Public",
+        "Verbal"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_16",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 228,
+      "start_offset": 0,
+      "end_segment": 230,
+      "end_offset": 38,
+      "text": "C: can I have the scissor in the right hand? 9:56:55 AM Person A takes out hook, puts on scissor. \nC: I\u2019ll take the hook again 9:57:45 AM",
+      "codes": [
+        "Direction",
+        "Verbal"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_17",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 300,
+      "start_offset": 0,
+      "end_segment": 300,
+      "end_offset": 63,
+      "text": "C: I guess you\u2019ve got to ask yourself, is it worth the injury?",
+      "codes": [
+        "Efficiency",
+        "Safety",
+        "Tradeoff"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_18",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 452,
+      "start_offset": 0,
+      "end_segment": 454,
+      "end_offset": 18,
+      "text": "C: so these bulldogs are robotic bulldogs, have you seen these?\nR: only on youtube",
+      "codes": [
+        "YouTube"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_19",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 610,
+      "start_offset": 0,
+      "end_segment": 610,
+      "end_offset": 117,
+      "text": "K using one monitor for herself, m and jr looking at another monitor over patient\u2019s head, third monitor going unused,",
+      "codes": [
+        "Screen suck"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_20",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 478,
+      "start_offset": 200,
+      "end_segment": 482,
+      "end_offset": 21,
+      "text": "If anyone sees tumor and thinks I\u2019m cutting into it, please speak up\nM: yep\nC: I\u2019m not infallible",
+      "codes": [
+        "Inviting critique of focal work",
+        "Spotlighting"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_21",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 262,
+      "start_offset": 192,
+      "end_segment": 262,
+      "end_offset": 406,
+      "text": "gets up to give instruction to jr. Here\u2019s the trick, showing him how to stay in the field. \u201cif you hold it lightly and you run into a robotic arm, then you\u2019ll know. If you give it a death grip then you won\u2019t know.\u201d",
+      "codes": [
+        "Teaching"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_3_22",
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "start_segment": 140,
+      "start_offset": 293,
+      "end_segment": 140,
+      "end_offset": 412,
+      "text": "\u201cDDon\u2019t\u2019 chase the blood, don\u2019t chase that\u201d to junior resident. You have to touch the tussue, scrape it. (stern voice)",
+      "codes": [
+        "Direction",
+        "Public",
+        "Teaching"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_21_1",
+      "document_id": "doc_21",
+      "document_name": "2014.03.14 L Nephrectomy.rtf",
+      "start_segment": 716,
+      "start_offset": 94,
+      "end_segment": 716,
+      "end_offset": 433,
+      "text": "Don\u2019t tell anyone I said this, but we all do it \u2013 we all enter the data you\u2019re only supposed to enter at the end fo the case, because you only have 30 minutes to turn the room, and he wants to get out of here, and the cleaners are going to take 20 of those minutes, so we all prepopulate these fields and then sign off on them at the end.",
+      "codes": [
+        "Temporal shifting"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_117_1",
+      "document_id": "doc_117",
+      "document_name": "2014.04.07 R Prostate.rtf",
+      "start_segment": 102,
+      "start_offset": 0,
+      "end_segment": 104,
+      "end_offset": 59,
+      "text": "B goes over to wall, grabs a robe, begins  to robe himself up, then Anesth asks him to put on blood pressure measurement thing on finger\nB: oh, let\u2019s get this shit done! I want to get out of here.",
+      "codes": [
+        "Rushing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_190_1",
+      "document_id": "doc_190",
+      "document_name": "2015.06.03 RALP.rtf",
+      "start_segment": 1144,
+      "start_offset": 0,
+      "end_segment": 1154,
+      "end_offset": 225,
+      "text": "C: when I was a fellow, they were doing their cases in Mexico, everyone said no, and they ended up with me. They said can you go to Mexico and I said sure. Did I tell you this?\nN: no\nC: I tell this story every year. There were 3 surgeons doing 13 surgeries in 8 days, so I was there in the or teaching these surgeons, and there was one who had lap experience, and he needed only a little coaching, but the other two were open, and a couple things made it hard. So when we ran out of instruments, we ran out of instruments, that was it. And I tried the American thing where you complain and you get what you want, and they were like no no no, so we were having to manually override the system so we could use expired instruments, we didn\u2019t have rv situates and we had to use sh needles, out of that week and out of necessity, I had to get people out of cutting the prostate in half, cutting the gastric, all but the most major snafus\u2026 , upper gastric injury, it was a crash course of how to get people out of trouble, and so for each step I had to take them out of the console and walk them through it verbally, it was like the wild west, so that week I learned SO much.\nN: I can imagine\nC: so first I figured I could get people out of trouble, and I was explaining how to handle things. So that week was a crash course, and the best part of the end of the week, they called me into this room, and they handed me a paper bag full of cash, it wasn\u2019t a lot, but to me and I was able to buy furniture for my nursery, I had just finished fellowship. I only found out later that the only reason I got that job because nobody else wanted to go down. But apparently one of the more famous guys came down.\nWhat I learned from there, the instruments they matter, but it doesn\u2019t really matter that much, you can get the job done a lot of different ways, it\u2019s the strategy that matters, you just have to take a different approach. ***",
+      "codes": [
+        "Cheating to Learn"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_193_1",
+      "document_id": "doc_193",
+      "document_name": "2015.06.10 Neph U.rtf",
+      "start_segment": 552,
+      "start_offset": 0,
+      "end_segment": 556,
+      "end_offset": 100,
+      "text": "M: it\u2019s kindof hard to see on this robot, so I\u2019m backing out, you see how washed out it gets when I zoom in (screen goes white)\nMed student: yeah\nM: and poor matt bean, he can\u2019t quantify that for research purposes, he just has to take my word.***",
+      "codes": [
+        "Giving ground",
+        "Inferior capability"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_195_1",
+      "document_id": "doc_195",
+      "document_name": "2015.06.11 RALP.rtf",
+      "start_segment": 30,
+      "start_offset": 0,
+      "end_segment": 30,
+      "end_offset": 387,
+      "text": "K: We don\u2019t much get a third person anymore. And when they see me in here, they send them to the other room. Honestly, you don\u2019t need a third person in the other room because it\u2019s so much fastewr. The calibration is easier, the adapter ia lready attached, white balance is easier, this stupid ass monitor isn\u2019t there, there\u2019s less to do. That third person could easily cover both rooms.",
+      "codes": [
+        "Staffing patterns - slack away from 21"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_195_2",
+      "document_id": "doc_195",
+      "document_name": "2015.06.11 RALP.rtf",
+      "start_segment": 50,
+      "start_offset": 0,
+      "end_segment": 56,
+      "end_offset": 79,
+      "text": "S literally running over to the tower to get the cord to hook it up with K, who had the camera ready. \n7:20:48 AM\nS rushing, moving quickly\nS: if I hear anything about expired insturments today, I\u2019m going to be bullshit",
+      "codes": [
+        "Frustration"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_1",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 4,
+      "start_offset": 11,
+      "end_segment": 4,
+      "end_offset": 292,
+      "text": "R is telling K her setup is on the wrong side of the room, going to be left side up, models with body, V says that J (no longer in room) told them to do it the other way, V had gone to get R because they had questions, R leaves, says call me if you need me. She is in OR X all day.",
+      "codes": [
+        "Wrong robot setup"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_2",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 6,
+      "start_offset": 0,
+      "end_segment": 6,
+      "end_offset": 96,
+      "text": "G: Cause S does all this shit when she\u2019s here, but when she\u2019s not here, everything goes to fuck.",
+      "codes": [
+        "Newbie minding"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_3",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 8,
+      "start_offset": 0,
+      "end_segment": 8,
+      "end_offset": 109,
+      "text": "V: and when we have someone in here [circulating] like me, then we don\u2019t know what it [the positioning] is***",
+      "codes": [
+        "Newbie"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_4",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 10,
+      "start_offset": 0,
+      "end_segment": 10,
+      "end_offset": 47,
+      "text": "G: Cause usually its in 17 and it\u2019s much easier",
+      "codes": [
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_5",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 12,
+      "start_offset": 0,
+      "end_segment": 12,
+      "end_offset": 68,
+      "text": "G: he needs to put it on the schedule, what side it is, you know?***",
+      "codes": [
+        "Recording"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_6",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 22,
+      "start_offset": 0,
+      "end_segment": 22,
+      "end_offset": 198,
+      "text": "V: K, I look at my assignment, the day before, I know I shouldn\u2019t, then I say oh, this is going to be a good day, I\u2019m going to get down there by 8, get everything picked and set up, and\u2026 hmm [fail].",
+      "codes": [
+        "General hassle",
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_7",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 24,
+      "start_offset": 0,
+      "end_segment": 28,
+      "end_offset": 40,
+      "text": "V: you want us to set up the cysto table?\nG: yeah, that would help me a lot\nDude (third) helping to set up the table",
+      "codes": [
+        "Cross-role covering"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_8",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 34,
+      "start_offset": 0,
+      "end_segment": 42,
+      "end_offset": 10,
+      "text": "I asG: how did they end up with a third?\nV: oh, I called.\nMe: and that worked?\nV laughs: it doesn\u2019t all the time!\nG: really.",
+      "codes": [
+        "Staffing patterns - slack away from 21"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_9",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 46,
+      "start_offset": 0,
+      "end_segment": 62,
+      "end_offset": 23,
+      "text": "V: it says for the left the robot is by the pyxis machine. \nG: I don\u2019t know\nV: but R just corroborated what you said, that we keep it here, and move it in by the bed\nV: she needs to clarify\nG: yes she does. If we move the bed it\u2019s one thing. If we don\u2019t, it\u2019s another.\nV reading off instructions: no, but you turn the\u2026 that\u2019s what I can\u2019t figure out\nG: I can\u2019t either\nV: it doesn\u2019t make sense to keep the vision set over there (pointing se)\nG: I know. I don\u2019t know",
+      "codes": [
+        "second-guessing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_10",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 82,
+      "start_offset": 0,
+      "end_segment": 92,
+      "end_offset": 137,
+      "text": "G: when you get a second, V, can you get me a monitor drape for the robot?\nV: sure, is that down by 17?\nG: no, should be out in the hall\nG: wait, where\u2019d he go? (dude out)\n8:48:04 AM\nG: can you get lead for us? (I had to go out and help the dude find the monitor drape on the cart \u2013 it was large, he was expecting small)",
+      "codes": [
+        "Resupply"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_11",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 110,
+      "start_offset": 0,
+      "end_segment": 112,
+      "end_offset": 98,
+      "text": "G: crap (struggling with tv drape). Fucking annoyed (as she trieds to get it on). Oh my \nGOD\n! I just want this fucking robot to die. Can\u2019t make it any harder. No fucking love for this shit.",
+      "codes": [
+        "Awkward setup",
+        "Frustration",
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_12",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 116,
+      "start_offset": 0,
+      "end_segment": 116,
+      "end_offset": 85,
+      "text": "G: can you make this any more fucking difficult (working hard physically to drape tv)",
+      "codes": [
+        "Frustration",
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_13",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 128,
+      "start_offset": 0,
+      "end_segment": 128,
+      "end_offset": 43,
+      "text": "G: I have like, no time (draping third arm)",
+      "codes": [
+        "Rushing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_14",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 132,
+      "start_offset": 0,
+      "end_segment": 132,
+      "end_offset": 65,
+      "text": "G: I don\u2019t fucking care. Fucking care. (as she\u2019s doing third arm)",
+      "codes": [
+        "Frustration",
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_15",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 134,
+      "start_offset": 0,
+      "end_segment": 146,
+      "end_offset": 42,
+      "text": "G: how come everyone gets a third person except for me? Just want to know\nDude: cause you\u2019re good, that\u2019s why\nG: fucking bullshit. Cause we\u2019re tripled, on our work\n8:53:27 AM\nG: you don\u2019t need a third person in 17, you need a third person in this room, cause you have to move everything around, this is the sihtty old one that has 50 extra steps\nDude: yeah\nG: but I never get  a fucking third person",
+      "codes": [
+        "Frustration",
+        "Processing",
+        "QUOTE",
+        "Staffing patterns - skill to OR 21",
+        "Staffing patterns - slack away from 21"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_16",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 154,
+      "start_offset": 0,
+      "end_segment": 158,
+      "end_offset": 39,
+      "text": "Dude: I wish I could help you, but I\u2019ve never done robotic cases\nG: you know what, let\u2019s try this\nG exhaling hard as she bunches the arms",
+      "codes": [
+        "Rushing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_17",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 184,
+      "start_offset": 0,
+      "end_segment": 192,
+      "end_offset": 156,
+      "text": "G: I hope I don\u2019t punch a medical student today\nV: oh, which ones do we have\nG: we had like three yesterday\nV: oh, you punched \nG: when they show up early, and sit there, and watch you work. Don\u2019t fucking do that. And don\u2019t ask me for a jacket, either... \"I'm cold!\" I\u2019m like, really?",
+      "codes": [
+        "Newbie"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_18",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 206,
+      "start_offset": 0,
+      "end_segment": 208,
+      "end_offset": 86,
+      "text": "G finishing the last arm\nG: \u2026the fuck\u2026 (as she\u2019s pinching drape in on cannula mount, shaking her hands shaking)",
+      "codes": [
+        "Frustration",
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_19",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 220,
+      "start_offset": 0,
+      "end_segment": 226,
+      "end_offset": 48,
+      "text": "Dude: that area\u2019s contaminated back there, don\u2019t touch it\nG: where \nDude explains that drape hit arm when it was undraped\nG: we don\u2019t really go back there, so that\u2019s fine",
+      "codes": [
+        "Newbie minding"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_20",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 238,
+      "start_offset": 0,
+      "end_segment": 238,
+      "end_offset": 86,
+      "text": "G: so you\u2019re going to have to take that, yeah (guiding dude through draping of camera)",
+      "codes": [
+        "Newbie minding"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_21",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 244,
+      "start_offset": 0,
+      "end_segment": 246,
+      "end_offset": 10,
+      "text": "G: this old one, it is you have to attach the light cords here, and not like the new one. It makes zero sense. Someone has got to deal with this.\nDude: okay",
+      "codes": [
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_22",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 236,
+      "start_offset": 0,
+      "end_segment": 264,
+      "end_offset": 35,
+      "text": "G: that table is sterile behind you\nG: so you\u2019re going to have to take that, yeah (guiding dude through draping of camera)\n9:00:21 AM\nG finished \nG: this old one, it is you have to attach the light cords here, and not like the new one. It makes zero sense. Someone has got to deal with this.\nDude: okay\nG: so this one plugs into that box there (points)\nG: so that button to the right is not on yet, and needs to be pushed, good, then connect that cord\nDude: and then what next?\nG: can you turn that screen towards me? And all you have to do is press and hold that white balance button. So put your finger right there, yep. That one, hold that down. Okay, perfect. \nD gets up\nResidents: K \nG runs over to far side of room, gets drape for monitor\nG: so then I\u2019ll just calibrate it really quick and I\u2019ll have you turn off the light after (requires a drape to calibrate)***\nG: the other one it self calibrates",
+      "codes": [
+        "Newbie minding"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_23",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 260,
+      "start_offset": 0,
+      "end_segment": 260,
+      "end_offset": 55,
+      "text": "G runs over to far side of room, gets drape for monitor",
+      "codes": [
+        "Awkward setup"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_24",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 262,
+      "start_offset": 0,
+      "end_segment": 262,
+      "end_offset": 124,
+      "text": "G: so then I\u2019ll just calibrate it really quick and I\u2019ll have you turn off the light after (requires a drape to calibrate)***",
+      "codes": [
+        "Awkward setup"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_25",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 264,
+      "start_offset": 0,
+      "end_segment": 264,
+      "end_offset": 35,
+      "text": "G: the other one it self calibrates",
+      "codes": [
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_26",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 326,
+      "start_offset": 0,
+      "end_segment": 326,
+      "end_offset": 83,
+      "text": "G rips out, exhaling, shoves robe in trash, walks out without a word 9:14:31 AM ***",
+      "codes": [
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_27",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 356,
+      "start_offset": 0,
+      "end_segment": 356,
+      "end_offset": 136,
+      "text": "As group is preparing for cysto, G walks by robot, has to duck carefully, breathes out heavily as she passes by me (in a frustrated way)",
+      "codes": [
+        "Awkward setup",
+        "Frustration",
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_197_28",
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "start_segment": 613,
+      "start_offset": 0,
+      "end_segment": 615,
+      "end_offset": 1063,
+      "text": "C: since it\u2019s July 1\nst\n, there are a couple of things that I normally won\u2019t say. There\u2019s a strong tendency for people to think, they have to know where the anatomy is at all times. That forces people to prematurely identify where things are, and when contradictory evidence comes out later on, they are too proud to change their minds. So it\u2019s important to say \u201cI think this is X, but I\u2019m not sure, we\u2019ll see.\u201d But you should make guesses along the way, to help yourself along, but to yourself, you should be making guesses to yourself, if you\u2019re wrong later, you can change. But if you just watch this like it\u2019s a movie, but then the process is yup, yup, uh huh, yup. And then when it\u2019s time for you to do the work, you missed, you missed the cases. Think to yourself, if it were me, I would go here next, and if I do something different, you ask yourself okay, why? That\u2019s what active watching is, okay? So when you finally get called out of the dugout, you\u2019ve done the hard work already, and you just have to learn how to use the robot, which is not the hard part to learn. Okay? ***",
+      "codes": [
+        "Cheating to Learn"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_1",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 6,
+      "start_offset": 0,
+      "end_segment": 6,
+      "end_offset": 327,
+      "text": "K: J came in here this morning, draped this thing (points to robot), then he goes over to room 17, so it\u2019s been a very smooth morning so far. D sent him here, then back in to 17 as a third. As a third you should be able to cover both. Especially if you have experience. But he comes in here, because it\u2019s harder, obviously. ***",
+      "codes": [
+        "Extra setup",
+        "OR 21/22"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_2",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 20,
+      "start_offset": 0,
+      "end_segment": 20,
+      "end_offset": 168,
+      "text": "S: so when I train new staff, I train them on the Si, because that\u2019s the prevalent one, then if they come in here I have to work extra hard to get them up to speed. ***",
+      "codes": [
+        "Newbie minding"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_3",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 38,
+      "start_offset": 0,
+      "end_segment": 38,
+      "end_offset": 81,
+      "text": "Nurse comes in, looking for robotic stuff, talking with G about it, heads out ***",
+      "codes": [
+        "Fishing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_4",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 258,
+      "start_offset": 0,
+      "end_segment": 258,
+      "end_offset": 88,
+      "text": "S: K, when you switch to the 30 degree lens, I\u2019ll come over and do the light for you ***",
+      "codes": [
+        "Newbie minding"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_5",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 278,
+      "start_offset": 0,
+      "end_segment": 296,
+      "end_offset": 59,
+      "text": "G: oh, he forgot it?\nM: yeah\nS: where\u2019s some foam? sOSme extra pink foam? (A gives, S lays on chair next to console)\nM: looks like the light intensity is up here, you want to check it\nS: want me to take it down a bit? I did just give a new bulb..\nM ripped out, over to e side, looking at K\u2019s setup\nM gets big blue foam, walks over to console, wraps it around head, rips it off, K ri[ps out, M gets tape from boom from S, wraps foam on head, tapes it, K gets notes, oges over near M, M taping off head, H over near M too\n9:52:03 AM\nM taping wheel\nS: so you are the one who tapes the wheels on these chairs!",
+      "codes": [
+        "Coaxing",
+        "Jerry-rigging"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_6",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 298,
+      "start_offset": 0,
+      "end_segment": 304,
+      "end_offset": 7,
+      "text": "M: did I ever tell you the story about how this robot sucks?\nG: huh\nM: about how this robot sucks?\nG: yeah",
+      "codes": [
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_7",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 340,
+      "start_offset": 0,
+      "end_segment": 340,
+      "end_offset": 65,
+      "text": "M: piece of shit. [pause] ***What\u2019s the pneumo doing now, big guy",
+      "codes": [
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_8",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 346,
+      "start_offset": 0,
+      "end_segment": 346,
+      "end_offset": 22,
+      "text": "M: image is so bad.***",
+      "codes": [
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_9",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 400,
+      "start_offset": 0,
+      "end_segment": 400,
+      "end_offset": 462,
+      "text": "M: See, C, I always have to wait with this, because I don\u2019t have the electricity on this hand and when I have the scissors going and it locks out my bipolar. It\u2019s a safety feature on this robot, but not on the one in 17, and I use that to my advantage, so I literally have to sit here and wait for the bipolar to work (as he does that), but that slows me down by 10 minutes. It\u2019s very small but iat all ads up on efficiency, plus the fac that I can\u2019t see as well",
+      "codes": [
+        "Awkward to use",
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_10",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 726,
+      "start_offset": 0,
+      "end_segment": 738,
+      "end_offset": 47,
+      "text": "M: allright, G, have you don that?\nG: I put 10 in, couldn\u2019t get in any more\nM: shit robot***\n10:57:27 AM\nM: it\u2019s all I have to operate on this ridiculousness, in the corner of my vision, so I can see what I\u2019m doing. Otherwise, if I put it in the center of my vison, it lights up, see (shows, surgical site glares). [he\u2019s operating off to his lower left]\nC: yeah\nM: but do the hospital administrators care?***",
+      "codes": [
+        "Awkward to use",
+        "Inferior capability",
+        "Processing"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_11",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 768,
+      "start_offset": 0,
+      "end_segment": 774,
+      "end_offset": 166,
+      "text": "M: let\u2019s take a break and put in a 30 degree down please?\nS over to tower, switches \nS: don\u2019t do that (to K, relative noob). Wait for G. \nThen G starts guiding K through hookup, S over to tower, waits to see connection made, turns light back on (had turned it off) and readjusts light back down to 40.***",
+      "codes": [
+        "Awkward to use",
+        "Newbie",
+        "Newbie minding"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_12",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 958,
+      "start_offset": 0,
+      "end_segment": 960,
+      "end_offset": 18,
+      "text": "M: allright, let\u2019s switch back to the zero degree lens please\nS over to tower***",
+      "codes": [
+        "Awkward to use",
+        "Newbie",
+        "Newbie minding"
+      ],
+      "anonymized": true
+    },
+    {
+      "id": "q_198_13",
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "start_segment": 966,
+      "start_offset": 0,
+      "end_segment": 970,
+      "end_offset": 41,
+      "text": "M: can you clean it up, it\u2019s super dirty, super duper dirty. \n11:41:55 AM\nM: maybe this is that\u2026 oh, no it\u2019s not***",
+      "codes": [
+        "Bad supplies"
+      ],
+      "anonymized": true
+    }
+  ],
+  "stats": {
+    "total_codes": 66,
+    "total_documents": 156,
+    "documents_with_content": 155,
+    "total_quotations": 69,
+    "coded_quotations": 69,
+    "anonymization_applied": true,
+    "replacements_made": 8
+  }
+}

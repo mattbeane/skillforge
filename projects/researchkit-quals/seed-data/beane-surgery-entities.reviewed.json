@@ -1,0 +1,489 @@
+{
+  "source_file": "seed-data/beane-surgery-entities.json",
+  "review_complete": true,
+  "stats": {
+    "total_entities": 52,
+    "reviewed": 52,
+    "replaced": 6,
+    "kept": 44,
+    "false_positives": 2
+  },
+  "reviewed_entities": [
+    {
+      "original": "Dude",
+      "entity_type": "PERSON",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 4
+    },
+    {
+      "original": "Danielle",
+      "entity_type": "GPE",
+      "decision": "replace",
+      "replacement": "[informant]",
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "7:55:55 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "time date stamp",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "8:31:31 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "time date stamp",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "n\u2019t",
+      "entity_type": "GPE",
+      "decision": "false_positive",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "9:57:45 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "brazil",
+      "entity_type": "GPE",
+      "decision": "replace",
+      "replacement": "Mexico",
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "that week",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "7:20:48 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "today",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "8:48:04 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "8:53:27 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "9:00:21 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 2
+    },
+    {
+      "original": "Kate",
+      "entity_type": "PERSON",
+      "decision": "replace",
+      "replacement": "Person A",
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "7:56:44 AM Danielle",
+      "entity_type": "TIME",
+      "decision": "replace",
+      "replacement": "7:56:44 AM [informant]",
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "7:56:44 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "putin",
+      "entity_type": "PERSON",
+      "decision": "false_positive",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "8:25:32 AM Moved",
+      "entity_type": "TIME",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "8:25:32 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "8:27:50 AM Move",
+      "entity_type": "TIME",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "8:27:50 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "CT",
+      "entity_type": "ORG",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "IVC",
+      "entity_type": "ORG",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "GV",
+      "entity_type": "ORG",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "RV",
+      "entity_type": "GPE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "ddon\u2019t",
+      "entity_type": "GPE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "cursor",
+      "entity_type": "GPE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "9:56:55 AM Kate",
+      "entity_type": "TIME",
+      "decision": "replace",
+      "replacement": "9:56:55 AM [informant]",
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "9:56:55 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "30 minutes",
+      "entity_type": "TIME",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "20 of those minutes",
+      "entity_type": "TIME",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "Anesth",
+      "entity_type": "PERSON",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "every year",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "8 days",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "the end of the week",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "matt bean",
+      "entity_type": "PERSON",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "OR 2",
+      "entity_type": "FAC",
+      "decision": "replace",
+      "replacement": "OR X",
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "the day",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "9:14:31 AM ***",
+      "entity_type": "TIME",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "9:14:31 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "July 1",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "this morning",
+      "entity_type": "TIME",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "room 17",
+      "entity_type": "FAC",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "K\u2019s",
+      "entity_type": "ORG",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "9:52:03 AM\nM",
+      "entity_type": "TIME",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "9:52:03 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "10 minutes",
+      "entity_type": "TIME",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "10:57:27 AM\nM: it",
+      "entity_type": "TIME",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "k",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "10:57:27 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "hospital",
+      "entity_type": "ORG",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "11:41:55 AM\nM:",
+      "entity_type": "TIME",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    },
+    {
+      "original": "11:41:55 AM",
+      "entity_type": "DATE",
+      "decision": "keep",
+      "replacement": null,
+      "notes": "",
+      "confidence": "HIGH",
+      "count": 1
+    }
+  ],
+  "replacement_mapping": {
+    "Danielle": "[informant]",
+    "brazil": "Mexico",
+    "Kate": "Person A",
+    "7:56:44 AM Danielle": "7:56:44 AM [informant]",
+    "9:56:55 AM Kate": "9:56:55 AM [informant]",
+    "OR 2": "OR X"
+  }
+}
