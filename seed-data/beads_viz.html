@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beads Issues Visualization</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0d1117;
+            color: #c9d1d9;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+            color: #58a6ff;
+        }
+        .subtitle {
+            text-align: center;
+            color: #8b949e;
+            margin-bottom: 30px;
+        }
+        .dashboard {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        .card {
+            background: #161b22;
+            border: 1px solid #30363d;
+            border-radius: 8px;
+            padding: 20px;
+        }
+        .card h2 {
+            font-size: 14px;
+            color: #8b949e;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 15px;
+        }
+        .stat-big {
+            font-size: 48px;
+            font-weight: bold;
+            color: #58a6ff;
+        }
+        .stat-label {
+            color: #8b949e;
+            font-size: 14px;
+        }
+        .bar {
+            height: 24px;
+            border-radius: 4px;
+            margin: 4px 0;
+            display: flex;
+            align-items: center;
+            padding: 0 8px;
+            font-size: 12px;
+            color: #fff;
+            cursor: pointer;
+            transition: opacity 0.2s;
+        }
+        .bar:hover {
+            opacity: 0.8;
+        }
+        .bar-label {
+            flex: 1;
+        }
+        .bar-count {
+            font-weight: bold;
+        }
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            font-size: 12px;
+        }
+        .legend-dot {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+        #bubble-chart {
+            width: 100%;
+            height: 400px;
+        }
+        #timeline {
+            width: 100%;
+            height: 200px;
+        }
+        .issue-list {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .issue-item {
+            padding: 8px;
+            border-bottom: 1px solid #30363d;
+            font-size: 13px;
+        }
+        .issue-item:last-child {
+            border-bottom: none;
+        }
+        .issue-id {
+            color: #58a6ff;
+            font-weight: bold;
+        }
+        .issue-status {
+            display: inline-block;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 10px;
+            margin-left: 5px;
+        }
+        .issue-status.open {
+            background: #238636;
+            color: #fff;
+        }
+        .issue-status.closed {
+            background: #8957e5;
+            color: #fff;
+        }
+        .tag {
+            display: inline-block;
+            background: #30363d;
+            padding: 2px 6px;
+            border-radius: 10px;
+            font-size: 10px;
+            margin: 2px;
+        }
+        .full-width {
+            grid-column: 1 / -1;
+        }
+    </style>
+</head>
+<body>
+    <h1>🧵 Beads Issues Dashboard</h1>
+    <p class="subtitle">31 total issues • 1 open • 30 closed</p>
+
+    <div class="dashboard">
+        <!-- Summary Stats -->
+        <div class="card">
+            <h2>Status</h2>
+            <div style="display: flex; gap: 40px;">
+                <div>
+                    <div class="stat-big" style="color: #238636;">1</div>
+                    <div class="stat-label">Open</div>
+                </div>
+                <div>
+                    <div class="stat-big" style="color: #8957e5;">30</div>
+                    <div class="stat-label">Closed</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Priority Distribution -->
+        <div class="card">
+            <h2>By Priority</h2>
+            <div class="bar" style="background: #f85149; width: 100%;">
+                <span class="bar-label">P1 (Critical)</span>
+                <span class="bar-count">9</span>
+            </div>
+            <div class="bar" style="background: #a371f7; width: 100%;">
+                <span class="bar-label">P2 (Normal)</span>
+                <span class="bar-count">22</span>
+            </div>
+        </div>
+
+        <!-- By Type -->
+        <div class="card">
+            <h2>By Type</h2>
+            <div class="bar" style="background: #58a6ff; width: 97%;">
+                <span class="bar-label">task</span>
+                <span class="bar-count">30</span>
+            </div>
+            <div class="bar" style="background: #3fb950; width: 3%;">
+                <span class="bar-label">project</span>
+                <span class="bar-count">1</span>
+            </div>
+        </div>
+
+        <!-- Labels Distribution -->
+        <div class="card full-width">
+            <h2>By Label (Top 15)</h2>
+            <div id="labels-chart"></div>
+        </div>
+
+        <!-- Work Streams -->
+        <div class="card">
+            <h2>Work Streams</h2>
+            <div class="bar" style="background: #f78166; width: 100%;">
+                <span class="bar-label">research</span>
+                <span class="bar-count">16</span>
+            </div>
+            <div class="bar" style="background: #7ee787; width: 68%;">
+                <span class="bar-label">writing</span>
+                <span class="bar-count">11</span>
+            </div>
+            <div class="bar" style="background: #a5d6ff; width: 56%;">
+                <span class="bar-label">tooling</span>
+                <span class="bar-count">9</span>
+            </div>
+            <div class="bar" style="background: #d2a8ff; width: 50%;">
+                <span class="bar-label">teaching</span>
+                <span class="bar-count">8</span>
+            </div>
+            <div class="bar" style="background: #ffa657; width: 37%;">
+                <span class="bar-label">data-analysis</span>
+                <span class="bar-count">6</span>
+            </div>
+        </div>
+
+        <!-- Project Clusters -->
+        <div class="card">
+            <h2>Project Clusters</h2>
+            <div class="bar" style="background: #238636; width: 100%;">
+                <span class="bar-label">warehouse-automation</span>
+                <span class="bar-count">8</span>
+            </div>
+            <div class="bar" style="background: #1f6feb; width: 87%;">
+                <span class="bar-label">paper-3 (Gap incentive)</span>
+                <span class="bar-count">7</span>
+            </div>
+            <div class="bar" style="background: #8957e5; width: 75%;">
+                <span class="bar-label">ai-grading</span>
+                <span class="bar-count">6</span>
+            </div>
+            <div class="bar" style="background: #f85149; width: 50%;">
+                <span class="bar-label">agents/methodology</span>
+                <span class="bar-count">4</span>
+            </div>
+            <div class="bar" style="background: #a371f7; width: 37%;">
+                <span class="bar-label">engineering-skill</span>
+                <span class="bar-count">3</span>
+            </div>
+            <div class="bar" style="background: #3fb950; width: 25%;">
+                <span class="bar-label">living-paper</span>
+                <span class="bar-count">2</span>
+            </div>
+        </div>
+
+        <!-- Open Issue -->
+        <div class="card">
+            <h2>🟢 Open Work</h2>
+            <div class="issue-item">
+                <span class="issue-id">engineering-skill-mansci-inverse</span>
+                <span class="issue-status open">open</span>
+                <div style="margin-top: 5px;">ManSci Inverse Paper: Quantitative Analysis of Human-AI Task Evolution</div>
+                <div style="margin-top: 5px;">
+                    <span class="tag">automation</span>
+                    <span class="tag">human-ai</span>
+                    <span class="tag">kindred</span>
+                    <span class="tag">management-science</span>
+                    <span class="tag">paper</span>
+                    <span class="tag">quantitative</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Closures -->
+        <div class="card">
+            <h2>Recently Closed (Today)</h2>
+            <div class="issue-list">
+                <div class="issue-item">
+                    <span class="issue-id">kw-20 → kw-25</span>
+                    <span class="issue-status closed">closed</span>
+                    <div style="margin-top: 5px; color: #8b949e;">Paper 3 pipeline → "When Misfit Motivates"</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">kw-d4h, kw-p2w</span>
+                    <span class="issue-status closed">closed</span>
+                    <div style="margin-top: 5px; color: #8b949e;">TM464 grading tasks (quarter ended)</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- All Issues -->
+        <div class="card full-width">
+            <h2>All Issues</h2>
+            <div class="issue-list" style="max-height: 400px;">
+                <div class="issue-item">
+                    <span class="issue-id">engineering-skill-mansci-inverse</span>
+                    <span class="issue-status open">open</span>
+                    <span style="color: #a371f7; font-size: 11px;">P2 project</span>
+                    <div>ManSci Inverse Paper: Quantitative Analysis of Human-AI Task Evolution</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">kw-15</span>
+                    <span class="issue-status closed">closed</span>
+                    <span style="color: #f85149; font-size: 11px;">P1</span>
+                    <div>Expand Paper 1 (automation-turnover) to full Management Science length</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">kw-16</span>
+                    <span class="issue-status closed">closed</span>
+                    <span style="color: #f85149; font-size: 11px;">P1</span>
+                    <div>Expand Paper 2 (flexible staffing-productivity) to full length with figures</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">kw-17</span>
+                    <span class="issue-status closed">closed</span>
+                    <span style="color: #f85149; font-size: 11px;">P1</span>
+                    <div>Create paper-mining agents suite</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">kw-18</span>
+                    <span class="issue-status closed">closed</span>
+                    <span style="color: #a371f7; font-size: 11px;">P2</span>
+                    <div>Organize research projects into knowledge-work directory</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">kw-19 → kw-25</span>
+                    <span class="issue-status closed">closed</span>
+                    <span style="color: #f85149; font-size: 11px;">P1</span>
+                    <div>Paper 3 pipeline: Gap GROW data → "When Misfit Motivates" (7 issues)</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">engineering-skill-asq-r2</span>
+                    <span class="issue-status closed">closed</span>
+                    <span style="color: #a371f7; font-size: 11px;">P2</span>
+                    <div>ASQ R2 Revision: Developmental Uncertainty</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">grading-experiment-*</span>
+                    <span class="issue-status closed">closed</span>
+                    <span style="color: #a371f7; font-size: 11px;">P2</span>
+                    <div>Monte Carlo grading system for TM464 (5 issues)</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">warehouse-papers-*</span>
+                    <span class="issue-status closed">closed</span>
+                    <span style="color: #a371f7; font-size: 11px;">P2</span>
+                    <div>Warehouse automation papers: organization, reviews, submission packages (8 issues)</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">living-paper-*</span>
+                    <span class="issue-status closed">closed</span>
+                    <span style="color: #a371f7; font-size: 11px;">P2</span>
+                    <div>Living paper module: pre-review workflow, reviewer interface (2 issues)</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">*-agents-*</span>
+                    <span class="issue-status closed">closed</span>
+                    <span style="color: #a371f7; font-size: 11px;">P2</span>
+                    <div>Paper-mining agents: Zuckerman restructure, style enforcer, Nguyen comparison (3 issues)</div>
+                </div>
+                <div class="issue-item">
+                    <span class="issue-id">beads-audit-dec16</span>
+                    <span class="issue-status closed">closed</span>
+                    <span style="color: #a371f7; font-size: 11px;">P2</span>
+                    <div>Audit and backfill beads for Dec 2-14 work</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Completion Flow -->
+        <div class="card full-width">
+            <h2>Work Completion Narrative</h2>
+            <div style="display: flex; gap: 20px; overflow-x: auto; padding: 10px 0;">
+                <div style="min-width: 200px; background: #21262d; border-radius: 8px; padding: 15px;">
+                    <div style="color: #58a6ff; font-weight: bold;">📊 Data Analysis</div>
+                    <div style="font-size: 12px; color: #8b949e; margin-top: 5px;">Gap GROW data cleaned & validated</div>
+                    <div style="margin-top: 10px;">→</div>
+                </div>
+                <div style="min-width: 200px; background: #21262d; border-radius: 8px; padding: 15px;">
+                    <div style="color: #3fb950; font-weight: bold;">🔬 Research</div>
+                    <div style="font-size: 12px; color: #8b949e; margin-top: 5px;">Hypotheses developed, models run</div>
+                    <div style="margin-top: 10px;">→</div>
+                </div>
+                <div style="min-width: 200px; background: #21262d; border-radius: 8px; padding: 15px;">
+                    <div style="color: #a371f7; font-weight: bold;">✍️ Writing</div>
+                    <div style="font-size: 12px; color: #8b949e; margin-top: 5px;">"When Misfit Motivates" drafted</div>
+                    <div style="margin-top: 10px;">→</div>
+                </div>
+                <div style="min-width: 200px; background: #21262d; border-radius: 8px; padding: 15px;">
+                    <div style="color: #f78166; font-weight: bold;">📝 Review</div>
+                    <div style="font-size: 12px; color: #8b949e; margin-top: 5px;">Friendly reviews, Zuckerman eval</div>
+                    <div style="margin-top: 10px;">→</div>
+                </div>
+                <div style="min-width: 200px; background: #238636; border-radius: 8px; padding: 15px;">
+                    <div style="color: #fff; font-weight: bold;">📦 Ready</div>
+                    <div style="font-size: 12px; color: #d4f4dd; margin-top: 5px;">Submission package complete</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Labels bar chart
+        const labels = [
+            {name: 'research', count: 16},
+            {name: 'writing', count: 11},
+            {name: 'tooling', count: 9},
+            {name: 'warehouse-automation', count: 8},
+            {name: 'teaching', count: 8},
+            {name: 'paper-3', count: 7},
+            {name: 'ai-grading', count: 6},
+            {name: 'data-analysis', count: 6},
+            {name: 'submission', count: 4},
+            {name: 'agents', count: 4},
+            {name: 'methodology', count: 4},
+            {name: 'organization', count: 3},
+            {name: 'paper', count: 3},
+            {name: 'grading', count: 2},
+            {name: 'transparency', count: 2},
+        ];
+
+        const colors = ['#f78166', '#7ee787', '#a5d6ff', '#238636', '#d2a8ff',
+                       '#1f6feb', '#8957e5', '#ffa657', '#79c0ff', '#a371f7',
+                       '#3fb950', '#58a6ff', '#f85149', '#d29922', '#56d364'];
+
+        const container = document.getElementById('labels-chart');
+        const maxCount = Math.max(...labels.map(l => l.count));
+
+        labels.forEach((label, i) => {
+            const bar = document.createElement('div');
+            bar.className = 'bar';
+            bar.style.background = colors[i % colors.length];
+            bar.style.width = `${(label.count / maxCount) * 100}%`;
+            bar.style.minWidth = '80px';
+            bar.innerHTML = `<span class="bar-label">${label.name}</span><span class="bar-count">${label.count}</span>`;
+            container.appendChild(bar);
+        });
+    </script>
+</body>
+</html>

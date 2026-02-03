@@ -1,0 +1,1564 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<storedHU xmlns:aml="http://www.atlasti.com/hu/desktop/ns2013" lastSaved="2018-03-20T14:50:48" creator="ATLAS.ti for Windows" creatorVersion="7.5.18" method="AML (ATLAS Markup Language)" version="1.1" mode="complete">
+  <users>
+    <user id="usr_1" name="Super" guid="68AA5D48-AAA2-4BCB-B4D8-AAD2BCB74943"/>
+  </users>
+  <colors>
+  </colors>
+  <hermUnit name="Beane Dissertation" au="usr_1" cDate="2015-03-02T10:15:28" mDate="2015-11-19T15:00:51" lastPD="226" prot="private" guid="DF15E0BB-848E-48F2-B6E1-17DA404A8142"/>
+  <coAuthors>
+  </coAuthors>
+  <dataSources size="156">
+    <dataSource id="ds_1" loc="165AAF72-74F5-4807-96C5-8536DBF23CBC" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.06.03 RALP.rtf" mime="text/ahtml" md5="A77403BB337BB1D5A88D69A25EA88D73"/>
+    <dataSource id="ds_2" loc="F49FD276-2358-4FDD-ACC3-692D90B230C9" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Faulkner\2014.02.25 R. Partial Neph.docx" mime="text/ahtml" md5="41368168F54C43B1A99B24E279D585F9"/>
+    <dataSource id="ds_3" loc="C9C21C49-104E-4A7B-A161-F2FD9A915E8D" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.02.06 RALP 2.rtf" mime="text/ahtml" md5="001BB9FBFCC0196F66E3A3BAC8F397F7"/>
+    <dataSource id="ds_4" loc="05821614-FDA2-479C-B176-CB0A4820D579" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.06.25 O Nephrectomy.rtf" mime="text/ahtml" md5="AD9D06870542DC7B5B0377C535F4A2F6"/>
+    <dataSource id="ds_5" loc="B0F56CCC-1A8E-49E7-AF46-146957642F0A" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Wright Excerpts.rtf" mime="text/ahtml" md5="03936B6F9BFA7E0FE8B8E4032DC786A4"/>
+    <dataSource id="ds_6" loc="AF6716B4-3F35-4AD8-BED3-C5A92C8BE303" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Sally Old-New Excerpts.rtf" mime="text/ahtml" md5="E89D6EA547CA50959E773868A8A09951"/>
+    <dataSource id="ds_7" loc="6CE02CE4-E418-4A5E-A8EB-B63B7FE8FB79" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.06.04 R Prostate.docx" mime="text/ahtml" md5="FFC9908DBB045BFA381A0B8FF8E7B4D0"/>
+    <dataSource id="ds_8" loc="DA58DE18-ABD3-4EC7-9EF4-6D15CC697F32" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.05.06 O Partial.rtf" mime="text/ahtml" md5="2DB0366E7638354622220D88BF503AFC"/>
+    <dataSource id="ds_9" loc="C82254C1-35AD-44FA-8B15-864C4DEFCE59" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Sorcini excerpts.rtf" mime="text/ahtml" md5="32233309179404B5B8B19A9AFB617256"/>
+    <dataSource id="ds_10" loc="835B9336-B541-47BE-9EAC-B4BAD5814515" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Renee Interview Transcript Excerpts.rtf" mime="text/ahtml" md5="382CEF9F7A5B84D0914738E79D3A70D1"/>
+    <dataSource id="ds_11" loc="22B254D9-EB87-4833-8711-21FD69121670" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.01.22 RALP.rtf" mime="text/ahtml" md5="645C73F856CF66122BB275228207D4A8"/>
+    <dataSource id="ds_12" loc="7C53921F-79FD-48A4-9524-C9F4FAEC7971" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Libertino excerpts.rtf" mime="text/ahtml" md5="D12655665F5817B6E37F97A612EAC928"/>
+    <dataSource id="ds_13" loc="76A0DFDD-2753-4C21-8B2D-21457E1658A8" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.03.11 R Prostate Process Notes.rtf" mime="text/ahtml" md5="03D151F2FDFDC83CE34619FF02DE46CF"/>
+    <dataSource id="ds_14" loc="8E6FE23A-9BA3-489F-A17A-C5065181DAD5" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.01.20 L Radical.rtf" mime="text/ahtml" md5="F8174CE25D7B9142CC02ED7F26DA8B3E"/>
+    <dataSource id="ds_15" loc="F637B7FD-2055-49D5-A0B5-3D26CEC2523F" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2013.05.01 Field Notes.rtf" mime="text/ahtml" md5="6B0AD4B7D011170EA5469CB71EADBB43"/>
+    <dataSource id="ds_16" loc="751F3E0E-F053-41AE-B5DB-26DD037BCC1B" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2013.12.16 MGH.docx" mime="text/ahtml" md5="6FE5CDD55B45D954A92695ADC68284D7"/>
+    <dataSource id="ds_17" loc="794A05B7-8ABD-4F77-91A6-E67EF5F819F0" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.03.20 L Hysterectomy.rtf" mime="text/ahtml" md5="E8B9D6A3D021ACE3E7DB1951563A64AF"/>
+    <dataSource id="ds_18" loc="2DBFCCAA-CACB-4043-802A-8353F699D364" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.02.13 RPLND Process Notes.rtf" mime="text/ahtml" md5="F589F4286ABE8C4526352D040AB47D59"/>
+    <dataSource id="ds_19" loc="BCEA3502-28C0-421B-BE4D-5FFFEB44BA3F" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Moinzadeh Excerpt1.rtf" mime="text/ahtml" md5="A64A9AE6A6133E641C8B1879BBB615DD"/>
+    <dataSource id="ds_20" loc="E81F0286-A5C4-4C86-B151-5A4C1C1FF0B2" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.11.19 R Complex.rtf" mime="text/ahtml" md5="33D79286D574447D59B853868326E4B6"/>
+    <dataSource id="ds_21" loc="594D1844-B60D-483D-AF29-7967A548019C" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.10.15 R Nephro U.rtf" mime="text/ahtml" md5="EDE6DCA88622C6657C11A5CF480F2CE2"/>
+    <dataSource id="ds_22" loc="76488AFA-AFEB-4AE8-A69F-DFBDA7476C45" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.07.09 Process Notes.rtf" mime="text/ahtml" md5="58BF4D47D399E05D9E3070CC7675E77F"/>
+    <dataSource id="ds_23" loc="956E87BE-75C2-4B15-8A99-3AC9FE57978A" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Faulkner\2014.03.17 R Radical Neph.rtf" mime="text/ahtml" md5="D5BC62D98AF488057025500A7DA32C90"/>
+    <dataSource id="ds_24" loc="7B77614E-991C-4ABD-8DBA-E429F7FB1A2F" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.07.26 Left partial nephrectomy.rtf" mime="text/ahtml" md5="B9103AEE547A45E0E3958FFD3BBAA92E"/>
+    <dataSource id="ds_25" loc="A8A5AE02-6891-434A-9C8F-7E99930D5138" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.08.14 Resident Break Room.rtf" mime="text/ahtml" md5="028B31785B437AE526A0BC2A7B3554A8"/>
+    <dataSource id="ds_26" loc="832A616A-11D7-4120-B9F9-90EE15D9A323" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.02.11 Field Notes.rtf" mime="text/ahtml" md5="497365E41895F6342651F7C373832769"/>
+    <dataSource id="ds_27" loc="BB4C80AA-4600-4ECC-AE00-F6D8D04AA535" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.07.17 R Partial.rtf" mime="text/ahtml" md5="75C6ABA3EB9F9076C3B5E4FF08B05FF4"/>
+    <dataSource id="ds_28" loc="C7B41E15-20BE-4210-90A3-4C3CCE88E7E2" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.06.17 RALP.rtf" mime="text/ahtml" md5="6A5B133258269A910382F44C08E96C03"/>
+    <dataSource id="ds_29" loc="5601DF4E-1488-4492-AC5C-A37F7590F48F" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.11.19 R Pyleoplasty.rtf" mime="text/ahtml" md5="79DD548FDEC3645A365819C30E03CC3C"/>
+    <dataSource id="ds_30" loc="13242D28-8F2C-4A5C-AE15-9DC5316E03E1" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.03.27 R Prostate.rtf" mime="text/ahtml" md5="D0738748033C3BD34B10EED04FA49614"/>
+    <dataSource id="ds_31" loc="939F79C4-3643-460D-9354-4B935E1CCF8A" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.02.17 Cystectomy.rtf" mime="text/ahtml" md5="72232285A4D97A70AF4E863C67A9C364"/>
+    <dataSource id="ds_32" loc="76A3A247-01B9-4936-A1D3-EEE727877C63" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.02.11 Rad Prost Lap 2.rtf" mime="text/ahtml" md5="C4E11C9CC23DB60239E13756947A7C62"/>
+    <dataSource id="ds_33" loc="639A9C7F-DB11-4598-94F8-DBCA33573208" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.02.27 O Prostate.rtf" mime="text/ahtml" md5="732134DACB730E94A5AFE354D0D61BF8"/>
+    <dataSource id="ds_34" loc="4E6DCCDC-A8E0-4B75-8DBE-D48F09B36F89" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.04.08 Field Notes.rtf" mime="text/ahtml" md5="4328919553A7605A4AA085B9BF09F296"/>
+    <dataSource id="ds_35" loc="37DDE79F-C07B-41FF-8335-5E635D1D0B67" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.07.15 Procedure 2 RARLP.rtf" mime="text/ahtml" md5="2DF5BABB7025BEA348FA9062E4984158"/>
+    <dataSource id="ds_36" loc="F1239362-A8AF-4B6E-B259-79AD8344E9DC" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2013.08.28 Doug Dahl MGH.docx" mime="text/ahtml" md5="969EC248BE6C91A01852EAB094D5C14C"/>
+    <dataSource id="ds_37" loc="2CEAA816-D12D-4E49-8EDC-A1B285820E2A" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.09.24 R Prostate.rtf" mime="text/ahtml" md5="C5943CAD86A65D648D957F31B4D456A7"/>
+    <dataSource id="ds_38" loc="FC285544-A6C2-4EFB-884B-6DBC95626745" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.03.26 Partial procedure RBWA.docx" mime="text/ahtml" md5="6BA33B20CD5EDFF5CF5E409D0A126796"/>
+    <dataSource id="ds_39" loc="DABF103F-5230-4947-84DE-FE987B59F8C1" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Elizabeth Interview Transcript Excerpts.rtf" mime="text/ahtml" md5="3BA3899D782753400B1B626BA7B4C2BA"/>
+    <dataSource id="ds_40" loc="A8F09546-FABA-4A2D-94FD-93EB542A4195" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.03.05 Colorect Process Notes.rtf" mime="text/ahtml" md5="7CF5BEBA383765858CD857B572C475E5"/>
+    <dataSource id="ds_41" loc="C6428101-46BA-4E2C-9E88-D88FB910DF9A" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.03.20 Robot Working Group.rtf" mime="text/ahtml" md5="D7C29681507445F3A79C2AA7B89EA259"/>
+    <dataSource id="ds_42" loc="88A19FD0-4C25-4FDB-ADA6-5D3A1F95D7B0" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.11.05 Cystectomy.rtf" mime="text/ahtml" md5="5F01344D6141F13DE39C9B099294054E"/>
+    <dataSource id="ds_43" loc="8C1EF65C-9470-49EC-9AB5-10A98B066A88" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.02.19 Prostate 2.rtf" mime="text/ahtml" md5="D732373D736B45B98198A6FD79D0E673"/>
+    <dataSource id="ds_44" loc="6D7FC1D5-FE8C-49CF-9D41-84DB1C519DB3" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.03.05 Colorect.rtf" mime="text/ahtml" md5="5300DEF770FDC63B7BFCC0430588341D"/>
+    <dataSource id="ds_45" loc="DD58603B-94AB-4AFF-AF8D-485DC437CF62" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.01.14 RALP.rtf" mime="text/ahtml" md5="396B3185B1EB3F31F3AD658742ABCA38"/>
+    <dataSource id="ds_46" loc="4F696D11-24C1-4946-8360-97B513F7AC47" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Faulkner\2014.05.12 R Prostate 2.rtf" mime="text/ahtml" md5="CE0439841077F54A63AEE703542EC991"/>
+    <dataSource id="ds_47" loc="9024ADB4-9C7D-471B-A52A-80809549DA48" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.07.08 R Prostate.rtf" mime="text/ahtml" md5="740949472716D6F59ED2B92A77EB2D8F"/>
+    <dataSource id="ds_48" loc="37E328FD-0A8E-4CB2-9A08-0FE4F999A799" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.06.18 R Partial.rtf" mime="text/ahtml" md5="C6A030FF38DEAADE19BCFC50E236A1AD"/>
+    <dataSource id="ds_49" loc="C7C28704-9C80-40EE-990F-35230F235DB0" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.05.20 O. Partial.rtf" mime="text/ahtml" md5="C7AE86BE1E3D3409BA08690F54EEE1EE"/>
+    <dataSource id="ds_50" loc="826D877C-17B7-4E3D-862E-E1FDF8443DFC" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.02.12 Tabatabaei first meeting.rtf" mime="text/ahtml" md5="86AF1054555FDB2CD6994C2DA02347A4"/>
+    <dataSource id="ds_51" loc="1C47038D-0B53-4BAF-B043-11D199FB46E7" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.06.05 Neph U.rtf" mime="text/ahtml" md5="F09529923A92EE1F3819A6DFB945E767"/>
+    <dataSource id="ds_52" loc="C8414211-1F36-4736-9529-5DF182D2EDF7" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.03.28 R partial.rtf" mime="text/ahtml" md5="9731E07E8FED042CDCB0F5BD225B9922"/>
+    <dataSource id="ds_53" loc="29901199-BB20-44DE-AC67-7FA6B3DECF08" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.08.12 O NX.rtf" mime="text/ahtml" md5="3B7D0AF6E1EBE105EB23F2A0595DB804"/>
+    <dataSource id="ds_54" loc="1F4C4151-1462-4869-9D37-68C122302CD6" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\2013.07.11 Danielle Circulating Nurse.docx" mime="text/ahtml" md5="A56B23BBB0851204E69F62C06ABEB3F8"/>
+    <dataSource id="ds_55" loc="A0D4EA0B-B0DD-4A85-AB49-B198E079EF23" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.02.12 O NX.rtf" mime="text/ahtml" md5="2945E60C82B86942E24B41B7E4BCCE62"/>
+    <dataSource id="ds_56" loc="2AA34605-ECDF-4427-9D0A-FFB44AEBF045" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.03.11 Hernia Repair.rtf" mime="text/ahtml" md5="19E63644AFDB413F46FFC477D4239AC5"/>
+    <dataSource id="ds_57" loc="0AFC8FBE-E56F-4DD3-81CB-EF5048E248B3" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.08.21 R Prostate.rtf" mime="text/ahtml" md5="5E3E571E476C7940D2D409E0B9517E03"/>
+    <dataSource id="ds_58" loc="BE4CAE4A-9316-4498-832A-174AFE5D5A24" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\2013.08.22 Moinzadeh Interview.rtf" mime="text/ahtml" md5="A42E7F5B7A8BD14EAF80C78928CEC38D"/>
+    <dataSource id="ds_59" loc="CBDF6892-40DD-49CB-9E90-68C7DC45E979" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Faulkner\2014.05.12 R Prostate.rtf" mime="text/ahtml" md5="21C1B58E33697111236D0CE56A7DDF07"/>
+    <dataSource id="ds_60" loc="CBBFD89F-5021-472E-81E5-5EB257AFA582" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.02.13 Olumi first meeting.rtf" mime="text/ahtml" md5="E7D1A747FD118502BA5CEB94CF5F9E50"/>
+    <dataSource id="ds_61" loc="7BA094DD-DA60-4500-AA51-A428B5F9CA3D" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.07.15 RALP.rtf" mime="text/ahtml" md5="B9AE6E776E332B3FFBF407B73CF01115"/>
+    <dataSource id="ds_62" loc="8B0F5C4A-8552-44AB-AC07-D4C50D0CCF67" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Jane Nurse Transcript Excerpts.rtf" mime="text/ahtml" md5="C42BDA687D9A1004B97EFB574424348C"/>
+    <dataSource id="ds_63" loc="A9865152-CDD5-4E32-8AA2-6E6103FB7CC2" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.02.03 R Prostatectomy.rtf" mime="text/ahtml" md5="AEE9E674D2E546EF4EE9A358AA4DEF14"/>
+    <dataSource id="ds_64" loc="1977CB95-DFEE-4816-AE99-40991E92A61D" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Danielle excerpts March 2015.rtf" mime="text/ahtml" md5="C225C8BF47F2E19F3BABCB51B0235755"/>
+    <dataSource id="ds_65" loc="303C5AF2-9D25-4772-8E95-39FE9FC9577C" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Jason Hall Transcript Excerpts.rtf" mime="text/ahtml" md5="9A4E63E0C1658082D6159BCEE732DE98"/>
+    <dataSource id="ds_66" loc="0FF4686B-C584-422C-9BE8-4CA750018412" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Faulkner\2014.03.25 R Nephrectomy.rtf" mime="text/ahtml" md5="C0EC530FF53098F7C919F35FE565F2C4"/>
+    <dataSource id="ds_67" loc="B38817D8-A878-481A-8C0C-68FF4276406A" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Faulkner\2014.03.25 R Prostate.rtf" mime="text/ahtml" md5="0A2ED455E78145C48C52F4BB37452321"/>
+    <dataSource id="ds_68" loc="F6609061-189E-4547-A5BA-7211FF34CF3B" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.01.14 R Pyleoplasty.rtf" mime="text/ahtml" md5="68E148E01BB092E3D09175378A5FFDDC"/>
+    <dataSource id="ds_69" loc="0CF3BF5F-CFEA-41BC-AB2D-22E4D985D08A" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.05.13 R Partial v2.rtf" mime="text/ahtml" md5="4F9616BB170E40476C0D6FEC8509C82C"/>
+    <dataSource id="ds_70" loc="4B3B9F53-EDF4-4B07-B53C-DD2AA03A2A5B" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.07.09 R Partial nephrectomy.rtf" mime="text/ahtml" md5="01743D89361EE9102CB7EE65FA8A9C61"/>
+    <dataSource id="ds_71" loc="1C5E5075-8A05-43C7-A56A-4D4BBC531C44" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.06.06 O Nephrouretorectomy.rtf" mime="text/ahtml" md5="DE6C1C2986A40041F2014503ED47D211"/>
+    <dataSource id="ds_72" loc="0D8E195C-374C-4CA1-B84F-1ADD25582E06" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Moinzadeh Excerpts.rtf" mime="text/ahtml" md5="8A1B6F86C55414BB906DAED9FEA72A20"/>
+    <dataSource id="ds_73" loc="F03BDC41-B886-49C4-9019-8D28E781FF74" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.03.04 RALP.rtf" mime="text/ahtml" md5="CE844BBADA9784C9CFB90CCEABFD0BA4"/>
+    <dataSource id="ds_74" loc="5F94034D-31D0-4D85-A9F3-8A187FB3A2BB" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.02.13 R Partial w hydroseal.rtf" mime="text/ahtml" md5="3C15419138F316AB90342DFD11F9E1A0"/>
+    <dataSource id="ds_75" loc="749127B8-E6AC-4DC1-B5C8-C267E2A717AA" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.02.13 Process Notes.docx" mime="text/ahtml" md5="8A2E638A79234C9009CDD0BD9CCC157F"/>
+    <dataSource id="ds_76" loc="440755E3-CEEF-436F-93A4-65BF00630AD9" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\2014.02.26 J Hall Colorectal.docx" mime="text/ahtml" md5="AC8E0A618DDFD55FDDE4C2B221A549E6"/>
+    <dataSource id="ds_77" loc="66DD0DFA-1A37-46BB-9C78-5DD0145B71BC" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.07.25 Open Prostatectomy.rtf" mime="text/ahtml" md5="C642F335D20C240C00C6F761358C1B88"/>
+    <dataSource id="ds_78" loc="EE8E24F5-F2A8-4B4E-A578-2F519C8B76DD" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.02.19 Prostate 1.rtf" mime="text/ahtml" md5="CF5562D08F0BABC161ACA3DDDDFE35F7"/>
+    <dataSource id="ds_79" loc="984D2EC4-184C-429A-AF44-BB682E670474" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.07.09 PROCEDURE 2.rtf" mime="text/ahtml" md5="5F4DA505C1CF54ECD4485E155B89E747"/>
+    <dataSource id="ds_80" loc="74E93CCB-6D3E-4974-BC76-209C0D283971" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\2015.04.06 Demers.rtf" mime="text/ahtml" md5="5CFCF6EEFCFF38D0129A37A1BB262DFD"/>
+    <dataSource id="ds_81" loc="BA5887C4-BB6B-4328-A93C-21EE947574BB" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.08.14 O Penectomy.rtf" mime="text/ahtml" md5="FEBC2018546E306144519F852F95E242"/>
+    <dataSource id="ds_82" loc="DE2F51A5-1748-4A42-8C08-62B3B9BC2521" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.02.06 RALP.rtf" mime="text/ahtml" md5="3BFBEA2AC844D3513885560FCD5172AD"/>
+    <dataSource id="ds_83" loc="201A6418-0D91-441B-9C36-F04BE3D9DED9" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.06.18 R Nephrouterotomy.rtf" mime="text/ahtml" md5="0CA4FC669C4C2B5B7AD4952502795F56"/>
+    <dataSource id="ds_84" loc="F526CFDF-67AF-498B-899C-16CD3549FD56" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.01.30 Process Notes.rtf" mime="text/ahtml" md5="EA3B5DB4D084773AD7799A7EDF2817DB"/>
+    <dataSource id="ds_85" loc="C6B76542-9F17-40F5-9F1F-F59BDCB392B0" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Juan.rtf" mime="text/ahtml" md5="96FE3A8E258720381B86A40D75877F0E"/>
+    <dataSource id="ds_86" loc="22847688-61C6-4734-A715-9E25B57F5045" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.02.13 O RPLND.rtf" mime="text/ahtml" md5="E9FC43414BF9D50C860932F9340A5596"/>
+    <dataSource id="ds_87" loc="731C5AB6-5CD6-4B0A-865B-BB5671257693" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.03.11 R Prostate.rtf" mime="text/ahtml" md5="31476C14C77A00CDDF20BF98705AABA6"/>
+    <dataSource id="ds_88" loc="7CB2A40C-21BA-420E-A598-AF09D69BD863" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.12.10 R Nephro U.rtf" mime="text/ahtml" md5="C95D7C891C5BB292163ECA92076F6EA5"/>
+    <dataSource id="ds_89" loc="B885263E-F646-48C0-A934-59A11BDA63FF" ext="pdf" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.05.13 R Partial Email.pdf" mime="text/pdf" md5="6AEC32CC6730B000BF1EC10299F1D84A"/>
+    <dataSource id="ds_90" loc="E9AA1AF5-531A-4289-A734-90BB57208067" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.01.30 Prostatectomy.rtf" mime="text/ahtml" md5="5B15CD5DE02DCEDFE08E1768F58F6909"/>
+    <dataSource id="ds_91" loc="D56611EB-C10D-4075-98E8-415223EDB2CC" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Parkland\2014.04.07 R Prostate.rtf" mime="text/ahtml" md5="DB2A515F7A5F41452D4B20BC9A17EB1F"/>
+    <dataSource id="ds_92" loc="F95124B5-BD09-43C0-9BA7-C3AE93A92AE3" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.07.23 R. Cystectomy.rtf" mime="text/ahtml" md5="F1AF1B47534D9DFFA0F16087D3B342DF"/>
+    <dataSource id="ds_93" loc="D2F3602B-02FC-4BE9-8309-9BC788732F83" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Jane Old-New Excerpts.rtf" mime="text/ahtml" md5="0EB7442706F53FF3B537486800C695BE"/>
+    <dataSource id="ds_94" loc="1E721FDD-A6F4-4ABC-9725-E2E5F72E0BE2" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.02.13 Wszolek first meeting.rtf" mime="text/ahtml" md5="3AF13D8B43A667821F203CC61891196C"/>
+    <dataSource id="ds_95" loc="F51F175E-3278-4FC7-ACEA-413463C85E93" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.07.25 Uretal Implant.rtf" mime="text/ahtml" md5="3F7DA65712D5248ECEACAFE2CA603722"/>
+    <dataSource id="ds_96" loc="81173E26-DAF1-4E3B-9180-53E51B38EF15" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Faulkner\2013.07.29 Prostatectomy 2.rtf" mime="text/ahtml" md5="F0F155F8C381E7903332D3074C51BB76"/>
+    <dataSource id="ds_97" loc="29DEA4BE-C268-4045-8377-26B275F99325" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.01.16 O Partial field notes.rtf" mime="text/ahtml" md5="4BB8713C1C59A1DC1B55A3AB7D3DCCD2"/>
+    <dataSource id="ds_98" loc="D9F9FC0A-67C1-400C-88A5-E1A250EDC22B" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.03.31 O Part Nephrectomy.rtf" mime="text/ahtml" md5="F784C14D34BF6E668ADCAF540C77F1D8"/>
+    <dataSource id="ds_99" loc="1AC2D401-2F38-4747-87AF-2BE1F80D7E88" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\2015.03.11 Libertino.rtf" mime="text/ahtml" md5="D723F3EC60D955F02AB3EEA7AE85FB10"/>
+    <dataSource id="ds_100" loc="1F344FEF-4F24-43AA-984E-FE5F291FEEB5" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.02.05 RALP.rtf" mime="text/ahtml" md5="DBD3BD8B5C3167B046A3C2D7A83B6F98"/>
+    <dataSource id="ds_101" loc="F5CDB37E-361D-4826-B133-9BE918632B7A" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\2015.03.19 Canes Superstar Excerpts.rtf" mime="text/ahtml" md5="F83EB28D225A3E3B853020EA32F8107C"/>
+    <dataSource id="ds_102" loc="52776664-6BD5-4B53-BDDF-A78ED4A3093F" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.06.10 R and O Other.rtf" mime="text/ahtml" md5="0C3F76632A8084ABBFEDCB467AA0A4B9"/>
+    <dataSource id="ds_103" loc="4012122F-721C-4692-B099-D40A3C5E6D47" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.06.05 O Partial.rtf" mime="text/ahtml" md5="E696987BD576CCF53F6FB87B5D75FCFC"/>
+    <dataSource id="ds_104" loc="988019FF-C395-410F-8B36-D57E34055A32" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Canes Conversion Interview Excerpts.rtf" mime="text/ahtml" md5="69B7B71688203156AAC1A718AA3486C3"/>
+    <dataSource id="ds_105" loc="162E53E1-1710-4BF3-9493-EDFA91553ABA" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.05.20 O. Prostate.rtf" mime="text/ahtml" md5="567FAB5F940978ABFA708D0A78B773D4"/>
+    <dataSource id="ds_106" loc="FF26FA4C-6684-40FE-8CD2-989DAD6A1069" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.06.11 RALP.rtf" mime="text/ahtml" md5="FFDD849B6BC548021B0347FB2FC7B452"/>
+    <dataSource id="ds_107" loc="F1D5F108-6F82-4102-BC34-8435B152B6BD" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\2015.06.10 Renee excerpts.rtf" mime="text/ahtml" md5="EA589B492003EF50E7F576AF4E8BF5A8"/>
+    <dataSource id="ds_108" loc="FAD854F8-55FB-4F99-ABC8-DBDBBB24CDFF" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.03.13 R multiple myomectomy.rtf" mime="text/ahtml" md5="A4392B37FD02C81E87C502648B9500BC"/>
+    <dataSource id="ds_109" loc="BC539B83-1229-42FB-8F02-BB46CA470DBD" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.07.26 Uretal Implant.rtf" mime="text/ahtml" md5="52C1B6F36ECBBDE7375F8F2404C57AB2"/>
+    <dataSource id="ds_110" loc="0E5047CD-3504-40A8-AF63-543F8BE78080" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.02.11 Rad Prost Lap.rtf" mime="text/ahtml" md5="13533EEF677A4E7BA83E12D1BC45B9AF"/>
+    <dataSource id="ds_111" loc="F505C0C1-C4D4-461E-9936-354395EB8819" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\2015.06.11 Garrity excerpts.rtf" mime="text/ahtml" md5="3EBC5BF27E6AD3C61325CA22A87F0C6F"/>
+    <dataSource id="ds_112" loc="70686307-C9B4-47D2-B6BD-692FDE4D2D6A" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.06.11 R Partial.rtf" mime="text/ahtml" md5="727D5D7A30F985575AE92B9D86401D6A"/>
+    <dataSource id="ds_113" loc="6124D3FC-4E7D-466C-9A27-086D87214804" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\2013.07.11 D Nurse Excerpts.rtf" mime="text/ahtml" md5="FEFDDD58B792B2E76439F4FDE6EB84F5"/>
+    <dataSource id="ds_114" loc="8369A28F-B012-4963-B652-70001CD5B96E" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.04.19 O Rad Prostate.rtf" mime="text/ahtml" md5="B79B842E3A8D7E7687826589408CD068"/>
+    <dataSource id="ds_115" loc="BD7E0ECB-22B4-48DD-8E0D-1DC174A78EC7" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.02.27 O Partial.rtf" mime="text/ahtml" md5="7B28B3E130D4A29B71EBE02A49796782"/>
+    <dataSource id="ds_116" loc="7640B4C5-D72A-40A2-9FA5-45279246B754" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.07.15 Procedure 1 RALRP.rtf" mime="text/ahtml" md5="E9BFDC9D0721CD41DF641A1C7E9A571F"/>
+    <dataSource id="ds_117" loc="91EDB7F5-EDC3-4B43-BC8E-AFDFF0EC4CB2" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Faulkner\2014.03.25 Process Notes.rtf" mime="text/ahtml" md5="A55736C22B1EDE9503B2030075F89F1E"/>
+    <dataSource id="ds_118" loc="3CCB47BC-FB12-48BA-9864-794584764EA8" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.07.25 Process Notes.rtf" mime="text/ahtml" md5="9DAF520908FDC7A7F584AC8388951D2A"/>
+    <dataSource id="ds_119" loc="D9BF76C6-0E0B-4CFE-9658-F0C860A70EFE" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.08.18 R Prostate.rtf" mime="text/ahtml" md5="35204BF5C4798A76ED2C94644F90BF6B"/>
+    <dataSource id="ds_120" loc="F2DAE183-D7CA-450C-983C-4EFE4B7D6E17" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.02.26 R Partial - incomplete procedure.rtf" mime="text/ahtml" md5="405BD6F7F67CECB0FC6A4E44C6869044"/>
+    <dataSource id="ds_121" loc="C47731EA-3BAB-4FDB-A528-980B1F514C75" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Mourtzinos Transcript Excerpts.rtf" mime="text/ahtml" md5="7ECE17B26ECCB8C868B4934D348AEBC0"/>
+    <dataSource id="ds_122" loc="FECF0AB1-5069-418E-AD8D-1C28448202B9" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.02.20 Robot Working Group.rtf" mime="text/ahtml" md5="B1792F15C2E02167E97443CD8F404F34"/>
+    <dataSource id="ds_123" loc="637C98E7-A63C-44B6-B9AC-A38008181E25" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Faulkner\2014.02.25 R. Partial Neph.rtf" mime="text/ahtml" md5="518F32DFA4C65AF1775BF9F6F6A90643"/>
+    <dataSource id="ds_124" loc="CA110759-521B-48F6-985F-4AE81B9240D7" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.02.14 R Prostate Tabatabaei.docx" mime="text/ahtml" md5="266C99145B6670D1120196469070F5CD"/>
+    <dataSource id="ds_125" loc="6826B43F-F142-48F7-ADB6-21B5F5AC34DC" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\MGH\2014.02.14 R Prostate.rtf" mime="text/ahtml" md5="71B63A64C5111A9D808D8AAAC82A8385"/>
+    <dataSource id="ds_126" loc="0E8EB88B-9D99-43EB-85C7-0DD78EED8F64" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.06.10 Neph U.rtf" mime="text/ahtml" md5="BBACCBAFCC9BCC07478BD21922495F63"/>
+    <dataSource id="ds_127" loc="461EB678-DD3C-45F3-82D2-1D82BED75DD5" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.01.24 Field Notes.rtf" mime="text/ahtml" md5="24544DCE6236033774E10608FF917B4B"/>
+    <dataSource id="ds_128" loc="D6379C94-C672-426D-9A8C-71D6A43C6CF2" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.07.08 O Partial.rtf" mime="text/ahtml" md5="11E22F4F28A1E98B9F5214CA31D73ED4"/>
+    <dataSource id="ds_129" loc="482BCF16-8477-42F6-9925-5D7CFBAEC6FB" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.07.15 Process Notes.rtf" mime="text/ahtml" md5="92924D41A6606A43F493F3005E93C6FF"/>
+    <dataSource id="ds_130" loc="50552618-BB02-46F1-9694-732C5ED7E313" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.03.14 L Nephrectomy.rtf" mime="text/ahtml" md5="83C80F2C0E1BC068AC1B1E69C3CDE777"/>
+    <dataSource id="ds_131" loc="852C321A-BD46-4EAE-BDA0-071106952AF8" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.07.01 R Pyleoplasty.rtf" mime="text/ahtml" md5="ED02BF48E6C3588A3AE35A1D3F2B54EB"/>
+    <dataSource id="ds_132" loc="6E1BE607-C8FD-44D9-9145-A5BA867066B7" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.01.28 RALP.rtf" mime="text/ahtml" md5="0699A966BF1C86993B3DCD35E73DC4B4"/>
+    <dataSource id="ds_133" loc="46388C1D-1767-4C58-9BA2-34ACFC33D5B2" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Violet Exerpts.rtf" mime="text/ahtml" md5="CA2B3C9BBBB0B9278E423D2E9A9DCBF4"/>
+    <dataSource id="ds_134" loc="79D0969B-D50A-4BED-B301-15C5C0BC95FF" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.08.26 R Special.rtf" mime="text/ahtml" md5="541054060B6FB37D0DC0ABD51DFCB064"/>
+    <dataSource id="ds_135" loc="656B360F-2467-4113-B614-858CE1AB9629" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.06.26 Robot Bootcamp.rtf" mime="text/ahtml" md5="86BF15CB4ED7FAF9DA78C605A8E96EF1"/>
+    <dataSource id="ds_136" loc="824E51F7-7A84-44A9-BC87-31052D0AE86C" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.06.05 RALP.rtf" mime="text/ahtml" md5="03CF5E3B315EFB0CEA08DA578A457AE4"/>
+    <dataSource id="ds_137" loc="89D2E280-E04A-40F0-AA79-55F6AC83F5CB" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.06.11 RALP 2.rtf" mime="text/ahtml" md5="8101738F8E4468283511376C27C5E2B6"/>
+    <dataSource id="ds_138" loc="4D4BBA4B-DF76-426A-B7A8-4552E8102FC1" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.02.21 O Nephrectomy.rtf" mime="text/ahtml" md5="080164DD3E1887203FC61F9186C9584A"/>
+    <dataSource id="ds_139" loc="1EFEBE9D-C32F-476A-8FB4-2386D83D6013" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.07.29 O Illial Loop.rtf" mime="text/ahtml" md5="89943504333F1AC7C113279B56A5DE59"/>
+    <dataSource id="ds_140" loc="1C819564-E695-4481-A5C6-0FA841217447" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2013.12.17 Field Notes.rtf" mime="text/ahtml" md5="72F23008309D491046B2858CD1C79640"/>
+    <dataSource id="ds_141" loc="A0708FBC-4831-4617-9972-DBE32BE2C248" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.06.19 O Prostate.rtf" mime="text/ahtml" md5="59C26E18FEF42E4200D8922FD51F230C"/>
+    <dataSource id="ds_142" loc="EF23FF71-AB18-4A58-AF9F-211B92D74EF6" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\B&amp;W\2014.07.22 L NX.rtf" mime="text/ahtml" md5="80B7CFD4462D1FC1E3BCC9F1FDC2BCAA"/>
+    <dataSource id="ds_143" loc="098B86CD-87D9-4A19-9F46-74B4544E4932" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\2014.02.26 J Hall Colorectal.rtf" mime="text/ahtml" md5="CDB72997F686B147481CBFADD6BE3DFA"/>
+    <dataSource id="ds_144" loc="7DBB0443-CFD6-4775-8EB9-EF597E550045" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.07.22 RALP.rtf" mime="text/ahtml" md5="BDF79C7F0A96558AC5FB0929C19D072A"/>
+    <dataSource id="ds_145" loc="445163D4-1770-46FE-A5AD-A9DAB3DF13F8" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.03.07 Sigmoid resection.rtf" mime="text/ahtml" md5="9F2E529F9664D8FADA24B72737935783"/>
+    <dataSource id="ds_146" loc="306C6968-E950-4EFF-8050-BC294E951E19" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Interviews\Lahey\Canes 2015.03.10.rtf" mime="text/ahtml" md5="54C4402C94B0DAAC6084AF62B8AF0B9A"/>
+    <dataSource id="ds_147" loc="C5DB25C1-4C82-449A-A33B-0D9C94C7C41D" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.03.07 Colorectal Process notes.rtf" mime="text/ahtml" md5="C7D697588E7C5954046431388A22770D"/>
+    <dataSource id="ds_148" loc="521E6B4A-5CDB-43FE-9B7C-F2A53D0981DA" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.07.30 R Prostate.rtf" mime="text/ahtml" md5="21D280F99541B70CDD1A5CC429476B7B"/>
+    <dataSource id="ds_149" loc="4654E076-E134-4380-9E39-554DC45B1FC7" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Parkland\2014.01.27 Parkland canes Prostatectomy.rtf" mime="text/ahtml" md5="24412D4E6B3694EE7914F71AFCC85B61"/>
+    <dataSource id="ds_150" loc="AD580A1E-3F72-428B-AF9C-F499DE9FF6F0" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Parkland\2014.01.27 Parkland Fieldnotes.rtf.docx" mime="text/ahtml" md5="0ED1F986E5BC81CABC8017E15E1A0635"/>
+    <dataSource id="ds_151" loc="BA9449AA-2ACE-4506-B022-F15B8E85F6D9" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Faulkner\2013.07.29 Prostatectomy.rtf" mime="text/ahtml" md5="E10520C8525413037176B1A499A6DE60"/>
+    <dataSource id="ds_152" loc="EFA8C823-70F4-49F7-B115-D7D37DACE915" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.11.13 O Radical.rtf" mime="text/ahtml" md5="602AC01873E61C3D232D37786DFF57E1"/>
+    <dataSource id="ds_153" loc="5C814C92-CC07-4969-A1CD-54AD644D6809" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.02.26 R Partial 2.rtf" mime="text/ahtml" md5="1AC85FF2E571B7E51CCEA3DDFFCBD0B6"/>
+    <dataSource id="ds_154" loc="FB2C3887-42C2-4220-A9B9-11B39C32398F" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.01.28 R Incomplete procedure.rtf" mime="text/ahtml" md5="1E81D3E25121920D0CA0FE147A82973E"/>
+    <dataSource id="ds_155" loc="BFE79C1E-6063-47F8-B335-FB71F3C851C3" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2015.01.16 O Partial.rtf" mime="text/ahtml" md5="57F62F12F4EE5DAD598C71FCBA344951"/>
+    <dataSource id="ds_156" loc="3869FE40-B94F-48BA-AEEF-6EF23F39C6A7" ext="ahtml" origin="C:\Users\mbeane\Google Drive\Dissertation\Data\Field Notes\Lahey\2014.07.14 R Prostate.rtf" mime="text/ahtml" md5="74135872E878DCC8910AB9EAC0F3EBA0"/>
+  </dataSources>
+  <documents size="156">
+    <document id="doc_1" name="2013.07.09 PROCEDURE 2.rtf" loc="ds_79" au="usr_1" cDate="2015-03-02T12:47:13" mDate="2015-03-02T12:47:45" guid="58FAE356-859F-4DA7-9AB3-093D69001BCC" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_2" name="2013.07.09 Process Notes.rtf" loc="ds_22" au="usr_1" cDate="2015-03-02T12:47:13" mDate="2015-03-02T12:47:45" guid="9BAA1BC0-C9FF-47EA-B842-ED9E6FE296E6" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_3" name="2013.07.09 R Partial nephrectomy.rtf" loc="ds_70" au="usr_1" cDate="2015-03-02T12:47:13" mDate="2015-03-03T09:58:40" guid="8A1FA510-BC3A-4593-B012-7CA086919F72" qIndex="22">
+      <quotations size="22">
+        <q id="q_3_1" au="usr_1" cDate="2015-03-02T15:45:46" mDate="2015-03-02T15:45:46" guid="FBCC91D4-BCA2-4F07-8FBE-3F380EA09618">
+          <location>
+            <segmentedTextLoc sSegment="50" sOffset="11" eSegment="50" eOffset="28"/>
+          </location>
+        </q>
+        <q id="q_3_2" au="usr_1" cDate="2015-03-02T15:49:59" mDate="2015-03-02T15:49:59" guid="1F655BB8-BE2E-4FC1-9C83-D344959D6BAF">
+          <location>
+            <segmentedTextLoc sSegment="50" sOffset="283" eSegment="50" eOffset="544"/>
+          </location>
+        </q>
+        <q id="q_3_3" au="usr_1" cDate="2015-03-02T15:56:04" mDate="2015-03-02T15:56:04" guid="561B08DB-BA38-4CD1-B942-F2FC5B6D7145">
+          <location>
+            <segmentedTextLoc sSegment="58" sOffset="256" eSegment="58" eOffset="268"/>
+          </location>
+        </q>
+        <q id="q_3_4" au="usr_1" cDate="2015-03-02T15:58:15" mDate="2015-03-02T15:58:15" guid="6D6BF6FF-E95E-4609-951A-4EC2B44ADCDF">
+          <location>
+            <segmentedTextLoc sSegment="60" sOffset="232" eSegment="60" eOffset="333"/>
+          </location>
+        </q>
+        <q id="q_3_5" au="usr_1" cDate="2015-03-02T16:04:05" mDate="2015-03-02T16:04:05" guid="E6DE86DF-7DC0-4ECC-84B3-5B4D0D6A8802">
+          <location>
+            <segmentedTextLoc sSegment="64" sOffset="42" eSegment="64" eOffset="51"/>
+          </location>
+        </q>
+        <q id="q_3_6" au="usr_1" cDate="2015-03-02T16:07:16" mDate="2015-03-02T16:07:16" guid="F024EF51-3DD4-492B-AF25-26EEBBEDCE41">
+          <location>
+            <segmentedTextLoc sSegment="30" sOffset="417" eSegment="34" eOffset="244"/>
+          </location>
+        </q>
+        <q id="q_3_7" au="usr_1" cDate="2015-03-02T16:08:08" mDate="2015-03-02T16:08:08" guid="08E96A67-D45B-4C16-A5B6-E7890F304E93">
+          <location>
+            <segmentedTextLoc sSegment="70" sOffset="11" eSegment="70" eOffset="216"/>
+          </location>
+        </q>
+        <q id="q_3_8" au="usr_1" cDate="2015-03-02T16:10:17" mDate="2015-03-02T16:10:17" guid="712FF708-0989-45C0-BFF5-2D56E97E865D">
+          <location>
+            <segmentedTextLoc sSegment="70" sOffset="217" eSegment="72" eOffset="208"/>
+          </location>
+        </q>
+        <q id="q_3_9" au="usr_1" cDate="2015-03-02T16:11:39" mDate="2015-03-02T16:11:39" guid="6A10094C-FEAF-4124-9212-C185FAD9F68E">
+          <location>
+            <segmentedTextLoc sSegment="72" sOffset="209" eSegment="76" eOffset="248"/>
+          </location>
+        </q>
+        <q id="q_3_10" au="usr_1" cDate="2015-03-03T08:39:15" mDate="2015-03-03T08:39:15" guid="D4C47A7E-9EC5-49F2-BCB3-3211767207FC">
+          <location>
+            <segmentedTextLoc sSegment="80" sOffset="198" eSegment="80" eOffset="253"/>
+          </location>
+        </q>
+        <q id="q_3_11" au="usr_1" cDate="2015-03-03T08:47:47" mDate="2015-03-03T08:47:47" guid="9DFEA0F4-E571-4E66-92ED-130774EA9508">
+          <location>
+            <segmentedTextLoc sSegment="136" sOffset="11" eSegment="136" eOffset="108"/>
+          </location>
+        </q>
+        <q id="q_3_12" au="usr_1" cDate="2015-03-03T08:49:35" mDate="2015-03-03T08:50:43" guid="5B190DC6-90CA-49DE-945B-54A564C4E7C6">
+          <location>
+            <segmentedTextLoc sSegment="150" sOffset="202" eSegment="150" eOffset="567"/>
+          </location>
+        </q>
+        <q id="q_3_13" au="usr_1" cDate="2015-03-03T08:53:27" mDate="2015-03-03T08:53:28" guid="C0AA841E-8C85-4C7C-8516-034EDAA764F0">
+          <location>
+            <segmentedTextLoc sSegment="152" sOffset="10" eSegment="154" eOffset="358"/>
+          </location>
+        </q>
+        <q id="q_3_14" au="usr_1" cDate="2015-03-03T08:54:49" mDate="2015-03-03T08:54:49" guid="1EE0DBE6-5625-4FFE-B0EC-45F8BE097C2D">
+          <location>
+            <segmentedTextLoc sSegment="138" sOffset="0" eSegment="138" eOffset="216"/>
+          </location>
+        </q>
+        <q id="q_3_15" au="usr_1" cDate="2015-03-03T09:02:45" mDate="2015-03-03T09:02:45" guid="ABE1BE8E-28AC-4490-97C0-52470BC25DA2">
+          <location>
+            <segmentedTextLoc sSegment="222" sOffset="0" eSegment="222" eOffset="62"/>
+          </location>
+        </q>
+        <q id="q_3_16" au="usr_1" cDate="2015-03-03T09:04:43" mDate="2015-03-03T09:04:43" guid="0746C42F-C94D-4E95-8695-35C0C5AFE4EF">
+          <location>
+            <segmentedTextLoc sSegment="228" sOffset="0" eSegment="230" eOffset="38"/>
+          </location>
+        </q>
+        <q id="q_3_17" au="usr_1" cDate="2015-03-03T09:08:26" mDate="2015-03-03T09:08:26" guid="5AF7EB7A-AD95-4DD2-9CD6-0F0C09F72F22">
+          <location>
+            <segmentedTextLoc sSegment="300" sOffset="0" eSegment="300" eOffset="63"/>
+          </location>
+        </q>
+        <q id="q_3_18" au="usr_1" cDate="2015-03-03T09:11:21" mDate="2015-03-03T09:11:21" guid="1AF3DC8F-D8C6-48F7-B94A-84365F28FBAF">
+          <location>
+            <segmentedTextLoc sSegment="452" sOffset="0" eSegment="454" eOffset="18"/>
+          </location>
+        </q>
+        <q id="q_3_19" au="usr_1" cDate="2015-03-03T09:15:43" mDate="2015-03-03T09:15:43" guid="649D35A3-6754-4A66-9D0F-241457826C92">
+          <location>
+            <segmentedTextLoc sSegment="610" sOffset="0" eSegment="610" eOffset="117"/>
+          </location>
+        </q>
+        <q id="q_3_20" au="usr_1" cDate="2015-03-03T09:21:58" mDate="2015-03-03T09:23:49" guid="1A1200F0-93CB-44F6-AC19-16FAAA460C7F">
+          <location>
+            <segmentedTextLoc sSegment="478" sOffset="200" eSegment="482" eOffset="21"/>
+          </location>
+        </q>
+        <q id="q_3_21" au="usr_1" cDate="2015-03-03T09:35:46" mDate="2015-03-03T09:35:46" guid="82972B79-B50E-4CAF-8C34-041A46E36357">
+          <location>
+            <segmentedTextLoc sSegment="262" sOffset="192" eSegment="262" eOffset="406"/>
+          </location>
+        </q>
+        <q id="q_3_22" au="usr_1" cDate="2015-03-03T09:58:40" mDate="2015-03-03T09:58:40" guid="DA733581-93C8-425A-B5FF-0E4F34A42870">
+          <location>
+            <segmentedTextLoc sSegment="140" sOffset="293" eSegment="140" eOffset="412"/>
+          </location>
+        </q>
+      </quotations>
+    </document>
+    <document id="doc_4" name="2013.07.15 Procedure 1 RALRP.rtf" loc="ds_116" au="usr_1" cDate="2015-03-02T12:47:13" mDate="2015-03-02T12:47:45" guid="261D9CA9-C999-4872-8EB4-F741C49164F7" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_5" name="2013.07.15 Procedure 2 RARLP.rtf" loc="ds_35" au="usr_1" cDate="2015-03-02T12:47:13" mDate="2015-03-02T12:47:45" guid="7FCA1BE7-7AD3-4583-BA57-6F71B8D8144F" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_6" name="2013.07.15 Process Notes.rtf" loc="ds_129" au="usr_1" cDate="2015-03-02T12:47:13" mDate="2015-03-02T12:47:45" guid="7444F68F-9CEF-4813-AF97-D1ABB8F6299F" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_7" name="2013.07.25 Open Prostatectomy.rtf" loc="ds_77" au="usr_1" cDate="2015-03-02T12:47:13" mDate="2015-03-02T12:47:45" guid="15AA70B9-FCC6-4478-A386-A7BC9FCBACEA" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_8" name="2013.07.25 Process Notes.rtf" loc="ds_118" au="usr_1" cDate="2015-03-02T12:47:14" mDate="2015-03-02T12:47:45" guid="32978DDC-A479-4858-A66D-AA4BFAFAB5D7" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_9" name="2013.07.25 Uretal Implant.rtf" loc="ds_95" au="usr_1" cDate="2015-03-02T12:47:14" mDate="2015-03-02T12:47:45" guid="FD240D9B-8881-4FC3-9919-F9B01CEA8C10" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_10" name="2013.07.26 Left partial nephrectomy.rtf" loc="ds_24" au="usr_1" cDate="2015-03-02T12:47:14" mDate="2015-03-02T12:47:45" guid="72437384-3DD8-442E-AB78-261266EEAF07" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_11" name="2013.07.26 Uretal Implant.rtf" loc="ds_109" au="usr_1" cDate="2015-03-02T12:47:14" mDate="2015-03-02T12:47:45" guid="56493AD0-E3FD-4683-B01D-7FE22E80C877" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_12" name="2013.12.17 Field Notes.rtf" loc="ds_140" au="usr_1" cDate="2015-03-02T12:47:14" mDate="2015-03-02T12:47:45" guid="06E7600D-C1D3-496B-ABD3-9A4993D558CA" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_13" name="2014.01.30 Process Notes.rtf" loc="ds_84" au="usr_1" cDate="2015-03-02T12:47:14" mDate="2015-03-02T12:47:45" guid="48CBD76A-F680-41CF-A460-003E39B007E2" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_14" name="2014.01.30 Prostatectomy.rtf" loc="ds_90" au="usr_1" cDate="2015-03-02T12:47:14" mDate="2015-03-02T12:47:45" guid="D29281AE-69DE-42AF-8572-D1CDEA4500DA" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_15" name="2014.02.17 Cystectomy.rtf" loc="ds_31" au="usr_1" cDate="2015-03-02T12:47:14" mDate="2015-03-02T12:47:45" guid="57488A79-D554-4C8F-97CC-BAFCC7E410B6" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_16" name="2014.02.19 Prostate 1.rtf" loc="ds_78" au="usr_1" cDate="2015-03-02T12:47:15" mDate="2015-03-02T12:47:45" guid="C839C111-3B3A-4894-AA0B-C8539A77C91A" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_17" name="2014.02.19 Prostate 2.rtf" loc="ds_43" au="usr_1" cDate="2015-03-02T12:47:15" mDate="2015-03-02T12:47:45" guid="6D6DEB5F-F1CA-4E42-89FB-30270AE2D64A" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_18" name="2014.02.21 O Nephrectomy.rtf" loc="ds_138" au="usr_1" cDate="2015-03-02T12:47:15" mDate="2015-03-02T12:47:45" guid="9DB6256B-7B8F-444D-ABF3-FE66FEBCD069" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_19" name="2014.03.07 Colorectal Process notes.rtf" loc="ds_147" au="usr_1" cDate="2015-03-02T12:47:15" mDate="2015-03-02T12:47:45" guid="8EAA1683-BC67-4797-9757-D69985A07539" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_20" name="2014.03.07 Sigmoid resection.rtf" loc="ds_145" au="usr_1" cDate="2015-03-02T12:47:15" mDate="2015-03-02T12:47:45" guid="0B1888B3-14A6-4658-8ECC-01D515B9D058" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_21" name="2014.03.14 L Nephrectomy.rtf" loc="ds_130" au="usr_1" cDate="2015-03-02T12:47:15" mDate="2015-07-07T16:12:14" guid="71D8A2C3-C528-4224-B9F5-42C269CEB528" qIndex="1">
+      <quotations size="1">
+        <q id="q_21_1" au="usr_1" cDate="2015-07-07T16:12:14" mDate="2015-07-07T16:12:14" guid="89DC9F2D-60EC-45E4-A9D1-31C7FB9B9757">
+          <location>
+            <segmentedTextLoc sSegment="716" sOffset="94" eSegment="716" eOffset="433"/>
+          </location>
+        </q>
+      </quotations>
+    </document>
+    <document id="doc_22" name="2014.03.28 R partial.rtf" loc="ds_52" au="usr_1" cDate="2015-03-02T12:47:15" mDate="2015-03-02T12:47:45" guid="D660D7C4-B0C1-4CAE-BA5C-BD322FBC693B" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_23" name="2014.03.31 O Part Nephrectomy.rtf" loc="ds_98" au="usr_1" cDate="2015-03-02T12:47:16" mDate="2015-03-02T12:47:45" guid="C6C03EEF-F1BB-4BBB-B4BF-3EF090F16CFD" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_24" name="2014.05.06 O Partial.rtf" loc="ds_8" au="usr_1" cDate="2015-03-02T12:47:16" mDate="2015-03-02T12:47:45" guid="314C3151-7D38-45C1-8F5C-5BC262198F8D" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_25" name="2014.05.13 R Partial Email.pdf" loc="ds_89" au="usr_1" cDate="2015-03-02T12:47:16" mDate="2015-03-02T12:47:45" guid="D325F04F-1006-418E-8975-76DE8A629F7D" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_26" name="2014.05.13 R Partial v2.rtf" loc="ds_69" au="usr_1" cDate="2015-03-02T12:47:16" mDate="2015-03-02T12:47:45" guid="7B121A89-A25E-435F-8645-9D4ADD80821D" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_27" name="2014.06.04 R Prostate.docx" loc="ds_7" au="usr_1" cDate="2015-03-02T12:47:16" mDate="2015-03-02T12:47:45" guid="45CDD959-534C-4A53-8578-AB7AD8A01811" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_28" name="2014.06.05 O Partial.rtf" loc="ds_103" au="usr_1" cDate="2015-03-02T12:47:16" mDate="2015-03-02T12:47:45" guid="79B8BBF4-2008-4055-8503-E04263F94659" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_29" name="2014.06.06 O Nephrouretorectomy.rtf" loc="ds_71" au="usr_1" cDate="2015-03-02T12:47:16" mDate="2015-03-02T12:47:45" guid="0193AC61-DE2B-4927-BB5F-233E87C72A26" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_30" name="2014.06.10 R and O Other.rtf" loc="ds_102" au="usr_1" cDate="2015-03-02T12:47:16" mDate="2015-03-02T12:47:45" guid="6B9112CE-3589-4CBB-A341-0D161C35CED9" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_31" name="2014.06.11 R Partial.rtf" loc="ds_112" au="usr_1" cDate="2015-03-02T12:47:17" mDate="2015-03-02T12:47:45" guid="6DC138A1-A355-4DFD-9189-32050F44280B" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_32" name="2014.06.18 R Nephrouterotomy.rtf" loc="ds_83" au="usr_1" cDate="2015-03-02T12:47:17" mDate="2015-03-02T12:47:45" guid="D154DA11-7204-4B91-B275-DB5F0E6F7799" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_33" name="2014.06.18 R Partial.rtf" loc="ds_48" au="usr_1" cDate="2015-03-02T12:47:17" mDate="2015-03-02T12:47:45" guid="D8A6F499-CF6C-4D23-88F5-642A86613A17" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_34" name="2014.06.25 O Nephrectomy.rtf" loc="ds_4" au="usr_1" cDate="2015-03-02T12:47:17" mDate="2015-03-02T12:47:45" guid="DAE14414-5D51-4FE7-87C6-F7D0C2C3ED1C" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_35" name="2014.06.26 Robot Bootcamp.rtf" loc="ds_135" au="usr_1" cDate="2015-03-02T12:47:17" mDate="2015-03-02T12:47:45" guid="D2B40324-810E-4247-AF57-0B48093F6D8B" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_36" name="2014.07.08 O Partial.rtf" loc="ds_128" au="usr_1" cDate="2015-03-02T12:47:17" mDate="2015-03-02T12:47:45" guid="CDECA658-B505-4655-BE47-42FA745ABC88" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_37" name="2014.07.08 R Prostate.rtf" loc="ds_47" au="usr_1" cDate="2015-03-02T12:47:17" mDate="2015-03-02T12:47:45" guid="761F4C85-A69E-47BA-9806-D691198D37E1" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_38" name="2014.07.14 R Prostate.rtf" loc="ds_156" au="usr_1" cDate="2015-03-02T12:47:18" mDate="2015-03-02T12:47:45" guid="12088C6E-C95F-4C31-9C80-351EEDA891B4" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_39" name="2014.07.29 O Illial Loop.rtf" loc="ds_139" au="usr_1" cDate="2015-03-02T12:47:18" mDate="2015-03-02T12:47:45" guid="79A10143-FF2A-4B3C-B599-C1C9E03EEB54" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_40" name="2014.07.30 R Prostate.rtf" loc="ds_148" au="usr_1" cDate="2015-03-02T12:47:18" mDate="2015-03-02T12:47:45" guid="CFB79FED-8E98-4BDC-B910-995EEF72F987" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_41" name="2014.08.12 O NX.rtf" loc="ds_53" au="usr_1" cDate="2015-03-02T12:47:18" mDate="2015-03-02T12:47:45" guid="DFFC50AF-3C92-4FF2-8A6B-FB6B1D121425" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_42" name="2014.08.14 O Penectomy.rtf" loc="ds_81" au="usr_1" cDate="2015-03-02T12:47:18" mDate="2015-03-02T12:47:45" guid="A8F96771-8D14-4039-BC27-EFD54073381E" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_43" name="2014.08.14 Resident Break Room.rtf" loc="ds_25" au="usr_1" cDate="2015-03-02T12:47:18" mDate="2015-03-02T12:47:45" guid="6CB831BF-D04A-4C57-B8F1-6F9D836176FC" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_44" name="2014.08.18 R Prostate.rtf" loc="ds_119" au="usr_1" cDate="2015-03-02T12:47:19" mDate="2015-03-02T12:47:45" guid="96EF401E-81D9-4421-B3E2-6F3FFA375A47" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_45" name="2014.08.26 R Special.rtf" loc="ds_134" au="usr_1" cDate="2015-03-02T12:47:19" mDate="2015-03-02T12:47:45" guid="C60D35F9-5186-4AC6-84A4-9E97F7082007" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_46" name="2014.09.24 R Prostate.rtf" loc="ds_37" au="usr_1" cDate="2015-03-02T12:47:19" mDate="2015-03-02T12:47:45" guid="024482AE-9D57-4314-9F2D-4C0F4D71BBAD" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_47" name="2014.10.15 R Nephro U.rtf" loc="ds_21" au="usr_1" cDate="2015-03-02T12:47:19" mDate="2015-03-02T12:47:45" guid="107095FD-8A99-4493-9339-43DF06904909" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_48" name="2014.11.05 Cystectomy.rtf" loc="ds_42" au="usr_1" cDate="2015-03-02T12:47:19" mDate="2015-03-02T12:47:45" guid="0849F603-4C26-405A-A500-2BDCD7B06ABB" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_49" name="2014.11.13 O Radical.rtf" loc="ds_152" au="usr_1" cDate="2015-03-02T12:47:19" mDate="2015-03-02T12:47:45" guid="7B012591-C992-4D75-B633-56DC72223C66" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_50" name="2014.11.19 R Complex.rtf" loc="ds_20" au="usr_1" cDate="2015-03-02T12:47:19" mDate="2015-03-02T12:47:45" guid="B27EC877-0BBD-47DA-A6EF-1086556EC6EB" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_51" name="2014.11.19 R Pyleoplasty.rtf" loc="ds_29" au="usr_1" cDate="2015-03-02T12:47:19" mDate="2015-03-02T12:47:45" guid="3A585F87-25B2-46BB-BAAE-FE77B780D7BE" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_52" name="2014.12.10 R Nephro U.rtf" loc="ds_88" au="usr_1" cDate="2015-03-02T12:47:20" mDate="2015-03-02T12:47:45" guid="46F06DA9-34FC-4F8E-A114-585CCF30FFB0" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_53" name="2015.01.14 R Pyleoplasty.rtf" loc="ds_68" au="usr_1" cDate="2015-03-02T12:47:20" mDate="2015-03-02T12:47:45" guid="9A236283-5865-4D5D-AB76-AAD204FD00AA" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_54" name="2015.01.14 RALP.rtf" loc="ds_45" au="usr_1" cDate="2015-03-02T12:47:20" mDate="2015-03-02T12:47:45" guid="A8C51EA9-D331-4A71-B7C2-5610E87609F9" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_55" name="2015.01.16 O Partial field notes.rtf" loc="ds_97" au="usr_1" cDate="2015-03-02T12:47:20" mDate="2015-03-02T12:47:45" guid="D0E3E82D-0CCB-456B-862D-76CCAB65FD18" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_56" name="2015.01.16 O Partial.rtf" loc="ds_155" au="usr_1" cDate="2015-03-02T12:47:20" mDate="2015-03-02T12:47:45" guid="915F87BB-804E-4527-90E3-091AD65B54B1" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_57" name="2015.01.20 L Radical.rtf" loc="ds_14" au="usr_1" cDate="2015-03-02T12:47:20" mDate="2015-03-02T12:47:45" guid="2BEB52F2-8AAE-409A-BDF1-8191BDAE5DBB" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_58" name="2015.01.22 RALP.rtf" loc="ds_11" au="usr_1" cDate="2015-03-02T12:47:20" mDate="2015-03-02T12:47:45" guid="CE0ADE30-E4DC-4165-BE24-E992AAD9B6FC" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_59" name="2015.01.28 R Incomplete procedure.rtf" loc="ds_154" au="usr_1" cDate="2015-03-02T12:47:21" mDate="2015-03-02T12:47:45" guid="F2ED6DA9-7318-4A8D-B758-6E2B7E5F098D" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_60" name="2015.01.28 RALP.rtf" loc="ds_132" au="usr_1" cDate="2015-03-02T12:47:21" mDate="2015-03-02T12:47:45" guid="05573809-DDBD-4DE3-BF4A-D00E045CDFA6" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_61" name="2015.02.05 RALP.rtf" loc="ds_100" au="usr_1" cDate="2015-03-02T12:47:21" mDate="2015-03-02T12:47:45" guid="0DAAD058-C569-44BB-9897-92176A57B949" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_62" name="2015.02.06 RALP 2.rtf" loc="ds_3" au="usr_1" cDate="2015-03-02T12:47:21" mDate="2015-03-02T12:47:45" guid="6A4BD361-6942-429C-B38E-1CB75E0F3840" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_63" name="2015.02.06 RALP.rtf" loc="ds_82" au="usr_1" cDate="2015-03-02T12:47:21" mDate="2015-03-02T12:47:45" guid="C63303FB-F46B-48A5-A935-DBC6E6522E49" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_64" name="2015.02.12 O NX.rtf" loc="ds_55" au="usr_1" cDate="2015-03-02T12:47:21" mDate="2015-03-02T12:47:45" guid="AFA53DD1-C37E-4558-863B-08C6A6FD38B3" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_65" name="2015.02.13 R Partial w hydroseal.rtf" loc="ds_74" au="usr_1" cDate="2015-03-02T12:47:22" mDate="2015-03-02T12:47:45" guid="A1933850-EAE1-47D4-AD78-7C32B2419469" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_66" name="2015.02.26 R Partial - incomplete procedure.rtf" loc="ds_120" au="usr_1" cDate="2015-03-02T12:47:22" mDate="2015-03-02T12:47:45" guid="56654877-F94E-4612-BD7D-F352BBC55D0E" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_67" name="2015.02.26 R Partial 2.rtf" loc="ds_153" au="usr_1" cDate="2015-03-02T12:47:22" mDate="2015-03-02T12:47:45" guid="EF4950B0-EBEA-46B0-8EA9-3BB208C7A711" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_68" name="2015.02.27 O Partial.rtf" loc="ds_115" au="usr_1" cDate="2015-03-02T12:47:22" mDate="2015-03-02T12:47:45" guid="A0D27B84-79F1-41A7-9F12-8FD8AEFCF164" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_69" name="2013.05.01 Field Notes.rtf" loc="ds_15" au="usr_1" cDate="2015-03-02T12:49:07" mDate="2015-03-02T12:49:07" guid="0934E717-24F4-4892-B5C7-30B5E194DDCD" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_70" name="2014.01.24 Field Notes.rtf" loc="ds_127" au="usr_1" cDate="2015-03-02T12:49:07" mDate="2015-03-02T12:49:07" guid="751AE7FD-C8DF-4F35-8B75-3C07F47397F2" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_71" name="2014.02.03 R Prostatectomy.rtf" loc="ds_63" au="usr_1" cDate="2015-03-02T12:49:07" mDate="2015-03-02T12:49:07" guid="3AC83781-BEAD-4DE8-A488-B590E54EB782" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_72" name="2014.02.13 O RPLND.rtf" loc="ds_86" au="usr_1" cDate="2015-03-02T12:49:07" mDate="2015-03-02T12:49:07" guid="B243480D-FEED-4D3C-8DA9-8ECEA143E5C4" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_73" name="2014.02.13 Process Notes.docx" loc="ds_75" au="usr_1" cDate="2015-03-02T12:49:07" mDate="2015-03-02T12:49:07" guid="83BF7ED1-E6B8-413D-88D5-F4FE90F38A92" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_74" name="2014.02.13 RPLND Process Notes.rtf" loc="ds_18" au="usr_1" cDate="2015-03-02T12:49:08" mDate="2015-03-02T12:49:08" guid="4D5C7CAD-7763-4E54-8EB9-46A4342A9E0D" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_75" name="2014.02.27 O Prostate.rtf" loc="ds_33" au="usr_1" cDate="2015-03-02T12:49:08" mDate="2015-03-02T12:49:08" guid="04668166-EC32-4D2D-8607-A2DA2839C03A" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_76" name="2014.03.11 Hernia Repair.rtf" loc="ds_56" au="usr_1" cDate="2015-03-02T12:49:08" mDate="2015-03-02T12:49:08" guid="3D4E0782-E819-4CDA-8944-5150BCCE6969" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_77" name="2014.03.27 R Prostate.rtf" loc="ds_30" au="usr_1" cDate="2015-03-02T12:49:08" mDate="2015-03-02T12:49:08" guid="05CB2608-2673-456A-B988-FFE56FF769C3" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_78" name="2014.04.19 O Rad Prostate.rtf" loc="ds_114" au="usr_1" cDate="2015-03-02T12:49:08" mDate="2015-03-02T12:49:08" guid="452F4F5D-3B8C-467F-9B05-629743F7876E" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_79" name="2014.05.20 O. Partial.rtf" loc="ds_49" au="usr_1" cDate="2015-03-02T12:49:09" mDate="2015-03-02T12:49:09" guid="AF2C357A-9BA7-471E-A02A-2EAFF8305E0F" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_80" name="2014.05.20 O. Prostate.rtf" loc="ds_105" au="usr_1" cDate="2015-03-02T12:49:09" mDate="2015-03-02T12:49:09" guid="0EF4D179-2ACA-465E-831D-12C054A61E3E" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_81" name="2014.06.19 O Prostate.rtf" loc="ds_141" au="usr_1" cDate="2015-03-02T12:49:09" mDate="2015-03-02T12:49:09" guid="B88770E6-7BD5-4B09-8F7C-F6404B981485" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_82" name="2014.07.17 R Partial.rtf" loc="ds_27" au="usr_1" cDate="2015-03-02T12:49:09" mDate="2015-03-02T12:49:09" guid="3736DD11-D57D-43F4-A1CD-95642D508311" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_83" name="2014.07.22 L NX.rtf" loc="ds_142" au="usr_1" cDate="2015-03-02T12:49:09" mDate="2015-03-02T12:49:09" guid="664AED11-FFDD-46B9-872E-B5559C45B40D" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_84" name="2014.07.23 R. Cystectomy.rtf" loc="ds_92" au="usr_1" cDate="2015-03-02T12:49:09" mDate="2015-03-02T12:49:09" guid="BD6418B2-19B2-4244-9DEE-66B184406186" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_85" name="2014.08.21 R Prostate.rtf" loc="ds_57" au="usr_1" cDate="2015-03-02T12:49:10" mDate="2015-03-02T12:49:10" guid="33073D9F-5659-4E97-8F93-A0F53AA882EF" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_86" name="2013.07.29 Prostatectomy 2.rtf" loc="ds_96" au="usr_1" cDate="2015-03-02T12:50:33" mDate="2015-03-02T12:50:33" guid="9E1195DE-9687-4ECF-9F7E-CD348529FA0B" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_87" name="2013.07.29 Prostatectomy.rtf" loc="ds_151" au="usr_1" cDate="2015-03-02T12:50:33" mDate="2015-03-02T12:50:33" guid="2B346FE1-A082-43D3-BD5F-85D952CC9777" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_88" name="2014.02.25 R. Partial Neph.docx" loc="ds_2" au="usr_1" cDate="2015-03-02T12:50:34" mDate="2015-03-02T12:50:34" guid="94A149CA-2CEF-4D28-A348-718D0EA0F72E" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_89" name="2014.02.25 R. Partial Neph.rtf" loc="ds_123" au="usr_1" cDate="2015-03-02T12:50:34" mDate="2015-03-02T12:50:34" guid="49478B3D-98F1-4A32-8292-9675ACABCCD5" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_90" name="2014.03.17 R Radical Neph.rtf" loc="ds_23" au="usr_1" cDate="2015-03-02T12:50:34" mDate="2015-03-02T12:50:34" guid="8948A282-6620-47A3-9206-C8E6978980A0" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_91" name="2014.03.25 Process Notes.rtf" loc="ds_117" au="usr_1" cDate="2015-03-02T12:50:34" mDate="2015-03-02T12:50:34" guid="87F4CA71-F850-4044-A57A-36D3F86C61D8" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_92" name="2014.03.25 R Nephrectomy.rtf" loc="ds_66" au="usr_1" cDate="2015-03-02T12:50:34" mDate="2015-03-02T12:50:34" guid="63AF3B20-9D54-455C-8EB0-30BF424DBB90" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_93" name="2014.03.25 R Prostate.rtf" loc="ds_67" au="usr_1" cDate="2015-03-02T12:50:35" mDate="2015-03-02T12:50:35" guid="4EDD1FA3-D5F8-4DFA-B565-275CEF2891BF" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_94" name="2014.05.12 R Prostate 2.rtf" loc="ds_46" au="usr_1" cDate="2015-03-02T12:50:35" mDate="2015-03-02T12:50:35" guid="F4ECD077-06CA-4E30-80B7-8C93BD82245F" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_95" name="2014.05.12 R Prostate.rtf" loc="ds_59" au="usr_1" cDate="2015-03-02T12:50:35" mDate="2015-03-02T12:50:35" guid="749BAAA0-90C1-4897-BE36-1DB8FC4F8CFC" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_96" name="2013.08.28 Doug Dahl MGH.docx" loc="ds_36" au="usr_1" cDate="2015-03-02T12:51:25" mDate="2015-03-02T12:51:25" guid="D0E1075B-4CFE-4262-97C5-C1E2E3DFB578" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_97" name="2013.12.16 MGH.docx" loc="ds_16" au="usr_1" cDate="2015-03-02T12:51:25" mDate="2015-03-02T12:51:25" guid="59E60E94-9D0E-44D2-972E-7F32B6DB3572" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_98" name="2014.02.11 Field Notes.rtf" loc="ds_26" au="usr_1" cDate="2015-03-02T12:51:26" mDate="2015-03-02T12:51:26" guid="690417D3-C1D2-4579-87F4-C3B4B5A015B2" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_99" name="2014.02.11 Rad Prost Lap 2.rtf" loc="ds_32" au="usr_1" cDate="2015-03-02T12:51:26" mDate="2015-03-02T12:51:26" guid="509B8399-241B-4E79-BC86-D02223D1F544" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_100" name="2014.02.11 Rad Prost Lap.rtf" loc="ds_110" au="usr_1" cDate="2015-03-02T12:51:26" mDate="2015-03-02T12:51:26" guid="420FB649-FDF6-4AFC-BE4A-8E86DC9F81A7" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_101" name="2014.02.12 Tabatabaei first meeting.rtf" loc="ds_50" au="usr_1" cDate="2015-03-02T12:51:26" mDate="2015-03-02T12:51:26" guid="65693FBA-6A7C-419B-87FB-A9518F933276" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_102" name="2014.02.13 Olumi first meeting.rtf" loc="ds_60" au="usr_1" cDate="2015-03-02T12:51:27" mDate="2015-03-02T12:51:27" guid="1592E85A-0BBF-48FC-B72D-305E8E70F54D" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_103" name="2014.02.13 Wszolek first meeting.rtf" loc="ds_94" au="usr_1" cDate="2015-03-02T12:51:27" mDate="2015-03-02T12:51:27" guid="724817D4-ACAC-40D6-9C8E-08BAFF945DEC" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_104" name="2014.02.14 R Prostate Tabatabaei.docx" loc="ds_124" au="usr_1" cDate="2015-03-02T12:51:27" mDate="2015-03-02T12:51:27" guid="9ED3F51E-A5F3-4E9F-888B-B739BCA631D2" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_105" name="2014.02.14 R Prostate.rtf" loc="ds_125" au="usr_1" cDate="2015-03-02T12:51:27" mDate="2015-03-02T12:51:27" guid="58C11C9E-75E7-4B94-A317-08F082A4CBC5" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_106" name="2014.02.20 Robot Working Group.rtf" loc="ds_122" au="usr_1" cDate="2015-03-02T12:51:28" mDate="2015-03-02T12:51:28" guid="6A984552-26D7-4C58-AA8B-57C06785249F" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_107" name="2014.03.05 Colorect Process Notes.rtf" loc="ds_40" au="usr_1" cDate="2015-03-02T12:51:28" mDate="2015-03-02T12:51:28" guid="C01246F2-38F4-4CB9-B7E2-B09052F4C4BD" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_108" name="2014.03.05 Colorect.rtf" loc="ds_44" au="usr_1" cDate="2015-03-02T12:51:28" mDate="2015-03-02T12:51:28" guid="D9175E39-5E71-418E-996F-B1E26103A696" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_109" name="2014.03.11 R Prostate Process Notes.rtf" loc="ds_13" au="usr_1" cDate="2015-03-02T12:51:28" mDate="2015-03-02T12:51:28" guid="2CA7D669-57BB-4DB1-A11E-5A19810F12C1" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_110" name="2014.03.11 R Prostate.rtf" loc="ds_87" au="usr_1" cDate="2015-03-02T12:51:28" mDate="2015-03-02T12:51:28" guid="8CF7680D-C2D6-4085-91D8-635C53D32A30" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_111" name="2014.03.13 R multiple myomectomy.rtf" loc="ds_108" au="usr_1" cDate="2015-03-02T12:51:29" mDate="2015-03-02T12:51:29" guid="77F015EC-9F84-4285-9DD9-F22892E321C4" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_112" name="2014.03.20 L Hysterectomy.rtf" loc="ds_17" au="usr_1" cDate="2015-03-02T12:51:29" mDate="2015-03-02T12:51:29" guid="64B96D43-6370-4025-AEE6-5145ED057F22" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_113" name="2014.03.20 Robot Working Group.rtf" loc="ds_41" au="usr_1" cDate="2015-03-02T12:51:29" mDate="2015-03-02T12:51:29" guid="CC8044AC-861C-4EA2-98A2-11F154640164" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_114" name="2014.04.08 Field Notes.rtf" loc="ds_34" au="usr_1" cDate="2015-03-02T12:51:29" mDate="2015-03-02T12:51:29" guid="87000C08-2C7C-4322-969E-820351FEDF33" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_115" name="2014.01.27 Parkland canes Prostatectomy.rtf" loc="ds_149" au="usr_1" cDate="2015-03-02T12:52:15" mDate="2015-03-02T12:52:15" guid="00428C80-00B4-48A1-BFDA-E050D8BB4CCF" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_116" name="2014.01.27 Parkland Fieldnotes.rtf.docx" loc="ds_150" au="usr_1" cDate="2015-03-02T12:52:15" mDate="2015-03-02T12:52:15" guid="51AFB99F-9953-46F4-B202-055089F1CBEE" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_117" name="2014.04.07 R Prostate.rtf" loc="ds_91" au="usr_1" cDate="2015-03-02T12:52:15" mDate="2015-09-09T21:32:56" guid="E200DD5B-3A6E-4729-B75A-8D0631C8F66C" qIndex="1">
+      <quotations size="1">
+        <q id="q_117_1" au="usr_1" cDate="2015-09-09T21:32:56" mDate="2015-09-09T21:32:56" guid="6352BFD9-E652-4EAC-A3DA-016F66B9E69F">
+          <location>
+            <segmentedTextLoc sSegment="102" sOffset="0" eSegment="104" eOffset="59"/>
+          </location>
+        </q>
+      </quotations>
+    </document>
+    <document id="doc_188" name="2015.03.04 RALP.rtf" loc="ds_73" au="usr_1" cDate="2015-04-09T11:22:36" mDate="2015-04-09T11:22:36" guid="38501BE7-819C-42F4-BDF9-995DE8EFA821" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_189" name="2015.03.26 Partial procedure RBWA.docx" loc="ds_38" au="usr_1" cDate="2015-04-09T11:22:36" mDate="2015-04-09T11:22:36" guid="F2396979-6CD0-4B9E-BCC0-DEF07519416E" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_190" name="2015.06.03 RALP.rtf" loc="ds_1" au="usr_1" cDate="2015-07-05T12:49:00" mDate="2015-09-08T21:21:43" guid="73DBEFC4-AD7A-44B2-BD25-8D7DC0C2FC49" qIndex="1">
+      <quotations size="1">
+        <q id="q_190_1" au="usr_1" cDate="2015-09-08T21:21:43" mDate="2015-09-08T21:21:43" guid="16A424A2-2576-4B16-93A3-AEB9F57EFE3E">
+          <location>
+            <segmentedTextLoc sSegment="1144" sOffset="0" eSegment="1154" eOffset="225"/>
+          </location>
+        </q>
+      </quotations>
+    </document>
+    <document id="doc_191" name="2015.06.05 Neph U.rtf" loc="ds_51" au="usr_1" cDate="2015-07-05T12:49:00" mDate="2015-07-05T12:49:00" guid="3C060E50-BDD4-4F99-A3C1-717872D5A012" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_192" name="2015.06.05 RALP.rtf" loc="ds_136" au="usr_1" cDate="2015-07-05T12:49:00" mDate="2015-07-05T12:49:00" guid="AC7DBFFA-BF08-4A68-AFF1-A034558B797D" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_193" name="2015.06.10 Neph U.rtf" loc="ds_126" au="usr_1" cDate="2015-07-05T12:49:01" mDate="2015-09-08T22:34:36" guid="76C1C628-2ECD-429E-9FAB-5546698BB3B3" qIndex="1">
+      <quotations size="1">
+        <q id="q_193_1" au="usr_1" cDate="2015-09-08T22:34:36" mDate="2015-09-08T22:34:45" guid="71F91422-0182-44A8-A65C-53502AF29AF6">
+          <location>
+            <segmentedTextLoc sSegment="552" sOffset="0" eSegment="556" eOffset="100"/>
+          </location>
+        </q>
+      </quotations>
+    </document>
+    <document id="doc_194" name="2015.06.11 RALP 2.rtf" loc="ds_137" au="usr_1" cDate="2015-07-05T12:49:01" mDate="2015-07-05T12:49:01" guid="B07A5921-3FDF-433F-9887-41F2F841FB8F" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_195" name="2015.06.11 RALP.rtf" loc="ds_106" au="usr_1" cDate="2015-07-05T12:49:01" mDate="2015-09-09T20:06:12" guid="B2E2C0EB-AF2C-4BFF-9DF9-D781A9E5C8A1" qIndex="2">
+      <quotations size="2">
+        <q id="q_195_1" au="usr_1" cDate="2015-09-08T21:14:43" mDate="2015-09-08T21:14:43" guid="54E29646-26C1-4175-BD59-FE284CC2CDC5">
+          <location>
+            <segmentedTextLoc sSegment="30" sOffset="0" eSegment="30" eOffset="387"/>
+          </location>
+        </q>
+        <q id="q_195_2" au="usr_1" cDate="2015-09-09T20:06:12" mDate="2015-09-09T20:06:12" guid="49E42B06-C3FD-4F00-BD21-98AD5069B350">
+          <location>
+            <segmentedTextLoc sSegment="50" sOffset="0" eSegment="56" eOffset="79"/>
+          </location>
+        </q>
+      </quotations>
+    </document>
+    <document id="doc_196" name="2015.06.17 RALP.rtf" loc="ds_28" au="usr_1" cDate="2015-07-05T12:49:01" mDate="2015-07-05T12:49:01" guid="F650F1BE-8594-44E1-839D-7A08A91FCE51" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_197" name="2015.07.01 R Pyleoplasty.rtf" loc="ds_131" au="usr_1" cDate="2015-07-05T12:49:01" mDate="2015-09-09T18:27:46" guid="948DF141-AA80-4CB0-B821-8AC427FCF0D1" qIndex="28">
+      <quotations size="28">
+        <q id="q_197_1" au="usr_1" cDate="2015-07-05T12:56:08" mDate="2015-07-05T12:56:08" guid="E0F4D674-E37E-438D-A517-0751D3408E51">
+          <location>
+            <segmentedTextLoc sSegment="4" sOffset="11" eSegment="4" eOffset="292"/>
+          </location>
+        </q>
+        <q id="q_197_2" au="usr_1" cDate="2015-07-05T12:56:39" mDate="2015-07-05T12:56:39" guid="1FDA797F-5399-4BCB-A6CF-E43B020BE919">
+          <location>
+            <segmentedTextLoc sSegment="6" sOffset="0" eSegment="6" eOffset="96"/>
+          </location>
+        </q>
+        <q id="q_197_3" au="usr_1" cDate="2015-07-05T12:56:52" mDate="2015-07-05T12:56:52" guid="994672BE-8E58-4002-BAF7-57ADCF50817B">
+          <location>
+            <segmentedTextLoc sSegment="8" sOffset="0" eSegment="8" eOffset="109"/>
+          </location>
+        </q>
+        <q id="q_197_4" au="usr_1" cDate="2015-07-05T12:57:23" mDate="2015-07-05T12:57:23" guid="9DB019A9-7B6D-4EAC-A822-327D0CD23851">
+          <location>
+            <segmentedTextLoc sSegment="10" sOffset="0" eSegment="10" eOffset="47"/>
+          </location>
+        </q>
+        <q id="q_197_5" au="usr_1" cDate="2015-07-05T12:59:21" mDate="2015-07-05T12:59:21" guid="E5BB21E7-6AB2-401A-A387-89AE3B33F41E">
+          <location>
+            <segmentedTextLoc sSegment="12" sOffset="0" eSegment="12" eOffset="68"/>
+          </location>
+        </q>
+        <q id="q_197_6" au="usr_1" cDate="2015-07-05T13:00:06" mDate="2015-07-05T13:00:14" guid="1AE19AC4-5A73-44EE-AD10-E335D9DDBED3">
+          <location>
+            <segmentedTextLoc sSegment="22" sOffset="0" eSegment="22" eOffset="198"/>
+          </location>
+        </q>
+        <q id="q_197_7" au="usr_1" cDate="2015-07-05T13:01:24" mDate="2015-07-05T13:01:24" guid="52898B24-90F6-4E14-A4C9-3E68F2632BC7">
+          <location>
+            <segmentedTextLoc sSegment="24" sOffset="0" eSegment="28" eOffset="40"/>
+          </location>
+        </q>
+        <q id="q_197_8" au="usr_1" cDate="2015-07-05T13:02:05" mDate="2015-07-05T13:02:05" guid="0B680F5E-DB6D-4EA1-9047-66955E6F01A3">
+          <location>
+            <segmentedTextLoc sSegment="34" sOffset="0" eSegment="42" eOffset="10"/>
+          </location>
+        </q>
+        <q id="q_197_9" au="usr_1" cDate="2015-07-05T13:03:18" mDate="2015-07-05T13:03:18" guid="BFC4342D-852D-41E5-9D9C-BC313BA17964">
+          <location>
+            <segmentedTextLoc sSegment="46" sOffset="0" eSegment="62" eOffset="23"/>
+          </location>
+        </q>
+        <q id="q_197_10" au="usr_1" cDate="2015-07-05T13:04:06" mDate="2015-07-05T13:04:06" guid="1C5DA16B-5BEC-486A-B7DF-8D3AF1DC41DB">
+          <location>
+            <segmentedTextLoc sSegment="82" sOffset="0" eSegment="92" eOffset="137"/>
+          </location>
+        </q>
+        <q id="q_197_11" au="usr_1" cDate="2015-07-05T13:04:27" mDate="2015-07-05T13:04:45" guid="52F40A55-D844-4C63-99AF-7F6E37093979">
+          <location>
+            <segmentedTextLoc sSegment="110" sOffset="0" eSegment="112" eOffset="98"/>
+          </location>
+        </q>
+        <q id="q_197_12" au="usr_1" cDate="2015-07-05T13:04:53" mDate="2015-07-05T13:04:56" guid="34D9BED2-5907-4844-BB68-1C727C660C9E">
+          <location>
+            <segmentedTextLoc sSegment="116" sOffset="0" eSegment="116" eOffset="85"/>
+          </location>
+        </q>
+        <q id="q_197_13" au="usr_1" cDate="2015-07-05T13:08:47" mDate="2015-07-05T13:08:47" guid="BC9E0690-09D1-431C-94E5-F4BA35EC6EE0">
+          <location>
+            <segmentedTextLoc sSegment="128" sOffset="0" eSegment="128" eOffset="43"/>
+          </location>
+        </q>
+        <q id="q_197_14" au="usr_1" cDate="2015-07-05T13:08:53" mDate="2015-07-05T13:08:56" guid="F952129F-5884-4FDB-94C2-513468BB65C9">
+          <location>
+            <segmentedTextLoc sSegment="132" sOffset="0" eSegment="132" eOffset="65"/>
+          </location>
+        </q>
+        <q id="q_197_15" au="usr_1" cDate="2015-07-05T13:09:24" mDate="2015-07-05T13:10:19" guid="F6A716A4-1E8D-4611-9108-B4D0294754F4">
+          <location>
+            <segmentedTextLoc sSegment="134" sOffset="0" eSegment="146" eOffset="42"/>
+          </location>
+        </q>
+        <q id="q_197_16" au="usr_1" cDate="2015-07-05T13:10:51" mDate="2015-07-05T13:10:51" guid="63122BF8-004D-4B31-BFC5-A90EF9A49A46">
+          <location>
+            <segmentedTextLoc sSegment="154" sOffset="0" eSegment="158" eOffset="39"/>
+          </location>
+        </q>
+        <q id="q_197_17" au="usr_1" cDate="2015-07-05T13:11:28" mDate="2015-07-05T13:11:28" guid="A19CF319-9E7C-4FE6-B58E-FF6688517AA8">
+          <location>
+            <segmentedTextLoc sSegment="184" sOffset="0" eSegment="192" eOffset="156"/>
+          </location>
+        </q>
+        <q id="q_197_18" au="usr_1" cDate="2015-07-05T13:12:23" mDate="2015-07-05T13:12:24" guid="CE4815BB-9071-4A22-A0AD-DDA940F952E1">
+          <location>
+            <segmentedTextLoc sSegment="206" sOffset="0" eSegment="208" eOffset="86"/>
+          </location>
+        </q>
+        <q id="q_197_19" au="usr_1" cDate="2015-07-05T13:12:39" mDate="2015-07-05T13:12:39" guid="CAAE2238-95F2-445B-858A-5FFF5EA7058F">
+          <location>
+            <segmentedTextLoc sSegment="220" sOffset="0" eSegment="226" eOffset="48"/>
+          </location>
+        </q>
+        <q id="q_197_20" au="usr_1" cDate="2015-07-05T13:16:57" mDate="2015-07-05T13:16:57" guid="8CEEA121-10EA-4136-881E-1F262BBCB5D5">
+          <location>
+            <segmentedTextLoc sSegment="238" sOffset="0" eSegment="238" eOffset="86"/>
+          </location>
+        </q>
+        <q id="q_197_21" au="usr_1" cDate="2015-07-05T13:17:07" mDate="2015-07-05T13:18:26" guid="67B750E1-15D8-4BFA-A74C-D8B7E05F32DD">
+          <location>
+            <segmentedTextLoc sSegment="244" sOffset="0" eSegment="246" eOffset="10"/>
+          </location>
+        </q>
+        <q id="q_197_22" au="usr_1" cDate="2015-07-05T13:18:21" mDate="2015-07-05T13:18:21" guid="731046EB-32FA-4D88-B1B5-7F12C17207B1">
+          <location>
+            <segmentedTextLoc sSegment="236" sOffset="0" eSegment="264" eOffset="35"/>
+          </location>
+        </q>
+        <q id="q_197_23" au="usr_1" cDate="2015-07-05T13:18:49" mDate="2015-07-05T13:18:49" guid="DFF80AA2-9308-4C44-A774-DAC1E7E6DEA6">
+          <location>
+            <segmentedTextLoc sSegment="260" sOffset="0" eSegment="260" eOffset="55"/>
+          </location>
+        </q>
+        <q id="q_197_24" au="usr_1" cDate="2015-07-05T13:19:02" mDate="2015-07-05T13:19:02" guid="A36ABF78-B97A-4D98-B5DF-58CFFA116488">
+          <location>
+            <segmentedTextLoc sSegment="262" sOffset="0" eSegment="262" eOffset="124"/>
+          </location>
+        </q>
+        <q id="q_197_25" au="usr_1" cDate="2015-07-05T13:19:07" mDate="2015-07-05T13:19:08" guid="84A1FE50-440B-48CB-803C-2A731CFAF1FA">
+          <location>
+            <segmentedTextLoc sSegment="264" sOffset="0" eSegment="264" eOffset="35"/>
+          </location>
+        </q>
+        <q id="q_197_26" au="usr_1" cDate="2015-07-05T13:20:20" mDate="2015-07-05T13:20:20" guid="B3A06B66-F6BB-4221-B49C-9E3CAE585566">
+          <location>
+            <segmentedTextLoc sSegment="326" sOffset="0" eSegment="326" eOffset="83"/>
+          </location>
+        </q>
+        <q id="q_197_27" au="usr_1" cDate="2015-07-05T13:21:14" mDate="2015-07-05T13:21:27" guid="CABC80B8-5773-47C0-9D74-0822B89B8016">
+          <location>
+            <segmentedTextLoc sSegment="356" sOffset="0" eSegment="356" eOffset="136"/>
+          </location>
+        </q>
+        <q id="q_197_28" au="usr_1" cDate="2015-09-09T18:27:46" mDate="2015-09-09T18:27:46" guid="2E687C0A-06B3-4EB1-9FFC-72ECA79E3AEB">
+          <location>
+            <segmentedTextLoc sSegment="613" sOffset="0" eSegment="615" eOffset="1063"/>
+          </location>
+        </q>
+      </quotations>
+    </document>
+    <document id="doc_198" name="2015.07.22 RALP.rtf" loc="ds_144" au="usr_1" cDate="2015-07-22T16:27:38" mDate="2015-07-22T16:43:58" guid="6F822C59-D6E1-4CC9-88FC-F29FBA57DE8E" qIndex="13">
+      <quotations size="13">
+        <q id="q_198_1" au="usr_1" cDate="2015-07-22T16:33:02" mDate="2015-07-22T16:33:02" guid="1C143011-76EB-42ED-BE3A-EAE93CE5DB44">
+          <location>
+            <segmentedTextLoc sSegment="6" sOffset="0" eSegment="6" eOffset="327"/>
+          </location>
+        </q>
+        <q id="q_198_2" au="usr_1" cDate="2015-07-22T16:33:40" mDate="2015-07-22T16:33:40" guid="186B35B6-2888-42E0-BB08-FED14A9864F9">
+          <location>
+            <segmentedTextLoc sSegment="20" sOffset="0" eSegment="20" eOffset="168"/>
+          </location>
+        </q>
+        <q id="q_198_3" au="usr_1" cDate="2015-07-22T16:34:25" mDate="2015-07-22T16:34:25" guid="AC6E10C4-E77D-4A67-B3E2-53392E6B3384">
+          <location>
+            <segmentedTextLoc sSegment="38" sOffset="0" eSegment="38" eOffset="81"/>
+          </location>
+        </q>
+        <q id="q_198_4" au="usr_1" cDate="2015-07-22T16:35:33" mDate="2015-07-22T16:35:33" guid="4223F832-9149-40D2-A4E0-7D13F97C56A3">
+          <location>
+            <segmentedTextLoc sSegment="258" sOffset="0" eSegment="258" eOffset="88"/>
+          </location>
+        </q>
+        <q id="q_198_5" au="usr_1" cDate="2015-07-22T16:37:30" mDate="2015-07-22T16:37:30" guid="340A626A-1BB5-46EF-8500-7FAB80119D07">
+          <location>
+            <segmentedTextLoc sSegment="278" sOffset="0" eSegment="296" eOffset="59"/>
+          </location>
+        </q>
+        <q id="q_198_6" au="usr_1" cDate="2015-07-22T16:37:44" mDate="2015-07-22T16:37:44" guid="F5B4536D-772E-4799-926A-3192E60FD718">
+          <location>
+            <segmentedTextLoc sSegment="298" sOffset="0" eSegment="304" eOffset="7"/>
+          </location>
+        </q>
+        <q id="q_198_7" au="usr_1" cDate="2015-07-22T16:38:05" mDate="2015-07-22T16:38:05" guid="49B92F7A-9D32-498C-ADE6-60C33DA72C50">
+          <location>
+            <segmentedTextLoc sSegment="340" sOffset="0" eSegment="340" eOffset="65"/>
+          </location>
+        </q>
+        <q id="q_198_8" au="usr_1" cDate="2015-07-22T16:38:14" mDate="2015-07-22T16:38:14" guid="F4A78167-857E-4537-8D87-99BD37B05446">
+          <location>
+            <segmentedTextLoc sSegment="346" sOffset="0" eSegment="346" eOffset="22"/>
+          </location>
+        </q>
+        <q id="q_198_9" au="usr_1" cDate="2015-07-22T16:40:35" mDate="2015-07-22T16:40:35" guid="E60922D2-86E9-4FA0-A48E-A32C3EED64A3">
+          <location>
+            <segmentedTextLoc sSegment="400" sOffset="0" eSegment="400" eOffset="462"/>
+          </location>
+        </q>
+        <q id="q_198_10" au="usr_1" cDate="2015-07-22T16:42:00" mDate="2015-07-22T16:42:14" guid="4E9A2570-BDD0-4944-B34C-90501C0B2DCA">
+          <location>
+            <segmentedTextLoc sSegment="726" sOffset="0" eSegment="738" eOffset="47"/>
+          </location>
+        </q>
+        <q id="q_198_11" au="usr_1" cDate="2015-07-22T16:42:51" mDate="2015-07-22T16:42:51" guid="B9E5A093-6BBA-4682-81E3-A75D0135CD9A">
+          <location>
+            <segmentedTextLoc sSegment="768" sOffset="0" eSegment="774" eOffset="166"/>
+          </location>
+        </q>
+        <q id="q_198_12" au="usr_1" cDate="2015-07-22T16:43:25" mDate="2015-07-22T16:43:25" guid="5556EEC4-4367-4D31-AA3D-C1A4B2FD1B95">
+          <location>
+            <segmentedTextLoc sSegment="958" sOffset="0" eSegment="960" eOffset="18"/>
+          </location>
+        </q>
+        <q id="q_198_13" au="usr_1" cDate="2015-07-22T16:43:58" mDate="2015-07-22T16:43:58" guid="E76F34E5-048D-4D15-BAB4-10364517303B">
+          <location>
+            <segmentedTextLoc sSegment="966" sOffset="0" eSegment="970" eOffset="41"/>
+          </location>
+        </q>
+      </quotations>
+    </document>
+    <document id="doc_199" name="2015.07.15 RALP.rtf" loc="ds_61" au="usr_1" cDate="2015-07-22T16:27:45" mDate="2015-07-22T16:27:45" guid="5CFC14AD-30BA-4B4E-98FA-90E1824095CA" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_200" name="2013.07.11 D Nurse Excerpts.rtf" loc="ds_113" au="usr_1" cDate="2015-09-01T09:09:27" mDate="2015-09-01T09:09:27" guid="461D1BC2-7D41-442F-87EC-B642C4881425" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_201" name="2013.07.11 Danielle Circulating Nurse.docx" loc="ds_54" au="usr_1" cDate="2015-09-01T09:09:27" mDate="2015-09-01T09:09:27" guid="F593E5A1-DE5B-4DBB-BDBD-0065F418D023" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_202" name="2013.08.22 Moinzadeh Interview.rtf" loc="ds_58" au="usr_1" cDate="2015-09-01T09:09:27" mDate="2015-09-01T09:09:27" guid="B50441BD-548E-4544-A737-479E063D6195" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_203" name="2014.02.26 J Hall Colorectal.docx" loc="ds_76" au="usr_1" cDate="2015-09-01T09:09:27" mDate="2015-09-01T09:09:27" guid="A7563528-2066-4288-BA6B-F0AF005AB1AF" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_204" name="2014.02.26 J Hall Colorectal.rtf" loc="ds_143" au="usr_1" cDate="2015-09-01T09:09:27" mDate="2015-09-01T09:09:27" guid="AFB050C4-9434-48A9-A464-54D0D6248364" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_205" name="2015.03.11 Libertino.rtf" loc="ds_99" au="usr_1" cDate="2015-09-01T09:09:27" mDate="2015-09-01T09:09:27" guid="E1751701-918A-4491-A2E1-4768214E3782" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_206" name="2015.03.19 Canes Superstar Excerpts.rtf" loc="ds_101" au="usr_1" cDate="2015-09-01T09:09:28" mDate="2015-09-01T09:09:28" guid="5CAA5BB2-8D9E-44D1-8186-63C683C5991B" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_207" name="2015.04.06 Demers.rtf" loc="ds_80" au="usr_1" cDate="2015-09-01T09:09:28" mDate="2015-09-01T09:09:28" guid="8A7A442F-BC97-4D3B-B579-160F5C751558" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_208" name="2015.06.10 Renee excerpts.rtf" loc="ds_107" au="usr_1" cDate="2015-09-01T09:09:28" mDate="2015-09-01T09:09:28" guid="10918EA9-3D07-4E94-BB30-DBF678B6C54C" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_209" name="2015.06.11 Garrity excerpts.rtf" loc="ds_111" au="usr_1" cDate="2015-09-01T09:09:28" mDate="2015-09-01T09:09:28" guid="24366BE1-AFF2-4B17-A8DE-F7259619E83A" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_210" name="Canes 2015.03.10.rtf" loc="ds_146" au="usr_1" cDate="2015-09-01T09:09:28" mDate="2015-09-01T09:09:28" guid="CAB2E17F-2088-4B09-93C8-9FD07253A240" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_211" name="Canes Conversion Interview Excerpts.rtf" loc="ds_104" au="usr_1" cDate="2015-09-01T09:09:28" mDate="2015-09-01T09:09:28" guid="F8703664-FB90-4510-A97A-26D6632A0D90" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_212" name="Danielle excerpts March 2015.rtf" loc="ds_64" au="usr_1" cDate="2015-09-01T09:09:29" mDate="2015-09-01T09:09:29" guid="14D017C0-7C16-4112-9DDF-E8381B9852F0" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_213" name="Elizabeth Interview Transcript Excerpts.rtf" loc="ds_39" au="usr_1" cDate="2015-09-01T09:09:29" mDate="2015-09-01T09:09:29" guid="1F0EDEE4-38BB-425F-9A2A-E09F865444D4" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_214" name="Jane Nurse Transcript Excerpts.rtf" loc="ds_62" au="usr_1" cDate="2015-09-01T09:09:29" mDate="2015-09-01T09:09:29" guid="8F034745-195E-4E7A-BB15-DAFE5AFE7F9B" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_215" name="Jane Old-New Excerpts.rtf" loc="ds_93" au="usr_1" cDate="2015-09-01T09:09:29" mDate="2015-09-01T09:09:29" guid="63B9A7DC-C574-4E3C-A0F2-DFAA290E0B10" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_216" name="Jason Hall Transcript Excerpts.rtf" loc="ds_65" au="usr_1" cDate="2015-09-01T09:09:29" mDate="2015-09-01T09:09:29" guid="2079E60B-3213-4A2C-A881-F0FED02BBA15" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_217" name="Libertino excerpts.rtf" loc="ds_12" au="usr_1" cDate="2015-09-01T09:09:29" mDate="2015-09-01T09:09:29" guid="F6FBE1C3-5677-40EE-99CF-5FAD76A7C926" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_218" name="Moinzadeh Excerpt1.rtf" loc="ds_19" au="usr_1" cDate="2015-09-01T09:09:30" mDate="2015-09-01T09:09:30" guid="BFD919AB-800D-42A4-B958-F0451134F4F5" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_219" name="Moinzadeh Excerpts.rtf" loc="ds_72" au="usr_1" cDate="2015-09-01T09:09:30" mDate="2015-09-01T09:09:30" guid="318D934D-8133-45D0-9B2C-A07C83860B7F" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_220" name="Mourtzinos Transcript Excerpts.rtf" loc="ds_121" au="usr_1" cDate="2015-09-01T09:09:30" mDate="2015-09-01T09:09:30" guid="AE0A0676-3C43-4688-9341-498579138B09" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_221" name="Renee Interview Transcript Excerpts.rtf" loc="ds_10" au="usr_1" cDate="2015-09-01T09:09:30" mDate="2015-09-01T09:09:30" guid="ADABEA2C-5EE5-4E60-A990-980069BC9B20" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_222" name="Sally Old-New Excerpts.rtf" loc="ds_6" au="usr_1" cDate="2015-09-01T09:09:30" mDate="2015-09-01T09:09:30" guid="C0C1FADB-A808-4A10-9CEE-B9445D11BE17" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_223" name="Sorcini excerpts.rtf" loc="ds_9" au="usr_1" cDate="2015-09-01T09:09:30" mDate="2015-09-01T09:09:30" guid="B9613FDB-CEC6-4E59-8586-4118D314F397" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_224" name="Violet Exerpts.rtf" loc="ds_133" au="usr_1" cDate="2015-09-01T09:09:31" mDate="2015-09-01T09:09:31" guid="FE89952D-0758-4000-A365-59E760558C54" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_225" name="Wright Excerpts.rtf" loc="ds_5" au="usr_1" cDate="2015-09-01T09:09:31" mDate="2015-09-01T09:09:31" guid="48AF3A0F-88FF-4679-9FC4-BA0597326E37" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+    <document id="doc_226" name="Juan.rtf" loc="ds_85" au="usr_1" cDate="2015-09-07T20:58:42" mDate="2015-09-07T20:58:42" guid="BACCC2E0-9994-4F11-866D-EC267F69D6BF" qIndex="0">
+      <quotations size="0">
+      </quotations>
+    </document>
+  </documents>
+  <tags size="66">
+    <tag id="t_1" name="Awkward setup" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T13:21:27" guid="D7C6C492-BEB0-4409-B818-E3B1605F29AA"/>
+    <tag id="t_2" name="Awkward to use" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-09-08T11:54:53" guid="55E7256F-9C7D-4453-AC7C-8A957A17F62F"/>
+    <tag id="t_3" name="Bad supplies" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-22T16:43:58" guid="14A3666B-EFE2-4259-815F-E02E457613D7"/>
+    <tag id="t_4" name="Breakdown" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:44:31" guid="A63BDAA0-D7C8-443E-801C-E82B4D825ACE"/>
+    <tag id="t_5" name="Cheating to Learn" au="usr_1" cDate="2015-09-08T21:21:43" mDate="2015-09-09T18:27:46" guid="7AE4AA83-9DD7-4811-8995-6821EDAA31FD"/>
+    <tag id="t_6" name="Checking archives" au="usr_1" cDate="2015-03-03T08:47:47" mDate="2015-03-03T08:47:47" guid="FC4C5898-D511-4F01-BB00-BD9FC8956089"/>
+    <tag id="t_7" name="Coaxing" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-09-07T14:04:22" guid="DCB30CC2-5F73-469F-9895-317E4596DD1E"/>
+    <tag id="t_8" name="Complex setup" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:44:31" guid="AF7DFA35-5843-45A9-8140-5F5C84A37BB8"/>
+    <tag id="t_9" name="Costume change" au="usr_1" cDate="2015-03-02T16:04:05" mDate="2015-03-02T16:04:05" guid="8FBEE7E1-009D-4A37-9D8F-ED46D1211015"/>
+    <tag id="t_10" name="Creating errors" au="usr_1" cDate="2015-03-02T15:49:59" mDate="2015-03-02T15:49:59" guid="571AFC68-D0E2-4386-8AC4-8ABD526E3A5B"/>
+    <tag id="t_11" name="Cross-role covering" au="usr_1" cDate="2015-07-05T13:01:24" mDate="2015-07-05T13:01:24" guid="A1CE88A7-359B-4E4B-9327-1D5D629506B5"/>
+    <tag id="t_12" name="Diffusing" au="usr_1" cDate="2015-03-02T15:56:04" mDate="2015-03-02T15:56:04" guid="FFC48DDB-C9E3-40C5-87B2-10FC3C4BFF75"/>
+    <tag id="t_13" name="Digital participation" au="usr_1" cDate="2015-03-03T08:54:49" mDate="2015-03-03T08:54:49" guid="99DBB600-103D-404F-81A3-62CDB143975B"/>
+    <tag id="t_14" name="Direction" au="usr_1" cDate="2015-03-03T09:02:45" mDate="2015-03-03T09:58:40" guid="8B6D5ECD-B356-4DC9-B19D-0519B0B84201"/>
+    <tag id="t_15" name="Discrete control" au="usr_1" cDate="2015-03-03T08:53:27" mDate="2015-03-03T08:53:27" guid="3C9FBAFC-A959-4B78-837B-55DBA2983AA2"/>
+    <tag id="t_16" name="Disposing" au="usr_1" cDate="2015-03-02T16:09:25" mDate="2015-03-02T16:10:17" guid="07DC6A32-5F43-404D-A723-E0D8A276F4E2"/>
+    <tag id="t_17" name="Double checking" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:44:31" guid="7256FBB7-7C77-4FE0-9A89-89206F12EEF3"/>
+    <tag id="t_18" name="Efficiency" au="usr_1" cDate="2015-03-03T09:08:26" mDate="2015-11-19T15:00:51" guid="DB4C213C-F76E-4C93-8EC7-F4CDC605DA83"/>
+    <tag id="t_19" name="Extra setup" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-22T16:33:02" guid="5AC6C79D-EB0D-4D6F-AC6F-B91F17671ED3"/>
+    <tag id="t_20" name="Fishing" au="usr_1" cDate="2015-07-22T16:34:25" mDate="2015-07-22T16:34:25" guid="F4E9BE04-979B-45DD-85D0-2EFE3A71FDFB"/>
+    <tag id="t_21" name="Frustration" au="usr_1" cDate="2015-07-05T12:47:19" mDate="2015-09-09T20:06:12" guid="8B6ABCA5-B6E2-4B0D-B6F1-B6692F7FFD07"/>
+    <tag id="t_22" name="General hassle" au="usr_1" cDate="2015-07-05T13:00:06" mDate="2015-07-05T13:00:23" guid="E8E75114-C04B-4742-914F-0D081C6CCE6F"/>
+    <tag id="t_23" name="Giving ground" au="usr_1" cDate="2015-09-08T22:34:45" mDate="2015-09-08T23:20:03" guid="459B3805-990B-4655-8CE4-D52F1A208CD6"/>
+    <tag id="t_24" name="Hassle work is a hassle" au="usr_1" cDate="2015-07-05T12:47:19" mDate="2015-07-05T12:47:19" guid="FDD0CD81-6736-4064-B83F-39C49419033E"/>
+    <tag id="t_25" name="Impossible failures" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:44:31" guid="82DEA9F0-682E-4357-BBD5-06F499C82144"/>
+    <tag id="t_26" name="Inferior capability" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-09-08T23:20:03" guid="143DBEFA-DE8B-42BD-8962-D284A11C682B"/>
+    <tag id="t_27" name="Inviting critique of focal work" au="usr_1" cDate="2015-03-03T09:23:49" mDate="2015-03-03T09:23:49" guid="91CEF583-A593-403D-9979-2B3C7108309B"/>
+    <tag id="t_28" name="Jerry-rigging" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-09-07T14:04:22" guid="24D9414D-7F35-4DF2-B924-786DC21723A6"/>
+    <tag id="t_29" name="Missing supplies" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:44:31" guid="A092805B-B07D-4EA7-BACD-5B89526C168C"/>
+    <tag id="t_30" name="Murphy-proofing" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:44:31" guid="1106F690-B53B-4B15-9206-281D12C1B76F"/>
+    <tag id="t_31" name="Newbie" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-22T16:43:25" guid="2BF5C1FE-E791-41BC-88C8-7396DDCD3505"/>
+    <tag id="t_32" name="Newbie minding" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-09-09T18:29:31" guid="35F18BB1-4ED1-48C3-A064-A866A6CECE73"/>
+    <tag id="t_33" name="No change" au="usr_1" cDate="2015-07-05T12:47:19" mDate="2015-07-05T12:47:19" guid="DA21AB87-D49B-4981-A756-32D083793F4A"/>
+    <tag id="t_34" name="OR 17" au="usr_1" cDate="2015-07-05T12:50:23" mDate="2015-07-05T12:50:23" guid="1BE3453A-CE04-4052-A95C-2BED27831B09"/>
+    <tag id="t_35" name="OR 21/22" au="usr_1" cDate="2015-07-05T12:50:23" mDate="2015-07-22T16:33:02" guid="8E7189B1-CEE9-4A8A-BC13-3DE4DE3C04C4"/>
+    <tag id="t_36" name="Patient outcomes" au="usr_1" cDate="2015-07-05T12:47:19" mDate="2015-07-05T12:47:19" guid="73EE6C91-E11F-4800-8684-28450DA2B976"/>
+    <tag id="t_37" name="Pause" au="usr_1" cDate="2015-03-03T08:47:47" mDate="2015-03-03T08:49:35" guid="DF078032-3E9C-4C2E-942E-00BD9EEBFCD3"/>
+    <tag id="t_38" name="Planning" au="usr_1" cDate="2015-03-02T15:58:15" mDate="2015-03-02T15:58:15" guid="9D79E6B2-C04A-4A8F-95DF-5E723005C62F"/>
+    <tag id="t_39" name="Processing" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-09-09T18:29:31" guid="64FBD6D3-BF00-4F84-A339-D2F639058A02"/>
+    <tag id="t_40" name="Props" au="usr_1" cDate="2015-03-02T15:58:15" mDate="2015-03-02T15:58:15" guid="E98D6DAE-1158-4059-BF4D-1DD482ED1E66"/>
+    <tag id="t_41" name="Public" au="usr_1" cDate="2015-03-03T09:02:45" mDate="2015-03-03T09:58:40" guid="32F5B2EB-58E7-4D02-8C7C-A8C304B08A24"/>
+    <tag id="t_42" name="QUOTE" au="usr_1" cDate="2015-07-05T13:10:19" mDate="2015-07-13T07:05:06" guid="8E26F8DF-6A5F-4B93-AB2D-A1D165B5F699"/>
+    <tag id="t_43" name="Recording" au="usr_1" cDate="2015-07-05T12:47:19" mDate="2015-07-05T12:59:21" guid="4B29CF21-380B-49A0-B050-E0D5EC5A9160"/>
+    <tag id="t_44" name="Representing" au="usr_1" cDate="2015-03-03T08:50:43" mDate="2015-03-03T08:50:43" guid="87681C38-5E73-46C8-BD5B-CD2E40EAD766"/>
+    <tag id="t_45" name="Resident" au="usr_1" cDate="2015-03-03T08:54:49" mDate="2015-03-03T08:54:49" guid="6AA05FCE-735B-4B48-9A91-0C8649D47973"/>
+    <tag id="t_46" name="Resupply" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T13:04:06" guid="F8499B40-E4DD-4B90-A5B6-E1C8980CADD7"/>
+    <tag id="t_47" name="Room setup" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:44:31" guid="81F121C8-FD02-4878-9780-726BFD30F74B"/>
+    <tag id="t_48" name="Rushing" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-09-09T21:32:56" guid="718C99DC-D681-4CF3-8169-9FC9FBB589D3"/>
+    <tag id="t_49" name="Safety" au="usr_1" cDate="2015-03-03T09:08:26" mDate="2015-11-19T15:00:51" guid="E2A6BEE2-8696-4C14-92E6-1944659F131B"/>
+    <tag id="t_50" name="Scene change" au="usr_1" cDate="2015-03-02T16:07:16" mDate="2015-03-02T16:11:39" guid="101589C7-43F1-4FF6-8D15-37FC1DBED506"/>
+    <tag id="t_51" name="Screen suck" au="usr_1" cDate="2015-03-03T09:15:43" mDate="2015-03-03T09:15:43" guid="E9C9E95C-FFAA-4AAF-846C-19271EE5F5FF"/>
+    <tag id="t_52" name="second-guessing" au="usr_1" cDate="2015-07-05T13:03:18" mDate="2015-07-05T13:03:18" guid="42E17414-F8EB-4F26-BD8B-EB7D0799F44F"/>
+    <tag id="t_53" name="Spotlighting" au="usr_1" cDate="2015-03-02T15:45:46" mDate="2015-03-03T09:21:58" guid="AE2D2636-8DCE-4EA8-876E-B6FE20D4FE23"/>
+    <tag id="t_54" name="Staffing patterns - skill to OR 21" au="usr_1" cDate="2015-07-05T12:47:19" mDate="2015-07-13T07:05:06" guid="F375737B-6545-4EBB-8885-B5E560434839"/>
+    <tag id="t_55" name="Staffing patterns - slack away from 21" au="usr_1" cDate="2015-07-05T12:47:19" mDate="2015-09-08T21:14:43" guid="020FB5C9-83CA-484E-9802-EAA5F569253B"/>
+    <tag id="t_56" name="Stashing" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:44:31" guid="B4507FFE-62A0-49BB-93E3-69FB338CFC78"/>
+    <tag id="t_57" name="Teaching" au="usr_1" cDate="2015-03-03T08:50:43" mDate="2015-03-03T09:58:40" guid="24FFE90F-2D3C-41C7-82A8-11461A0C1E4B"/>
+    <tag id="t_58" name="Technical failures" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:44:31" guid="1A8DB324-A970-41A2-A153-75E13FD29D7B"/>
+    <tag id="t_59" name="Temporal shifting" au="usr_1" cDate="2015-07-05T12:47:19" mDate="2015-07-07T16:12:14" guid="A5FC5F0C-8627-4A0C-A030-A1AE0649D2C0"/>
+    <tag id="t_60" name="Tradeoff" au="usr_1" cDate="2015-03-03T09:08:26" mDate="2015-11-19T15:00:51" guid="D3C9FB05-62D6-460C-B245-E914C8709C9A"/>
+    <tag id="t_61" name="Understaffed" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:44:31" guid="FCEDBCEE-1384-4A5A-9878-33BE9AA67790"/>
+    <tag id="t_62" name="Verbal" au="usr_1" cDate="2015-03-03T09:02:45" mDate="2015-03-03T09:04:43" guid="8F3FF484-46D6-46C7-ADF9-7A4F6D035D49"/>
+    <tag id="t_63" name="Wrong robot setup" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:56:08" guid="4D5F6250-5343-45AA-A8A5-98F3830B682E"/>
+    <tag id="t_64" name="Wrong supplies" au="usr_1" cDate="2015-07-05T12:44:31" mDate="2015-07-05T12:44:31" guid="336D4F9D-C87D-4863-B203-FA094CFBAC90"/>
+    <tag id="t_65" name="YouTube" au="usr_1" cDate="2015-03-03T09:11:21" mDate="2015-03-03T09:11:21" guid="BE99379B-3A18-43CD-8D27-A6792D021A49"/>
+    <tag id="t_66" name="Zone of participation" au="usr_1" cDate="2015-03-03T08:39:15" mDate="2015-03-03T09:47:33" guid="FA472913-5E4F-4BCB-9CE6-0B11FFBB3CD6"/>
+  </tags>
+  <smartTags size="0">
+  </smartTags>
+  <memos size="0">
+  </memos>
+  <groups>
+    <tagGroups size="4">
+      <tagGroup id="tg_1" name="Cheating to Learn" au="usr_1" cDate="2015-07-05T12:39:00" mDate="2015-07-05T12:39:00" guid="548AC5DC-9FD8-4F4F-B073-67D37C317D17">
+      </tagGroup>
+      <tagGroup id="tg_2" name="Shitty Robot" au="usr_1" cDate="2015-07-05T12:38:51" mDate="2015-09-01T09:23:40" guid="CBFAF428-EFBC-4178-B639-11DBE19082E8">
+        <item id="t_1"/>
+        <item id="t_2"/>
+        <item id="t_3"/>
+        <item id="t_4"/>
+        <item id="t_7"/>
+        <item id="t_8"/>
+        <item id="t_17"/>
+        <item id="t_19"/>
+        <item id="t_21"/>
+        <item id="t_24"/>
+        <item id="t_25"/>
+        <item id="t_26"/>
+        <item id="t_28"/>
+        <item id="t_29"/>
+        <item id="t_30"/>
+        <item id="t_31"/>
+        <item id="t_32"/>
+        <item id="t_33"/>
+        <item id="t_34"/>
+        <item id="t_35"/>
+        <item id="t_36"/>
+        <item id="t_39"/>
+        <item id="t_43"/>
+        <item id="t_46"/>
+        <item id="t_47"/>
+        <item id="t_48"/>
+        <item id="t_54"/>
+        <item id="t_55"/>
+        <item id="t_56"/>
+        <item id="t_58"/>
+        <item id="t_59"/>
+        <item id="t_61"/>
+        <item id="t_63"/>
+        <item id="t_64"/>
+      </tagGroup>
+      <tagGroup id="tg_3" name="Staging Makes the Play" au="usr_1" cDate="2015-07-05T12:39:09" mDate="2015-07-05T12:39:09" guid="4A878568-F3F4-4D69-9B3B-060EB9207372">
+      </tagGroup>
+      <tagGroup id="tg_4" name="Unsorted" au="usr_1" cDate="2015-07-05T12:40:28" mDate="2015-07-05T12:40:45" guid="DCF49890-FC54-4AAD-8013-5FAF4C5F1111">
+        <item id="t_6"/>
+        <item id="t_9"/>
+        <item id="t_10"/>
+        <item id="t_12"/>
+        <item id="t_13"/>
+        <item id="t_14"/>
+        <item id="t_15"/>
+        <item id="t_16"/>
+        <item id="t_18"/>
+        <item id="t_27"/>
+        <item id="t_37"/>
+        <item id="t_38"/>
+        <item id="t_40"/>
+        <item id="t_41"/>
+        <item id="t_44"/>
+        <item id="t_45"/>
+        <item id="t_49"/>
+        <item id="t_50"/>
+        <item id="t_51"/>
+        <item id="t_53"/>
+        <item id="t_57"/>
+        <item id="t_60"/>
+        <item id="t_62"/>
+        <item id="t_65"/>
+        <item id="t_66"/>
+      </tagGroup>
+    </tagGroups>
+    <smartTagGroups size="0">
+    </smartTagGroups>
+    <memoGroups size="0">
+    </memoGroups>
+    <smartMemoGroups size="0">
+    </smartMemoGroups>
+    <documentGroups size="6">
+      <documentGroup id="dg_1" name="B&amp;W" au="usr_1" cDate="2015-03-02T12:47:57" mDate="2015-03-02T12:50:02" guid="44E37F60-04AE-417D-9F48-48F65B6530DF">
+        <item id="doc_69"/>
+        <item id="doc_70"/>
+        <item id="doc_71"/>
+        <item id="doc_72"/>
+        <item id="doc_73"/>
+        <item id="doc_74"/>
+        <item id="doc_75"/>
+        <item id="doc_76"/>
+        <item id="doc_77"/>
+        <item id="doc_78"/>
+        <item id="doc_79"/>
+        <item id="doc_80"/>
+        <item id="doc_81"/>
+        <item id="doc_82"/>
+        <item id="doc_83"/>
+        <item id="doc_84"/>
+        <item id="doc_85"/>
+      </documentGroup>
+      <documentGroup id="dg_2" name="Faulkner" au="usr_1" cDate="2015-03-02T12:48:01" mDate="2015-03-02T12:50:47" guid="8074C4AB-09A6-4CF9-AC59-AAB37687F21A">
+        <item id="doc_86"/>
+        <item id="doc_87"/>
+        <item id="doc_88"/>
+        <item id="doc_89"/>
+        <item id="doc_90"/>
+        <item id="doc_91"/>
+        <item id="doc_92"/>
+        <item id="doc_93"/>
+        <item id="doc_94"/>
+        <item id="doc_95"/>
+      </documentGroup>
+      <documentGroup id="dg_3" name="Lahey" au="usr_1" cDate="2015-03-02T12:47:34" mDate="2015-04-09T11:23:03" guid="61FA3533-7BF9-4227-834A-E0BEAF772C61">
+        <item id="doc_1"/>
+        <item id="doc_2"/>
+        <item id="doc_3"/>
+        <item id="doc_4"/>
+        <item id="doc_5"/>
+        <item id="doc_6"/>
+        <item id="doc_7"/>
+        <item id="doc_8"/>
+        <item id="doc_9"/>
+        <item id="doc_10"/>
+        <item id="doc_11"/>
+        <item id="doc_12"/>
+        <item id="doc_13"/>
+        <item id="doc_14"/>
+        <item id="doc_15"/>
+        <item id="doc_16"/>
+        <item id="doc_17"/>
+        <item id="doc_18"/>
+        <item id="doc_19"/>
+        <item id="doc_20"/>
+        <item id="doc_21"/>
+        <item id="doc_22"/>
+        <item id="doc_23"/>
+        <item id="doc_24"/>
+        <item id="doc_25"/>
+        <item id="doc_26"/>
+        <item id="doc_27"/>
+        <item id="doc_28"/>
+        <item id="doc_29"/>
+        <item id="doc_30"/>
+        <item id="doc_31"/>
+        <item id="doc_32"/>
+        <item id="doc_33"/>
+        <item id="doc_34"/>
+        <item id="doc_35"/>
+        <item id="doc_36"/>
+        <item id="doc_37"/>
+        <item id="doc_38"/>
+        <item id="doc_39"/>
+        <item id="doc_40"/>
+        <item id="doc_41"/>
+        <item id="doc_42"/>
+        <item id="doc_43"/>
+        <item id="doc_44"/>
+        <item id="doc_45"/>
+        <item id="doc_46"/>
+        <item id="doc_47"/>
+        <item id="doc_48"/>
+        <item id="doc_49"/>
+        <item id="doc_50"/>
+        <item id="doc_51"/>
+        <item id="doc_52"/>
+        <item id="doc_53"/>
+        <item id="doc_54"/>
+        <item id="doc_55"/>
+        <item id="doc_56"/>
+        <item id="doc_57"/>
+        <item id="doc_58"/>
+        <item id="doc_59"/>
+        <item id="doc_60"/>
+        <item id="doc_61"/>
+        <item id="doc_62"/>
+        <item id="doc_63"/>
+        <item id="doc_64"/>
+        <item id="doc_65"/>
+        <item id="doc_66"/>
+        <item id="doc_67"/>
+        <item id="doc_68"/>
+        <item id="doc_188"/>
+        <item id="doc_189"/>
+      </documentGroup>
+      <documentGroup id="dg_4" name="Lahey Interviews" au="usr_1" cDate="2015-09-07T20:59:24" mDate="2015-09-07T20:59:24" guid="AE03BA83-82F0-4DF5-A995-A40264BC54DA">
+        <item id="doc_200"/>
+        <item id="doc_201"/>
+        <item id="doc_202"/>
+        <item id="doc_203"/>
+        <item id="doc_204"/>
+        <item id="doc_205"/>
+        <item id="doc_206"/>
+        <item id="doc_207"/>
+        <item id="doc_208"/>
+        <item id="doc_209"/>
+        <item id="doc_210"/>
+        <item id="doc_211"/>
+        <item id="doc_212"/>
+        <item id="doc_213"/>
+        <item id="doc_214"/>
+        <item id="doc_215"/>
+        <item id="doc_216"/>
+        <item id="doc_217"/>
+        <item id="doc_218"/>
+        <item id="doc_219"/>
+        <item id="doc_220"/>
+        <item id="doc_221"/>
+        <item id="doc_222"/>
+        <item id="doc_223"/>
+        <item id="doc_224"/>
+        <item id="doc_225"/>
+        <item id="doc_226"/>
+      </documentGroup>
+      <documentGroup id="dg_5" name="MGH" au="usr_1" cDate="2015-03-02T12:48:11" mDate="2015-03-02T12:51:42" guid="E116CCEA-DC4B-486A-93E9-8124A837FD66">
+        <item id="doc_96"/>
+        <item id="doc_97"/>
+        <item id="doc_98"/>
+        <item id="doc_99"/>
+        <item id="doc_100"/>
+        <item id="doc_101"/>
+        <item id="doc_102"/>
+        <item id="doc_103"/>
+        <item id="doc_104"/>
+        <item id="doc_105"/>
+        <item id="doc_106"/>
+        <item id="doc_107"/>
+        <item id="doc_108"/>
+        <item id="doc_109"/>
+        <item id="doc_110"/>
+        <item id="doc_111"/>
+        <item id="doc_112"/>
+        <item id="doc_113"/>
+        <item id="doc_114"/>
+      </documentGroup>
+      <documentGroup id="dg_6" name="Parkland" au="usr_1" cDate="2015-03-02T12:48:05" mDate="2015-03-02T12:54:48" guid="6BABBE44-A375-490A-848D-C8C7179A432F">
+        <item id="doc_115"/>
+        <item id="doc_116"/>
+        <item id="doc_117"/>
+      </documentGroup>
+    </documentGroups>
+    <smartDocumentGroups size="0">
+    </smartDocumentGroups>
+  </groups>
+  <networkViews>
+  </networkViews>
+  <relations>
+  </relations>
+  <links>
+    <tagQuotLink source="t_1" target="q_197_11"/>
+    <tagQuotLink source="t_1" target="q_197_23"/>
+    <tagQuotLink source="t_1" target="q_197_24"/>
+    <tagQuotLink source="t_1" target="q_197_27"/>
+    <tagQuotLink source="t_2" target="q_198_9"/>
+    <tagQuotLink source="t_2" target="q_198_10"/>
+    <tagQuotLink source="t_2" target="q_198_11"/>
+    <tagQuotLink source="t_2" target="q_198_12"/>
+    <tagQuotLink source="t_3" target="q_198_13"/>
+    <tagQuotLink source="t_5" target="q_190_1"/>
+    <tagQuotLink source="t_5" target="q_197_28"/>
+    <tagQuotLink source="t_6" target="q_3_11"/>
+    <tagQuotLink source="t_7" target="q_198_5"/>
+    <tagQuotLink source="t_9" target="q_3_5"/>
+    <tagQuotLink source="t_10" target="q_3_2"/>
+    <tagQuotLink source="t_11" target="q_197_7"/>
+    <tagQuotLink source="t_12" target="q_3_3"/>
+    <tagQuotLink source="t_13" target="q_3_14"/>
+    <tagQuotLink source="t_14" target="q_3_15"/>
+    <tagQuotLink source="t_14" target="q_3_16"/>
+    <tagQuotLink source="t_14" target="q_3_22"/>
+    <tagQuotLink source="t_15" target="q_3_13"/>
+    <tagQuotLink source="t_16" target="q_3_8"/>
+    <tagQuotLink source="t_18" target="q_3_17"/>
+    <tagQuotLink source="t_19" target="q_198_1"/>
+    <tagQuotLink source="t_20" target="q_198_3"/>
+    <tagQuotLink source="t_21" target="q_195_2"/>
+    <tagQuotLink source="t_21" target="q_197_11"/>
+    <tagQuotLink source="t_21" target="q_197_12"/>
+    <tagQuotLink source="t_21" target="q_197_14"/>
+    <tagQuotLink source="t_21" target="q_197_15"/>
+    <tagQuotLink source="t_21" target="q_197_18"/>
+    <tagQuotLink source="t_21" target="q_197_27"/>
+    <tagQuotLink source="t_22" target="q_197_6"/>
+    <tagQuotLink source="t_23" target="q_193_1"/>
+    <tagQuotLink source="t_26" target="q_193_1"/>
+    <tagQuotLink source="t_26" target="q_198_10"/>
+    <tagQuotLink source="t_27" target="q_3_20"/>
+    <tagQuotLink source="t_28" target="q_198_5"/>
+    <tagQuotLink source="t_31" target="q_197_3"/>
+    <tagQuotLink source="t_31" target="q_197_17"/>
+    <tagQuotLink source="t_31" target="q_198_11"/>
+    <tagQuotLink source="t_31" target="q_198_12"/>
+    <tagQuotLink source="t_32" target="q_197_2"/>
+    <tagQuotLink source="t_32" target="q_197_19"/>
+    <tagQuotLink source="t_32" target="q_197_20"/>
+    <tagQuotLink source="t_32" target="q_197_22"/>
+    <tagQuotLink source="t_32" target="q_198_2"/>
+    <tagQuotLink source="t_32" target="q_198_4"/>
+    <tagQuotLink source="t_32" target="q_198_11"/>
+    <tagQuotLink source="t_32" target="q_198_12"/>
+    <tagQuotLink source="t_35" target="q_198_1"/>
+    <tagQuotLink source="t_37" target="q_3_11"/>
+    <tagQuotLink source="t_37" target="q_3_12"/>
+    <tagQuotLink source="t_38" target="q_3_4"/>
+    <tagQuotLink source="t_38" target="q_3_12"/>
+    <tagQuotLink source="t_39" target="q_197_4"/>
+    <tagQuotLink source="t_39" target="q_197_6"/>
+    <tagQuotLink source="t_39" target="q_197_11"/>
+    <tagQuotLink source="t_39" target="q_197_12"/>
+    <tagQuotLink source="t_39" target="q_197_14"/>
+    <tagQuotLink source="t_39" target="q_197_15"/>
+    <tagQuotLink source="t_39" target="q_197_18"/>
+    <tagQuotLink source="t_39" target="q_197_21"/>
+    <tagQuotLink source="t_39" target="q_197_25"/>
+    <tagQuotLink source="t_39" target="q_197_26"/>
+    <tagQuotLink source="t_39" target="q_197_27"/>
+    <tagQuotLink source="t_39" target="q_198_6"/>
+    <tagQuotLink source="t_39" target="q_198_7"/>
+    <tagQuotLink source="t_39" target="q_198_8"/>
+    <tagQuotLink source="t_39" target="q_198_9"/>
+    <tagQuotLink source="t_39" target="q_198_10"/>
+    <tagQuotLink source="t_40" target="q_3_4"/>
+    <tagQuotLink source="t_41" target="q_3_15"/>
+    <tagQuotLink source="t_41" target="q_3_22"/>
+    <tagQuotLink source="t_42" target="q_197_15"/>
+    <tagQuotLink source="t_43" target="q_197_5"/>
+    <tagQuotLink source="t_44" target="q_3_12"/>
+    <tagQuotLink source="t_45" target="q_3_14"/>
+    <tagQuotLink source="t_46" target="q_197_10"/>
+    <tagQuotLink source="t_48" target="q_117_1"/>
+    <tagQuotLink source="t_48" target="q_197_13"/>
+    <tagQuotLink source="t_48" target="q_197_16"/>
+    <tagQuotLink source="t_49" target="q_3_17"/>
+    <tagQuotLink source="t_50" target="q_3_6"/>
+    <tagQuotLink source="t_50" target="q_3_7"/>
+    <tagQuotLink source="t_50" target="q_3_9"/>
+    <tagQuotLink source="t_51" target="q_3_19"/>
+    <tagQuotLink source="t_52" target="q_197_9"/>
+    <tagQuotLink source="t_53" target="q_3_1"/>
+    <tagQuotLink source="t_53" target="q_3_11"/>
+    <tagQuotLink source="t_53" target="q_3_12"/>
+    <tagQuotLink source="t_53" target="q_3_20"/>
+    <tagQuotLink source="t_54" target="q_197_15"/>
+    <tagQuotLink source="t_55" target="q_195_1"/>
+    <tagQuotLink source="t_55" target="q_197_8"/>
+    <tagQuotLink source="t_55" target="q_197_15"/>
+    <tagQuotLink source="t_57" target="q_3_12"/>
+    <tagQuotLink source="t_57" target="q_3_21"/>
+    <tagQuotLink source="t_57" target="q_3_22"/>
+    <tagQuotLink source="t_59" target="q_21_1"/>
+    <tagQuotLink source="t_60" target="q_3_17"/>
+    <tagQuotLink source="t_62" target="q_3_15"/>
+    <tagQuotLink source="t_62" target="q_3_16"/>
+    <tagQuotLink source="t_63" target="q_197_1"/>
+    <tagQuotLink source="t_65" target="q_3_18"/>
+    <tagQuotLink source="t_66" target="q_3_10"/>
+  </links>
+</storedHU>

@@ -1,0 +1,1473 @@
+{
+  "source_file": "seed-data/beane-surgery-extracted.json",
+  "stats": {
+    "total_quotations": 69,
+    "quotations_with_entities": 29,
+    "unique_entities": 52,
+    "total_entity_occurrences": 67
+  },
+  "entity_summary": [
+    {
+      "text": "Dude",
+      "normalized": "dude",
+      "type": "PERSON",
+      "count": 4,
+      "sample_contexts": [
+        "...able?\nG: yeah, that would help me a lot\nDude (third) helping to set up the table",
+        "...person except for me? Just want to know\nDude: cause you\u2019re good, that\u2019s why\nG: fucki...",
+        "...ed back there, don\u2019t touch it\nG: where \nDude explains that drape hit arm when it was..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "Danielle",
+      "normalized": "danielle",
+      "type": "GPE",
+      "count": 2,
+      "sample_contexts": [
+        "... closet, talking about what to get with Danielle",
+        "...\u201d. \nTalk about family, vacations, etec. Danielle brings rack of computers over nearer to..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "7:55:55 AM",
+      "normalized": "7:55:55 am",
+      "type": "DATE",
+      "count": 2,
+      "sample_contexts": [
+        "...arms to be placed on. Cushions on each. 7:55:55 AM, arms splayed out like nestea plunge. T...",
+        "...arms to be placed on. Cushions on each. 7:55:55 AM, arms splayed out like nestea plunge. T..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "8:31:31 AM",
+      "normalized": "8:31:31 am",
+      "type": "DATE",
+      "count": 2,
+      "sample_contexts": [
+        "... bed down, so patient is in a c shape. \n8:31:31 AM Still positioning the body, right arm u...",
+        "... bed down, so patient is in a c shape. \n8:31:31 AM Still positioning the body, right arm u..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "n\u2019t",
+      "normalized": "n\u2019t",
+      "type": "GPE",
+      "count": 2,
+      "sample_contexts": [
+        "...k that vessel, just crack the vessel, don\u2019t relax your left hand, your right hand\u2019s...",
+        "...\u2019 need to og in that far\u2019 c: no no we don\u2019t. , screen at top indicates which surgeo..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "9:57:45 AM",
+      "normalized": "9:57:45 am",
+      "type": "DATE",
+      "count": 2,
+      "sample_contexts": [
+        "...n scissor. \nC: I\u2019ll take the hook again 9:57:45 AM",
+        "...n scissor. \nC: I\u2019ll take the hook again 9:57:45 AM"
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "brazil",
+      "normalized": "brazil",
+      "type": "GPE",
+      "count": 2,
+      "sample_contexts": [
+        "... fellow, they were doing their cases in brazil, everyone said no, and they ended up wi...",
+        "...ded up with me. They said can you go to brazil and I said sure. Did I tell you this?\nN..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "that week",
+      "normalized": "that week",
+      "type": "DATE",
+      "count": 2,
+      "sample_contexts": [
+        "...es and we had to use sh needles, out of that week and out of necessity, I had to get peop...",
+        "...was explaining how to handle things. So that week was a crash course, and the best part o..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "7:20:48 AM",
+      "normalized": "7:20:48 am",
+      "type": "DATE",
+      "count": 2,
+      "sample_contexts": [
+        "...t up with K, who had the camera ready. \n7:20:48 AM\nS rushing, moving quickly\nS: if I hear ...",
+        "...t up with K, who had the camera ready. \n7:20:48 AM\nS rushing, moving quickly\nS: if I hear ..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "today",
+      "normalized": "today",
+      "type": "DATE",
+      "count": 2,
+      "sample_contexts": [
+        "...hear anything about expired insturments today, I\u2019m going to be bullshit",
+        "... I hope I don\u2019t punch a medical student today\nV: oh, which ones do we have\nG: we had ..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "8:48:04 AM",
+      "normalized": "8:48:04 am",
+      "type": "DATE",
+      "count": 2,
+      "sample_contexts": [
+        "...hall\nG: wait, where\u2019d he go? (dude out)\n8:48:04 AM\nG: can you get lead for us? (I had to g...",
+        "...hall\nG: wait, where\u2019d he go? (dude out)\n8:48:04 AM\nG: can you get lead for us? (I had to g..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "8:53:27 AM",
+      "normalized": "8:53:27 am",
+      "type": "DATE",
+      "count": 2,
+      "sample_contexts": [
+        "...lshit. Cause we\u2019re tripled, on our work\n8:53:27 AM\nG: you don\u2019t need a third person in 17,...",
+        "...lshit. Cause we\u2019re tripled, on our work\n8:53:27 AM\nG: you don\u2019t need a third person in 17,..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "9:00:21 AM",
+      "normalized": "9:00:21 am",
+      "type": "DATE",
+      "count": 2,
+      "sample_contexts": [
+        "...guiding dude through draping of camera)\n9:00:21 AM\nG finished \nG: this old one, it is you ...",
+        "...guiding dude through draping of camera)\n9:00:21 AM\nG finished \nG: this old one, it is you ..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "Kate",
+      "normalized": "kate",
+      "type": "PERSON",
+      "count": 1,
+      "sample_contexts": [
+        "Kate comes back in, having left, goes to gla..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "7:56:44 AM Danielle",
+      "normalized": "7:56:44 am danielle",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "...m before he went out was very minimal. \n7:56:44 AM Danielle takes bags from resifdent, says \u201chere, ..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "7:56:44 AM",
+      "normalized": "7:56:44 am",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "...m before he went out was very minimal. \n7:56:44 AM Danielle takes bags from resifdent, say..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "putin",
+      "normalized": "putin",
+      "type": "PERSON",
+      "count": 1,
+      "sample_contexts": [
+        "...r nearer to patient, his legs are being putin, senior residents are putting up the le..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "8:25:32 AM Moved",
+      "normalized": "8:25:32 am moved",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "...d paraphernalia from frirst prceudure. \n8:25:32 AM Moved patient back up the bed, so feet are no..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "8:25:32 AM",
+      "normalized": "8:25:32 am",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "...d paraphernalia from frirst prceudure. \n8:25:32 AM Moved patient back up the bed, so feet ..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "8:27:50 AM Move",
+      "normalized": "8:27:50 am move",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "...n puts it back, deciding don\u2019t need it. 8:27:50 AM Move the body (amazing I used that term). Tu..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "8:27:50 AM",
+      "normalized": "8:27:50 am",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "...n puts it back, deciding don\u2019t need it. 8:27:50 AM Move the body (amazing I used that term..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "CT",
+      "normalized": "ct",
+      "type": "ORG",
+      "count": 1,
+      "sample_contexts": [
+        "...chief over to screen to compare work to CT scans"
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "IVC",
+      "normalized": "ivc",
+      "type": "ORG",
+      "count": 1,
+      "sample_contexts": [
+        "...wing of kidney, urethra, other tubes, , IVC, ureter, GV, RV, we\u2019re going to be ente..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "GV",
+      "normalized": "gv",
+      "type": "ORG",
+      "count": 1,
+      "sample_contexts": [
+        "...y, urethra, other tubes, , IVC, ureter, GV, RV, we\u2019re going to be entering right h..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "RV",
+      "normalized": "rv",
+      "type": "GPE",
+      "count": 1,
+      "sample_contexts": [
+        "...rethra, other tubes, , IVC, ureter, GV, RV, we\u2019re going to be entering right here,..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "ddon\u2019t",
+      "normalized": "ddon\u2019t",
+      "type": "GPE",
+      "count": 1,
+      "sample_contexts": [
+        "...is, let me take over for a bit, , r: we ddon\u2019t\u2019 need to og in that far\u2019 c: no no we do..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "cursor",
+      "normalized": "cursor",
+      "type": "GPE",
+      "count": 1,
+      "sample_contexts": [
+        "Chief, from his console, controls a cursor that goes onto the shared suriglcal fie..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "9:56:55 AM Kate",
+      "normalized": "9:56:55 am kate",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "...n I have the scissor in the right hand? 9:56:55 AM Kate takes out hook, puts on scissor. \nC: I\u2019..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "9:56:55 AM",
+      "normalized": "9:56:55 am",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "...n I have the scissor in the right hand? 9:56:55 AM Kate takes out hook, puts on scissor. \n..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "30 minutes",
+      "normalized": "30 minutes",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "... end fo the case, because you only have 30 minutes to turn the room, and he wants to get o..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "20 of those minutes",
+      "normalized": "20 of those minutes",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "...ere, and the cleaners are going to take 20 of those minutes, so we all prepopulate these fields and..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "Anesth",
+      "normalized": "anesth",
+      "type": "PERSON",
+      "count": 1,
+      "sample_contexts": [
+        "... robe, begins  to robe himself up, then Anesth asks him to put on blood pressure measu..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "every year",
+      "normalized": "every year",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "...ll you this?\nN: no\nC: I tell this story every year. There were 3 surgeons doing 13 surgeri..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "8 days",
+      "normalized": "8 days",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "...e were 3 surgeons doing 13 surgeries in 8 days, so I was there in the or teaching thes..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "the end of the week",
+      "normalized": "the end of the week",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "...as a crash course, and the best part of the end of the week, they called me into this room, and the..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "matt bean",
+      "normalized": "matt bean",
+      "type": "PERSON",
+      "count": 1,
+      "sample_contexts": [
+        "...es white)\nMed student: yeah\nM: and poor matt bean, he can\u2019t quantify that for research pu..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "OR 2",
+      "normalized": "or 2",
+      "type": "FAC",
+      "count": 1,
+      "sample_contexts": [
+        "... says call me if you need me. She is in OR 2 all day."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "the day",
+      "normalized": "the day",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "V: K, I look at my assignment, the day before, I know I shouldn\u2019t, then I say ..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "9:14:31 AM ***",
+      "normalized": "9:14:31 am ***",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "...robe in trash, walks out without a word 9:14:31 AM ***"
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "9:14:31 AM",
+      "normalized": "9:14:31 am",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "...robe in trash, walks out without a word 9:14:31 AM ***"
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "July 1",
+      "normalized": "july 1",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "C: since it\u2019s July 1\nst\n, there are a couple of things that ..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "this morning",
+      "normalized": "this morning",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "K: J came in here this morning, draped this thing (points to robot), t..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "room 17",
+      "normalized": "room 17",
+      "type": "FAC",
+      "count": 1,
+      "sample_contexts": [
+        "...(points to robot), then he goes over to room 17, so it\u2019s been a very smooth morning so ..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "K\u2019s",
+      "normalized": "k\u2019s",
+      "type": "ORG",
+      "count": 1,
+      "sample_contexts": [
+        "... ripped out, over to e side, looking at K\u2019s setup\nM gets big blue foam, walks over ..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "9:52:03 AM\nM",
+      "normalized": "9:52:03 am\nm",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "...M, M taping off head, H over near M too\n9:52:03 AM\nM taping wheel\nS: so you are the one who ..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "9:52:03 AM",
+      "normalized": "9:52:03 am",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "...M, M taping off head, H over near M too\n9:52:03 AM\nM taping wheel\nS: so you are the one wh..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "10 minutes",
+      "normalized": "10 minutes",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "...e does that), but that slows me down by 10 minutes. It\u2019s very small but iat all ads up on ..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "10:57:27 AM\nM: it",
+      "normalized": "10:57:27 am\nm: it",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "...uldn\u2019t get in any more\nM: shit robot***\n10:57:27 AM\nM: it\u2019s all I have to operate on this ridicul..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "10:57:27 AM",
+      "normalized": "10:57:27 am",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "...uldn\u2019t get in any more\nM: shit robot***\n10:57:27 AM\nM: it\u2019s all I have to operate on this r..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "hospital",
+      "normalized": "hospital",
+      "type": "ORG",
+      "count": 1,
+      "sample_contexts": [
+        "...o his lower left]\nC: yeah\nM: but do the hospital administrators care?***"
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "11:41:55 AM\nM:",
+      "normalized": "11:41:55 am\nm:",
+      "type": "TIME",
+      "count": 1,
+      "sample_contexts": [
+        "..., it\u2019s super dirty, super duper dirty. \n11:41:55 AM\nM: maybe this is that\u2026 oh, no it\u2019s not***"
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    },
+    {
+      "text": "11:41:55 AM",
+      "normalized": "11:41:55 am",
+      "type": "DATE",
+      "count": 1,
+      "sample_contexts": [
+        "..., it\u2019s super dirty, super duper dirty. \n11:41:55 AM\nM: maybe this is that\u2026 oh, no it\u2019s not*..."
+      ],
+      "suggested_replacement": null,
+      "review_status": "pending"
+    }
+  ],
+  "document_analyses": [
+    {
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "entities": [
+        {
+          "text": "Kate",
+          "entity_type": "PERSON",
+          "start": 0,
+          "end": 4,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "Kate comes back in, having left, goes to gla...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "Danielle",
+          "entity_type": "GPE",
+          "start": 93,
+          "end": 101,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "... closet, talking about what to get with Danielle",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "entities": [
+        {
+          "text": "7:55:55 AM",
+          "entity_type": "TIME",
+          "start": 73,
+          "end": 83,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...arms to be placed on. Cushions on each. 7:55:55 AM, arms splayed out like nestea plunge. T...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "7:55:55 AM",
+          "entity_type": "DATE",
+          "start": 73,
+          "end": 83,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...arms to be placed on. Cushions on each. 7:55:55 AM, arms splayed out like nestea plunge. T...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "7:56:44 AM Danielle",
+          "entity_type": "TIME",
+          "start": 172,
+          "end": 191,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...m before he went out was very minimal. \n7:56:44 AM Danielle takes bags from resifdent, says \u201chere, ...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "7:56:44 AM",
+          "entity_type": "DATE",
+          "start": 172,
+          "end": 182,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...m before he went out was very minimal. \n7:56:44 AM Danielle takes bags from resifdent, say...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "Danielle",
+          "entity_type": "GPE",
+          "start": 382,
+          "end": 390,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...\u201d. \nTalk about family, vacations, etec. Danielle brings rack of computers over nearer to...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "putin",
+          "entity_type": "PERSON",
+          "start": 459,
+          "end": 464,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "...r nearer to patient, his legs are being putin, senior residents are putting up the le...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "entities": [
+        {
+          "text": "8:25:32 AM Moved",
+          "entity_type": "TIME",
+          "start": 88,
+          "end": 104,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...d paraphernalia from frirst prceudure. \n8:25:32 AM Moved patient back up the bed, so feet are no...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "8:25:32 AM",
+          "entity_type": "DATE",
+          "start": 88,
+          "end": 98,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...d paraphernalia from frirst prceudure. \n8:25:32 AM Moved patient back up the bed, so feet ...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "entities": [
+        {
+          "text": "8:27:50 AM Move",
+          "entity_type": "TIME",
+          "start": 123,
+          "end": 138,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...n puts it back, deciding don\u2019t need it. 8:27:50 AM Move the body (amazing I used that term). Tu...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "8:27:50 AM",
+          "entity_type": "DATE",
+          "start": 123,
+          "end": 133,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...n puts it back, deciding don\u2019t need it. 8:27:50 AM Move the body (amazing I used that term...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "8:31:31 AM",
+          "entity_type": "TIME",
+          "start": 312,
+          "end": 322,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "... bed down, so patient is in a c shape. \n8:31:31 AM Still positioning the body, right arm u...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "8:31:31 AM",
+          "entity_type": "DATE",
+          "start": 312,
+          "end": 322,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "... bed down, so patient is in a c shape. \n8:31:31 AM Still positioning the body, right arm u...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "entities": [
+        {
+          "text": "CT",
+          "entity_type": "ORG",
+          "start": 89,
+          "end": 91,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "...chief over to screen to compare work to CT scans",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "entities": [
+        {
+          "text": "IVC",
+          "entity_type": "ORG",
+          "start": 147,
+          "end": 150,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "...wing of kidney, urethra, other tubes, , IVC, ureter, GV, RV, we\u2019re going to be ente...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "GV",
+          "entity_type": "ORG",
+          "start": 160,
+          "end": 162,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "...y, urethra, other tubes, , IVC, ureter, GV, RV, we\u2019re going to be entering right h...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "RV",
+          "entity_type": "GPE",
+          "start": 164,
+          "end": 166,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...rethra, other tubes, , IVC, ureter, GV, RV, we\u2019re going to be entering right here,...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "entities": [
+        {
+          "text": "n\u2019t",
+          "entity_type": "GPE",
+          "start": 819,
+          "end": 822,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...k that vessel, just crack the vessel, don\u2019t relax your left hand, your right hand\u2019s...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "ddon\u2019t",
+          "entity_type": "GPE",
+          "start": 1169,
+          "end": 1175,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...is, let me take over for a bit, , r: we ddon\u2019t\u2019 need to og in that far\u2019 c: no no we do...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "n\u2019t",
+          "entity_type": "GPE",
+          "start": 1215,
+          "end": 1218,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...\u2019 need to og in that far\u2019 c: no no we don\u2019t. , screen at top indicates which surgeo...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "entities": [
+        {
+          "text": "cursor",
+          "entity_type": "GPE",
+          "start": 36,
+          "end": 42,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "Chief, from his console, controls a cursor that goes onto the shared suriglcal fie...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_3",
+      "document_name": "2013.07.09 R Partial nephrectomy.rtf",
+      "entities": [
+        {
+          "text": "9:56:55 AM Kate",
+          "entity_type": "TIME",
+          "start": 45,
+          "end": 60,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...n I have the scissor in the right hand? 9:56:55 AM Kate takes out hook, puts on scissor. \nC: I\u2019...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "9:56:55 AM",
+          "entity_type": "DATE",
+          "start": 45,
+          "end": 55,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...n I have the scissor in the right hand? 9:56:55 AM Kate takes out hook, puts on scissor. \n...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "9:57:45 AM",
+          "entity_type": "TIME",
+          "start": 123,
+          "end": 133,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...n scissor. \nC: I\u2019ll take the hook again 9:57:45 AM",
+          "suggested_replacement": null
+        },
+        {
+          "text": "9:57:45 AM",
+          "entity_type": "DATE",
+          "start": 123,
+          "end": 133,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...n scissor. \nC: I\u2019ll take the hook again 9:57:45 AM",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_21",
+      "document_name": "2014.03.14 L Nephrectomy.rtf",
+      "entities": [
+        {
+          "text": "30 minutes",
+          "entity_type": "TIME",
+          "start": 148,
+          "end": 158,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "... end fo the case, because you only have 30 minutes to turn the room, and he wants to get o...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "20 of those minutes",
+          "entity_type": "TIME",
+          "start": 245,
+          "end": 264,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...ere, and the cleaners are going to take 20 of those minutes, so we all prepopulate these fields and...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_117",
+      "document_name": "2014.04.07 R Prostate.rtf",
+      "entities": [
+        {
+          "text": "Anesth",
+          "entity_type": "PERSON",
+          "start": 68,
+          "end": 74,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "... robe, begins  to robe himself up, then Anesth asks him to put on blood pressure measu...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_190",
+      "document_name": "2015.06.03 RALP.rtf",
+      "entities": [
+        {
+          "text": "brazil",
+          "entity_type": "GPE",
+          "start": 55,
+          "end": 61,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "... fellow, they were doing their cases in brazil, everyone said no, and they ended up wi...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "brazil",
+          "entity_type": "GPE",
+          "start": 132,
+          "end": 138,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...ded up with me. They said can you go to brazil and I said sure. Did I tell you this?\nN...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "every year",
+          "entity_type": "DATE",
+          "start": 204,
+          "end": 214,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...ll you this?\nN: no\nC: I tell this story every year. There were 3 surgeons doing 13 surgeri...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "8 days",
+          "entity_type": "DATE",
+          "start": 260,
+          "end": 266,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...e were 3 surgeons doing 13 surgeries in 8 days, so I was there in the or teaching thes...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "that week",
+          "entity_type": "DATE",
+          "start": 793,
+          "end": 802,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...es and we had to use sh needles, out of that week and out of necessity, I had to get peop...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "that week",
+          "entity_type": "DATE",
+          "start": 1290,
+          "end": 1299,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...was explaining how to handle things. So that week was a crash course, and the best part o...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "the end of the week",
+          "entity_type": "DATE",
+          "start": 1341,
+          "end": 1360,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...as a crash course, and the best part of the end of the week, they called me into this room, and the...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_193",
+      "document_name": "2015.06.10 Neph U.rtf",
+      "entities": [
+        {
+          "text": "matt bean",
+          "entity_type": "PERSON",
+          "start": 158,
+          "end": 167,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "...es white)\nMed student: yeah\nM: and poor matt bean, he can\u2019t quantify that for research pu...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_195",
+      "document_name": "2015.06.11 RALP.rtf",
+      "entities": [
+        {
+          "text": "7:20:48 AM",
+          "entity_type": "TIME",
+          "start": 103,
+          "end": 113,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...t up with K, who had the camera ready. \n7:20:48 AM\nS rushing, moving quickly\nS: if I hear ...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "7:20:48 AM",
+          "entity_type": "DATE",
+          "start": 103,
+          "end": 113,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...t up with K, who had the camera ready. \n7:20:48 AM\nS rushing, moving quickly\nS: if I hear ...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "today",
+          "entity_type": "DATE",
+          "start": 188,
+          "end": 193,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...hear anything about expired insturments today, I\u2019m going to be bullshit",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "entities": [
+        {
+          "text": "OR 2",
+          "entity_type": "FAC",
+          "start": 268,
+          "end": 272,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "... says call me if you need me. She is in OR 2 all day.",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "entities": [
+        {
+          "text": "the day",
+          "entity_type": "DATE",
+          "start": 31,
+          "end": 38,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "V: K, I look at my assignment, the day before, I know I shouldn\u2019t, then I say ...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "entities": [
+        {
+          "text": "Dude",
+          "entity_type": "PERSON",
+          "start": 76,
+          "end": 80,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "...able?\nG: yeah, that would help me a lot\nDude (third) helping to set up the table",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "entities": [
+        {
+          "text": "8:48:04 AM",
+          "entity_type": "TIME",
+          "start": 172,
+          "end": 182,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...hall\nG: wait, where\u2019d he go? (dude out)\n8:48:04 AM\nG: can you get lead for us? (I had to g...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "8:48:04 AM",
+          "entity_type": "DATE",
+          "start": 172,
+          "end": 182,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...hall\nG: wait, where\u2019d he go? (dude out)\n8:48:04 AM\nG: can you get lead for us? (I had to g...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "entities": [
+        {
+          "text": "Dude",
+          "entity_type": "PERSON",
+          "start": 74,
+          "end": 78,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "...person except for me? Just want to know\nDude: cause you\u2019re good, that\u2019s why\nG: fucki...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "8:53:27 AM",
+          "entity_type": "TIME",
+          "start": 164,
+          "end": 174,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...lshit. Cause we\u2019re tripled, on our work\n8:53:27 AM\nG: you don\u2019t need a third person in 17,...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "8:53:27 AM",
+          "entity_type": "DATE",
+          "start": 164,
+          "end": 174,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...lshit. Cause we\u2019re tripled, on our work\n8:53:27 AM\nG: you don\u2019t need a third person in 17,...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "entities": [
+        {
+          "text": "today",
+          "entity_type": "DATE",
+          "start": 42,
+          "end": 47,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "... I hope I don\u2019t punch a medical student today\nV: oh, which ones do we have\nG: we had ...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "entities": [
+        {
+          "text": "Dude",
+          "entity_type": "PERSON",
+          "start": 68,
+          "end": 72,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "...ed back there, don\u2019t touch it\nG: where \nDude explains that drape hit arm when it was...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "entities": [
+        {
+          "text": "9:00:21 AM",
+          "entity_type": "TIME",
+          "start": 123,
+          "end": 133,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...guiding dude through draping of camera)\n9:00:21 AM\nG finished \nG: this old one, it is you ...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "9:00:21 AM",
+          "entity_type": "DATE",
+          "start": 123,
+          "end": 133,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...guiding dude through draping of camera)\n9:00:21 AM\nG finished \nG: this old one, it is you ...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "Dude",
+          "entity_type": "PERSON",
+          "start": 452,
+          "end": 456,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "...be pushed, good, then connect that cord\nDude: and then what next?\nG: can you turn th...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "entities": [
+        {
+          "text": "9:14:31 AM ***",
+          "entity_type": "TIME",
+          "start": 69,
+          "end": 83,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...robe in trash, walks out without a word 9:14:31 AM ***",
+          "suggested_replacement": null
+        },
+        {
+          "text": "9:14:31 AM",
+          "entity_type": "DATE",
+          "start": 69,
+          "end": 79,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...robe in trash, walks out without a word 9:14:31 AM ***",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_197",
+      "document_name": "2015.07.01 R Pyleoplasty.rtf",
+      "entities": [
+        {
+          "text": "July 1",
+          "entity_type": "DATE",
+          "start": 14,
+          "end": 20,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "C: since it\u2019s July 1\nst\n, there are a couple of things that ...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "entities": [
+        {
+          "text": "this morning",
+          "entity_type": "TIME",
+          "start": 18,
+          "end": 30,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "K: J came in here this morning, draped this thing (points to robot), t...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "room 17",
+          "entity_type": "FAC",
+          "start": 90,
+          "end": 97,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...(points to robot), then he goes over to room 17, so it\u2019s been a very smooth morning so ...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "entities": [
+        {
+          "text": "K\u2019s",
+          "entity_type": "ORG",
+          "start": 288,
+          "end": 291,
+          "confidence": "HIGH",
+          "source": "ner",
+          "context": "... ripped out, over to e side, looking at K\u2019s setup\nM gets big blue foam, walks over ...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "9:52:03 AM\nM",
+          "entity_type": "TIME",
+          "start": 520,
+          "end": 532,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...M, M taping off head, H over near M too\n9:52:03 AM\nM taping wheel\nS: so you are the one who ...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "9:52:03 AM",
+          "entity_type": "DATE",
+          "start": 520,
+          "end": 530,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...M, M taping off head, H over near M too\n9:52:03 AM\nM taping wheel\nS: so you are the one wh...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "entities": [
+        {
+          "text": "10 minutes",
+          "entity_type": "TIME",
+          "start": 363,
+          "end": 373,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...e does that), but that slows me down by 10 minutes. It\u2019s very small but iat all ads up on ...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "entities": [
+        {
+          "text": "10:57:27 AM\nM: it",
+          "entity_type": "TIME",
+          "start": 93,
+          "end": 110,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "...uldn\u2019t get in any more\nM: shit robot***\n10:57:27 AM\nM: it\u2019s all I have to operate on this ridicul...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "10:57:27 AM",
+          "entity_type": "DATE",
+          "start": 93,
+          "end": 104,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...uldn\u2019t get in any more\nM: shit robot***\n10:57:27 AM\nM: it\u2019s all I have to operate on this r...",
+          "suggested_replacement": null
+        },
+        {
+          "text": "hospital",
+          "entity_type": "ORG",
+          "start": 376,
+          "end": 384,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "...o his lower left]\nC: yeah\nM: but do the hospital administrators care?***",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    },
+    {
+      "document_id": "doc_198",
+      "document_name": "2015.07.22 RALP.rtf",
+      "entities": [
+        {
+          "text": "11:41:55 AM\nM:",
+          "entity_type": "TIME",
+          "start": 62,
+          "end": 76,
+          "confidence": "MEDIUM",
+          "source": "ner",
+          "context": "..., it\u2019s super dirty, super duper dirty. \n11:41:55 AM\nM: maybe this is that\u2026 oh, no it\u2019s not***",
+          "suggested_replacement": null
+        },
+        {
+          "text": "11:41:55 AM",
+          "entity_type": "DATE",
+          "start": 62,
+          "end": 73,
+          "confidence": "HIGH",
+          "source": "regex",
+          "context": "..., it\u2019s super dirty, super duper dirty. \n11:41:55 AM\nM: maybe this is that\u2026 oh, no it\u2019s not*...",
+          "suggested_replacement": null
+        }
+      ],
+      "flags": []
+    }
+  ],
+  "review_required": true
+}
