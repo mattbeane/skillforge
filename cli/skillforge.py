@@ -326,9 +326,36 @@ def parse_assessment_md(file_path: Path) -> dict:
 
 def run_level1_assessment(assessment: dict, domain: str) -> tuple[int, int, list]:
     """Run interactive Level 1 assessment. Returns (score, total, responses)."""
+    import random
+
     questions = assessment["questions"]
     mc_questions = [q for q in questions if q["type"] == "mc"]
     short_questions = [q for q in questions if q["type"] == "short"]
+
+    # Randomize question order (keep MC before short answer)
+    random.shuffle(mc_questions)
+    random.shuffle(short_questions)
+
+    # Randomize option order within each MC question
+    for q in mc_questions:
+        if q.get("options"):
+            # Store correct answer text before shuffling
+            correct_letter = q.get("correct", "")
+            correct_text = None
+            for opt in q["options"]:
+                if opt["letter"] == correct_letter:
+                    correct_text = opt["text"]
+                    break
+
+            # Shuffle options
+            random.shuffle(q["options"])
+
+            # Reassign letters a, b, c, d and update correct answer
+            for i, opt in enumerate(q["options"]):
+                new_letter = chr(ord('a') + i)
+                if opt["text"] == correct_text:
+                    q["correct"] = new_letter
+                opt["letter"] = new_letter
 
     print(f"\n📝 Level 1 Assessment: {DOMAINS[domain]}")
     print("=" * 60)
