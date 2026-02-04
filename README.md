@@ -43,6 +43,13 @@ Can you do it independently on novel materials? Single attempt, expert evaluatio
 
 *"Here's a new dataset. Find the patterns. Identify the mechanisms. We'll assess whether you found what an expert would find—and whether you avoided the traps."*
 
+### Level 4: Capstone - AI Supervision
+Can you catch what AI gets wrong? Review an AI-generated paper and identify issues across all seven domains.
+
+*"An AI ran this dataset through a research pipeline and produced a draft paper. Find everything wrong with it. Prioritize what would sink it at review. This is the qualifying exam."*
+
+**Prerequisite**: Level 3 pass in all seven domains.
+
 ## What Makes It Different
 
 **Built on real research.** Assessment materials come from published studies—anonymized dissertation data with expert baselines showing what skilled researchers actually found.
