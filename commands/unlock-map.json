@@ -152,6 +152,24 @@
       }
     },
 
+    "/eval-limitations": {
+      "description": "Check limitations section follows genre conventions",
+      "mode": "single",
+      "requirements": {
+        "domain-5": 3
+      },
+      "notes": "Post-draft quality check for limitations/generalizability section"
+    },
+
+    "/eval-citations": {
+      "description": "Check citation coverage meets journal benchmarks",
+      "mode": "single",
+      "requirements": {
+        "domain-5": 3
+      },
+      "notes": "Post-draft quality check for citation count and canonical coverage"
+    },
+
     "/audit-claims": {
       "description": "Adversarial evidence search",
       "mode": "single",

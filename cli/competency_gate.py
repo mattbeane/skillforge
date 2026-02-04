@@ -34,9 +34,15 @@ UNLOCK_MAP = {
 
     # Phase 4: Paper drafting
     "draft-paper": {"domain-4": 3, "domain-5": 3},
+
+    # Phase 4b: Quality checks (post-draft)
+    "eval-limitations": {"domain-5": 3},
+    "eval-citations": {"domain-5": 3},
+
+    # Phase 5: Adversarial and verification
     "audit-claims": {"domain-5": 3, "domain-6": 3},
 
-    # Phase 5: Final verification
+    # Phase 6: Final verification
     "verify-claims": {"domain-5": 3, "domain-6": 3},
     "package-verification": {"domain-6": 3, "domain-7": 3},
 }
