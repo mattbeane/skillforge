@@ -17,7 +17,7 @@ progress:
   started: null  # Auto-set on first exercise
   last_activity: null
 
-# Completed badges (auto-updated by /skill-forge check)
+# Completed badges (auto-updated by /research-quals check)
 badges: []
 
 # Notes (optional, for your reference)

@@ -1,8 +1,8 @@
-# Skill-Forge
+# Research-Quals
 
 **Train like a mixed-methods management scholar. Learn what you actually need to do the work.**
 
-> **Part of the Forge ecosystem.** Skill-forge builds the judgment. [Theory-forge](https://github.com/mattbeane/theory-forge) assumes it.
+> **Part of the Forge ecosystem.** Research-quals builds the judgment. [Theory-forge](https://github.com/mattbeane/theory-forge) assumes it.
 
 ---
 
@@ -21,7 +21,7 @@ An LLM will:
 
 **Researchers who can catch these mistakes are more valuable, not less.**
 
-Skill-forge prepares you to direct AI rather than be replaced by it. The Level 4 capstone proves you can catch what AI gets wrong—the exact skill that makes you irreplaceable in an AI-augmented research world.
+Research-quals prepares you to direct AI rather than be replaced by it. The Level 4 capstone proves you can catch what AI gets wrong—the exact skill that makes you irreplaceable in an AI-augmented research world.
 
 This isn't about competing with AI. It's about becoming the human who knows when AI is wrong.
 
@@ -37,7 +37,7 @@ Meanwhile, AI tools are getting powerful enough to generate polished-looking res
 
 ## The Solution
 
-Skill-forge is a competency-based training system for mixed-methods management research. It captures the tacit knowledge that expert researchers use—and makes it learnable.
+Research-quals is a competency-based training system for mixed-methods management research. It captures the tacit knowledge that expert researchers use—and makes it learnable.
 
 **Seven domains. Three levels. Real data.**
 
@@ -100,13 +100,13 @@ Can you catch what AI gets wrong? Review an AI-generated paper and identify issu
 
 ```bash
 # Check your current status
-skill-forge status
+research-quals status
 
 # Take a Level 1 assessment
-skill-forge take domain-1 level-1
+research-quals take domain-1 level-1
 
 # Submit Level 3 work for evaluation
-skill-forge submit domain-3 --file my-coding.md
+research-quals submit domain-3 --file my-coding.md
 ```
 
 ## For Faculty: Contributing Data
@@ -163,7 +163,7 @@ This becomes the ground truth students are assessed against.
 
 ## Skill-Forge + Theory-Forge: The Ecosystem
 
-**Skill-forge** teaches the judgment skills. **Theory-forge** is the AI-assisted pipeline for producing papers.
+**Research-quals** teaches the judgment skills. **Theory-forge** is the AI-assisted pipeline for producing papers.
 
 ```
 Skill-Forge → Learn the craft → Theory-Forge → Accelerate the work
@@ -179,11 +179,11 @@ AI tools like theory-forge can dramatically accelerate research—but they requi
 - Miss disconfirming evidence that challenges the story
 - Generate technically correct but theoretically boring findings
 
-**Skill-forge ensures you can catch what AI gets wrong.**
+**Research-quals ensures you can catch what AI gets wrong.**
 
 ### The Unlock
 
-Theory-forge checks whether you've completed skill-forge before letting you proceed. This isn't gatekeeping—it's protection. Using powerful tools without the judgment to evaluate their output creates problems that show up at peer review, or worse, after publication.
+Theory-forge checks whether you've completed research-quals before letting you proceed. This isn't gatekeeping—it's protection. Using powerful tools without the judgment to evaluate their output creates problems that show up at peer review, or worse, after publication.
 
 | Skill-Forge Badge | What It Unlocks in Theory-Forge |
 |-------------------|--------------------------------|
@@ -213,4 +213,4 @@ The AI Supervisor capstone is the qualifying exam: review an AI-generated paper 
 
 ---
 
-*Skill-forge: Because "I took a methods course" isn't the same as "I can do research."*
+*Research-quals: Because "I took a methods course" isn't the same as "I can do research."*

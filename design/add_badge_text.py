@@ -6,7 +6,7 @@ Usage:
     python add_badge_text.py <input_dir> <output_dir>
 
 Example:
-    python add_badge_text.py ~/Desktop/skill-forge\ badges/ ./badges_final/
+    python add_badge_text.py ~/Desktop/research-quals\ badges/ ./badges_final/
 
 Requires: Pillow (pip install Pillow)
 """

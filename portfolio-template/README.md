@@ -41,7 +41,7 @@ Your verified record of research supervision skills.
 
 1. **Complete exercises** in each domain folder
 2. **Commit your work** with meaningful messages
-3. **Request badge check** via `/skill-forge check <badge-id>`
+3. **Request badge check** via `/research-quals check <badge-id>`
 4. **Earn verified badges** as git tags linked to your evidence
 
 ## Verification
@@ -55,9 +55,9 @@ All badges are verifiable. Click any badge link in [BADGES.md](BADGES.md) to see
 
 ```bash
 # In Claude Code
-/skill-forge status          # See your progress
-/skill-forge next            # Get next recommended exercise
-/skill-forge check d1-foundation  # Request badge verification
+/research-quals status          # See your progress
+/research-quals next            # Get next recommended exercise
+/research-quals check d1-foundation  # Request badge verification
 ```
 
 ---

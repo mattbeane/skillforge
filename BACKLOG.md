@@ -1,15 +1,15 @@
-# Skill-Forge Backlog
+# Research-Quals Backlog
 
 ## Priority 1: Immediate / High Impact
 
-### 1.1 Rename to skill-forge
+### 1.1 Rename to research-quals
 **Status:** ✅ Complete
 **Why:** Parallel construction with theory-forge. Hyphenated for consistency.
 
 **Implementation:**
-- ✅ Renamed directory: skillforge → skill-forge
+- ✅ Renamed directory: skillforge → research-quals
 - ✅ Updated README branding
-- ✅ Updated pyproject.toml (CLI: `skill-forge`, with `skillforge` alias for compatibility)
+- ✅ Updated pyproject.toml (CLI: `research-quals`, with `skillforge` alias for compatibility)
 - ✅ Updated GitHub URLs
 - Pending: GitHub repo rename (manual)
 
@@ -34,7 +34,7 @@
 **Why:** Users should understand the ecosystem.
 
 **Implementation:**
-- ✅ README section: "Skill-Forge + Theory-Forge: The Ecosystem"
+- ✅ README section: "Research-Quals + Theory-Forge: The Ecosystem"
 - ✅ Unlock messaging table (which levels unlock which theory-forge features)
 - ✅ "Why Both?" explanation (AI requires supervision)
 - ✅ Capstone as "qualifying exam" framing
@@ -119,7 +119,7 @@
 - ✅ 4 path badges (Theory Builder, Evidence Analyst, Integrity Guardian, Full Researcher)
 - ✅ AI Supervisor capstone badge
 - ✅ Badge issuance on assessment completion
-- ✅ CLI displays badges in `skill-forge status`
+- ✅ CLI displays badges in `research-quals status`
 - ✅ Path progress tracking with visual progress bars
 - ✅ UUID-based verification URLs (verification endpoint future work)
 
@@ -133,7 +133,7 @@
 
 **Implementation:**
 - Recognition system for data contributors
-- "My dissertation data is a skill-forge training set" badge
+- "My dissertation data is a research-quals training set" badge
 - Co-authorship on methodological papers about the system
 - Annual "top contributors" acknowledgment
 
@@ -244,7 +244,7 @@ Track attempts, scores, feedback history.
 
 - [x] P2.1: Reframe levels (Foundation/Practice/Mastery) (2025-02-04)
 - [x] P2.5: Badge system with domain/path badges (2025-02-04)
-- [x] P1.1: Rename to skill-forge (2025-02-04)
+- [x] P1.1: Rename to research-quals (2025-02-04)
 - [x] P1.2: Quick wins in Domain 1 (2025-02-04)
 - [x] P1.3: Explicit theory-forge connection (2025-02-04)
 - [x] P1.4: Anxiety-reducing messaging (2025-02-04)

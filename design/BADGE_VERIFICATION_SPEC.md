@@ -10,13 +10,13 @@ Badges are verified through GitHub commit history. No central database needed—
 
 ## Portfolio Repository Structure
 
-Students fork `skill-forge/portfolio-template`:
+Students fork `research-quals/portfolio-template`:
 
 ```
-skill-forge-portfolio/
+research-quals-portfolio/
 ├── README.md                    # Auto-generated progress dashboard
 ├── BADGES.md                    # Earned badges with verification links
-├── .skill-forge/
+├── .research-quals/
 │   └── config.yaml              # Student metadata, settings
 │
 ├── domain-1-pattern-recognition/
@@ -67,7 +67,7 @@ git push
 
 In Claude Code:
 ```
-/skill-forge check d1-foundation
+/research-quals check d1-foundation
 ```
 
 Claude Code:
@@ -127,7 +127,7 @@ Anyone can verify a badge:
 
 **Example verification URL:**
 ```
-https://github.com/student/skill-forge-portfolio/releases/tag/badge/ai-supervisor/2025-02-04
+https://github.com/student/research-quals-portfolio/releases/tag/badge/ai-supervisor/2025-02-04
 ```
 
 ---
@@ -205,23 +205,23 @@ Badge issuance checks:
 
 ```bash
 # Check status
-/skill-forge status
+/research-quals status
 # Shows: progress per domain, badges earned, next steps
 
 # Request badge check
-/skill-forge check d1-foundation
+/research-quals check d1-foundation
 # Runs verification, issues badge if passed
 
 # View all badges
-/skill-forge badges
+/research-quals badges
 # Shows earned badges with verification links
 
 # Initialize portfolio
-/skill-forge init
+/research-quals init
 # Forks template, sets up local repo
 
 # Sync progress
-/skill-forge sync
+/research-quals sync
 # Updates README.md and BADGES.md from current state
 ```
 
@@ -231,7 +231,7 @@ Badge issuance checks:
 
 ### 1. Portfolio template repo
 
-`skill-forge/portfolio-template` containing:
+`research-quals/portfolio-template` containing:
 - Directory structure
 - Exercise prompts (in each domain folder)
 - README template with progress tracking
@@ -279,7 +279,7 @@ practice:
 ## Example: Full Badge Issuance
 
 ```
-$ /skill-forge check d1-mastery
+$ /research-quals check d1-mastery
 
 Checking Domain 1: Pattern Recognition - Mastery...
 
@@ -302,7 +302,7 @@ Creating tag: badge/d1-mastery/2025-02-04
 Pushing to origin...
 
 Badge issued! Verify at:
-https://github.com/you/skill-forge-portfolio/releases/tag/badge/d1-mastery/2025-02-04
+https://github.com/you/research-quals-portfolio/releases/tag/badge/d1-mastery/2025-02-04
 
 Updated BADGES.md ✓
 ```

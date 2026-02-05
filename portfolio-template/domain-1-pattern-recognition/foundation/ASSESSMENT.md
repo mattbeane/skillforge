@@ -35,7 +35,7 @@ What concepts are you still uncertain about?
 
 ## AI Feedback
 
-*This section is completed by the skill-forge system during badge verification.*
+*This section is completed by the research-quals system during badge verification.*
 
 <!-- AI_FEEDBACK_START -->
 <!-- AI_FEEDBACK_END -->

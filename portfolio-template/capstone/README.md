@@ -33,7 +33,7 @@ When you pass, you've demonstrated you can:
 ## Attempting the Capstone
 
 ```bash
-/skill-forge capstone start
+/research-quals capstone start
 ```
 
 The system will:

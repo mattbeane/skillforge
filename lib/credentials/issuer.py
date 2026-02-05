@@ -59,7 +59,7 @@ def generate_badge_uuid() -> str:
 
 def generate_verification_url(badge_uuid: str) -> str:
     """Generate verification URL for a badge."""
-    return f"https://skill-forge.dev/verify/{badge_uuid}"
+    return f"https://research-quals.dev/verify/{badge_uuid}"
 
 
 def get_completed_requirements(student_record: dict) -> set:

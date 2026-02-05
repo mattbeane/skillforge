@@ -168,7 +168,7 @@ Level 2 gives you hands-on practice with real data. You'll:
 - Get detailed comparison to expert analysis
 - Learn from the gaps between your instincts and expert instincts
 
-Run: `skill-forge take domain-1 --level 2`
+Run: `research-quals take domain-1 --level 2`
 
 ---
 

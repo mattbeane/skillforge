@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Skill-Forge CLI - Competency-based training for mixed-methods management research
+Research-Quals CLI - Competency-based training for mixed-methods management research
 
 Commands:
     status      Show your current competency status
@@ -132,10 +132,10 @@ def cmd_status(args):
     record = get_student_record()
 
     if not record["student_id"]:
-        print("Not initialized. Run 'skill-forge init' first.")
+        print("Not initialized. Run 'research-quals init' first.")
         return 1
 
-    print(f"\n🎓 Skill-Forge Status: {record.get('name', record['student_id'])}")
+    print(f"\n🎓 Research-Quals Status: {record.get('name', record['student_id'])}")
     print("=" * 60)
 
     # Check for new badges
@@ -217,11 +217,11 @@ def cmd_status(args):
         if level < 3 and prereqs_met:
             next_level = level + 1
             if next_level == 1:
-                print(f"   skill-forge take {domain_id} --level 1")
+                print(f"   research-quals take {domain_id} --level 1")
             elif next_level == 2:
-                print(f"   skill-forge take {domain_id} --level 2")
+                print(f"   research-quals take {domain_id} --level 2")
             else:
-                print(f"   skill-forge submit {domain_id} --level 3")
+                print(f"   research-quals submit {domain_id} --level 3")
             suggested = True
             if suggested and level == 0:
                 break  # Only show first available domain for beginners
