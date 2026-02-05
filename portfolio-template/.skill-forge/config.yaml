@@ -1,0 +1,25 @@
+# Skill-Forge Portfolio Configuration
+
+# Your display name (used in badge issuance)
+# Can be real name or pseudonym
+display_name: "Your Name"
+
+# GitHub username (auto-detected, but can override)
+github_username: null
+
+# Privacy settings
+privacy:
+  # If true, exercises are committed but not badge details
+  hide_assessment_details: false
+
+# Progress tracking
+progress:
+  started: null  # Auto-set on first exercise
+  last_activity: null
+
+# Completed badges (auto-updated by /skill-forge check)
+badges: []
+
+# Notes (optional, for your reference)
+notes: |
+  Started Skill-Forge to improve my AI supervision skills.
