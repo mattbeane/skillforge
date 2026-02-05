@@ -106,7 +106,7 @@ Organizing the paper in a genre-appropriate way.
 
 ## Assessment Specifications
 
-### Level 1: Knowledge Recognition
+### Foundation (Level 1)
 
 **Format**: Identification + classification exercises
 
@@ -143,7 +143,7 @@ Organizing the paper in a genre-appropriate way.
 
 ---
 
-### Level 2: Application with Feedback
+### Practice (Level 2)
 
 **Format**: Identify and revise genre violations in a draft
 
@@ -181,7 +181,7 @@ Organizing the paper in a genre-appropriate way.
 
 ---
 
-### Level 3: Authentic Performance
+### Mastery (Level 3)
 
 **Format**: Write genre-appropriate sections from scratch
 

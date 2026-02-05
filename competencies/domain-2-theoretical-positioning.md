@@ -80,7 +80,7 @@ Stating clearly what the paper adds to knowledge.
 
 ## Assessment Specifications
 
-### Level 1: Knowledge Recognition
+### Foundation (Level 1)
 
 **Format**: Multiple choice + matching + short answer
 
@@ -118,7 +118,7 @@ Stating clearly what the paper adds to knowledge.
 
 ---
 
-### Level 2: Application with Feedback
+### Practice (Level 2)
 
 **Format**: Given a finding, position it theoretically
 
@@ -152,7 +152,7 @@ Stating clearly what the paper adds to knowledge.
 
 ---
 
-### Level 3: Authentic Performance
+### Mastery (Level 3)
 
 **Format**: Independent theoretical positioning of novel finding
 

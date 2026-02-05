@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
 """
-SkillForge CLI - Competency-based training for mixed-methods management research
+Skill-Forge CLI - Competency-based training for mixed-methods management research
 
 Commands:
     status      Show your current competency status
-    take        Take a Level 1 assessment
-    submit      Submit Level 2-3 work for evaluation
+    take        Take a Foundation assessment
+    submit      Submit Practice/Mastery work for evaluation
     init        Initialize student profile
 """
 
@@ -15,6 +15,20 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Optional
+
+# Try to import credentials module (may not be installed yet)
+try:
+    from lib.credentials.issuer import (
+        check_and_issue_badges,
+        add_badges_to_record,
+        format_badges_for_display,
+        format_badge_progress,
+        get_completed_requirements
+    )
+    from lib.credentials.paths import format_path_progress
+    CREDENTIALS_AVAILABLE = True
+except ImportError:
+    CREDENTIALS_AVAILABLE = False
 
 # Configuration
 SKILLFORGE_HOME = Path.home() / ".skillforge"
@@ -118,15 +132,26 @@ def cmd_status(args):
     record = get_student_record()
 
     if not record["student_id"]:
-        print("Not initialized. Run 'skillforge init' first.")
+        print("Not initialized. Run 'skill-forge init' first.")
         return 1
 
-    print(f"\n🎓 SkillForge Status: {record.get('name', record['student_id'])}")
+    print(f"\n🎓 Skill-Forge Status: {record.get('name', record['student_id'])}")
     print("=" * 60)
 
+    # Check for new badges
+    if CREDENTIALS_AVAILABLE:
+        new_badges = check_and_issue_badges(record)
+        if new_badges:
+            add_badges_to_record(record, new_badges)
+            save_student_record(record)
+            print("\n🎉 NEW BADGES EARNED!")
+            for badge in new_badges:
+                print(f"   {badge.emoji} {badge.name}")
+            print()
+
     # Summary stats
-    total_l3 = sum(1 for d in record.get("domains", {}).values() if d.get("level", 0) >= 3)
-    print(f"\nLevel 3 Competencies: {total_l3}/7")
+    total_mastery = sum(1 for d in record.get("domains", {}).values() if d.get("level", 0) >= 3)
+    print(f"\nMastery Competencies: {total_mastery}/7")
 
     # Domain breakdown
     print("\n" + "-" * 60)
@@ -165,6 +190,18 @@ def cmd_status(args):
 
     print("-" * 60)
 
+    # Badges section
+    if CREDENTIALS_AVAILABLE:
+        badges = record.get("credentials", {}).get("badges", [])
+        if badges:
+            print(f"\n🎖️  BADGES EARNED ({len(badges)})")
+            print("=" * 60)
+            print(format_badges_for_display(badges))
+
+        # Path progress
+        completed = get_completed_requirements(record)
+        print("\n" + format_path_progress(completed))
+
     # Next steps
     print("\n📋 Next Steps:")
     suggested = False
@@ -180,11 +217,11 @@ def cmd_status(args):
         if level < 3 and prereqs_met:
             next_level = level + 1
             if next_level == 1:
-                print(f"   skillforge take {domain_id} --level 1")
+                print(f"   skill-forge take {domain_id} --level 1")
             elif next_level == 2:
-                print(f"   skillforge take {domain_id} --level 2")
+                print(f"   skill-forge take {domain_id} --level 2")
             else:
-                print(f"   skillforge submit {domain_id} --level 3")
+                print(f"   skill-forge submit {domain_id} --level 3")
             suggested = True
             if suggested and level == 0:
                 break  # Only show first available domain for beginners

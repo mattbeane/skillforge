@@ -59,14 +59,17 @@
 ## Priority 2: Important / Medium Term
 
 ### 2.1 Reframe Levels
-**Status:** Not started
+**Status:** ✅ Complete
 **Why:** "Assessment" triggers anxiety. "Level 3 is where it counts" is scary.
 
 **Implementation:**
-- Level 1-2: "Practice" (unlimited attempts, rich feedback)
-- Level 3: "Demonstration" (show what you can do)
-- Level 4: "Integration" (capstone)
-- Update all documentation with new framing
+- ✅ Level 1 → "Foundation" (establishes base understanding)
+- ✅ Level 2 → "Practice" (active learning with guidance)
+- ✅ Level 3 → "Mastery" (independent demonstration)
+- ✅ Level 4 → "AI Supervisor" (capstone)
+- ✅ Updated all 7 competency docs
+- ✅ Updated README with new terminology
+- ✅ Updated unlock table
 
 ---
 
@@ -107,14 +110,18 @@
 ---
 
 ### 2.5 Badges/Credentials
-**Status:** Not started
+**Status:** ✅ Complete
 **Why:** Social proof matters.
 
 **Implementation:**
-- Digital badges for each domain completion
-- Shareable credentials (LinkedIn integration)
-- "skill-forge certified" designation
-- Cohort leaderboards (optional)
+- ✅ Created `lib/credentials/` module with badges, issuer, paths
+- ✅ 21 domain badges (7 domains × 3 levels: Foundation/Practice/Mastery)
+- ✅ 4 path badges (Theory Builder, Evidence Analyst, Integrity Guardian, Full Researcher)
+- ✅ AI Supervisor capstone badge
+- ✅ Badge issuance on assessment completion
+- ✅ CLI displays badges in `skill-forge status`
+- ✅ Path progress tracking with visual progress bars
+- ✅ UUID-based verification URLs (verification endpoint future work)
 
 ---
 
@@ -235,6 +242,8 @@ Track attempts, scores, feedback history.
 
 ## Completed
 
+- [x] P2.1: Reframe levels (Foundation/Practice/Mastery) (2025-02-04)
+- [x] P2.5: Badge system with domain/path badges (2025-02-04)
 - [x] P1.1: Rename to skill-forge (2025-02-04)
 - [x] P1.2: Quick wins in Domain 1 (2025-02-04)
 - [x] P1.3: Explicit theory-forge connection (2025-02-04)

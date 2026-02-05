@@ -72,7 +72,7 @@ Knowing when to kill a finding and move on.
 
 ## Assessment Specifications
 
-### Level 1: Knowledge Recognition
+### Foundation (Level 1)
 
 **Format**: Multiple choice + short answer
 
@@ -106,7 +106,7 @@ Knowing when to kill a finding and move on.
 
 ---
 
-### Level 2: Application with Feedback
+### Practice (Level 2)
 
 **Format**: Given a dataset, identify patterns worth pursuing
 
@@ -144,17 +144,17 @@ Knowing when to kill a finding and move on.
 
 ---
 
-### Level 3: Authentic Performance
+### Mastery (Level 3)
 
 **Format**: Independent pattern hunting on unfamiliar dataset
 
 **Materials provided**:
-- Novel anonymized dataset (not used in Level 2)
+- Novel anonymized dataset (not used in Practice)
 - Data dictionary
 - Research context
 
 **Task**:
-Same as Level 2, but:
+Same as Practice, but:
 - No feedback during assessment
 - Work evaluated against expert baseline
 - Single attempt per assessment period (30-day cooldown)
@@ -178,16 +178,16 @@ Same as Level 2, but:
 
 **Passing threshold**: ≥70 points total; minimum 20 points on Pattern Quality
 
-**Advisor override**: Advisor can certify Level 3 pass if they review the work and judge competence demonstrated.
+**Advisor override**: Advisor can certify Mastery pass if they review the work and judge competence demonstrated.
 
 ---
 
 ## What This Unlocks
 
-| Level Achieved | TheoryForge Commands Unlocked |
-|----------------|------------------------------|
-| Level 2 | `/hunt-patterns` (guided mode - shows AI reasoning) |
-| Level 3 | `/hunt-patterns` (full mode) |
+| Level Achieved | Theory-Forge Commands Unlocked |
+|----------------|--------------------------------|
+| Practice | `/hunt-patterns` (guided mode - shows AI reasoning) |
+| Mastery | `/hunt-patterns` (full mode) |
 
 ---
 
@@ -222,7 +222,7 @@ You should report findings that survived scrutiny and matter theoretically. Docu
 
 ## Self-Assessment Questions
 
-Before taking the Level 3 assessment, you should be able to answer:
+Before taking the Mastery assessment, you should be able to answer:
 
 1. Given a dataset, what's your process for deciding what patterns to pursue?
 2. How do you distinguish "statistically significant" from "theoretically interesting"?

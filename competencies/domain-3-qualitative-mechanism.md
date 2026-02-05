@@ -76,7 +76,7 @@ Choosing quotes that illuminate mechanisms, not just illustrate conclusions.
 
 ## Assessment Specifications
 
-### Level 1: Knowledge Recognition
+### Foundation (Level 1)
 
 **Format**: Multiple choice + scenario analysis
 
@@ -118,7 +118,7 @@ Choosing quotes that illuminate mechanisms, not just illustrate conclusions.
 
 ---
 
-### Level 2: Application with Feedback
+### Practice (Level 2)
 
 **Format**: Code a subset of interviews against provided hypotheses
 
@@ -162,7 +162,7 @@ Choosing quotes that illuminate mechanisms, not just illustrate conclusions.
 
 ---
 
-### Level 3: Authentic Performance
+### Mastery (Level 3)
 
 **Format**: Independent coding on unfamiliar dataset
 

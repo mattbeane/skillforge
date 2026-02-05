@@ -77,7 +77,7 @@ Recognizing that the same data could support different stories.
 
 ## Assessment Specifications
 
-### Level 1: Knowledge Recognition
+### Foundation (Level 1)
 
 **Format**: Multiple choice + scenario analysis
 
@@ -119,7 +119,7 @@ Recognizing that the same data could support different stories.
 
 ---
 
-### Level 2: Application with Feedback
+### Practice (Level 2)
 
 **Format**: Audit a provided analysis against raw data
 
@@ -163,7 +163,7 @@ Recognizing that the same data could support different stories.
 
 ---
 
-### Level 3: Authentic Performance
+### Mastery (Level 3)
 
 **Format**: Full audit of unfamiliar analysis
 

@@ -105,7 +105,7 @@ Maintaining honest calibration when you want the paper to succeed.
 
 ## Assessment Specifications
 
-### Level 1: Knowledge Recognition
+### Foundation (Level 1)
 
 **Format**: Claim evaluation + calibration exercises
 
@@ -145,7 +145,7 @@ Maintaining honest calibration when you want the paper to succeed.
 
 ---
 
-### Level 2: Application with Feedback
+### Practice (Level 2)
 
 **Format**: Audit a paper for overclaims and create verification package
 
@@ -191,7 +191,7 @@ Maintaining honest calibration when you want the paper to succeed.
 
 ---
 
-### Level 3: Authentic Performance
+### Mastery (Level 3)
 
 **Format**: Full verification of unfamiliar paper
 

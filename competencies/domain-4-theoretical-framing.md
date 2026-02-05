@@ -78,7 +78,7 @@ Writing opening sentences and contribution statements that compel readers.
 
 ## Assessment Specifications
 
-### Level 1: Knowledge Recognition
+### Foundation (Level 1)
 
 **Format**: Multiple choice + evaluation exercises
 
@@ -118,7 +118,7 @@ Writing opening sentences and contribution statements that compel readers.
 
 ---
 
-### Level 2: Application with Feedback
+### Practice (Level 2)
 
 **Format**: Generate and evaluate framings for a provided finding
 
@@ -159,7 +159,7 @@ Writing opening sentences and contribution statements that compel readers.
 
 ---
 
-### Level 3: Authentic Performance
+### Mastery (Level 3)
 
 **Format**: Independent framing of novel finding
 

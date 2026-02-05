@@ -53,27 +53,27 @@ Skill-forge is a competency-based training system for mixed-methods management r
 
 ## How It Works
 
-### Level 1: Recognize
-Can you identify good practice when you see it? Multiple choice and short answer on real examples.
+### Foundation
+Can you identify good practice when you see it? Multiple choice and short answer on real examples. Unlimited retakes—this is for learning.
 
 *"A researcher finds that 12 of 15 informants support the mechanism, but 3 describe the opposite. What should they do?"*
 
-### Level 2: Apply
-Given real data, can you do it yourself—with feedback? Work on actual datasets, get detailed comparison to expert analysis.
+### Practice
+Given real data, can you do it yourself—with feedback? Work on actual datasets, get detailed comparison to expert analysis. Rich feedback after each attempt.
 
 *"Here are 10 interview excerpts. Code them for mechanisms. We'll compare your coding to how a published researcher coded the same data."*
 
-### Level 3: Perform
-Can you do it independently on novel materials? Single attempt, expert evaluation, no hand-holding.
+### Mastery
+Can you do it independently on novel materials? Single attempt, expert evaluation, no hand-holding. This is where you prove it.
 
 *"Here's a new dataset. Find the patterns. Identify the mechanisms. We'll assess whether you found what an expert would find—and whether you avoided the traps."*
 
-### Level 4: Capstone - AI Supervision
+### AI Supervisor (Capstone)
 Can you catch what AI gets wrong? Review an AI-generated paper and identify issues across all seven domains.
 
 *"An AI ran this dataset through a research pipeline and produced a draft paper. Find everything wrong with it. Prioritize what would sink it at review. This is the qualifying exam."*
 
-**Prerequisite**: Level 3 pass in all seven domains.
+**Prerequisite**: Mastery pass in all seven domains.
 
 ## What Makes It Different
 
@@ -155,7 +155,7 @@ This becomes the ground truth students are assessed against.
 - ✅ Scoring specifications for all levels
 
 **Coming:**
-- ⏳ Level 2-3 assessments
+- ⏳ Practice/Mastery assessments
 - ⏳ CLI for taking/submitting assessments
 - ⏳ Student record tracking
 - ⏳ Additional expert baselines from faculty contributions
@@ -186,15 +186,15 @@ Theory-forge checks whether you've completed skill-forge before letting you proc
 
 | Skill-Forge Level | What It Unlocks in Theory-Forge |
 |-------------------|--------------------------------|
-| Domain 1 Level 2 | `/hunt-patterns` (guided mode) |
-| Domain 3 Level 2 | `/mine-qual` (mechanism extraction) |
-| Domain 5 Level 1 | `/eval-genre` (can check your own papers) |
-| Level 3 all domains | Full theory-forge access |
-| Level 4 Capstone | "I can supervise AI" certification |
+| Domain 1 Practice | `/hunt-patterns` (guided mode) |
+| Domain 3 Practice | `/mine-qual` (mechanism extraction) |
+| Domain 5 Foundation | `/eval-genre` (can check your own papers) |
+| Mastery all domains | Full theory-forge access |
+| AI Supervisor Capstone | "I can supervise AI" certification |
 
 ### The Capstone Proves It
 
-The Level 4 capstone is the qualifying exam: review an AI-generated paper and catch all the issues. If you can do that, you can use theory-forge responsibly. If you can't, you need more practice—better to discover that here than at peer review.
+The AI Supervisor capstone is the qualifying exam: review an AI-generated paper and catch all the issues. If you can do that, you can use theory-forge responsibly. If you can't, you need more practice—better to discover that here than at peer review.
 
 **→ [Theory-forge documentation](https://github.com/mattbeane/theory-forge)**
 
