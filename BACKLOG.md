@@ -3,50 +3,56 @@
 ## Priority 1: Immediate / High Impact
 
 ### 1.1 Rename to skill-forge
-**Status:** Not started
+**Status:** ✅ Complete
 **Why:** Parallel construction with theory-forge. Hyphenated for consistency.
 
 **Implementation:**
-- Rename repository: skillforge → skill-forge
-- Update all internal references
-- Update GitHub URL
-- Redirect old URL
+- ✅ Renamed directory: skillforge → skill-forge
+- ✅ Updated README branding
+- ✅ Updated pyproject.toml (CLI: `skill-forge`, with `skillforge` alias for compatibility)
+- ✅ Updated GitHub URLs
+- Pending: GitHub repo rename (manual)
 
 ---
 
 ### 1.2 Quick Wins in Domain 1
-**Status:** Not started
+**Status:** ✅ Complete
 **Why:** Users should feel smarter on Day 1. Current Domain 1 takes too long.
 
 **Implementation:**
-- Streamline Level 1 to 1-2 hours max
-- Add "immediate value" framing: "After this, you'll read papers differently"
-- Create 5-minute diagnostic: "Can you already do this?"
-- Fast-track for those who pass diagnostic
+- ✅ Created `assessments/domain-1-quick-start.md`
+- ✅ 5-minute diagnostic with fast-track option
+- ✅ Streamlined Level 1 (1-2 hours)
+- ✅ "Time to value: 30 minutes" framing
+- ✅ "After this, you'll read papers differently" messaging
+- ✅ Pattern Recognition Checklist quick reference
 
 ---
 
 ### 1.3 Explicit theory-forge Connection
-**Status:** Partial (mentioned in capstone)
+**Status:** ✅ Complete
 **Why:** Users should understand the ecosystem.
 
 **Implementation:**
-- README section: "skill-forge + theory-forge"
-- Unlock messaging: "Complete Level 3 in all domains to use theory-forge responsibly"
-- Shared terminology check
-- Cross-link documentation
+- ✅ README section: "Skill-Forge + Theory-Forge: The Ecosystem"
+- ✅ Unlock messaging table (which levels unlock which theory-forge features)
+- ✅ "Why Both?" explanation (AI requires supervision)
+- ✅ Capstone as "qualifying exam" framing
+- ✅ Cross-link to theory-forge documentation
 
 ---
 
 ### 1.4 Anxiety-Reducing Messaging
-**Status:** Not started
+**Status:** ✅ Complete
 **Why:** PhD students fear AI replacement.
 
 **Implementation:**
-- Add "Why This Exists" section to README
-- Frame: "AI will change research. This prepares you to direct AI, not be replaced."
-- Capstone proves you know things AI doesn't
-- Career positioning: "Researchers who can supervise AI are more valuable"
+- ✅ Added "If You're Worried About AI Replacing Researchers..." section
+- ✅ Frame: "AI doesn't know what it doesn't know"
+- ✅ Lists what LLMs get wrong (genre, overclaiming, disconfirming evidence, etc.)
+- ✅ "Researchers who can catch these mistakes are more valuable, not less"
+- ✅ Capstone as proof of AI supervision capability
+- ✅ "Becoming the human who knows when AI is wrong"
 
 ---
 
@@ -229,6 +235,10 @@ Track attempts, scores, feedback history.
 
 ## Completed
 
+- [x] P1.1: Rename to skill-forge (2025-02-04)
+- [x] P1.2: Quick wins in Domain 1 (2025-02-04)
+- [x] P1.3: Explicit theory-forge connection (2025-02-04)
+- [x] P1.4: Anxiety-reducing messaging (2025-02-04)
 - [x] Level 4 Capstone specification (2025-02-04)
 - [x] Capstone materials: surgery dataset (2025-02-04)
 - [x] Domain 5 competency documentation

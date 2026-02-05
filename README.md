@@ -1,6 +1,31 @@
-# SkillForge
+# Skill-Forge
 
 **Train like a mixed-methods management scholar. Learn what you actually need to do the work.**
+
+> **Part of the Forge ecosystem.** Skill-forge builds the judgment. [Theory-forge](https://github.com/mattbeane/theory-forge) assumes it.
+
+---
+
+## If You're Worried About AI Replacing Researchers...
+
+You're not wrong to worry. AI tools can now generate polished-looking papers, identify patterns in data, and draft theoretical framings. In the wrong hands, this creates problems.
+
+But here's the thing: **AI doesn't know what it doesn't know.**
+
+An LLM will:
+- Frame discovery research as hypothesis testing (because that's what most papers look like)
+- Overclaim contributions that aren't supported by evidence
+- Miss disconfirming evidence that challenges the story
+- Generate technically correct but theoretically boring findings
+- Sound confident about things it's making up
+
+**Researchers who can catch these mistakes are more valuable, not less.**
+
+Skill-forge prepares you to direct AI rather than be replaced by it. The Level 4 capstone proves you can catch what AI gets wrong—the exact skill that makes you irreplaceable in an AI-augmented research world.
+
+This isn't about competing with AI. It's about becoming the human who knows when AI is wrong.
+
+---
 
 ## The Problem
 
@@ -12,7 +37,7 @@ Meanwhile, AI tools are getting powerful enough to generate polished-looking res
 
 ## The Solution
 
-SkillForge is a competency-based training system for mixed-methods management research. It captures the tacit knowledge that expert researchers use—and makes it learnable.
+Skill-forge is a competency-based training system for mixed-methods management research. It captures the tacit knowledge that expert researchers use—and makes it learnable.
 
 **Seven domains. Three levels. Real data.**
 
@@ -75,13 +100,13 @@ Can you catch what AI gets wrong? Review an AI-generated paper and identify issu
 
 ```bash
 # Check your current status
-skillforge status
+skill-forge status
 
 # Take a Level 1 assessment
-skillforge take domain-1 level-1
+skill-forge take domain-1 level-1
 
 # Submit Level 3 work for evaluation
-skillforge submit domain-3 --file my-coding.md
+skill-forge submit domain-3 --file my-coding.md
 ```
 
 ## For Faculty: Contributing Data
@@ -135,6 +160,46 @@ This becomes the ground truth students are assessed against.
 - ⏳ Student record tracking
 - ⏳ Additional expert baselines from faculty contributions
 
+## Skill-Forge + Theory-Forge: The Ecosystem
+
+**Skill-forge** teaches the judgment skills. **Theory-forge** is the AI-assisted pipeline for producing papers.
+
+```
+Skill-Forge → Learn the craft → Theory-Forge → Accelerate the work
+   (judgment)                    (productivity)
+```
+
+### Why Both?
+
+AI tools like theory-forge can dramatically accelerate research—but they require supervision. An LLM can generate plausible-looking framings, identify patterns, and draft prose. But it will also:
+
+- Frame discovery research as hypothesis testing (genre violation)
+- Overclaim contributions that aren't supported by evidence
+- Miss disconfirming evidence that challenges the story
+- Generate technically correct but theoretically boring findings
+
+**Skill-forge ensures you can catch what AI gets wrong.**
+
+### The Unlock
+
+Theory-forge checks whether you've completed skill-forge before letting you proceed. This isn't gatekeeping—it's protection. Using powerful tools without the judgment to evaluate their output creates problems that show up at peer review, or worse, after publication.
+
+| Skill-Forge Level | What It Unlocks in Theory-Forge |
+|-------------------|--------------------------------|
+| Domain 1 Level 2 | `/hunt-patterns` (guided mode) |
+| Domain 3 Level 2 | `/mine-qual` (mechanism extraction) |
+| Domain 5 Level 1 | `/eval-genre` (can check your own papers) |
+| Level 3 all domains | Full theory-forge access |
+| Level 4 Capstone | "I can supervise AI" certification |
+
+### The Capstone Proves It
+
+The Level 4 capstone is the qualifying exam: review an AI-generated paper and catch all the issues. If you can do that, you can use theory-forge responsibly. If you can't, you need more practice—better to discover that here than at peer review.
+
+**→ [Theory-forge documentation](https://github.com/mattbeane/theory-forge)**
+
+---
+
 ## Philosophy
 
 **Competency over credentials.** Time in program doesn't equal readiness. Demonstrated skill does.
@@ -147,4 +212,4 @@ This becomes the ground truth students are assessed against.
 
 ---
 
-*SkillForge: Because "I took a methods course" isn't the same as "I can do research."*
+*Skill-forge: Because "I took a methods course" isn't the same as "I can do research."*
