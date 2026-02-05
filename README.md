@@ -43,37 +43,37 @@ Skill-forge is a competency-based training system for mixed-methods management r
 
 | Domain | The Question It Answers |
 |--------|------------------------|
-| 1. Pattern Recognition | Is this signal or noise? |
+| 1. Pattern Recognition & Data Sense | Is this signal or noise? |
 | 2. Theoretical Positioning | What makes this a contribution? |
-| 3. Qualitative Mechanism | What's actually happening here? |
-| 4. Theoretical Framing | How do I position this for reviewers? |
-| 5. Epistemological Genre | Am I discovering or testing? |
+| 3. Research Design Intuition | Can this design answer this question? |
+| 4. Qualitative Rigor | Is this interpretation defensible? |
+| 5. Literature Synthesis | How does this fit the conversation? |
 | 6. Adversarial Evidence | What challenges my interpretation? |
 | 7. Claim Verification | Does my evidence support my claims? |
 
 ## How It Works
 
 ### Foundation
-Can you identify good practice when you see it? Multiple choice and short answer on real examples. Unlimited retakes—this is for learning.
+Can you identify good practice when you see it? Conceptual exercises on real examples. Unlimited retakes—this is for learning.
 
-*"A researcher finds that 12 of 15 informants support the mechanism, but 3 describe the opposite. What should they do?"*
+*"Here are 6 research questions. Match each to the appropriate method and explain why."*
 
 ### Practice
-Given real data, can you do it yourself—with feedback? Work on actual datasets, get detailed comparison to expert analysis. Rich feedback after each attempt.
+Given real data, can you do it yourself—with feedback? Work on actual problems, get detailed comparison to expert analysis.
 
-*"Here are 10 interview excerpts. Code them for mechanisms. We'll compare your coding to how a published researcher coded the same data."*
+*"Code these interview excerpts. Build themes from your codes. We'll compare your analysis to expert standards."*
 
 ### Mastery
-Can you do it independently on novel materials? Single attempt, expert evaluation, no hand-holding. This is where you prove it.
+Can you do it independently and defend your choices? Single attempt, expert evaluation, adversarial defense.
 
-*"Here's a new dataset. Find the patterns. Identify the mechanisms. We'll assess whether you found what an expert would find—and whether you avoided the traps."*
+*"Design a complete research study. Defend it against hostile reviewer critiques. This is where you prove it."*
 
 ### AI Supervisor (Capstone)
 Can you catch what AI gets wrong? Review an AI-generated paper and identify issues across all seven domains.
 
 *"An AI ran this dataset through a research pipeline and produced a draft paper. Find everything wrong with it. Prioritize what would sink it at review. This is the qualifying exam."*
 
-**Prerequisite**: Mastery pass in all seven domains.
+**Prerequisite**: Mastery badge in all seven domains.
 
 ## What Makes It Different
 
@@ -148,16 +148,17 @@ This becomes the ground truth students are assessed against.
 ## Current Status
 
 **Built:**
-- ✅ 7 competency domain definitions with rubrics
-- ✅ Level 1 assessments for Domains 1, 3, 7
+- ✅ Complete curriculum: 42 exercises + 21 assessments across all 7 domains
+- ✅ Three levels per domain: Foundation, Practice, Mastery
+- ✅ Capstone exercise: AI paper review challenge
+- ✅ 26 badge designs with git-based verification system
+- ✅ Portfolio template for student progress tracking
 - ✅ Atlas.ti parser + 3-stage anonymization engine
 - ✅ Expert baseline from published robotic surgery research
-- ✅ Scoring specifications for all levels
 
 **Coming:**
-- ⏳ Practice/Mastery assessments
 - ⏳ CLI for taking/submitting assessments
-- ⏳ Student record tracking
+- ⏳ Automated badge issuance
 - ⏳ Additional expert baselines from faculty contributions
 
 ## Skill-Forge + Theory-Forge: The Ecosystem
@@ -184,13 +185,13 @@ AI tools like theory-forge can dramatically accelerate research—but they requi
 
 Theory-forge checks whether you've completed skill-forge before letting you proceed. This isn't gatekeeping—it's protection. Using powerful tools without the judgment to evaluate their output creates problems that show up at peer review, or worse, after publication.
 
-| Skill-Forge Level | What It Unlocks in Theory-Forge |
+| Skill-Forge Badge | What It Unlocks in Theory-Forge |
 |-------------------|--------------------------------|
-| Domain 1 Practice | `/hunt-patterns` (guided mode) |
-| Domain 3 Practice | `/mine-qual` (mechanism extraction) |
-| Domain 5 Foundation | `/eval-genre` (can check your own papers) |
-| Mastery all domains | Full theory-forge access |
-| AI Supervisor Capstone | "I can supervise AI" certification |
+| D1 Practice | `/hunt-patterns` (guided mode) |
+| D4 Practice | `/mine-qual` (mechanism extraction) |
+| D5 Foundation | `/eval-genre` (can check your own papers) |
+| All 7 Mastery badges | Full theory-forge access |
+| AI Supervisor (Capstone) | Certified to supervise AI research tools |
 
 ### The Capstone Proves It
 
