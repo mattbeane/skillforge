@@ -139,9 +139,37 @@ A researcher conducted a qualitative study discovering a mechanism. They now wan
 
 ---
 
+### Question 11 (Front-Loading)
+A researcher opens their abstract with: "When genuinely novel technology arrives, managers cannot evaluate skill fit because the relevant performance criteria do not yet exist."
+
+This is a discovery paper. What's wrong with this opening?
+
+- a) It's too long
+- b) It front-loads discoveries as premises—"managers decide," "skill fit evaluation," and "criteria don't exist" are all things the paper discovers, not accepted starting points
+- c) It needs more citations
+- d) It should start with a hypothesis
+
+**Correct**: b
+**Why**: Discovery papers must start from the naive question a reader would ask ("What happens to workers when automation arrives?"). The example presents discovered mechanism components as if they're accepted premises. A naive reader wouldn't know managers are the key actors, that skill evaluation matters, or that criteria absence is the issue—those are findings.
+
+---
+
+### Question 12 (Front-Loading)
+Which abstract opening is appropriate for a discovery paper about how organizations select workers for new technology?
+
+- a) "Selection into automation roles operates through reliability hedging, a mechanism we identify..."
+- b) "Organizations face a fundamental challenge when deploying novel technology: they cannot evaluate worker fit because performance criteria don't yet exist."
+- c) "What happens to workers when automation arrives? Job insecurity theory predicts displacement. Yet at one facility, tenure quadrupled..."
+- d) "We theorize that managers select workers based on reliability rather than skill when facing technological uncertainty."
+
+**Correct**: c
+**Why**: Option (c) starts from the naive question, presents the theoretical expectation, then introduces the puzzle. Options (a), (b), and (d) all front-load discoveries—they present what the paper found as if it's the starting point rather than the destination.
+
+---
+
 ## Section B: Short Answer (2 questions)
 
-### Question 11
+### Question 13
 A researcher writes: "Through interviews with 30 surgical trainees, we tested our hypothesis that shadow learning improves skill acquisition. All 30 trainees who engaged in shadow learning reported feeling more competent."
 
 Identify at least TWO epistemological problems with this claim.
@@ -155,7 +183,7 @@ Identify at least TWO epistemological problems with this claim.
 
 ---
 
-### Question 12
+### Question 14
 Explain the difference between "theoretical generalization" and "statistical generalization." Which type does qualitative discovery research aim for, and why doesn't it require a representative sample?
 
 **Model answer should include**:
@@ -182,11 +210,13 @@ Explain the difference between "theoretical generalization" and "statistical gen
 | 8 | b |
 | 9 | b |
 | 10 | b |
-| 11 | See model answer |
-| 12 | See model answer |
+| 11 | b |
+| 12 | c |
+| 13 | See model answer |
+| 14 | See model answer |
 
 **Scoring**:
-- MC: 1 point each (10 points)
+- MC: 1 point each (12 points)
 - Short answer: 2 points each (4 points)
-- Total: 14 points
-- Pass: ≥11 points (80%)
+- Total: 16 points
+- Pass: ≥13 points (80%)

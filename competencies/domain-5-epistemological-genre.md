@@ -61,7 +61,33 @@ Using genre-appropriate language throughout the paper.
 - Using testing language for discovered findings
 - Not recognizing genre-inappropriate structures
 
-### 5.3 Temporal Logic
+### 5.3 Front-Loading Detection
+Catching abstracts and introductions that present discoveries as premises.
+
+**The naive question**: What a reader would ask before reading your paper. Discovery papers must start from this position.
+
+**Front-loading error**: Opening with discoveries stated as if they're accepted premises.
+
+**Examples**:
+- BAD: "Managers cannot evaluate skill fit because the relevant criteria don't exist"
+- GOOD: "What happens to workers when automation arrives? Theory predicts displacement, yet..."
+
+**Why it's wrong**: The bad example presents as premise what the paper actually discovers:
+- That managers are the ones deciding (discovery)
+- That they evaluate skill fit (discovery)
+- That criteria don't exist (discovery)
+
+**How to detect**:
+1. Read the abstract's first sentence
+2. Ask: Could a naive reader accept this as given?
+3. If discoveries are stated as premises, it's front-loading
+
+**Common failures**:
+- Abstract opens with mechanism description rather than puzzle
+- Theory section titled "Selection Under Epistemic Impossibility" presenting complete mechanism BEFORE findings
+- Prior work sections that frame tentative possibilities as conclusions
+
+### 5.4 Temporal Logic
 Making the paper read as if the researcher learned things in the order they actually learned them.
 
 **Discovery papers should read**:
@@ -80,7 +106,7 @@ Making the paper read as if the researcher learned things in the order they actu
 - Retroactively framing discovered findings as predicted
 - Theory section that "derives" predictions that were actually discovered
 
-### 5.4 Structure Appropriateness
+### 5.5 Structure Appropriateness
 Organizing the paper in a genre-appropriate way.
 
 **Discovery paper structure**:

@@ -43,6 +43,7 @@ This produces a paper that *looks* polished but contains systematic errors acros
 - Mechanism misidentified or shallow (Domain 3)
 - Mushy framing, wrong literature (Domain 4)
 - Hypo-deductive language in discovery paper (Domain 5)
+- Front-loaded abstract: discoveries presented as premises (Domain 5)
 - Disconfirming evidence ignored or buried (Domain 6)
 - Claims that outrun evidence (Domain 7)
 
