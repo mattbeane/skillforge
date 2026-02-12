@@ -105,6 +105,115 @@ Each of 10 criteria scored 1-5. Pass requires:
 - No criterion below 2/5
 - Generated ≥3 distinct framings
 
+### Domain 2: Theoretical Positioning
+
+**Expert baseline**: Matt produces expert theoretical positioning for a provided finding:
+- Violated/extended theory with rationale
+- Audience choice (row/column) with justification
+- Sensitizing literature selection with bridging argument
+- 1-paragraph contribution statement
+
+**Scoring**:
+
+```
+Theory match = does student identify same (or comparably valid) theory? (0/15/25)
+  25 = Same theory or equally valid alternative with clear rationale
+  15 = Related theory, partially correct reasoning
+   0 = Missed the violation entirely or cited decorative theory
+
+Audience calibration = correct row/column choice with rationale (0/10/20)
+  20 = Correct choice, clear rationale
+  10 = Correct choice, weak rationale (or defensible alternative)
+   0 = Misidentified audience
+
+Sensitizing literature quality (0/10/20/30)
+  30 = Literature explains heterogeneity, bridge clearly articulated
+  20 = Good literature choice, bridge partially articulated
+  10 = Literature is decorative (related but doesn't explain variance)
+   0 = No sensitizing literature or completely irrelevant
+
+Contribution statement (0/10/15/25)
+  25 = Specific, names what changes, no empty verbs
+  15 = Mostly specific, minor empty verb use
+  10 = Vague ("contributes to the literature on...")
+   0 = Missing or purely descriptive
+
+Score = theory_match + audience + sensitizing + contribution
+```
+
+**Passing**: ≥70/100. Must score ≥15 on theory match (can't pass with wrong theory).
+
+### Domain 5: Epistemological Genre
+
+**Expert baseline**: Expert identifies all genre violations in a provided draft and produces corrected version.
+
+**Scoring**:
+
+```
+Violation detection = |student_violations ∩ expert_violations| / |expert_violations|
+False positives = |student_violations - expert_violations| / |student_violations|
+
+Score breakdown:
+  Detection (30 pts): violation_detection × 30
+  Classification (15 pts): correctly categorized each found violation as
+    structural / language / temporal logic → 5 pts per correct classification (max 15)
+  Revision quality (30 pts): holistic assessment of genre-appropriate rewrites
+    30 = Rewrites are fully genre-appropriate, natural-sounding
+    20 = Mostly genre-appropriate, minor slips
+    10 = Shows understanding but execution is awkward
+     0 = Rewrites still contain genre violations
+  Precision (10 pts): 10 - (false_positive_rate × 20), floor 0
+    (penalizes "fixing" things that weren't broken)
+  Explanation quality (15 pts): holistic assessment of why each revision is
+    genre-appropriate → 15/10/5/0
+
+Score = detection + classification + revision + precision + explanation
+```
+
+**Passing**: ≥70/100. Must score ≥20 on detection (can't pass if you miss most violations).
+
+**Assessment materials needed**: A 5-10 page draft written in the wrong genre (e.g., inductive research framed deductively), with known violations seeded at specific points. Prep time: 3-4 hours to create synthetic draft.
+
+### Domain 6: Adversarial Evidence Handling
+
+**Expert baseline**: Matt audits a test paper against its full dataset, documenting:
+- All disconfirming evidence found (with source IDs)
+- Evidence distribution by role, site, time period
+- Alternative interpretations for each major claim
+
+**Scoring**:
+
+```
+Disconfirm found = |student_disconfirm ∩ expert_disconfirm| / |expert_disconfirm|
+Distribution accuracy = did student correctly identify concentration patterns? (0/10/20)
+Alternatives quality = number and quality of alternative interpretations (0-20)
+
+Score breakdown:
+  Disconfirming evidence discovery (30 pts): disconfirm_found × 30
+  Distribution analysis (20 pts):
+    20 = Correctly identified which roles/sites/periods support vs challenge
+    10 = Partial distribution analysis, missed key concentration
+     0 = No distribution analysis attempted
+  Alternative interpretations (20 pts):
+    20 = Named ≥2 plausible alternatives, engaged seriously with strongest
+    10 = Named 1 alternative but didn't fully engage
+     0 = No alternatives or only straw man alternatives
+  Search comprehensiveness (15 pts):
+    15 = Searched all data sources, including uncited ones
+    10 = Searched most data sources
+     5 = Only searched cited sources
+     0 = Spot-checked or didn't search systematically
+  Recommendation quality (15 pts): holistic assessment of audit summary
+    15 = Actionable recommendations, correctly prioritized
+    10 = Reasonable recommendations, some prioritization issues
+     5 = Vague recommendations
+     0 = No recommendations
+
+Score = disconfirm + distribution + alternatives + comprehensiveness + recommendations
+```
+
+**Passing**: ≥70/100. Must score ≥20 on disconfirming evidence discovery. Zero tolerance: if student finds 0 disconfirming evidence in a dataset where expert found ≥3, automatic fail regardless of other scores.
+
 ### Domain 7: Claim Verification
 
 **Expert baseline**: Matt identifies all overclaims in test paper.
@@ -136,8 +245,8 @@ Score = (found × 40) - (false_pos × 20) + (calibration × 40)
 |--------|-----------|--------|-----------|
 | D2 | Finding + expert theoretical positioning | From D1 output | 2-3 hours |
 | D4 | Evidence package + expert framings | From D3 output | 4-6 hours |
-| D5 | Draft with genre violations + expert revision | Create synthetic | 3-4 hours |
-| D6 | Paper + data + expert audit | From prior | 4-6 hours |
+| D5 | Synthetic draft with seeded genre violations + expert revision | Create synthetic | 3-4 hours |
+| D6 | Paper draft with claims + full dataset + expert adversarial audit | From prior work | 4-6 hours |
 
 ---
 
