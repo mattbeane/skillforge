@@ -1,291 +1,59 @@
 {
-  "description": "Maps TheoryForge commands to required competency levels",
-  "version": "1.0.0",
+  "_status": "SPECULATIVE — NOT IMPLEMENTED",
+  "_note": "This file preserves early thinking about how competency levels might relate to AI tool access. It is NOT used by any code and should NOT be treated as a specification. The mappings below are hypotheses based on one researcher's intuitions, not validated requirements.",
 
-  "commands": {
-    "/explore-data": {
-      "description": "Basic data exploration",
-      "mode": "always_available",
-      "requirements": {},
-      "notes": "Entry point - no gates"
-    },
+  "description": "Speculative mapping between research competencies and AI-assisted research tool features. Preserved for future exploration — not currently enforced or implemented anywhere.",
+  "version": "0.1.0-draft",
 
-    "/hunt-patterns": {
-      "description": "Find robust empirical patterns",
-      "modes": {
-        "guided": {
-          "requirements": {
-            "domain-1": 2
-          },
-          "features": ["Shows AI reasoning", "Comparison to student predictions"]
-        },
-        "full": {
-          "requirements": {
-            "domain-1": 3
-          },
-          "features": ["Full autonomy", "RASC adaptive stopping"]
-        }
-      }
-    },
-
-    "/find-theory": {
-      "description": "Identify violated/extended theory",
-      "modes": {
-        "guided": {
-          "requirements": {
-            "domain-1": 3,
-            "domain-2": 2
-          },
-          "features": ["Shows theory search reasoning", "Explains violations"]
-        },
-        "full": {
-          "requirements": {
-            "domain-1": 3,
-            "domain-2": 3
-          },
-          "features": ["Full autonomy"]
-        }
-      }
-    },
-
-    "/find-lens": {
-      "description": "Select sensitizing literature",
-      "modes": {
-        "guided": {
-          "requirements": {
-            "domain-1": 3,
-            "domain-2": 2
-          },
-          "features": ["Shows search reasoning", "Explains bridging"]
-        },
-        "full": {
-          "requirements": {
-            "domain-1": 3,
-            "domain-2": 3
-          },
-          "features": ["Full autonomy"]
-        }
-      }
-    },
-
-    "/eval-zuckerman-lite": {
-      "description": "Quick puzzle check (early stage)",
-      "mode": "single",
-      "requirements": {
-        "domain-1": 3,
-        "domain-2": 3
-      }
-    },
-
-    "/mine-qual": {
-      "description": "Extract mechanism evidence from qualitative data",
-      "modes": {
-        "scaffolded": {
-          "requirements": {
-            "domain-2": 3,
-            "domain-3": 2
-          },
-          "features": ["Must code 3 interviews manually first", "Comparison to AI coding"]
-        },
-        "full": {
-          "requirements": {
-            "domain-2": 3,
-            "domain-3": 3
-          },
-          "features": ["Full autonomy", "Consensus mode available"]
-        }
-      }
-    },
-
-    "/smith-frames": {
-      "description": "Generate theoretical framings",
-      "modes": {
-        "comparison": {
-          "requirements": {
-            "domain-3": 3,
-            "domain-4": 2
-          },
-          "features": ["Student writes framing first", "AI framings shown for comparison"]
-        },
-        "full": {
-          "requirements": {
-            "domain-3": 3,
-            "domain-4": 3
-          },
-          "features": ["Full autonomy", "Adversarial evaluation"]
-        }
-      }
-    },
-
-    "/eval-zuckerman": {
-      "description": "Full 10-criteria academic framing check",
-      "mode": "single",
-      "requirements": {
-        "domain-3": 3,
-        "domain-4": 3
-      }
-    },
-
-    "/eval-becker": {
-      "description": "Generalizability test",
-      "mode": "single",
-      "requirements": {
-        "domain-4": 3
-      }
-    },
-
-    "/eval-genre": {
-      "description": "Inductive vs deductive framing check",
-      "mode": "single",
-      "requirements": {
-        "domain-4": 3,
-        "domain-5": 3
-      }
-    },
-
-    "/draft-paper": {
-      "description": "Generate full manuscript",
-      "mode": "single",
-      "requirements": {
-        "domain-4": 3,
-        "domain-5": 3
-      }
-    },
-
-    "/audit-claims": {
-      "description": "Adversarial evidence search",
-      "mode": "single",
-      "requirements": {
-        "domain-5": 3,
-        "domain-6": 3
-      }
-    },
-
-    "/verify-claims": {
-      "description": "Create verification package",
-      "mode": "single",
-      "requirements": {
-        "domain-5": 3,
-        "domain-6": 3
-      }
-    },
-
-    "/package-verification": {
-      "description": "Final verification package for external review",
-      "mode": "single",
-      "requirements": {
-        "domain-6": 3,
-        "domain-7": 3
-      },
-      "notes": "Full access - requires all domains complete"
-    }
-  },
-
-  "domains": {
-    "domain-1": {
+  "potential_links": {
+    "pattern_recognition": {
       "name": "Pattern Recognition & Data Sense",
-      "levels": {
-        "1": "Knowledge recognition - concepts and terminology",
-        "2": "Application with feedback - practice on provided data",
-        "3": "Authentic performance - independent assessment"
-      }
+      "related_tool_capabilities": ["automated pattern detection", "statistical analysis", "data exploration"],
+      "hypothesis": "Researchers need pattern recognition judgment to evaluate whether AI-surfaced patterns are genuine or noise"
     },
-    "domain-2": {
+    "theoretical_positioning": {
       "name": "Theoretical Positioning",
-      "levels": {
-        "1": "Knowledge recognition",
-        "2": "Application with feedback",
-        "3": "Authentic performance"
-      },
-      "prerequisites": ["domain-1:3"]
+      "related_tool_capabilities": ["theory search", "literature matching", "contribution framing"],
+      "hypothesis": "AI can surface related theories but judgment about what constitutes a real contribution requires deep field knowledge"
     },
-    "domain-3": {
+    "qual_mechanism_extraction": {
       "name": "Qualitative Mechanism Extraction",
-      "levels": {
-        "1": "Knowledge recognition",
-        "2": "Application with feedback",
-        "3": "Authentic performance"
-      },
-      "prerequisites": ["domain-2:3"]
+      "related_tool_capabilities": ["AI-assisted coding", "quote extraction", "theme identification"],
+      "hypothesis": "Unsupervised AI coding of qualitative data risks shallow pattern-matching without interpretive depth"
     },
-    "domain-4": {
+    "theoretical_framing": {
       "name": "Theoretical Framing",
-      "levels": {
-        "1": "Knowledge recognition",
-        "2": "Application with feedback",
-        "3": "Authentic performance"
-      },
-      "prerequisites": ["domain-3:3"]
+      "related_tool_capabilities": ["framing generation", "frame comparison", "academic positioning"],
+      "hypothesis": "AI generates many plausible framings; choosing among them wisely requires theoretical sophistication"
     },
-    "domain-5": {
+    "epistemological_genre": {
       "name": "Epistemological Genre",
-      "levels": {
-        "1": "Knowledge recognition",
-        "2": "Application with feedback",
-        "3": "Authentic performance"
-      },
-      "prerequisites": ["domain-4:3"]
+      "related_tool_capabilities": ["style checking", "genre validation", "language auditing"],
+      "hypothesis": "AI defaults to hypothesis-testing register; recognizing and correcting genre mismatches requires epistemological awareness"
     },
-    "domain-6": {
+    "adversarial_evidence": {
       "name": "Adversarial Evidence Handling",
-      "levels": {
-        "1": "Knowledge recognition",
-        "2": "Application with feedback",
-        "3": "Authentic performance"
-      },
-      "prerequisites": ["domain-5:3"]
+      "related_tool_capabilities": ["evidence auditing", "disconfirming evidence search", "claim stress-testing"],
+      "hypothesis": "AI tends toward confirmation; adversarial instincts and willingness to kill findings are human skills"
     },
-    "domain-7": {
+    "claim_verification": {
       "name": "Claim Verification & Integrity",
-      "levels": {
-        "1": "Knowledge recognition",
-        "2": "Application with feedback",
-        "3": "Authentic performance"
-      },
-      "prerequisites": ["domain-6:3"]
-    }
-  },
-
-  "foundations": {
-    "argument-construction": {
-      "name": "Argument Construction",
-      "status": "draft",
-      "levels": {
-        "1": "Knowledge recognition - paragraph mechanics, citation functions, section arcs",
-        "2": "Application with feedback - construct arguments from provided materials",
-        "3": "Authentic performance - write introduction, theory, and discussion sections independently"
-      },
-      "affects_commands": ["/draft-paper", "/build-lit-review"],
-      "gating_behavior": "quality_enforcement_not_access_gate",
-      "notes": "Does not gate command access. Affects enforcement strictness of writing quality rules."
-    }
-  },
-
-  "progression_estimates": {
-    "typical_phd": {
-      "domain-1-2": "2-4 weeks",
-      "domain-3": "2-4 weeks",
-      "domain-4-5": "4-6 weeks",
-      "domain-6-7": "2-4 weeks",
-      "total": "3-6 months"
+      "related_tool_capabilities": ["claim-evidence linking", "verification packaging", "reviewer package generation"],
+      "hypothesis": "AI can systematize verification but the discipline to catch its confabulations requires trained skepticism"
     },
-    "prior_qual_training": {
-      "domain-1-3": "test out immediately",
-      "domain-4-7": "6-10 weeks",
-      "total": "6-10 weeks"
+    "argument_construction": {
+      "name": "Argument Construction",
+      "type": "foundational",
+      "related_tool_capabilities": ["manuscript drafting", "literature review writing"],
+      "hypothesis": "AI produces structurally flat prose; recognizing and enforcing good argument architecture requires explicit mechanical knowledge"
     }
   },
 
-  "advisor_capabilities": {
-    "can_do": [
-      "Accelerate Level 2 to Level 3 within a domain",
-      "Certify competence without full assessment",
-      "Review student assessment work"
-    ],
-    "cannot_do": [
-      "Skip entire domains",
-      "Grant access without domain prerequisites",
-      "Override system without reviewing student work"
-    ]
-  }
+  "open_questions": [
+    "Should any of these links be formalized as access gates, soft guidance, or documentation only?",
+    "Is the relationship unidirectional (skills → tool use) or bidirectional (tool use develops skills)?",
+    "How would different research traditions map differently?",
+    "Is progressive disclosure (scaffolded modes) better than access gating?",
+    "What evidence would we need to validate or invalidate these hypotheses?"
+  ]
 }

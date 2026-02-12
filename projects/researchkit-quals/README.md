@@ -176,10 +176,15 @@ After anonymization, contributors receive:
 
 ---
 
+## Related Projects
+
+**TheoryForge** is a separate project that provides AI-assisted tooling for the data-to-paper pipeline. We believe the competency work here and the tooling work in TheoryForge can inform each other — understanding what skills matter helps build better tools, and building tools surfaces which skills are hardest to replace with AI. But these are independent projects at different stages of maturity, and the nature of their relationship is an open question. See `THEORYFORGE_INTEGRATION.md` for our early thinking on potential links.
+
 ## Current Status
 
 **Built:**
 - 7 competency domain definitions (draft)
+- 1 foundational skill definition (Argument Construction, draft)
 - Assessment specifications with scoring rubrics (draft)
 - Atlas.ti parser (extracts quotes with codes)
 - Anonymization engine (3-stage NER + review + apply)
