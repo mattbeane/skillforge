@@ -4,8 +4,6 @@
 
 The ability to look at data and see what's worth pursuing. Not just finding patterns—finding patterns that matter.
 
-**Source in TheoryForge**: `/explore-data`, `/hunt-patterns`
-
 ## Why It Matters
 
 Novice researchers make two opposite mistakes:
@@ -182,15 +180,6 @@ Same as Level 2, but:
 
 ---
 
-## What This Unlocks
-
-| Level Achieved | TheoryForge Commands Unlocked |
-|----------------|------------------------------|
-| Level 2 | `/hunt-patterns` (guided mode - shows AI reasoning) |
-| Level 3 | `/hunt-patterns` (full mode) |
-
----
-
 ## Common Misconceptions
 
 **"Statistical significance = interesting"**
@@ -211,7 +200,6 @@ You should report findings that survived scrutiny and matter theoretically. Docu
 
 ### Required
 - Zuckerman, "Tips for Article-Writers" (2008) — Section 7: Building up the null
-- TheoryForge `/hunt-patterns.md` — Read the full command spec
 
 ### Recommended
 - Simmons, Nelson, & Simonsohn (2011), "False-Positive Psychology"
@@ -231,3 +219,11 @@ Before taking the Level 3 assessment, you should be able to answer:
 5. How do you avoid confirmation bias when testing your hypotheses?
 
 If you can't articulate clear answers to these, you're not ready.
+
+---
+
+## Open Questions
+
+- Is "finding discipline" (knowing when to kill a finding) teachable via rubric, or does it require mentorship and modeling?
+- Should robustness instinct be assessed separately from pattern recognition, or are they inherently linked?
+- How much does this domain assume quantitative data? Could the same competencies apply to purely qualitative pattern recognition?

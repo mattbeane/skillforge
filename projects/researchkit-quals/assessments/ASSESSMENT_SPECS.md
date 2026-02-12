@@ -173,83 +173,15 @@ When an advisor certifies competence without full assessment:
 
 ---
 
-## Integration With TheoryForge
+## Note
 
-### Check Function (to add to TheoryForge)
+> **Assessment approach is draft.** Whether rubric-based scoring is appropriate for all domains is an open question. Some competencies (like research integrity under pressure, or "taste" in framing) may resist formal assessment. Faculty and student input on the assessment approach is actively sought.
 
-```python
-# theory-forge/lib/competency_gate.py
-
-import json
-from pathlib import Path
-
-UNLOCK_MAP = {
-    "hunt-patterns": {"domain-1": 3},
-    "find-theory": {"domain-1": 3, "domain-2": 3},
-    "mine-qual": {"domain-2": 3, "domain-3": 3},
-    "smith-frames": {"domain-3": 3, "domain-4": 3},
-    "eval-zuckerman": {"domain-3": 3, "domain-4": 3},
-    "eval-genre": {"domain-4": 3, "domain-5": 3},
-    "draft-paper": {"domain-4": 3, "domain-5": 3},
-    "audit-claims": {"domain-5": 3, "domain-6": 3},
-    "verify-claims": {"domain-5": 3, "domain-6": 3},
-    "package-verification": {"domain-6": 3, "domain-7": 3},
-}
-
-def check_competency(command: str, student_id: str = None) -> tuple[bool, str]:
-    """
-    Check if student can run this command.
-    Returns (allowed, message).
-    """
-    if command not in UNLOCK_MAP:
-        return True, ""  # Ungated command
-
-    # Find student record
-    if not student_id:
-        id_file = Path.home() / ".researchkit-quals" / "student-id"
-        if not id_file.exists():
-            return True, ""  # No quals system configured
-        student_id = id_file.read_text().strip()
-
-    record_path = Path.home() / ".researchkit-quals" / student_id / "unlock-status.json"
-    if not record_path.exists():
-        return True, ""  # No record = no restrictions (faculty/expert mode)
-
-    record = json.loads(record_path.read_text())
-    requirements = UNLOCK_MAP[command]
-
-    missing = []
-    for domain, level in requirements.items():
-        student_level = record.get("domains", {}).get(domain, {}).get("level", 0)
-        if student_level < level:
-            missing.append(f"{domain} Level {level}")
-
-    if missing:
-        msg = f"🔒 /{command} requires: {', '.join(missing)}\n"
-        msg += f"Run /quals-status to see your progress."
-        return False, msg
-
-    return True, ""
-```
-
-### Usage in Command Files
-
-Add to top of each gated command:
-
-```markdown
-## Competency Gate
-
-Before running this command, the system checks competency status.
-
-If you see a "🔒 Locked" message, you need to complete the required
-assessments first. Run `/quals-status` for details.
-
-Faculty and expert users (no student record) are not gated.
-```
+> Tool integration planning (e.g., how competency status might gate access to AI-assisted research tools) has been moved to `THEORYFORGE_INTEGRATION.md`.
 
 ---
 
-## What I Still Haven't Done
+## What's Still Needed
 
 1. **Actually create the assessment datasets** - This is real work
 2. **Build the quals CLI** - Commands to take/submit assessments

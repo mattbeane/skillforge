@@ -4,8 +4,6 @@
 
 The ability to distinguish inductive/discovery papers from deductive/testing papers—and write appropriately for each.
 
-**Source in TheoryForge**: `/eval-genre`, THEORY_BUILDING_STYLE.md
-
 ## Why It Matters
 
 Many papers fail at review because the WRITING doesn't match the RESEARCH. Researchers conduct inductive, exploratory work but write it up as if they knew the answers before they started. Reviewers sense the mismatch: "This feels like the authors are retrofitting."
@@ -223,19 +221,7 @@ ALL must be genre-appropriate.
 
 ---
 
-## What This Unlocks
-
-| Level Achieved | TheoryForge Commands Unlocked |
-|----------------|------------------------------|
-| Level 3 | `/eval-genre`, `/draft-paper` |
-
-**Prerequisite**: Must have passed Domain 4, Level 3
-
----
-
 ## The Language Rubric (Reference)
-
-From TheoryForge's THEORY_BUILDING_STYLE.md:
 
 | Problematic (Theory-Testing) | Why | Alternative (Theory-Building) |
 |------------------------------|-----|-------------------------------|
@@ -295,8 +281,6 @@ Different, not less rigorous. Theory-building has its own standards: evidence, m
 ## Readings & Resources
 
 ### Required
-- TheoryForge `/eval-genre.md` — Full command spec
-- TheoryForge `THEORY_BUILDING_STYLE.md` — Language rubric
 - Pratt (2009), "From the Editors" (AMJ) — On qualitative manuscripts
 
 ### Recommended
@@ -316,4 +300,12 @@ Before taking the Level 3 assessment, you should be able to:
 4. Choose appropriate section headers for your target journal
 5. Explain why "I came to see" is different from "I predicted"
 
-Genre mastery is binary—you either get it or you don't. If you're still uncertain about the difference, you're not ready.
+Genre mastery is binary — you either get it or you don't. If you're still uncertain about the difference, you're not ready.
+
+---
+
+## Open Questions
+
+- Is genre mastery really binary, or is there a spectrum? Could a student be "good enough" at genre without full mastery?
+- Does this domain need to follow Theoretical Framing, or is it an independent skill that could be developed earlier or in parallel?
+- How much of genre violation is about writing skill vs. conceptual understanding? Could someone understand the distinction perfectly but still write badly in the wrong genre out of habit?

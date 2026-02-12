@@ -4,8 +4,6 @@
 
 The ability to generate multiple viable framings for the same finding, evaluate them systematically, and choose wisely.
 
-**Source in TheoryForge**: `/smith-frames`, `/eval-zuckerman`
-
 ## Why It Matters
 
 The same robust finding can become very different papers depending on framing. Expert researchers see multiple framings automatically; novices often see only one (usually the first that occurred to them).
@@ -197,17 +195,6 @@ Writing opening sentences and contribution statements that compel readers.
 
 ---
 
-## What This Unlocks
-
-| Level Achieved | TheoryForge Commands Unlocked |
-|----------------|------------------------------|
-| Level 2 | `/smith-frames` (comparison mode - shows student vs AI) |
-| Level 3 | `/smith-frames` (full mode), `/eval-zuckerman` (full) |
-
-**Prerequisite**: Must have passed Domain 3, Level 3
-
----
-
 ## The Zuckerman Criteria (Full Reference)
 
 This domain applies the full Zuckerman framework:
@@ -248,7 +235,6 @@ It's about strategic positioning. Clear writing helps, but the right framing bea
 
 ### Required
 - Zuckerman, "Tips for Article-Writers" (2008) — All 10 tips, memorize
-- TheoryForge `/smith-frames.md`, `/eval-zuckerman.md` — Full specs
 - 5 papers from your target journal (analyze their framings)
 
 ### Recommended
@@ -269,3 +255,11 @@ Before taking the Level 3 assessment, you should be able to:
 5. Write a contribution statement without using "examine," "explore," or "investigate"
 
 This domain takes most students the longest. Taste doesn't develop quickly.
+
+---
+
+## Open Questions
+
+- Can "taste" in framing actually be assessed with a rubric, or is it inherently a judgment call that develops through apprenticeship?
+- Is this domain too Zuckerman-centric? Should we represent alternative frameworks for evaluating framings?
+- Does this domain need to be sequential after Qualitative Mechanism Extraction, or could a student develop framing skills in parallel with coding skills?

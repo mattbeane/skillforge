@@ -4,8 +4,6 @@
 
 The ability to match claim strength to evidence strength—and the integrity to do so honestly under publication pressure.
 
-**Source in TheoryForge**: `/verify-claims`, `/package-verification`
-
 ## Why It Matters
 
 This is the final gate before publication. After all the analysis, framing, and writing, the question is: Do your claims actually match your evidence?
@@ -229,21 +227,7 @@ Maintaining honest calibration when you want the paper to succeed.
 
 ---
 
-## What This Unlocks
-
-| Level Achieved | TheoryForge Commands Unlocked |
-|----------------|------------------------------|
-| Level 3 | `/package-verification` (submission-ready) |
-
-**Prerequisite**: Must have passed Domain 6, Level 3
-
-**This is the final gate**. Passing Domain 7 means you have demonstrated all competencies required for full TheoryForge access.
-
----
-
 ## The Verification Protocol (Reference)
-
-From TheoryForge's `/verify-claims.md`:
 
 ### Claim Registry Structure
 
@@ -307,7 +291,6 @@ Running analyses isn't verification. Verification is documenting claims against 
 ## Readings & Resources
 
 ### Required
-- TheoryForge `/verify-claims.md`, `/package-verification.md` — Full specs
 - Simmons, Nelson, & Simonsohn (2011), "False-Positive Psychology"
 - One exemplary paper from your field that handles limitations well
 
@@ -334,7 +317,7 @@ This domain is about integrity as much as skill. You can have the skill but lack
 
 ## Graduation
 
-Passing Domain 7, Level 3 means you have demonstrated competence across all seven domains:
+Demonstrating competence in Domain 7 means you've worked through all seven research competency domains:
 
 1. Pattern Recognition & Data Sense
 2. Theoretical Positioning
@@ -344,6 +327,12 @@ Passing Domain 7, Level 3 means you have demonstrated competence across all seve
 6. Adversarial Evidence Handling
 7. Claim Verification & Integrity
 
-You now have full access to TheoryForge. Use it wisely.
+The competencies are the point. Tools amplify — if you've developed these skills, tools amplify good research. If you haven't, tools amplify bad research that looks good.
 
-Remember: The tool amplifies. If you've developed these competencies, it amplifies good research. If you haven't, it amplifies bad research that looks good. The competencies are the point.
+---
+
+## Open Questions
+
+- Can integrity under publication pressure actually be assessed, or can it only be modeled by advisors and developed through experience?
+- Is "verification package creation" a skill that belongs in a competency framework, or is it more of a workflow/process discipline?
+- Should claim calibration be taught earlier in the sequence? Students make overclaims from their very first paper — waiting until Domain 7 might be too late.

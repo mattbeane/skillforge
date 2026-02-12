@@ -1,64 +1,73 @@
 # ResearchKit Quals
 
-A competency assessment and gating system for TheoryForge.
+A framework for identifying and developing the research competencies PhD students need to produce rigorous, publishable work.
 
 ## Purpose
 
-TheoryForge is a powerful paper-mining pipeline that encodes expert research methodology knowledge. But power tools in untrained hands can produce polished-looking work without genuine understanding.
+Power tools in untrained hands produce polished-looking work without genuine understanding. But the deeper problem isn't tool access — it's that we rarely make explicit what "good research instincts" actually are or how to develop them.
 
-ResearchKit Quals ensures students develop the underlying competencies BEFORE gaining access to TheoryForge's advanced capabilities.
+ResearchKit Quals is our current attempt to name these skills, describe what competence looks like, and think about how to assess them. It's a draft, not a decree — we expect this framework to change significantly through faculty and student input.
 
 ## Philosophy
 
 **Competency-based, not time-based**: No arbitrary waiting periods. Students prove readiness through demonstrated skill.
 
-**Authentic assessment**: Tests require doing actual research work—not multiple choice questions about research.
+**Authentic assessment**: Tests require doing actual research work — not multiple choice questions about research.
 
-**Progressive unlocking**: Master fundamentals before accessing advanced capabilities. Domains build on each other.
+**Progressive development**: Some skills build on others. We think the sequencing below is roughly right, but which domains are truly prerequisite vs. parallel is an open question.
 
-**Advisor-verifiable**: Faculty can review student work and accelerate progression (but not skip domains).
+**Advisor-verifiable**: Faculty can review student work and accelerate progression.
 
-## The Seven Domains
+## The Domains (Draft)
 
-| Domain | Core Skill | Unlocks |
-|--------|------------|---------|
-| 1. Pattern Recognition | See signal in noise | `/hunt-patterns` |
-| 2. Theoretical Positioning | Know what's a contribution | `/find-theory`, `/find-lens` |
-| 3. Qualitative Mechanism Extraction | Code data systematically | `/mine-qual` |
-| 4. Theoretical Framing | Generate and evaluate framings | `/smith-frames`, `/eval-zuckerman` |
-| 5. Epistemological Genre | Distinguish discovery from testing | `/eval-genre`, `/draft-paper` |
-| 6. Adversarial Evidence | Find disconfirming evidence | `/audit-claims`, `/verify-claims` |
-| 7. Claim Verification | Match claims to evidence honestly | `/package-verification` |
+We currently think there are seven core research competencies. This list is up for discussion — what's missing? What should be combined? What's mislabeled?
 
-## Assessment Levels
+| # | Domain | Core Question |
+|---|--------|---------------|
+| 1 | Pattern Recognition & Data Sense | Can you see what's worth pursuing in data — and kill what isn't? |
+| 2 | Theoretical Positioning | Do you know what makes a finding a *contribution*? |
+| 3 | Qualitative Mechanism Extraction | Can you code data systematically and find disconfirming evidence? |
+| 4 | Theoretical Framing | Can you generate multiple framings for the same finding and choose wisely? |
+| 5 | Epistemological Genre | Do you know the difference between discovery and testing — and can you write authentically in each? |
+| 6 | Adversarial Evidence Handling | Can you audit your own claims against ALL the data? |
+| 7 | Claim Verification & Integrity | Do your claims match your evidence — honestly? |
+
+## Suggested Sequencing
+
+We think these domains build on each other roughly in order: you need pattern recognition before theoretical positioning, and you need both before you can extract mechanisms from qualitative data, etc. But some domains might be more parallel than sequential (e.g., Epistemological Genre might not strictly require Theoretical Framing).
+
+```
+1 → 2 → 3 → 4 → 5 → 6 → 7
+         ↗ (possibly parallel)
+```
+
+Students with prior qualitative methods training may be able to demonstrate competence in early domains immediately.
+
+## Assessment Approach (Draft)
+
+We're currently thinking about three levels of assessment per domain:
 
 ### Level 1: Knowledge Recognition
+- Conceptual understanding (multiple choice, terminology)
 - Necessary but not sufficient
-- Tests conceptual understanding
-- Identifies knowledge gaps to address
-- Multiple choice, terminology matching
+- Unlimited retakes
 
 ### Level 2: Application with Feedback
-- Students apply concepts to provided materials
-- AI provides detailed feedback comparing to expert work
-- Multiple attempts allowed
-- Used for learning and building competence
+- Apply concepts to provided materials
+- AI + expert comparison with detailed feedback
+- Multiple attempts allowed, used for learning
 
 ### Level 3: Authentic Performance
 - Real research task with real data
-- Work submitted for evaluation
-- Single attempt per assessment period
-- Required for unlocking TheoryForge commands
+- Work evaluated against expert baseline
+- Required for demonstrated competence
 
-## Time to Full Access
+**Whether rubric-based assessment is appropriate for all domains is an open question.** Some competencies (like research integrity under pressure) may only be developed through mentorship and modeling, not formal assessment.
 
-Typical PhD student: 3-6 months
-- Domains 1-2: 2-4 weeks (foundational)
-- Domain 3: 2-4 weeks (requires data practice)
-- Domains 4-5: 4-6 weeks (iteration and feedback)
-- Domains 6-7: 2-4 weeks (builds on prior)
+## Time Estimates
 
-**Fast track**: Students with prior qual methods training can test out of Domains 1-3 immediately.
+Typical PhD student working through all domains: 3-6 months
+With prior qual methods training: 6-10 weeks (test out of early domains)
 
 ## Directory Structure
 
@@ -69,38 +78,20 @@ researchkit-quals/
 ├── materials/          # Datasets for assessments
 ├── grading/            # Evaluation rubrics & expert baselines
 ├── student-records/    # Progress tracking per student
+├── tools/              # Data anonymization pipeline
 └── commands/           # CLI for taking/grading assessments
 ```
-
-## Integration with TheoryForge
-
-TheoryForge checks `~/.researchkit-quals/[student-id]/unlock-status.json` before running gated commands. Students see helpful messages about which competencies they need to develop.
 
 ## Advisor Role
 
 Advisors can:
 - Review student assessment work
 - Accelerate Level 2 → Level 3 progression
-- Certify competence without full assessment
+- Certify competence without full assessment (up to 3 domains)
 
 Advisors cannot:
 - Skip entire domains (pedagogical sequencing preserved)
 - Override without reviewing work
-
-## Getting Started
-
-```bash
-# Check your current status
-/quals-status
-
-# Take a Level 1 assessment
-/quals-take domain-1 level-1
-
-# Submit Level 3 work for evaluation
-/quals-submit domain-3 --file my-coding.md
-```
-
----
 
 ## For Contributors: The Anonymization Engine
 
@@ -174,16 +165,34 @@ After anonymization, contributors receive:
 ## Current Status
 
 **Built:**
-- ✅ 7 competency domain definitions
-- ✅ Assessment specifications with scoring rubrics
-- ✅ Command→competency unlock mapping
-- ✅ Atlas.ti parser (extracts quotes with codes)
-- ✅ Anonymization engine (3-stage NER + review + apply)
+- 7 competency domain definitions (draft)
+- Assessment specifications with scoring rubrics (draft)
+- Atlas.ti parser (extracts quotes with codes)
+- Anonymization engine (3-stage NER + review + apply)
 
 **Not Yet Built:**
-- ⏳ Assessment question banks (Level 1)
-- ⏳ Expert baselines (from contributed data)
-- ⏳ quals CLI commands (take, submit, status)
-- ⏳ TheoryForge integration code
+- Assessment question banks (Level 1)
+- Expert baselines (from contributed data)
+- quals CLI commands (take, submit, status)
 
 See `TODO.md` for implementation roadmap.
+
+---
+
+## Open Questions for Discussion
+
+These are genuine questions we'd like faculty and student input on:
+
+1. **Is this the right set of domains?** What research competencies are missing? What's listed here that shouldn't be a separate domain?
+
+2. **Is the sequencing right?** We think these build on each other in order, but could some be parallel? Does Epistemological Genre really require Theoretical Framing as a prerequisite, or are they independent skills?
+
+3. **Is rubric-based assessment appropriate for all domains?** Some skills (like research integrity, or finding discipline) might resist formal assessment. Are there domains better served by mentorship and modeling?
+
+4. **How should prior training be credited?** We allow "testing out" of early domains, but what counts as evidence of prior competence? A course grade? A published paper? Advisor attestation?
+
+5. **Are the three assessment levels right?** Knowledge → Application → Authentic Performance seems sound, but is Level 1 (multiple choice) actually useful, or is it just a speed bump?
+
+6. **What about skills that cross domains?** For example, "knowing when to kill a finding" appears in Pattern Recognition but also matters in Theoretical Framing and Adversarial Evidence. Should cross-cutting skills be handled differently?
+
+7. **How domain-specific should this be?** These competencies are written from a qualitative/mixed-methods organizational studies perspective. How much would need to change for other methodological traditions?

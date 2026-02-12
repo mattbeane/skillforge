@@ -1,8 +1,8 @@
 # ResearchKit Quals - Quick Start
 
-**What is this?** A competency gate for TheoryForge. You prove you understand research methodology before using the power tool.
+**What is this?** A draft framework for the research competencies we think PhD students need to develop. We're using it to make tacit skills explicit and discussable.
 
-**Why?** So you don't produce polished papers without developing real skill.
+**Why?** So we can talk concretely about what "good research instincts" are, how they develop, and how we'd know when a student has them.
 
 ---
 
@@ -20,7 +20,7 @@
 
 ---
 
-## Time to Full Access
+## Time Estimates
 
 **Typical PhD student**: 3-6 months
 **With prior qual training**: 6-10 weeks (test out of 1-3)
@@ -39,8 +39,6 @@
 
 ## The Deal
 
-You can't skip domains. You can't skip levels. Your advisor can accelerate you (with documentation) but can't exempt you.
+The sequencing is suggested, not enforced — but we think these skills generally build on each other. Your advisor can accelerate you (with documentation) based on prior training.
 
-When you pass Domain 7, you have full TheoryForge access.
-
-Until then, you're learning. That's the point.
+The domain list itself is a draft. If you think something's missing, mislabeled, or shouldn't be here — that's exactly the kind of feedback we want.

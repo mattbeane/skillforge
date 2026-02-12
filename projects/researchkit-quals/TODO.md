@@ -7,7 +7,7 @@
 - Anonymization engine (3 stages) - NER detection, review, application
 - Competency definitions (7 domains)
 - Assessment specifications with scoring rubrics
-- Command unlock map
+- Command unlock map (moved to `theoryforge/`)
 
 **Critical Path:** Matt needs to run anonymization on his dissertation data, then we have a seed contribution for testing.
 
@@ -56,10 +56,7 @@
 - [ ] Student record schema (JSON)
 - [ ] Progress tracking
 
-### TheoryForge Integration (2-3 hours)
-- [ ] Competency gate function
-- [ ] Integration with command dispatch
-- [ ] Helpful "locked" messages
+*Tool integration planning moved to `THEORYFORGE_INTEGRATION.md`*
 
 ### Level 2 Feedback System (4-6 hours)
 - [ ] Compare student coding to expert baseline
@@ -149,8 +146,10 @@ researchkit-quals/
 │   └── ASSESSMENT_SPECS.md      # Scoring rubrics
 │
 ├── commands/
-│   ├── unlock-map.json          # Command → competency requirements
 │   └── quals-status.md          # Status command spec
+│
+├── theoryforge/                 # Tool integration (separated)
+│   └── unlock-map.json          # Command → competency requirements
 │
 ├── tools/                       # Working tools
 │   ├── atlasti_parser.py        # Parse .atlpac files

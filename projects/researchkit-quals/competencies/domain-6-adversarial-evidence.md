@@ -4,8 +4,6 @@
 
 The ability to search ALL data for evidence that challenges your claims—not just evidence that supports them.
 
-**Source in TheoryForge**: `/audit-claims`, `/verify-claims`
-
 ## Why It Matters
 
 Cherry-picking is the silent killer of research integrity. It doesn't require malice—just motivated reasoning. Researchers naturally gravitate toward evidence that supports their claims and unconsciously filter out evidence that challenges them.
@@ -200,19 +198,7 @@ Recognizing that the same data could support different stories.
 
 ---
 
-## What This Unlocks
-
-| Level Achieved | TheoryForge Commands Unlocked |
-|----------------|------------------------------|
-| Level 3 | `/audit-claims`, `/verify-claims` |
-
-**Prerequisite**: Must have passed Domain 5, Level 3
-
----
-
 ## The Audit Protocol (Reference)
-
-From TheoryForge's `/audit-claims.md`:
 
 ### This Is NOT Transcription
 
@@ -268,8 +254,6 @@ Support is necessary but not sufficient. You also need to show you looked for ch
 ## Readings & Resources
 
 ### Required
-- TheoryForge `/audit-claims.md`, `/verify-claims.md` — Full specs
-- TheoryForge `ADVERSARIAL_EVIDENCE.md` — Philosophy document
 - One paper that exemplifies honest disconfirming evidence handling
 
 ### Recommended
@@ -290,3 +274,11 @@ Before taking the Level 3 assessment, you should be able to answer:
 5. How do you know if your evidence base is concentrated vs. broad?
 
 If you've never found significant disconfirming evidence in your own work, you haven't been looking hard enough.
+
+---
+
+## Open Questions
+
+- Is adversarial evidence handling a separate skill from qualitative mechanism extraction (Domain 3), or is it the same skill applied more broadly? Domain 3 already requires disconfirming evidence hunting.
+- Can this be meaningfully assessed before a student has their own research to audit? Or does it only become real when there's something at stake?
+- Should this domain include quantitative robustness checking (specification curves, sensitivity analysis) alongside qualitative evidence auditing?

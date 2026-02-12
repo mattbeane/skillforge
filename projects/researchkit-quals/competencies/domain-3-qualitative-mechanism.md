@@ -4,8 +4,6 @@
 
 The ability to systematically extract mechanism evidence from qualitative data—not just reading and summarizing, but hypothesis-driven coding that finds supporting AND disconfirming evidence.
 
-**Source in TheoryForge**: `/mine-qual`
-
 ## Why It Matters
 
 This is perhaps THE most critical domain for mixed-methods researchers. Qualitative data shows you WHY and HOW—the mechanisms behind quantitative patterns. But novice researchers often:
@@ -206,20 +204,9 @@ Choosing quotes that illuminate mechanisms, not just illustrate conclusions.
 
 ---
 
-## What This Unlocks
-
-| Level Achieved | TheoryForge Commands Unlocked |
-|----------------|------------------------------|
-| Level 2 | `/mine-qual` (must code 3 interviews manually first) |
-| Level 3 | `/mine-qual` (full mode) |
-
-**Prerequisite**: Must have passed Domain 2, Level 3
-
----
-
 ## The Mechanism Extraction Protocol
 
-This is what TheoryForge's `/mine-qual` command automates—and what you need to understand to supervise it:
+This is the core workflow for extracting mechanism evidence from qualitative data:
 
 ### Step 1: Generate Hypotheses
 "If [mechanism] is operating, I should see evidence of [specific behavior/attitude/experience]"
@@ -263,7 +250,6 @@ Actually, documenting it honestly strengthens the paper. Reviewers trust researc
 ## Readings & Resources
 
 ### Required
-- TheoryForge `/mine-qual.md` — Full command spec
 - Your field's leading qualitative methods papers (note how they handle disconfirming evidence)
 - One "exemplary" qual paper from your advisor's recommendations
 
@@ -284,4 +270,12 @@ Before taking the Level 3 assessment, you should be able to answer:
 4. What criteria do you use for quote selection?
 5. How would you know if you were cherry-picking?
 
-This domain has the strictest requirements because qualitative coding is where deep understanding develops. If you can't do this well, you can't supervise AI doing it.
+This domain has the strictest requirements because qualitative coding is where deep understanding develops.
+
+---
+
+## Open Questions
+
+- Should disconfirming evidence hunting be a separate domain (it also appears in Domain 6), or is it best taught as an integral part of qualitative coding?
+- Is hypothesis-driven coding the right approach for all qualitative traditions? Grounded theory advocates might disagree with "generate hypotheses before reading."
+- How do we handle the tension between systematic coding and the legitimate insight that comes from open, exploratory reading?

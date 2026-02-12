@@ -1,6 +1,6 @@
 # ResearchKit Quals Status
 
-Show current competency status and available TheoryForge commands.
+Show current competency progress across research domains.
 
 ## Usage
 
@@ -44,30 +44,10 @@ If `student-id` not provided, checks for `.researchkit-quals/student-id` in home
 
    [Domains 4-7 similar...]
 
-   THEORYFORGE ACCESS
-   ════════════════════════════════════════════════════════════════
-
-   ✓ AVAILABLE
-   ├── /explore-data (always available)
-   ├── /hunt-patterns (guided mode)
-   └── /hunt-patterns (full mode)
-
-   ◐ PARTIAL ACCESS
-   ├── /find-theory (guided mode) - need Domain 2, Level 3
-   └── /mine-qual (scaffolded) - need Domain 3, Level 2
-
-   ✗ LOCKED
-   ├── /smith-frames - need Domain 4, Level 2
-   ├── /eval-zuckerman - need Domain 4, Level 3
-   ├── /audit-claims - need Domain 6, Level 3
-   └── /package-verification - need Domain 7, Level 3
-
    NEXT STEPS
    ════════════════════════════════════════════════════════════════
 
-   → Complete Domain 2, Level 2 assessment to unlock:
-     - /find-theory (guided mode)
-     - /find-lens (guided mode)
+   → Complete Domain 2, Level 2 assessment
 
    Run: /quals-take domain-2 level-2
    ```

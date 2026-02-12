@@ -4,8 +4,6 @@
 
 The ability to situate a finding within theory—identifying what it violates, what would explain it, and who would care.
 
-**Source in TheoryForge**: `/find-theory`, `/find-lens`, Zuckerman criteria
-
 ## Why It Matters
 
 A finding without theory is a fact, not a contribution. Expert researchers automatically think: "What does this violate? What explains it? Who's the audience?" Novices often skip this entirely, treating "here's a pattern" as sufficient.
@@ -184,17 +182,6 @@ Stating clearly what the paper adds to knowledge.
 
 ---
 
-## What This Unlocks
-
-| Level Achieved | TheoryForge Commands Unlocked |
-|----------------|------------------------------|
-| Level 2 | `/find-theory`, `/find-lens` (guided mode) |
-| Level 3 | `/find-theory`, `/find-lens` (full mode), `/eval-zuckerman-lite` |
-
-**Prerequisite**: Must have passed Domain 1, Level 3
-
----
-
 ## The Zuckerman Criteria (Reference)
 
 This domain teaches the foundations of Zuckerman's framework. Key criteria for this domain:
@@ -228,7 +215,6 @@ Only if it explains your heterogeneity. Many papers cite two literatures without
 
 ### Required
 - Zuckerman, "Tips for Article-Writers" (2008) — All 10 tips
-- TheoryForge `/find-theory.md`, `/find-lens.md` — Full command specs
 - 2-3 papers from your target journal (analyze how they position)
 
 ### Recommended
@@ -249,3 +235,11 @@ Before taking the Level 3 assessment, you should be able to answer:
 5. What's the difference between "gap in literature" and "puzzle in the world"?
 
 If you struggle with #5, you're definitely not ready.
+
+---
+
+## Open Questions
+
+- How heavily should this domain lean on Zuckerman's framework specifically? Are there alternative frameworks for thinking about contribution that should be represented?
+- Is "audience awareness" (row vs. column) a learnable skill or something that develops only through repeated submission and rejection?
+- Does this domain assume a particular disciplinary tradition (org theory)? How would it need to change for strategy, OB, or sociology?
