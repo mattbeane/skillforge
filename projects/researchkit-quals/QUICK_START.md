@@ -6,6 +6,14 @@
 
 ---
 
+## Foundational Skills (Draft)
+
+| | Skill | Core Question | You Pass When... |
+|---|-------|---------------|------------------|
+| F | Argument Construction | Can you build a paragraph, section, and paper? | You construct arguments using the mechanical patterns that top journals expect |
+
+> Proposed as a prerequisite or parallel skill that sits below the domain sequence. See `competencies/foundation-argument-construction.md`.
+
 ## The 7 Domains (30-second version)
 
 | # | Domain | Core Question | You Pass When... |

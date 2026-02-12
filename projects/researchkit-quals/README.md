@@ -18,6 +18,23 @@ ResearchKit Quals is our current attempt to name these skills, describe what com
 
 **Advisor-verifiable**: Faculty can review student work and accelerate progression.
 
+## Foundational Skills (Draft)
+
+Some skills cross-cut all domains — they're the medium through which domain-specific competencies are demonstrated. We're calling these "foundational skills" to distinguish them from the numbered domains.
+
+| Foundation | Core Question | Status |
+|------------|---------------|--------|
+| **Argument Construction** | Can you build a paragraph, a section, and a paper that moves a reader from puzzle to contribution? | Draft — see `competencies/foundation-argument-construction.md` |
+
+This is our first attempt to handle skills that don't fit into a single domain (see Open Question #6 below). Argument construction — paragraph architecture, transitions, citation deployment, section-level arcs — is required everywhere but doesn't belong to any one domain. Whether it should be assessed separately or emerges through domain assessments is an open question.
+
+```
+Foundation: Argument Construction (prerequisite or parallel)
+         ↓
+1 → 2 → 3 → 4 → 5 → 6 → 7
+         ↗ (possibly parallel)
+```
+
 ## The Domains (Draft)
 
 We currently think there are seven core research competencies. This list is up for discussion — what's missing? What should be combined? What's mislabeled?
@@ -36,10 +53,7 @@ We currently think there are seven core research competencies. This list is up f
 
 We think these domains build on each other roughly in order: you need pattern recognition before theoretical positioning, and you need both before you can extract mechanisms from qualitative data, etc. But some domains might be more parallel than sequential (e.g., Epistemological Genre might not strictly require Theoretical Framing).
 
-```
-1 → 2 → 3 → 4 → 5 → 6 → 7
-         ↗ (possibly parallel)
-```
+Argument Construction (the foundational skill) can be developed in parallel with domain work or as a prerequisite — this is an open question.
 
 Students with prior qualitative methods training may be able to demonstrate competence in early domains immediately.
 
@@ -193,6 +207,6 @@ These are genuine questions we'd like faculty and student input on:
 
 5. **Are the three assessment levels right?** Knowledge → Application → Authentic Performance seems sound, but is Level 1 (multiple choice) actually useful, or is it just a speed bump?
 
-6. **What about skills that cross domains?** For example, "knowing when to kill a finding" appears in Pattern Recognition but also matters in Theoretical Framing and Adversarial Evidence. Should cross-cutting skills be handled differently?
+6. **What about skills that cross domains?** For example, "knowing when to kill a finding" appears in Pattern Recognition but also matters in Theoretical Framing and Adversarial Evidence. We're experimenting with a "foundational skills" layer (see Argument Construction above) as one way to handle this — is that the right architecture, or should cross-cutting skills be woven into each domain instead?
 
 7. **How domain-specific should this be?** These competencies are written from a qualitative/mixed-methods organizational studies perspective. How much would need to change for other methodological traditions?

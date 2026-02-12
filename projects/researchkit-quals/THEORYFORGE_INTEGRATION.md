@@ -141,6 +141,29 @@ LOCKED
 
 ---
 
+## Foundational Skill Integration (Draft)
+
+Foundational skills (like Argument Construction) work differently from numbered domains in the TheoryForge integration:
+
+**Domains gate command access**: You can't run `/smith-frames` without D3:L3 + D4:L2. This is a hard gate — the command is locked.
+
+**Foundations affect quality enforcement**: Argument Construction does NOT gate any command. Instead, it affects the *strictness* of writing quality enforcement in commands that produce written output — primarily `/draft-paper` and `/build-lit-review`.
+
+| Foundation Status | Effect on `/draft-paper` |
+|-------------------|-------------------------|
+| Not assessed | Argument construction rules surfaced as **guidance comments** in the draft |
+| L1-L2 | Rules surfaced as **soft warnings** — flagged but not blocking |
+| L3 | Rules enforced as **hard expectations** — violations flagged for revision |
+
+This means: a student can always run `/draft-paper` if they have the domain prerequisites. But the quality of the output — and the strictness of the feedback — scales with their argument construction competence.
+
+**Open question for discussion**: Should argument construction competence gate `/draft-paper` directly? Currently it doesn't — you can draft a paper without having been assessed on paragraph mechanics. The alternative is to require at least F:L1 before drafting, which would add a lightweight prerequisite. Arguments for both:
+
+- **For soft enforcement (current)**: Students learn argument construction BY drafting. Gating them prevents the best learning opportunity.
+- **For hard gating**: A student who can't construct a paragraph shouldn't be generating manuscripts, even AI-assisted ones. The draft will be bad and waste advisor review time.
+
+---
+
 ## Full unlock-map.json
 
 The complete structured mapping is preserved below for programmatic use:

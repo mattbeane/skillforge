@@ -246,6 +246,21 @@
     }
   },
 
+  "foundations": {
+    "argument-construction": {
+      "name": "Argument Construction",
+      "status": "draft",
+      "levels": {
+        "1": "Knowledge recognition - paragraph mechanics, citation functions, section arcs",
+        "2": "Application with feedback - construct arguments from provided materials",
+        "3": "Authentic performance - write introduction, theory, and discussion sections independently"
+      },
+      "affects_commands": ["/draft-paper", "/build-lit-review"],
+      "gating_behavior": "quality_enforcement_not_access_gate",
+      "notes": "Does not gate command access. Affects enforcement strictness of writing quality rules."
+    }
+  },
+
   "progression_estimates": {
     "typical_phd": {
       "domain-1-2": "2-4 weeks",

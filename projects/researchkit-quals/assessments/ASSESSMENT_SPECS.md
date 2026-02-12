@@ -173,6 +173,50 @@ When an advisor certifies competence without full assessment:
 
 ---
 
+## Foundation: Argument Construction Scoring (Draft)
+
+Argument Construction is assessed using the same three-level structure as domains, but with mechanical (not holistic) criteria. The key difference: these assessments evaluate *structure* — paragraph architecture, transitions, citation deployment, section arcs — not content quality, theoretical sophistication, or domain-specific knowledge.
+
+### Foundation Level 1: Knowledge Recognition
+
+**Format**: 10-12 multiple choice + 3 short-answer diagnostic exercises
+**Time**: 30 minutes
+**Passing**: ≥80%
+
+Questions test:
+- Identifying citation functions (consensus, steelman, absence, tension)
+- Recognizing good vs. bad topic sentences
+- Identifying "The Turn" in a published introduction
+- Diagnosing paragraph transition failures
+
+### Foundation Level 2: Application with Feedback
+
+**Format**: Construct arguments from provided materials
+**Time**: 2-4 hours
+**Passing**: ≥70/100
+
+| Criterion | Points | How to Score |
+|-----------|--------|--------------|
+| Introduction follows WORLD → PROBLEM → GAP → QUESTION → PREVIEW | 20 | Check arc completeness; each step present and in order |
+| Topic sentences are claims (not citations or descriptions) | 15 | Count: paragraphs with claim-first / total paragraphs |
+| Transitions use lexical repetition + conceptual escalation | 15 | Check 3+ paragraph boundaries for concept threading |
+| Citation deployment uses ≥3 of 4 functions appropriately | 15 | Label each citation cluster; count distinct functions |
+| Gap statement specifies missing process/mechanism | 10 | Binary: specific mechanism gap vs. vague "more research" |
+| Paragraph ordering exercise correct with rationale | 15 | Binary per paragraph; rationale quality 0-5 |
+| Contribution paragraph follows 4-move pattern | 10 | Check: literature anchor → contrast → mechanism → implication |
+
+### Foundation Level 3: Authentic Performance
+
+**Format**: Write introduction, theory outline, contribution paragraphs, and closing from novel materials
+**Time**: 4-8 hours
+**Passing**: ≥70/100, no criterion below 50%
+
+Same criteria as L2 but applied to independent work with no scaffolding. Expert comparison available for calibration.
+
+**Open question**: Should Foundation L3 be a prerequisite for any domain's L3? The argument: every domain L3 requires written work, and that written work needs competent argument construction. Counter-argument: students may develop argument construction skills naturally through domain work — requiring it separately adds bureaucracy.
+
+---
+
 ## Note
 
 > **Assessment approach is draft.** Whether rubric-based scoring is appropriate for all domains is an open question. Some competencies (like research integrity under pressure, or "taste" in framing) may resist formal assessment. Faculty and student input on the assessment approach is actively sought.

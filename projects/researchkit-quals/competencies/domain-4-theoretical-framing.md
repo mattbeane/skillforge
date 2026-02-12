@@ -58,18 +58,20 @@ Knowing what reviewers will push back on and preparing for it.
 - Defensive responses instead of genuine engagement with alternatives
 
 ### 4.4 Hook and Contribution Crafting
-Writing opening sentences and contribution statements that compel readers.
+Choosing the *strategic* opening move and contribution framing that best serve your chosen framing.
+
+> **Note on scope**: This sub-competency covers the strategic choice of *which* hook and contribution framing to use — decisions that depend on your chosen framing, target audience, and journal. For the *mechanical* craft of constructing paragraphs, transitions, and citation deployment, see **Foundation: Argument Construction**.
 
 **What it looks like**:
-- Hook grabs attention with puzzle/paradox/surprise
-- Contribution statement is specific, not vague
-- Abstract tells a complete story in 150 words
-- Title signals the contribution memorably
+- Hook choice matches the framing (puzzle hook for theory violation, trend hook for phenomenon paper)
+- Contribution statement is specific and names what changes in our understanding
+- Abstract tells a complete story in 150 words — contribution-forward, not methods-forward
+- Title signals the contribution memorably, not just the topic
 
 **Common failures**:
-- Opening with literature ("Prior research has shown...") instead of puzzle
-- Contribution statement uses empty verbs ("examines," "explores," "investigates")
-- Abstract is methods-heavy, contribution-light
+- Choosing a hook that doesn't match the framing (empirical surprise hook for a purely theoretical contribution)
+- Contribution statement uses empty verbs ("examines," "explores," "investigates") — this is a framing problem, not just a word choice problem
+- Abstract leads with methods instead of puzzle/contribution
 - Title is descriptive ("A Study of X") not contributive ("How X Changes Y")
 
 ---
