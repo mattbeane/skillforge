@@ -11,6 +11,99 @@ This document fixes that.
 
 ---
 
+## Sub-Skill → Assessment Coverage Matrix
+
+Every sub-skill must be assessable. This table maps the 33 sub-skills → L1 question numbers → L2/L3 rubric items → materials readiness.
+
+### Foundation: Argument Construction (5 sub-skills)
+
+| Sub-Skill | L1 Questions | L2 Rubric Item | Materials Status |
+|-----------|-------------|----------------|-----------------|
+| Paragraph architecture | Q1, Q8 | Topic sentences are claims (15 pts) | ✅ L1 ready |
+| Transitions & cohesion | Q3 (The Turn), Q4 | Transitions use lexical repetition + escalation (15 pts) | ✅ L1 ready |
+| Section-level architecture | Q5 (WORLD→GAP arc) | Introduction follows arc (20 pts) | ✅ L1 ready |
+| Citation deployment | Q2, Q6-7, Q9 | ≥3 of 4 functions used (15 pts) | ✅ L1 ready |
+| Opening & closing moves | Q6, Q10 | Gap specifies mechanism (10 pts); 4-move contribution (10 pts) | ✅ L1 ready |
+
+### Domain 1: Pattern Recognition (4 sub-skills)
+
+| Sub-Skill | L1 Questions | L2 Rubric Item | Materials Status |
+|-----------|-------------|----------------|-----------------|
+| Anomaly recognition | Q1, Q3, Q9 | Identifies expert patterns (+6 ea, max 30) | ❌ Needs "Company X" dataset |
+| Robustness instinct | Q2, Q6, Q10 | Robustness demonstrated (20 pts holistic) | ❌ Same |
+| Theoretical interest assessment | Q5, Q7 | Low-interest pattern penalty (-5 ea) | ❌ Same |
+| Finding discipline | Q8, Q10 | Killed findings documented (+10) | ❌ Same |
+
+### Domain 2: Theoretical Positioning (4 sub-skills)
+
+| Sub-Skill | L1 Questions | L2 Rubric Item | Materials Status |
+|-----------|-------------|----------------|-----------------|
+| Theory violation identification | Q1, Q2, Q8 | Theory match (0/15/25 pts) | ❌ Needs finding from D1 |
+| Audience awareness (row vs column) | Q3, Q10 | Audience calibration (0/10/20 pts) | ❌ Same |
+| Sensitizing literature selection | Q4, Q6, Q7 | Sensitizing quality (0/10/20/30 pts) | ❌ Same |
+| Contribution articulation | Q5, Q9 | Contribution statement (0/10/15/25 pts) | ❌ Same |
+
+### Domain 3: Qual Mechanism Extraction (4 sub-skills)
+
+| Sub-Skill | L1 Questions | L2 Rubric Item | Materials Status |
+|-----------|-------------|----------------|-----------------|
+| Pre-reading hypothesis generation | Q1 | Implicit in coding quality | ✅ Beane surgery data ready |
+| Systematic coding | Q3, Q4, Q9, Q11 | Quote overlap (25 pts) | ✅ Same |
+| Disconfirming evidence hunting | Q2, Q6, Q10 | Disconfirm found (30 pts); ≥50% floor | ✅ Same |
+| Quote selection discipline | Q7, Q8 | Mechanism overlap (30 pts) | ✅ Same |
+
+### Domain 4: Theoretical Framing (4 sub-skills)
+
+| Sub-Skill | L1 Questions | L2 Rubric Item | Materials Status |
+|-----------|-------------|----------------|-----------------|
+| Multiple framing generation | Q1, Q2 | ≥3 distinct framings (required) | ⚠️ Needs evidence from D3 output |
+| Framing evaluation | Q3, Q6 | Zuckerman rubric-eval ≥35/50 | ⚠️ Same |
+| Counter-argument anticipation | Q8, Q9 | Rubric-eval coherence criterion | ⚠️ Same |
+| Hook & contribution strategy | Q4-5, Q7, Q10 | Rubric-eval novelty + coherence | ⚠️ Same |
+
+### Domain 5: Epistemological Genre (4 sub-skills)
+
+| Sub-Skill | L1 Questions | L2 Rubric Item | Materials Status |
+|-----------|-------------|----------------|-----------------|
+| Genre recognition | Q1, Q5, Q6 | Violation detection (30 pts) | ✅ Synthetic draft in `materials/` |
+| Language discipline | Q2, Q4, Q7 | Classification accuracy (15 pts) | ✅ Same |
+| Temporal logic | Q1, Q4, Q9 | Revision quality (30 pts) | ✅ Same |
+| Structure appropriateness | Q3, Q8, Q10 | Precision (10) + explanation (15 pts) | ✅ Same |
+
+### Domain 6: Adversarial Evidence (4 sub-skills)
+
+| Sub-Skill | L1 Questions | L2 Rubric Item | Materials Status |
+|-----------|-------------|----------------|-----------------|
+| Comprehensive data search | Q1, Q10 | Search comprehensiveness (15 pts) | ⚠️ Needs paper + dataset pair |
+| Disconfirming evidence documentation | Q2, Q8 | Discovery (30 pts); auto-fail if 0 found | ⚠️ Same |
+| Evidence distribution analysis | Q3, Q5, Q7 | Distribution analysis (20 pts) | ⚠️ Same |
+| Alternative interpretation identification | Q4, Q9 | Alternatives (20 pts) | ⚠️ Same |
+
+### Domain 7: Claim Verification (4 sub-skills)
+
+| Sub-Skill | L1 Questions | L2 Rubric Item | Materials Status |
+|-----------|-------------|----------------|-----------------|
+| Claim-evidence calibration | Q1, Q2, Q4, Q10 | Overclaims found × 40 | ✅ Synthetic overclaim paper in `materials/` |
+| Overclaim detection | Q3, Q5, Q6 | False positives × -20 | ✅ Same |
+| Verification package creation | Q7 | Calibration quality × 40 | ✅ Same |
+| Integrity under pressure | Q8 | Not separately scored; oral defense recommended | ✅ Same |
+
+### Coverage Summary
+
+| Domain | Sub-Skills | L1 | L2 Rubric | L2/L3 Materials |
+|--------|-----------|-----|-----------|-----------------|
+| Foundation | 5/5 | ✅ | ✅ | ⚠️ No novel materials yet |
+| D1 Pattern Recognition | 4/4 | ✅ | ✅ | ❌ Needs "Company X" dataset |
+| D2 Theoretical Positioning | 4/4 | ✅ | ✅ | ❌ Needs finding from D1 |
+| D3 Qual Mechanism | 4/4 | ✅ | ✅ | ✅ Beane surgery data |
+| D4 Theoretical Framing | 4/4 | ✅ | ✅ | ⚠️ Needs D3 output |
+| D5 Epistemological Genre | 4/4 | ✅ | ✅ | ✅ Synthetic draft |
+| D6 Adversarial Evidence | 4/4 | ✅ | ✅ | ⚠️ Needs paper + dataset |
+| D7 Claim Verification | 4/4 | ✅ | ✅ | ✅ Synthetic overclaim paper |
+| **Total** | **33/33** | **100%** | **100%** | **3 of 8 fully ready** |
+
+---
+
 ## Scoring Rubrics
 
 ### Level 1: Knowledge Recognition (All Domains)
@@ -229,24 +322,25 @@ Score = (found × 40) - (false_pos × 20) + (calibration × 40)
 
 ---
 
-## Assessment Materials Needed
+## Assessment Materials Status
 
-### Priority 1: Create These First
+### Ready Now
 
-| Domain | Materials | Source | Prep Time |
-|--------|-----------|--------|-----------|
-| D1 | Quantitative dataset + expert pattern list | Company X (anonymized) | 4-6 hours |
-| D3 | 10 interview transcripts + expert coding | Company Y (anonymized) | 8-12 hours |
-| D7 | Paper draft with seeded overclaims | Create synthetic | 2-3 hours |
+| Domain | Materials | Location | Status |
+|--------|-----------|----------|--------|
+| D3 | 69 anonymized interview quotations + expert baseline (3 mechanisms, disconfirming evidence, code families) | `seed-data/beane-surgery-anonymized/` | ✅ Complete — all 3 anonymization stages done |
+| D5 | Synthetic paper draft with ~10 seeded genre violations (structural, language, temporal logic) + answer key | `assessments/materials/d5-genre-violations-draft.md` | ✅ Created |
+| D7 | Synthetic paper draft with ~10 seeded overclaims (causal, scope, mechanism, evidence-strength) + answer key | `assessments/materials/d7-overclaim-paper.md` | ✅ Created |
 
-### Priority 2: Create After Pilot
+### Blocked on Matt's Data
 
-| Domain | Materials | Source | Prep Time |
-|--------|-----------|--------|-----------|
-| D2 | Finding + expert theoretical positioning | From D1 output | 2-3 hours |
-| D4 | Evidence package + expert framings | From D3 output | 4-6 hours |
-| D5 | Synthetic draft with seeded genre violations + expert revision | Create synthetic | 3-4 hours |
-| D6 | Paper draft with claims + full dataset + expert adversarial audit | From prior work | 4-6 hours |
+| Domain | Materials Needed | Blocker | Prep Time |
+|--------|-----------------|---------|-----------|
+| D1 | Quantitative dataset + expert pattern list | "Company X" anonymized dataset (Matt-dependent) | 4-6 hours |
+| D2 | Finding + expert theoretical positioning | Needs finding from D1 output | 2-3 hours after D1 |
+| D4 | Evidence package + expert framings | Can derive from D3 output (data exists) | 4-6 hours |
+| D6 | Paper + full dataset + expert adversarial audit | Beane data exists; needs a test paper paired with it | 4-6 hours |
+| Foundation | Novel materials for L2/L3 | Can create synthetic (no data dependency) | 3-4 hours |
 
 ---
 
@@ -336,9 +430,9 @@ Same criteria as L2 but applied to independent work with no scaffolding. Expert 
 
 ## What's Still Needed
 
-1. **Actually create the assessment datasets** - This is real work
-2. **Build the quals CLI** - Commands to take/submit assessments
-3. **Create the Level 1 question banks** - Multiple choice from competency docs
-4. **Set up rubric-eval for D4** - Zuckerman criteria as rubric
-
-The competency definitions are design docs. The system isn't operational until the above exist.
+1. ~~**Create the Level 1 question banks**~~ — ✅ Done (all 8: Foundation + D1-D7)
+2. **Build the quals CLI** — In progress (`tools/quals_cli.py`): `quals init`, `quals take`, `quals status`, `quals certify`
+3. **Create remaining assessment datasets** — D1 and D2 blocked on Matt's data; D4, D6, Foundation can be derived from existing data
+4. **Set up rubric-eval for D4** — Zuckerman criteria as rubric (needs rubric JSON file)
+5. **Pilot L1 with students** — Once CLI is working
+6. **Write L2/L3 assessments** — After pilot feedback and expert baselines
