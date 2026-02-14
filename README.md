@@ -155,7 +155,7 @@ This becomes the ground truth students are assessed against.
 **Built:**
 - ✅ Complete curriculum: 42 exercises + 21 assessments across all 7 domains
 - ✅ Three levels per domain: Foundation, Practice, Mastery
-- ✅ Capstone exercise: AI paper review challenge
+- ✅ Two capstone options: AI Output Supervision + Build Your Own Machine
 - ✅ 26 badge designs with git-based verification system
 - ✅ Portfolio template for student progress tracking
 - ✅ Atlas.ti parser + 3-stage anonymization engine
