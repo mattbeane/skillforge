@@ -1,16 +1,18 @@
-# Level 4: Alternative Capstone — Build Your Own Machine
+# Level 4: Alternative Capstone — Induce the Problem Space
 
 ## What This Is
 
-An alternative capstone assessment (can be taken instead of or in addition to the AI Output Supervision capstone). Students prove they've internalized all seven domains by **building their own analytical pipeline** — a bespoke set of agents/prompts that encode their tacit knowledge about how to do rigorous research.
+An alternative capstone assessment (can be taken instead of or in addition to the AI Output Supervision capstone). Students prove they've internalized the deep structure of research craft by **inducing the categories of skill and judgment required** to do AI-assisted qualitative research well — from first principles, before seeing any existing decomposition.
 
-Then they defend their design choices.
+Then they build a pipeline based on their own decomposition and defend it.
 
-**Origin**: Paul Leonardi proposed this approach: "Show me your machine, and we'll debrief about what you thought you knew about the scholarly process that led you to build it that way." The pedagogical insight is that building an analytical tool forces articulation of tacit knowledge — you can't automate what you can't describe.
+**Origin**: Paul Leonardi proposed the underlying insight: "Show me your machine, and we'll debrief about what you thought you knew about the scholarly process that led you to build it that way." But there's a problem with "build your own machine" as a test: anyone can copy someone else's. The deeper skill — and the harder test — is *can you derive what the machine should do before seeing how others built theirs?*
+
+**The real test**: Given an unfamiliar dataset and no access to existing tools or domain decompositions, can you induce the areas where human judgment is essential, where automation is appropriate, and where supervision is required? That's the skill that makes a researcher irreplaceable in an AI-augmented world.
 
 **Prerequisite**: Level 3 pass in all seven domains.
 
-**Time**: 2-3 weeks (design + build + defense)
+**Time**: 2-3 weeks (induction + build + defense)
 
 **Attempts**: One. This is a qualifying exam.
 
@@ -27,94 +29,92 @@ Then they defend their design choices.
 
 2. **Access to Claude Code (or equivalent)** with ability to create custom commands/agents
 
-3. **Expert pipeline** (revealed after submission): How a skilled researcher would build a pipeline for this specific dataset, and why
+3. **Withheld until Part C**: The seven research-quals domains and any existing pipelines (e.g., theory-forge). The student must work without seeing these.
 
-### What the Student Builds
+### What the Student Does NOT Get
 
-A working analytical pipeline that:
-- Takes the provided dataset as input
-- Produces a structured analysis output
-- Encodes the student's judgment about what analytical steps matter, in what order, and with what quality checks
-- Is documented with design rationale for each component
+- No access to the research-quals domain list
+- No access to theory-forge or its command structure
+- No examples of other researchers' analytical pipelines
+- No hints about "what matters" beyond the dataset itself
 
-**This is NOT about producing a paper.** It's about designing the machine that COULD produce a paper — and being able to defend every design choice.
+**This constraint is the point.** The test is whether the student can derive what matters from engaging with the data and reflecting on the research process, not whether they can reproduce someone else's framework.
 
 ---
 
 ## The Task
 
-### Part A: Pipeline Design Document (30%)
+### Part A: Induce the Problem Space (30%)
 
-Before building anything, write a design document (2000-3000 words):
+Before building anything, spend 3-5 days with the data and write a problem space analysis (2000-3000 words):
 
-1. **Initial data assessment** (500 words)
-   - What did you notice in a first pass through the data?
-   - What kind of paper could this become?
-   - What contribution type does this suggest? (violation, elaboration, phenomenon, etc.)
+1. **What kinds of judgment does this research require?** (1000-1500 words)
+   - Work through the data. Try to imagine producing a publishable paper from it.
+   - As you go, notice: where does the work require *human* judgment? Where could a machine help? Where would machine output need supervision?
+   - Derive a set of **categories of skill/judgment** that this work demands.
+   - For each category: What makes it hard? What could go wrong? What does "good" look like?
 
-2. **Pipeline architecture** (1000 words)
-   - What analytical steps does your pipeline include?
-   - In what order? Why this sequence?
-   - What are the dependencies between steps?
-   - What quality gates exist? What must pass before proceeding?
+2. **Your proposed decomposition** (500-1000 words)
+   - Name your categories. Define them. Explain why these and not others.
+   - How do they relate to each other? Is there a sequence? Dependencies?
+   - What's the relationship between your categories and the specific dataset, vs. what you think would generalize to other datasets?
 
-3. **Design rationale for each component** (500-1000 words)
-   - For each agent/step: why does this exist? What does it catch?
-   - What alternative designs did you consider and reject?
-   - What tacit knowledge are you encoding in each component?
-
-4. **What your pipeline does NOT do** (250 words)
-   - What analytical tasks remain human-only in your design?
+3. **Where you drew the automation line** (500 words)
+   - For each category: what can be safely automated, what requires human judgment, what requires human supervision of AI output?
    - Why did you draw the line there?
+
+**Evaluation emphasis**: The quality of the decomposition matters more than whether it matches any existing framework. We're looking for evidence that the student can think structurally about the research process, not that they can reproduce the "right" answer.
 
 ### Part B: Working Pipeline (40%)
 
-Build the pipeline as a set of executable agents/prompts. Requirements:
+Build a pipeline based on YOUR decomposition (not someone else's). Requirements:
 
-1. **Minimum 5 agents/steps** (most students will create 8-15)
-2. **Each agent must have**:
-   - Clear purpose statement
+1. **Your pipeline structure must follow from your Part A decomposition** — the agents/steps should map to your categories, not to some other framework
+2. **Minimum 5 agents/steps** (most students will create 8-15)
+3. **Each agent must have**:
+   - Clear purpose statement tied to your decomposition
    - Specified inputs and outputs
    - Analytical logic (what to look for, how to evaluate)
    - Quality checks or failure modes
-3. **At least one adversarial component** (something that tries to break the analysis)
-4. **A sequencing mechanism** (soft or hard gates between steps)
-5. **Run the pipeline on the provided data** and include the output
+4. **At least one adversarial component** (something that tries to break the analysis)
+5. **A sequencing mechanism** (soft or hard gates between steps)
+6. **Run the pipeline on the provided data** and include the output
 
 ### Part C: Defense (30%)
 
-Oral or written defense (30-45 minutes or 1500-2000 words):
+Oral or written defense (45-60 minutes or 2000-3000 words):
 
-1. **Walk through your pipeline**
+1. **Your decomposition vs. ours** (15-20 min)
+   The seven research-quals domains and any existing pipelines are now revealed. Address:
+   - What did you identify that we identified? Different name, same idea?
+   - What did you identify that we didn't? Is there something we're missing?
+   - What did we identify that you didn't? Was it absent from your data, or did you miss something important?
+   - Where do the decompositions diverge most? What does that reveal?
+
+2. **Pipeline walkthrough** (15-20 min)
    - Demonstrate each step with the actual data
    - Show where your pipeline caught something important
    - Show where it missed something (self-awareness)
 
-2. **Respond to expert comparison**
-   After revealing the expert pipeline, address:
-   - What did the expert include that you didn't? Why might they have?
-   - What did you include that the expert didn't? Is your addition justified?
-   - Where do your designs diverge most? What does that reveal about your analytical assumptions?
-
-3. **Meta-reflection**
-   - What did building this pipeline teach you about research?
+3. **Meta-reflection** (10-15 min)
+   - What did this exercise teach you about research craft?
    - What tacit knowledge did you discover you had (or lacked)?
-   - What would you change if you rebuilt it?
-   - How does your pipeline reflect your scholarly identity?
+   - Would you change your decomposition now that you've seen ours? Why or why not?
+   - If you were advising a junior researcher, what would you tell them matters most?
 
 ---
 
 ## Evaluation
 
-### Part A: Design Document (30%)
+### Part A: Problem Space Induction (30%)
 
 | Criterion | Points |
 |-----------|--------|
-| Data assessment shows genuine engagement | 10 |
-| Pipeline architecture is logically coherent | 15 |
-| Design rationale reveals understanding of research process | 20 |
-| "Does NOT do" section shows judgment about automation boundaries | 10 |
-| **Subtotal** | **55** |
+| Categories show genuine engagement with the data, not abstract speculation | 15 |
+| Decomposition is coherent — categories are distinct, collectively meaningful | 15 |
+| Automation line reflects real understanding of where AI helps vs. hurts | 10 |
+| Reasoning is transparent — student shows their work, not just conclusions | 10 |
+| **Subtotal** | **50** |
 
 *Scaled to 30% of total*
 
@@ -122,13 +122,12 @@ Oral or written defense (30-45 minutes or 1500-2000 words):
 
 | Criterion | Points |
 |-----------|--------|
+| Pipeline structure follows from student's own decomposition (not borrowed) | 15 |
 | Pipeline runs and produces structured output | 10 |
-| Individual agents are well-specified (clear purpose, logic, quality checks) | 20 |
+| Individual agents are well-specified (clear purpose, logic, quality checks) | 15 |
 | Adversarial component is genuinely challenging | 10 |
-| Sequencing reflects understanding of analytical dependencies | 10 |
 | Pipeline output on test data is analytically useful | 15 |
-| Code quality and documentation | 5 |
-| **Subtotal** | **70** |
+| **Subtotal** | **65** |
 
 *Scaled to 40% of total*
 
@@ -136,38 +135,39 @@ Oral or written defense (30-45 minutes or 1500-2000 words):
 
 | Criterion | Points |
 |-----------|--------|
-| Can explain and justify each design choice | 15 |
-| Honest about pipeline's limitations and misses | 10 |
-| Comparison to expert pipeline shows learning | 15 |
-| Meta-reflection reveals genuine insight about research craft | 15 |
-| **Subtotal** | **55** |
+| Comparison to existing framework is honest and insightful | 15 |
+| Identifies genuine contributions beyond existing decomposition | 10 |
+| Identifies genuine gaps in own decomposition without defensiveness | 10 |
+| Meta-reflection reveals insight about research craft, not just this exercise | 15 |
+| **Subtotal** | **50** |
 
 *Scaled to 30% of total*
 
 ### Passing Threshold
 
 - **Overall**: ≥70%
+- **Part A minimum**: ≥50% (must produce a coherent decomposition)
 - **Part B minimum**: ≥50% (must produce a working pipeline)
-- **Defense minimum**: Must demonstrate understanding of at least 5 of 7 domains in design rationale
+- **Defense**: Must engage substantively with comparison — can't just say "mine is different"
 
 ---
 
 ## What This Tests
 
-### Articulation of Tacit Knowledge
-Can you make your implicit understanding of research explicit enough to encode it?
+### First-Principles Thinking
+Can you derive what matters from the work itself, rather than from a provided framework?
 
-### Architectural Judgment
-Can you decompose a complex intellectual process into coherent, sequenced steps?
+### Structural Reasoning About Research
+Can you decompose a complex intellectual process into coherent categories that map to real judgment calls?
 
 ### Self-Awareness
 Do you know what you know and what you don't? Can you draw appropriate boundaries for automation?
 
-### Research Identity
-Does your pipeline reflect a coherent scholarly perspective, not just a grab bag of techniques?
+### Intellectual Honesty
+Can you compare your decomposition to an existing one without defensiveness, identifying both contributions and gaps?
 
-### Comparison Skill
-Can you learn from seeing how an expert would approach the same problem differently?
+### Research Identity
+Does your decomposition reflect a coherent scholarly perspective, or just a grab bag of techniques?
 
 ---
 
@@ -175,24 +175,24 @@ Can you learn from seeing how an expert would approach the same problem differen
 
 This capstone tests a different (and complementary) skill from the AI Output Supervision capstone:
 
-| AI Output Supervision | Build Your Own Machine |
-|----------------------|----------------------|
-| Can you catch what AI gets wrong? | Can you design what AI should do right? |
-| Evaluative judgment | Constructive judgment |
-| Critic | Architect |
-| "This paper has problems" | "Here's how I'd build the system" |
+| AI Output Supervision | Induce the Problem Space |
+|----------------------|--------------------------|
+| Can you catch what AI gets wrong? | Can you derive what AI should do right? |
+| Evaluative judgment | Generative + structural judgment |
+| Critic | Architect of the problem space itself |
+| "This paper has problems" | "Here are the kinds of judgment this work requires" |
 
-**Both skills matter.** Catching errors requires knowing what good looks like. Building tools requires knowing what to check for. Ideally, students do both capstones.
+**Both skills matter.** Catching errors requires knowing what good looks like. Designing tools requires knowing what to check for. Ideally, students do both capstones.
 
-The Build Your Own Machine capstone is especially valuable because:
+The Induce the Problem Space capstone is especially valuable because:
 
-1. **It forces articulation.** You can't automate "look for interesting patterns" — you have to specify WHAT patterns, defined HOW, evaluated AGAINST WHAT.
+1. **It can't be copied.** Unlike "build a pipeline" (where students can examine theory-forge and reproduce it), "derive the categories from first principles" requires original analytical work. The student's decomposition is their own intellectual contribution.
 
-2. **It reveals gaps.** Students who don't understand adversarial evidence will build pipelines without it. Students who don't understand genre will build hypo-deductive pipelines for inductive papers. The pipeline IS the diagnostic.
+2. **It tests the deepest skill.** Knowing what the categories of judgment ARE is harder than being skilled within them. This is meta-competence — knowing what competence consists of.
 
-3. **It creates conversation.** The defense — especially the comparison to an expert pipeline — generates exactly the kind of mentorship conversation that's hardest to create in traditional PhD training.
+3. **It makes the seven domains honestly provisional.** If a student derives a better decomposition, that's not a failure of the test — it's a contribution to the field. The capstone invites students to improve on the framework, not just reproduce it.
 
-4. **It produces something useful.** Unlike an exam that's graded and forgotten, the student leaves with a working tool they can use, share, and iterate on.
+4. **It creates the richest conversation.** The defense — comparing decompositions — generates exactly the kind of mentorship dialogue that's hardest to create in traditional PhD training. "You identified X and I didn't — tell me why you think it matters."
 
 ---
 
@@ -206,26 +206,27 @@ Choose data that:
 - Has known expert analysis to compare against
 - Is from a domain the student hasn't worked in (tests transferability)
 
-### Building the Expert Pipeline
+### Building the Comparison Framework
 
-Document YOUR approach:
-- What steps would you include?
-- What order? What gates?
-- What's unique about your approach to this data?
-- What would you expect a strong student to include?
-- What would distinguish excellent from adequate pipelines?
+Prepare YOUR decomposition of what matters for this dataset:
+- What categories of judgment does this data demand?
+- How does your decomposition relate to the seven domains? (exact match? different emphasis? additional categories?)
+- What would you expect a strong student to identify?
+- What would distinguish excellent from adequate inductions?
 
 ### Comparison Rubric
 
 Create specific comparison points:
-- "Expert included adversarial evidence at step 3; student who omits this is missing Domain 6"
-- "Expert used temporal analysis because the data spans 2 years; student who ignores time is missing processual thinking"
-- "Expert drew the automation line at coding — if student automates coding without manual verification, that's a red flag"
+- "Expert identified the need for temporal analysis because data spans 2 years; student who misses temporal judgment is missing something important"
+- "Expert separated 'pattern finding' from 'pattern evaluation'; student who collapses these may not understand robustness"
+- "Expert drew the automation line at qualitative coding; if student puts coding fully in the 'automate' bucket, that's worth exploring in defense"
 
 ---
 
-## The Leonardi Principle
+## The Leonardi Principle (Revised)
 
-> "I'll show you my supercharged table saw for making papers. It's unique to my style and taste. And then you have to go build your own. Show me your tool. And we're going to debrief about how you constructed that and what you thought you knew about the scholarly process that led you to build your machine that way."
+> "Show me your machine. And we're going to debrief about what you thought you knew about the scholarly process that led you to build it that way."
 
-This assessment operationalizes that principle. The student doesn't learn from using someone else's tool — they learn from building their own and defending it.
+The original insight was about building machines. We've extended it: before you build the machine, derive what the machine *should* do. The scholarly process itself is what we're asking you to induce — the categories of craft that matter, the judgment calls that can't be automated, the places where supervision is essential.
+
+If you can do that from first principles, you can build any machine. And more importantly, you can evaluate whether someone else's machine is any good.

@@ -1,29 +1,36 @@
 # Research-Quals: A Faculty Guide
 
-**Your PhD students are going to use AI for research. Here's the middle path between banning it and hoping for the best.**
+**Our PhD students are going to use AI for research. Here's one attempt at a structured response — and an invitation to build something better together.**
 
 ---
 
-## The Problem You're Facing
+## The Situation We're All In
 
-AI tools can now generate polished research outputs: literature reviews, data analysis, theoretical framings, even full manuscript drafts. Your students know this. Some are already using these tools, with or without guidance.
+AI tools can now generate polished research outputs: literature reviews, data analysis, theoretical framings, even full manuscript drafts. Our students know this. Some are already using these tools, with or without guidance.
 
-You have three options:
+The choices we face aren't as simple as "ban it or allow it." There are at least two independent dimensions that matter:
 
-1. **Ban AI entirely.** Unenforceable, and it leaves students unprepared for the research world they're entering.
+### How We Think About AI Access and Skill Development
 
-2. **Allow AI with no guardrails.** Produces students who can generate papers but can't evaluate whether those papers are any good. The hallucination risk alone should give you pause — one researcher recently discovered his AI co-author had fabricated quotes, informant identifiers, and data files that didn't exist, all consistent enough to be believable.
+| | **Skill verification implicit** (apprenticeship, osmosis) | **Skill verification explicit** (structured assessment) |
+|---|---|---|
+| **AI access open** (use what you want) | Students learn by doing, with all the risks and upside that implies. Works well for self-directed learners with strong mentorship. Fails silently when mentorship is thin. | Students demonstrate competency through structured challenges, then use AI freely. Adds overhead but creates a legible floor. |
+| **AI access graduated** (earn tool access) | Traditional apprenticeship plus tool restrictions. "You can use X after your second year." Familiar but hard to calibrate — what counts as "ready"? | Competency gates tied to specific capabilities. Most structured, most overhead, clearest accountability. |
 
-3. **Gate AI behind demonstrated competency.** Students prove they understand the research process — by doing it — before they're allowed to accelerate with AI tools. This is what research-quals provides.
+Most of us are operating in the top-left quadrant by default — implicit skill development, open access — because we haven't built the infrastructure for anything else.
+
+Research-quals is an experiment in moving rightward: making skill verification explicit. It doesn't prescribe where you land on the access dimension. That's a judgment call that depends on your students, your program, and your tolerance for risk.
+
+**We don't claim this is the right answer.** It's a starting point — one researcher's attempt to operationalize the tacit knowledge that expert researchers bring to this work. We're actively looking for collaborators who see the problem differently.
 
 ---
 
 ## What Research-Quals Is
 
-A competency-based training system for mixed-methods management research. Seven domains. Three levels. Real data.
+A competency-based training system for mixed-methods management research. Seven provisional domains. Three levels. Real data.
 
-| Domain | What It Tests |
-|--------|--------------|
+| Domain | The Question It Answers |
+|--------|------------------------|
 | 1. Pattern Recognition | Can you tell signal from noise? |
 | 2. Theoretical Positioning | Can you frame a contribution? |
 | 3. Research Design | Can you match design to question? |
@@ -31,6 +38,8 @@ A competency-based training system for mixed-methods management research. Seven 
 | 5. Literature Synthesis | Can you position in a conversation? |
 | 6. Adversarial Evidence | Can you find disconfirming data? |
 | 7. Claim Verification | Do your claims match your evidence? |
+
+**Where these domains came from**: These seven emerged from one researcher's (Matt Beane, UCSB) experience operationalizing what seemed to matter when building AI-assisted research tools — specifically, the places where AI went wrong and human judgment was essential. They draw on existing methods literature and three months of building tools and finding every way they fail. They are not exhaustive. They may not be the right decomposition. They're a working hypothesis about what matters, offered as a starting point for collective refinement.
 
 ### Three Levels Per Domain
 
@@ -40,59 +49,60 @@ A competency-based training system for mixed-methods management research. Seven 
 
 **Mastery**: Can you do it independently and defend your choices? Single attempt. This is where it counts.
 
-### The Capstone: Prove You Can Supervise AI
+### The Capstone
 
 Two options (students can do one or both):
 
 **AI Output Supervision**: Review an AI-generated paper and catch all the issues. The AI draft is deliberately produced without safeguards — genre violations, overclaimed contributions, hallucinated evidence, buried disconfirmation. Can the student find what's wrong?
 
-**Build Your Own Machine**: Design and build a bespoke analytical pipeline for an unfamiliar dataset. Then defend every design choice against an expert comparison. This forces articulation of tacit knowledge — you can't automate what you can't describe.
+**Induce the Problem Space**: Given an unfamiliar dataset and the task "build an AI-assisted analytical pipeline for this," the student must first *induce* the categories of skill and judgment required to do this work well — before seeing the seven domains, before seeing any existing tool's command list. What are the areas where human judgment is essential? What can be safely automated? What requires supervision? Then they build a pipeline informed by their own decomposition and defend it.
+
+This is harder than copying someone else's pipeline. The point — inspired by Paul Leonardi's insight — isn't "can you build a machine?" (anyone can copy one). It's "can you derive what the machine *should* do from first principles, given a research problem you haven't seen before?" That's the skill that makes a researcher irreplaceable.
 
 ---
 
-## Why This Matters for Your Program
+## Why This Might Matter for Our Programs
 
-### The Apprenticeship Model Is Failing
+### The Apprenticeship Model Has Gaps
 
-Most PhD training in research craft happens through osmosis: watch your advisor, absorb tacit knowledge, hope you pick up the pattern recognition. Some students get great mentorship. Many don't. Luck plays too large a role.
+Most PhD training in research craft happens through osmosis: watch your advisor, absorb tacit knowledge, hope you pick up the pattern recognition. Some students get great mentorship. Many don't. Luck plays too large a role in determining who develops these skills.
 
-Research-quals makes the implicit explicit. The seven domains capture what expert researchers do intuitively — the robustness checks they run first, the disconfirming evidence they hunt for, the overclaims they catch. Making this learnable doesn't replace mentorship; it gives mentorship structure.
+Research-quals tries to make some of the implicit explicit. Whether these seven domains are the right decomposition is genuinely open — but the attempt to name what expert researchers do intuitively seems worth pursuing.
 
 ### AI Changes the Stakes
 
-A student who can't recognize a hallucinated quote when they see one shouldn't be using tools that routinely hallucinate. A student who doesn't understand genre conventions shouldn't be using tools that default to hypothesis-testing framing for every paper. A student who's never manually coded data can't evaluate whether AI coding is any good.
+A student who can't recognize a hallucinated quote shouldn't be using tools that routinely hallucinate. A student who doesn't understand genre conventions shouldn't rely on tools that default to hypothesis-testing framing for every paper. A student who's never manually coded data can't evaluate whether AI coding is any good.
 
-Research-quals establishes the floor. Once a student demonstrates competency, they can use AI tools productively — and you can trust their output.
+Some kind of floor seems necessary. Research-quals proposes one. We'd love to hear what you think the floor should look like.
 
-### What Your Students Want
+### What Our Students Are Telling Us
 
-In a recent CSS Lab session at UCSB (February 2025), PhD students consistently expressed two things:
+In a recent CSS Lab session at UCSB (February 2026), PhD students consistently expressed two things:
 
 1. They want explicit instruction on research craft. One student said: "I've been begging for explicit instruction on how to do these things for years."
 
 2. They want permission to use AI responsibly, not a blanket ban.
 
-Research-quals gives them both.
+These aren't just our students — we suspect this is widespread.
 
 ---
 
-## How to Use It
+## How You Might Use It
 
 ### For an Individual Advisor
 
-1. **Point your student at the system.** Have them run `research-quals status` to see the domains.
+1. **Have your student look at the domains.** Read through `competencies/` and see if the decomposition resonates.
 2. **Start with Domain 1 (Foundation).** Takes 2-4 hours. Low stakes, unlimited retakes.
 3. **Review their Practice and Mastery work.** The system provides expert baselines for comparison, but your domain expertise adds irreplaceable context.
-4. **Use the capstone as a milestone.** "Before you use theory-forge on your dissertation data, complete the AI Supervisor capstone."
+4. **Use the capstone as a milestone.** "Before you use AI tools on your dissertation data, demonstrate you can catch what they get wrong."
 
 ### For a PhD Program
 
-1. **Adopt as a methods supplement.** Research-quals complements existing methods courses — it doesn't replace them. It focuses on the applied judgment that courses often can't teach.
-2. **Set program-level expectations.** "All students complete Domains 1-4 (Foundation level) by end of Year 1."
-3. **Use capstone for AI policy.** "Students who pass the capstone are certified to use AI research tools in their dissertation work. Others must use them under advisor supervision only."
-4. **Contribute expert baselines.** The system improves with more expert perspectives. Faculty can contribute anonymized data from their research — all processing runs locally, data never leaves your machine.
+1. **Evaluate as a methods supplement.** Research-quals complements existing methods courses — it doesn't replace them. It focuses on applied judgment that courses often can't teach.
+2. **Adapt the domains.** If your program emphasizes different skills, modify the decomposition. The framework is open source and designed to be forked.
+3. **Contribute expert baselines.** The system improves with more expert perspectives. Faculty can contribute anonymized data from their research — all processing runs locally, data never leaves your machine.
 
-### Timeline
+### Timeline (Approximate)
 
 | Stage | Time | What Happens |
 |-------|------|-------------|
@@ -108,29 +118,32 @@ Students with prior qualitative methods training can test out of Foundation imme
 
 ## What It Connects To
 
-Research-quals is part of an ecosystem:
+Research-quals is part of a developing ecosystem:
 
-- **[Theory-forge](https://github.com/mattbeane/theory-forge)**: AI-assisted pipeline for producing theory-building papers. Research-quals badges gate access to theory-forge capabilities. Students who pass Domain 1 Practice can use pattern discovery (guided). Students who pass all seven Mastery badges get full access.
+- **[Theory-forge](https://github.com/mattbeane/theory-forge)**: An AI-assisted pipeline for producing theory-building papers. One way to use research-quals is as a prerequisite system for theory-forge capabilities, though the two can also be used independently.
 
-- **Living Paper**: Verification system that creates auditable links between claims and evidence. Used in theory-forge's verification stage. Addresses the "how do I know your data is real?" concern that reviewers will increasingly raise.
+- **Living Paper**: A verification system that creates auditable links between claims and evidence. Addresses the "how do I know your data is real?" concern that reviewers will increasingly raise.
 
-Both are open source (MIT license). Both are works in progress. Both benefit from faculty feedback and contribution.
+All are open source (MIT license). All are works in progress. All benefit from faculty feedback, critique, and contribution.
 
 ---
 
-## Common Objections
+## Honest Objections and Honest Responses
 
 **"My students should learn by struggling, not by following a checklist."**
-Agreed — and research-quals IS struggle. Practice and Mastery levels require students to do real analysis on unfamiliar data, not follow instructions. The checklist is the domains; the struggle is doing the work within them.
+Agreed — and the Practice and Mastery levels *are* struggle. Real analysis on unfamiliar data, not following instructions. The domains provide structure; the work within them is genuinely hard.
 
 **"I don't trust AI-based assessment."**
-Foundation assessments are auto-scored (multiple choice + short answer). Practice and Mastery work is designed for advisor review. The system provides rubrics and expert baselines, but you make the judgment call. AI assists scoring at Levels 2-3 but faculty certification is the gold standard.
+Foundation assessments are auto-scored (multiple choice + short answer). Practice and Mastery work is designed for advisor review. The system provides rubrics and expert baselines, but you make the judgment call.
 
 **"This will slow down my students."**
-A student who can't catch hallucinated data will produce papers that get desk-rejected — or worse, published and later retracted. Three to six months of structured competency building saves years of wasted effort.
+Possibly. The bet is that structured competency building prevents costlier problems downstream — desk rejections, retractions, or students who can produce papers but can't evaluate whether they're any good. Whether that tradeoff makes sense depends on your context.
 
 **"Why seven domains? Who decided these?"**
-The domains emerged from operationalizing what expert researchers actually do when producing papers — induced from three months of building AI research tools and finding every way they fail. The list is provisional and open to revision. If your experience suggests different or additional domains, that's a conversation worth having.
+One researcher, based on one experience building AI research tools. The domains are a working hypothesis, not a settled taxonomy. If your expertise suggests different or additional domains, that's exactly the conversation we want to have. The "Induce the Problem Space" capstone was designed partly for this reason — we genuinely believe students might derive a better decomposition than ours.
+
+**"This feels like it's solving your problem, not mine."**
+It might be. We built what we needed and are offering it in case others face similar challenges. If it doesn't fit, that's fine. If it almost fits but needs modification, we'd rather collaborate than prescribe.
 
 ---
 
@@ -141,11 +154,11 @@ git clone https://github.com/mattbeane/research-quals.git
 cd research-quals
 ```
 
-Start by reading the domain descriptions in `competencies/` and the assessment specs in `assessments/` to see if this fits your program.
+Start by reading the domain descriptions in `competencies/` and the assessment specs in `assessments/` to see if this resonates with your program's needs.
 
 > **Note**: The `research-quals` CLI (for taking and submitting assessments) is in development. The curriculum content, assessment rubrics, and expert baselines are complete and usable now. CLI automation is coming.
 
-**Questions?** Open an issue or contact mattbeane@ucsb.edu
+**Questions? Disagreements? Better ideas?** Open an issue or contact mattbeane@ucsb.edu
 
 ---
 

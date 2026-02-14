@@ -312,43 +312,44 @@ These additions address gaps revealed by TheoryForge development:
 | Prioritization quality | 20 |
 | Revision recommendations | 20 |
 
-### Option B: Build Your Own Machine
+### Option B: Induce the Problem Space
 
-**Format**: Design + build analytical pipeline for unfamiliar dataset, then defend
-**Time**: 2-3 weeks (design document + working pipeline + defense)
-**Passing**: ≥70% overall, Part B (working pipeline) ≥50%, defense covers ≥5 of 7 domains
+**Format**: Induce categories of research judgment from first principles + build pipeline + defend against existing framework
+**Time**: 2-3 weeks (induction + build + defense)
+**Passing**: ≥70% overall, Part A (induction) ≥50%, Part B (pipeline) ≥50%
 **Attempts**: One (qualifying exam)
 
-**Weighting**: Design Document 30% / Working Pipeline 40% / Defense 30%
+**Key constraint**: Student works WITHOUT access to research-quals domains or theory-forge commands. Must derive what matters from the data and the research process itself.
 
-**Scoring (Part A — Design Document, scaled to 30%)**:
+**Weighting**: Problem Space Induction 30% / Working Pipeline 40% / Defense 30%
+
+**Scoring (Part A — Problem Space Induction, scaled to 30%)**:
 
 | Criterion | Points |
 |-----------|--------|
-| Data assessment shows genuine engagement | 10 |
-| Pipeline architecture is logically coherent | 15 |
-| Design rationale reveals understanding of research process | 20 |
-| "Does NOT do" section shows judgment about automation boundaries | 10 |
+| Categories show genuine engagement with data, not abstract speculation | 15 |
+| Decomposition is coherent — categories distinct, collectively meaningful | 15 |
+| Automation line reflects real understanding of where AI helps vs. hurts | 10 |
+| Reasoning is transparent — student shows their work | 10 |
 
 **Scoring (Part B — Working Pipeline, scaled to 40%)**:
 
 | Criterion | Points |
 |-----------|--------|
+| Pipeline structure follows from student's own decomposition | 15 |
 | Pipeline runs and produces structured output | 10 |
-| Individual agents well-specified (purpose, logic, quality checks) | 20 |
+| Individual agents well-specified (purpose, logic, quality checks) | 15 |
 | Adversarial component is genuinely challenging | 10 |
-| Sequencing reflects analytical dependencies | 10 |
 | Pipeline output on test data is analytically useful | 15 |
-| Code quality and documentation | 5 |
 
 **Scoring (Part C — Defense, scaled to 30%)**:
 
 | Criterion | Points |
 |-----------|--------|
-| Can explain and justify each design choice | 15 |
-| Honest about pipeline limitations and misses | 10 |
-| Comparison to expert pipeline shows learning | 15 |
-| Meta-reflection reveals genuine insight about research craft | 15 |
+| Comparison to existing framework is honest and insightful | 15 |
+| Identifies genuine contributions beyond existing decomposition | 10 |
+| Identifies genuine gaps in own decomposition without defensiveness | 10 |
+| Meta-reflection reveals insight about research craft | 15 |
 
 **Note**: Both capstone options require Level 3 pass in all seven domains. Students can complete one or both. See `level-4-capstone-build-your-machine.md` for full details on Option B.
 
