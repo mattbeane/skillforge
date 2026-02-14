@@ -74,9 +74,9 @@ Can you do it independently and defend your choices? Single attempt, expert eval
 
 *"An AI ran this dataset through a research pipeline and produced a draft paper. Find everything wrong with it. Prioritize what would sink it at review."*
 
-**Option B — Induce the Problem Space**: Can you derive what matters from first principles? Given an unfamiliar dataset and no access to existing tools or frameworks, induce the categories of skill and judgment required to do this work well. Then build a pipeline based on your own decomposition and defend it against the existing one.
+**Option B — Build Your Own Machine**: Given an unfamiliar dataset and full access to every existing tool (including theory-forge), build your own analytical pipeline and defend every design choice. The dataset is deliberately chosen so copying doesn't help — the defense exposes whether the choices are genuinely yours.
 
-*"Can you derive what the machine should do before seeing how others built theirs?"* — inspired by Paul Leonardi
+*"Show me your machine. We'll debrief about what you thought you knew about the scholarly process that led you to build it that way."* — Paul Leonardi
 
 Students can complete one or both capstones. Both require mastery badges in all seven domains.
 
@@ -155,7 +155,7 @@ This becomes the ground truth students are assessed against.
 **Built:**
 - ✅ Complete curriculum: 42 exercises + 21 assessments across all 7 domains
 - ✅ Three levels per domain: Foundation, Practice, Mastery
-- ✅ Two capstone options: AI Output Supervision + Induce the Problem Space
+- ✅ Two capstone options: AI Output Supervision + Build Your Own Machine
 - ✅ 26 badge designs with git-based verification system
 - ✅ Portfolio template for student progress tracking
 - ✅ Atlas.ti parser + 3-stage anonymization engine

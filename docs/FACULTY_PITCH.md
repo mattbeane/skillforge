@@ -55,9 +55,7 @@ Two options (students can do one or both):
 
 **AI Output Supervision**: Review an AI-generated paper and catch all the issues. The AI draft is deliberately produced without safeguards — genre violations, overclaimed contributions, hallucinated evidence, buried disconfirmation. Can the student find what's wrong?
 
-**Induce the Problem Space**: Given an unfamiliar dataset and the task "build an AI-assisted analytical pipeline for this," the student must first *induce* the categories of skill and judgment required to do this work well — before seeing the seven domains, before seeing any existing tool's command list. What are the areas where human judgment is essential? What can be safely automated? What requires supervision? Then they build a pipeline informed by their own decomposition and defend it.
-
-This is harder than copying someone else's pipeline. The point — inspired by Paul Leonardi's insight — isn't "can you build a machine?" (anyone can copy one). It's "can you derive what the machine *should* do from first principles, given a research problem you haven't seen before?" That's the skill that makes a researcher irreplaceable.
+**Build Your Own Machine**: Given an unfamiliar dataset, build a bespoke analytical pipeline and defend every design choice. Students have full access to theory-forge and all existing tools — the test is designed so that copying doesn't help, because the dataset deliberately doesn't fit any default pipeline well. The defense is where it counts: you must explain why *this* step for *this* data, not parrot someone else's rationale. Inspired by Paul Leonardi's insight: "Show me your machine, and we'll debrief about what you thought you knew about the scholarly process that led you to build it that way."
 
 ---
 
