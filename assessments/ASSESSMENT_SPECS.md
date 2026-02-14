@@ -294,6 +294,66 @@ These additions address gaps revealed by TheoryForge development:
 
 ---
 
+## Level 4: Capstone Assessment
+
+### Option A: AI Output Supervision (Default)
+
+**Format**: Review AI-generated paper draft; identify issues across all 7 domains
+**Time**: 4-6 hours
+**Passing**: ≥70/100 overall, identify ≥80% of seeded issues
+**Attempts**: One (qualifying exam)
+
+**Scoring**:
+
+| Criterion | Points |
+|-----------|--------|
+| Issues found (severity-weighted) | 60 |
+| False positives (penalty) | -20 max |
+| Prioritization quality | 20 |
+| Revision recommendations | 20 |
+
+### Option B: Build Your Own Machine
+
+**Format**: Design + build analytical pipeline for unfamiliar dataset, then defend
+**Time**: 2-3 weeks (design document + working pipeline + defense)
+**Passing**: ≥70% overall, Part B (working pipeline) ≥50%, defense covers ≥5 of 7 domains
+**Attempts**: One (qualifying exam)
+
+**Weighting**: Design Document 30% / Working Pipeline 40% / Defense 30%
+
+**Scoring (Part A — Design Document, scaled to 30%)**:
+
+| Criterion | Points |
+|-----------|--------|
+| Data assessment shows genuine engagement | 10 |
+| Pipeline architecture is logically coherent | 15 |
+| Design rationale reveals understanding of research process | 20 |
+| "Does NOT do" section shows judgment about automation boundaries | 10 |
+
+**Scoring (Part B — Working Pipeline, scaled to 40%)**:
+
+| Criterion | Points |
+|-----------|--------|
+| Pipeline runs and produces structured output | 10 |
+| Individual agents well-specified (purpose, logic, quality checks) | 20 |
+| Adversarial component is genuinely challenging | 10 |
+| Sequencing reflects analytical dependencies | 10 |
+| Pipeline output on test data is analytically useful | 15 |
+| Code quality and documentation | 5 |
+
+**Scoring (Part C — Defense, scaled to 30%)**:
+
+| Criterion | Points |
+|-----------|--------|
+| Can explain and justify each design choice | 15 |
+| Honest about pipeline limitations and misses | 10 |
+| Comparison to expert pipeline shows learning | 15 |
+| Meta-reflection reveals genuine insight about research craft | 15 |
+
+**Note**: Both capstone options require Level 3 pass in all seven domains. Students can complete one or both. See `level-4-capstone-build-your-machine.md` for full details on Option B.
+
+---
+
 ## What I Still Haven't Done
 
 1. **Actually create the assessment datasets** - This is real work

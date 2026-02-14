@@ -139,10 +139,11 @@ The domains emerged from operationalizing what expert researchers actually do wh
 ```bash
 git clone https://github.com/mattbeane/research-quals.git
 cd research-quals
-research-quals status
 ```
 
-Or just read the domain descriptions in `competencies/` and the assessment specs in `assessments/` to see if this fits your program.
+Start by reading the domain descriptions in `competencies/` and the assessment specs in `assessments/` to see if this fits your program.
+
+> **Note**: The `research-quals` CLI (for taking and submitting assessments) is in development. The curriculum content, assessment rubrics, and expert baselines are complete and usable now. CLI automation is coming.
 
 **Questions?** Open an issue or contact mattbeane@ucsb.edu
 
