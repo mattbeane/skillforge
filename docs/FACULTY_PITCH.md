@@ -8,18 +8,19 @@
 
 AI tools can now generate polished research outputs: literature reviews, data analysis, theoretical framings, even full manuscript drafts. Our students know this. Some are already using these tools, with or without guidance.
 
-The choices we face aren't as simple as "ban it or allow it." There are at least two independent dimensions that matter:
+The choices we face aren't as simple as "ban it or allow it." There are at least two independent dimensions that matter, and most of us are already using a mix of approaches:
 
 ### How We Think About AI Access and Skill Development
 
-| | **Skill verification implicit** (apprenticeship, osmosis) | **Skill verification explicit** (structured assessment) |
-|---|---|---|
-| **AI access open** (use what you want) | Students learn by doing, with all the risks and upside that implies. Works well for self-directed learners with strong mentorship. Fails silently when mentorship is thin. | Students demonstrate competency through structured challenges, then use AI freely. Adds overhead but creates a legible floor. |
-| **AI access graduated** (earn tool access) | Traditional apprenticeship plus tool restrictions. "You can use X after your second year." Familiar but hard to calibrate — what counts as "ready"? | Competency gates tied to specific capabilities. Most structured, most overhead, clearest accountability. |
+| | **AI use unrestricted** | **AI use guided** | **AI use restricted** |
+|---|---|---|---|
+| **Apprenticeship** (osmosis, mentorship) | Students learn by doing with whatever tools they want. Works well with strong mentorship. Fails silently when mentorship is thin. | Advisor models responsible AI use; students follow suit. Informal but depends on advisor engagement. | "Don't use AI until I say so." Familiar, hard to calibrate — what counts as "ready"? |
+| **Methods classes** (structured teaching, informal assessment) | AI used freely in coursework — writing, analysis, discussion. High contact, practice-heavy, but skill verification is informal. | Instructor decides when AI helps and when it hinders learning. "Use AI for the lit review, not for the coding exercise." | AI excluded from methods coursework. Students learn fundamentals first, tools later. |
+| **Structured assessment** (competency-based, formal verification) | Students demonstrate competency, then use AI freely. Adds overhead but creates a legible floor. | Competency gates tied to specific capabilities. Students prove judgment before getting tool access. | Most structured, most overhead, clearest accountability. Competency required before any AI use. |
 
-Most of us are operating in the top-left quadrant by default — implicit skill development, open access — because we haven't built the infrastructure for anything else.
+Most of us are operating in the top row by default — apprenticeship with loosely restricted AI access — because we haven't built infrastructure for anything else. Methods classes provide some structure but rarely assess whether students can *supervise* AI output specifically.
 
-Research-quals is an experiment in moving rightward: making skill verification explicit. It doesn't prescribe where you land on the access dimension. That's a judgment call that depends on your students, your program, and your tolerance for risk.
+Research-quals is an experiment in adding a third row: making skill verification explicit and structured. It doesn't prescribe where you land on the AI access dimension — that's a judgment call that depends on your students, your program, and your tolerance for risk. And it's designed to complement, not replace, what already happens in methods classes and mentorship.
 
 **We don't claim this is the right answer.** It's a starting point — one researcher's attempt to operationalize the tacit knowledge that expert researchers bring to this work. We're actively looking for collaborators who see the problem differently.
 
