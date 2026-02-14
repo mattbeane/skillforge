@@ -68,12 +68,17 @@ Can you do it independently and defend your choices? Single attempt, expert eval
 
 *"Design a complete research study. Defend it against hostile reviewer critiques. This is where you prove it."*
 
-### AI Supervisor (Capstone)
-Can you catch what AI gets wrong? Review an AI-generated paper and identify issues across all seven domains.
+### Capstone (Two Options)
 
-*"An AI ran this dataset through a research pipeline and produced a draft paper. Find everything wrong with it. Prioritize what would sink it at review. This is the qualifying exam."*
+**Option A — AI Output Supervision**: Can you catch what AI gets wrong? Review an AI-generated paper and identify issues across all seven domains.
 
-**Prerequisite**: Mastery badge in all seven domains.
+*"An AI ran this dataset through a research pipeline and produced a draft paper. Find everything wrong with it. Prioritize what would sink it at review."*
+
+**Option B — Build Your Own Machine**: Can you design your own analytical pipeline? Build a bespoke set of agents for an unfamiliar dataset, then defend every design choice against an expert comparison.
+
+*"Show me your machine. We'll debrief about what you thought you knew about the scholarly process that led you to build it that way."* — Paul Leonardi
+
+Students can complete one or both capstones. Both require mastery badges in all seven domains.
 
 ## What Makes It Different
 
